@@ -1,0 +1,23 @@
+{
+  "ultima_version": "1.0.0",
+  "url_descarga": "https://noviq-app.com/downloads/noviq_1.0.0.exe",
+  "notas": "Version inicial del sistema.",
+  "aviso": {
+    "activo": false,
+    "tipo": "novedad",
+    "color": "#1D9E75",
+    "badge": "NOVEDAD",
+    "titulo": "",
+    "texto": "",
+    "imagen_url": "",
+    "accion_txt": "",
+    "accion_url": ""
+  },
+  "licencias": {
+    "20123456789": {
+      "activa": true,
+      "vence": "31/12/2025",
+      "titular": "Comercio Ejemplo"
+    }
+  }
+}
