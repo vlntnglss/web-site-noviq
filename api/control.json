@@ -6,7 +6,7 @@
     "activo": false,
     "tipo": "novedad",
     "color": "#1D9E75",
-    "badge": "NOVEDAD",
+    "badge": "",
     "titulo": "",
     "texto": "",
     "imagen_url": "",
@@ -14,10 +14,10 @@
     "accion_url": ""
   },
   "licencias": {
-    "20123456789": {
+    "20259024863": {
       "activa": true,
-      "vence": "31/12/2025",
-      "titular": "Comercio Ejemplo"
+      "vence": "31/03/2026",
+      "titular": "EG Smart"
     }
   }
 }
