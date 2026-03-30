@@ -1,1 +1,16 @@
-html catalogo
+{
+  "theme": {
+    "color_primario": "#111827",
+    "color_secundario": "#22c55e",
+    "color_fondo": "#f5f7fa",
+    "logo": "https://..."
+  },
+  "productos": [
+    {
+      "nombre": "Mouse Gamer",
+      "precio": "12000",
+      "descripcion": "RGB 3200 DPI",
+      "imagen": "https://..."
+    }
+  ]
+}
