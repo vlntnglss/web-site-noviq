@@ -1,22 +1,764 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="/assets/base.css">
+  <style>
+    /* ── Variables ─────────────────────────────────────────────────────── */
+    :root {
+      --teal:        #015F6A;
+      --teal-light:  #017A88;
+      --teal-xlight: #E6F4F6;
+      --orange:      #FF6D00;
+      --orange-light:#FFF0E6;
+      --dark:        #0F1923;
+      --mid:         #4A5568;
+      --light:       #8A9BB0;
+      --border:      #E8EDF3;
+      --bg:          #F4F7FA;
+      --white:       #FFFFFF;
+      --card-r:      16px;
+      --shadow-sm:   0 2px 8px rgba(1,95,106,.07);
+      --shadow-md:   0 8px 32px rgba(1,95,106,.12);
+      --shadow-hover:0 16px 48px rgba(1,95,106,.18);
+    }
+
+    /* ── Reset ─────────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      min-height: 100vh;
+    }
+
+    /* ── Header ────────────────────────────────────────────────────────── */
+    .site-header {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow-sm);
+    }
+    .header-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      background: var(--teal);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 15px;
+      color: var(--white);
+      letter-spacing: -0.5px;
+    }
+    .brand-info { display: flex; flex-direction: column; }
+    .brand-name {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      color: var(--dark);
+      line-height: 1;
+    }
+    .brand-sub {
+      font-size: 11px;
+      color: var(--light);
+      font-weight: 300;
+      margin-top: 2px;
+    }
+    .header-search {
+      flex: 1;
+      max-width: 380px;
+      position: relative;
+    }
+    .header-search input {
+      width: 100%;
+      padding: 10px 16px 10px 42px;
+      border: 1.5px solid var(--border);
+      border-radius: 50px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      color: var(--dark);
+      background: var(--bg);
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .header-search input:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(1,95,106,.1);
+      background: var(--white);
+    }
+    .header-search input::placeholder { color: var(--light); }
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--light);
+      pointer-events: none;
+    }
+    .wpp-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #25D366;
+      color: var(--white);
+      border: none;
+      border-radius: 50px;
+      padding: 10px 18px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background .2s, transform .15s;
+      white-space: nowrap;
+    }
+    .wpp-btn:hover { background: #1FAD56; transform: translateY(-1px); }
+    .wpp-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+
+    /* ── Hero strip ────────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, var(--teal) 0%, var(--teal-light) 100%);
+      padding: 48px 24px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-content { position: relative; z-index: 1; }
+    .hero h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(26px, 5vw, 42px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 16px;
+      color: rgba(255,255,255,.75);
+      font-weight: 300;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    #hero-local-name { color: var(--white); }
+
+    /* ── Toolbar ───────────────────────────────────────────────────────── */
+    .toolbar {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 24px 24px 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .toolbar-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--light);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      white-space: nowrap;
+    }
+    .filter-chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+    .chip {
+      padding: 7px 16px;
+      border-radius: 50px;
+      border: 1.5px solid var(--border);
+      background: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--mid);
+      cursor: pointer;
+      transition: all .18s;
+      white-space: nowrap;
+    }
+    .chip:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+      background: var(--teal-xlight);
+    }
+    .chip.active {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: var(--white);
+    }
+    .sort-select {
+      padding: 8px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 50px;
+      background: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--mid);
+      cursor: pointer;
+      outline: none;
+      transition: border-color .18s;
+      appearance: none;
+      padding-right: 32px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238A9BB0' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+    }
+    .sort-select:focus { border-color: var(--teal); }
+
+    /* ── Results info ──────────────────────────────────────────────────── */
+    .results-info {
+      max-width: 1280px;
+      margin: 16px auto 0;
+      padding: 0 24px;
+      font-size: 13px;
+      color: var(--light);
+    }
+    .results-info span { color: var(--teal); font-weight: 600; }
+
+    /* ── Grid ──────────────────────────────────────────────────────────── */
+    .grid {
+      max-width: 1280px;
+      margin: 20px auto 0;
+      padding: 0 24px 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    /* ── Card ──────────────────────────────────────────────────────────── */
+    .card {
+      background: var(--white);
+      border-radius: var(--card-r);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow .25s, transform .25s;
+      animation: fadeUp .4s ease both;
+    }
+    .card:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-4px);
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .card-img-wrap {
+      position: relative;
+      aspect-ratio: 1 / 1;
+      background: #F8FAFB;
+      overflow: hidden;
+    }
+    .card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 20px;
+      transition: transform .3s;
+    }
+    .card:hover .card-img-wrap img { transform: scale(1.04); }
+    .img-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--light);
+    }
+    .img-placeholder svg { width: 40px; height: 40px; opacity: .4; }
+    .img-placeholder span { font-size: 11px; opacity: .6; }
+    .cat-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(1,95,106,.1);
+      color: var(--teal);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 50px;
+      backdrop-filter: blur(4px);
+    }
+    .card-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+    }
+    .card-name {
+      font-family: 'Syne', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 1.3;
+      color: var(--dark);
+    }
+    .card-desc {
+      font-size: 12px;
+      color: var(--light);
+      font-weight: 300;
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-footer {
+      margin-top: auto;
+      padding: 12px 16px 16px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .card-price {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      color: var(--teal);
+      line-height: 1;
+    }
+    .card-price small {
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--light);
+      display: block;
+      margin-top: 2px;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .plan-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: var(--orange-light);
+      color: var(--orange);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 10px;
+      border-radius: 8px;
+      white-space: nowrap;
+    }
+    .plan-tag svg { width: 12px; height: 12px; }
+
+    /* ── Empty state ───────────────────────────────────────────────────── */
+    .empty {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--light);
+    }
+    .empty svg { width: 56px; height: 56px; margin-bottom: 16px; opacity: .4; }
+    .empty h3 { font-family: 'Syne', sans-serif; font-size: 20px; color: var(--mid); margin-bottom: 8px; }
+    .empty p { font-size: 14px; }
+
+    /* ── Loading ───────────────────────────────────────────────────────── */
+    .loading {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--teal);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Noviq promo footer ────────────────────────────────────────────── */
+    .noviq-promo {
+      background: var(--dark);
+      margin-top: 48px;
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .noviq-promo-inner {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .noviq-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(1,95,106,.3);
+      border: 1px solid rgba(1,95,106,.5);
+      border-radius: 50px;
+      padding: 4px 14px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #5DCFDC;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .noviq-promo h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--white);
+      margin-top: 4px;
+    }
+    .noviq-promo p {
+      font-size: 13px;
+      color: rgba(255,255,255,.5);
+      font-weight: 300;
+      line-height: 1.6;
+    }
+    .noviq-promo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--teal);
+      color: var(--white);
+      border-radius: 50px;
+      padding: 10px 22px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 6px;
+      transition: background .2s, transform .15s;
+    }
+    .noviq-promo-link:hover { background: var(--teal-light); transform: translateY(-1px); }
+    .site-footer {
+      background: var(--dark);
+      border-top: 1px solid rgba(255,255,255,.06);
+      padding: 16px 24px;
+      text-align: center;
+      font-size: 11px;
+      color: rgba(255,255,255,.25);
+    }
+
+    /* ── Responsive ────────────────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .header-inner { height: auto; padding: 12px 16px; flex-wrap: wrap; }
+      .header-search { max-width: 100%; order: 3; flex: 0 0 100%; }
+      .wpp-btn span { display: none; }
+      .wpp-btn { padding: 10px 12px; }
+      .hero { padding: 36px 16px 32px; }
+      .toolbar { padding: 16px 16px 0; }
+      .grid { padding: 0 16px 16px; gap: 14px; }
+      .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+      .card-price { font-size: 18px; }
+      .noviq-promo { padding: 28px 16px; }
+    }
+    @media (max-width: 400px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="header">
-    <img id="logo">
-</div>
+  <!-- ── Header ─────────────────────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#">
+        <div class="brand-logo" id="header-initials">?</div>
+        <div class="brand-info">
+          <span class="brand-name" id="header-local-name">Cargando...</span>
+          <span class="brand-sub">Catálogo de productos</span>
+        </div>
+      </a>
 
-<div class="grid" id="productos"></div>
+      <div class="header-search">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="search-input" placeholder="Buscar producto..." autocomplete="off" />
+      </div>
 
-<script src="./script.js"></script>
+      <a class="wpp-btn" id="wpp-link" href="#" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>Consultar</span>
+      </a>
+    </div>
+  </header>
 
+  <!-- ── Hero ───────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Catálogo de <span id="hero-local-name">productos</span></h1>
+      <p>Explorá todos nuestros productos con planes de pago accesibles</p>
+    </div>
+  </section>
+
+  <!-- ── Toolbar ─────────────────────────────────────────────────────────── -->
+  <div class="toolbar">
+    <span class="toolbar-label">Categoría</span>
+    <div class="filter-chips" id="filter-chips">
+      <button class="chip active" data-cat="todas">Todas</button>
+    </div>
+    <select class="sort-select" id="sort-select">
+      <option value="default">Orden original</option>
+      <option value="price-asc">Precio: menor a mayor</option>
+      <option value="price-desc">Precio: mayor a menor</option>
+      <option value="name-asc">Nombre: A–Z</option>
+    </select>
+  </div>
+  <div class="results-info"><span id="results-count">0</span> productos encontrados</div>
+
+  <!-- ── Grid ───────────────────────────────────────────────────────────── -->
+  <main class="grid" id="product-grid">
+    <div class="loading">
+      <div class="spinner"></div>
+      <p style="color:var(--light);font-size:14px;">Cargando catálogo...</p>
+    </div>
+  </main>
+
+  <!-- ── Noviq promo ─────────────────────────────────────────────────────── -->
+  <footer class="noviq-promo">
+    <div class="noviq-promo-inner">
+      <div class="noviq-badge">
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Tecnología para comercios
+      </div>
+      <h3>¿Tenés un negocio? Conocé Noviq POS</h3>
+      <p>Sistema de gestión comercial con catálogo web, control de stock, cobranza y facturación electrónica. Todo desde una sola app.</p>
+      <a class="noviq-promo-link" href="https://noviq-app.com" target="_blank" rel="noopener">
+        Conocer más
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </footer>
+  <div class="site-footer">Catálogo generado con Noviq POS · noviq-app.com</div>
+
+  <!-- ── Script ─────────────────────────────────────────────────────────── -->
+  <script>
+    // ── Helpers ──────────────────────────────────────────────────────────────
+    const $ = id => document.getElementById(id);
+    const fmt = n => '$' + Number(n).toLocaleString('es-AR');
+
+    // ── Leer cliente desde URL ────────────────────────────────────────────────
+    const params   = new URLSearchParams(location.search);
+    const clientId = params.get('cliente') || '';
+
+    // ── Estado ───────────────────────────────────────────────────────────────
+    let allProducts  = [];
+    let catalogMeta  = {};
+    let activeFilter = 'todas';
+    let activeSort   = 'default';
+    let searchTerm   = '';
+
+    // ── Cargo data.json ───────────────────────────────────────────────────────
+    async function loadCatalog() {
+      if (!clientId) { renderError('No se especificó un cliente.'); return; }
+      const url = `./${clientId}/data.json`;
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        catalogMeta = data;
+        allProducts = data.productos || [];
+        init();
+      } catch (e) {
+        renderError('No se pudo cargar el catálogo. Verificá el enlace.');
+        console.error(e);
+      }
+    }
+
+    // ── Init ──────────────────────────────────────────────────────────────────
+    function init() {
+      // Datos del local
+      const nombre = catalogMeta.nombre_local || 'Nuestro Local';
+      const wpp    = catalogMeta.wpp_numero   || '';
+      const initials = nombre.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
+
+      $('header-local-name').textContent = nombre;
+      $('header-initials').textContent   = initials;
+      $('hero-local-name').textContent   = nombre;
+      document.title = `Catálogo · ${nombre}`;
+
+      if (wpp) {
+        const msg = encodeURIComponent(`Hola! Vi su catálogo y quisiera consultar por un producto.`);
+        $('wpp-link').href = `https://wa.me/${wpp}?text=${msg}`;
+      } else {
+        $('wpp-link').style.display = 'none';
+      }
+
+      buildCategoryChips();
+      render();
+    }
+
+    // ── Categorías ────────────────────────────────────────────────────────────
+    function buildCategoryChips() {
+      const cats = [...new Set(allProducts.map(p => p.categoria).filter(Boolean))].sort();
+      const wrap = $('filter-chips');
+      cats.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className  = 'chip';
+        btn.dataset.cat = cat;
+        btn.textContent = cat;
+        btn.addEventListener('click', () => setFilter(cat));
+        wrap.appendChild(btn);
+      });
+    }
+
+    function setFilter(cat) {
+      activeFilter = cat;
+      document.querySelectorAll('.chip').forEach(c => {
+        c.classList.toggle('active', c.dataset.cat === cat);
+      });
+      render();
+    }
+
+    // ── Ordenamiento ──────────────────────────────────────────────────────────
+    $('sort-select').addEventListener('change', e => {
+      activeSort = e.target.value;
+      render();
+    });
+
+    // ── Búsqueda ──────────────────────────────────────────────────────────────
+    $('search-input').addEventListener('input', e => {
+      searchTerm = e.target.value.toLowerCase().trim();
+      render();
+    });
+
+    // ── Filtrar + ordenar ─────────────────────────────────────────────────────
+    function getFiltered() {
+      let list = [...allProducts];
+
+      if (activeFilter !== 'todas') {
+        list = list.filter(p => p.categoria === activeFilter);
+      }
+      if (searchTerm) {
+        list = list.filter(p =>
+          (p.nombre      || '').toLowerCase().includes(searchTerm) ||
+          (p.descripcion || '').toLowerCase().includes(searchTerm)
+        );
+      }
+      switch (activeSort) {
+        case 'price-asc':  list.sort((a,b) => a.precio - b.precio); break;
+        case 'price-desc': list.sort((a,b) => b.precio - a.precio); break;
+        case 'name-asc':   list.sort((a,b) => (a.nombre||'').localeCompare(b.nombre||'', 'es')); break;
+      }
+      return list;
+    }
+
+    // ── Render ────────────────────────────────────────────────────────────────
+    function render() {
+      const list = getFiltered();
+      const grid = $('product-grid');
+      $('results-count').textContent = list.length;
+      grid.innerHTML = '';
+
+      if (!list.length) {
+        grid.innerHTML = `
+          <div class="empty">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6M11 8v6"/></svg>
+            <h3>Sin resultados</h3>
+            <p>Probá con otro filtro o término de búsqueda.</p>
+          </div>`;
+        return;
+      }
+
+      list.forEach((p, i) => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.style.animationDelay = `${Math.min(i * 0.04, 0.5)}s`;
+
+        const tieneImagen = p.imagen_url && p.imagen_url.startsWith('http');
+        const imgHtml = tieneImagen
+          ? `<img src="${escHtml(p.imagen_url)}" alt="${escHtml(p.nombre)}" loading="lazy"
+               onerror="this.parentNode.innerHTML=placeholderHtml()" />`
+          : `<div class="img-placeholder">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+               <span>Sin imagen</span>
+             </div>`;
+
+        const planHtml = (p.cant_cuotas && p.cant_cuotas > 0)
+          ? `<div class="plan-tag">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+               ${p.cant_cuotas} cuotas de ${fmt(p.monto_cuota)}
+             </div>`
+          : '';
+
+        card.innerHTML = `
+          <div class="card-img-wrap">
+            ${imgHtml}
+            ${p.categoria ? `<span class="cat-badge">${escHtml(p.categoria)}</span>` : ''}
+          </div>
+          <div class="card-body">
+            <div class="card-name">${escHtml(p.nombre)}</div>
+            ${p.descripcion ? `<div class="card-desc">${escHtml(p.descripcion)}</div>` : ''}
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              ${fmt(p.precio)}
+              ${p.entrega ? `<small>Entrega ${fmt(p.entrega)}</small>` : ''}
+            </div>
+            ${planHtml}
+          </div>`;
+
+        grid.appendChild(card);
+      });
+    }
+
+    function renderError(msg) {
+      $('product-grid').innerHTML = `
+        <div class="empty">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          <h3>Catálogo no disponible</h3>
+          <p>${msg}</p>
+        </div>`;
+    }
+
+    function placeholderHtml() {
+      return `<div class="img-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Sin imagen</span>
+      </div>`;
+    }
+
+    function escHtml(str) {
+      return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    loadCatalog();
+  </script>
 </body>
 </html>
