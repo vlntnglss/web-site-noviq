@@ -3,85 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NOVIQ</title>
 
-<style>
-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #121212;
-    color: #FFFFFF;
-}
+<title>NOVIQ | Software para negocios</title>
 
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-}
+<meta name="description" content="Software de gestión para comercios. Facturación electrónica, control de stock y soluciones a medida.">
+<meta name="keywords" content="software de gestión, sistema POS, facturación electrónica, control de stock">
 
-/* HERO */
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 0;
-}
-
-.hero-text h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero-text p {
-    color: #CCCCCC;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.btn {
-    background-color: #FF6D00;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* SECCIONES */
-.section {
-    padding: 60px 0;
-}
-
-.section-dark {
-    background-color: #1E1E1E;
-}
-
-/* SERVICIOS */
-.services {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.card {
-    flex: 1;
-    min-width: 250px;
-    background-color: #1E1E1E;
-    padding: 25px;
-    border-radius: 10px;
-}
-
-.card h3 {
-    color: #015F6A;
-}
-
-/* FOOTER */
-.footer {
-    text-align: center;
-    padding: 30px;
-    color: #CCCCCC;
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -91,63 +19,89 @@ body {
     <!-- HERO -->
     <section class="hero">
         <div class="hero-text">
-            <h1>Soluciones de Software Inteligente</h1>
-            <p>Automatización, eficiencia y tecnología para tu negocio.</p>
-            <a href="#" class="btn">Contactar</a>
+
+            <img src="assets/logo.png" class="logo">
+
+            <h1>NOVIQ ordena tu negocio</h1>
+
+            <p>
+                Software de gestión diseñado para comercios reales.
+                Rápido, confiable y adaptado a tu forma de trabajar.
+            </p>
+
+            <a href="https://wa.me/5493584903336?text=Hola%20quiero%20información%20sobre%20Noviq"
+               class="btn">
+               Hablar por WhatsApp
+            </a>
+
         </div>
 
-        <div>
-            <img src="https://raw.githubusercontent.com/vlntnglss/web-site-noviq/main/logo-noviq.png" width="220">
+        <div class="hero-img">
+            <img src="assets/preview-pos.png">
         </div>
     </section>
 
 </div>
 
-<!-- SERVICIOS -->
-<section class="section section-dark">
+<!-- SISTEMAS -->
+<section class="section dark">
     <div class="container">
-        <div class="services">
-            <div class="card">
-                <h3>Desarrollo a medida</h3>
-                <p>Software adaptado a tus necesidades específicas.</p>
+        <h2>Sistemas disponibles</h2>
+
+        <div class="productos-grid">
+
+            <div class="producto-card">
+                <h3>Noviq POS</h3>
+                <p>Sistema de gestión completo para comercios.</p>
+
+                <a href="noviq-pos.html" class="btn-secundario">
+                    Ver más
+                </a>
             </div>
 
-            <div class="card">
-                <h3>Automatización</h3>
-                <p>Optimizamos procesos para ahorrar tiempo y costos.</p>
+            <div class="producto-card">
+                <h3>Próximamente</h3>
+                <p>Nueva solución para gestión inteligente de negocios.</p>
+                <span class="badge">En desarrollo</span>
             </div>
 
-            <div class="card">
-                <h3>Integración de sistemas</h3>
-                <p>Conectamos herramientas para mayor eficiencia.</p>
-            </div>
         </div>
     </div>
 </section>
 
-<!-- SOBRE -->
+<!-- DIFERENCIAL -->
 <section class="section">
     <div class="container">
-        <h2>Sobre NOVIQ</h2>
-        <p style="color:#CCCCCC;">
-            En NOVIQ combinamos inteligencia y tecnología para crear soluciones modernas,
-            escalables y eficientes.
-        </p>
+        <h2>¿Por qué elegir NOVIQ?</h2>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3>Cercanía real</h3>
+                <p>Trabajamos directamente con cada cliente.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Software a medida</h3>
+                <p>Adaptamos el sistema a tu negocio.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Soporte rápido</h3>
+                <p>Atención directa y sin intermediarios.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Migración de datos</h3>
+                <p>Importamos tu información actual sin pérdida.</p>
+            </div>
+
+        </div>
     </div>
 </section>
 
-<!-- CONTACTO -->
-<section class="section section-dark">
-    <div class="container">
-        <h2>Contacto</h2>
-        <p style="color:#CCCCCC;">Escribinos para empezar tu proyecto.</p>
-        <a href="#" class="btn">Enviar mensaje</a>
-    </div>
-</section>
-
-<!-- FOOTER -->
 <div class="footer">
-    © 2026 NOVIQ - Intelligent Software Solutions
+    © 2026 NOVIQ
 </div>
 
 </body>
