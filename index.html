@@ -34,6 +34,10 @@
         #0a1628;
     }
 
+    body {
+      background: #0a1628 !important;
+    }
+
     .card-glass {
       background: rgba(15,25,35,0.5);
       backdrop-filter: blur(20px);
@@ -56,6 +60,33 @@
       0%, 100% { opacity: 0.4; transform: scale(1); }
       50% { opacity: 1; transform: scale(1.3); }
     }
+    @keyframes glow-pulse {
+      0%, 100% { box-shadow: 0 0 20px rgba(255,109,0,0.3), 0 0 40px rgba(1,95,106,0.1); }
+      50% { box-shadow: 0 0 30px rgba(255,109,0,0.5), 0 0 60px rgba(1,95,106,0.2); }
+    }
+    @keyframes float-rotate {
+      0% { transform: translateY(0px) rotateZ(0deg); }
+      50% { transform: translateY(-20px) rotateZ(180deg); }
+      100% { transform: translateY(0px) rotateZ(360deg); }
+    }
+    @keyframes shimmer {
+      0% { background-position: -1000px 0; }
+      100% { background-position: 1000px 0; }
+    }
+    @keyframes card-entrance {
+      0% { opacity: 0; transform: translateY(40px) rotateX(20deg); }
+      100% { opacity: 1; transform: translateY(0) rotateX(0deg); }
+    }
+    @keyframes orb-float {
+      0%, 100% { transform: translate(0, 0); }
+      25% { transform: translate(30px, -30px); }
+      50% { transform: translate(0, -60px); }
+      75% { transform: translate(-30px, -30px); }
+    }
+    @keyframes section-fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
 
     .anim-float { animation: float-in 0.8s ease-out both; }
     .anim-float-d1 { animation: float-in 0.8s ease-out 0.15s both; }
@@ -63,6 +94,9 @@
     .anim-float-d3 { animation: float-in 0.8s ease-out 0.45s both; }
     .anim-slide { animation: slide-right 0.7s ease-out 0.2s both; }
     .anim-scale { animation: fade-scale 0.6s ease-out 0.5s both; }
+    .anim-glow { animation: glow-pulse 3s ease-in-out infinite; }
+    .anim-float-rotate { animation: float-rotate 6s ease-in-out infinite; }
+    .anim-card-entrance { animation: card-entrance 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
 
     .dot-grid {
       background-image: radial-gradient(circle, rgba(1,95,106,0.1) 1px, transparent 1px);
@@ -73,16 +107,55 @@
       animation: pulse-dot 2s ease-in-out infinite;
     }
 
-    .feature-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 20px 40px -12px rgba(1,95,106,0.15);
+    .feature-card {
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      position: relative;
+      overflow: hidden;
     }
-    .feature-card { transition: all 0.3s ease; }
+
+    .feature-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,109,0,0.1), transparent);
+      animation: shimmer 3s infinite;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px -12px rgba(1,95,106,0.25), 0 0 30px rgba(255,109,0,0.15);
+      border-color: rgba(255,109,0,0.2);
+    }
 
     .scroll-container {
       height: 100%;
       overflow-y: auto;
       overflow-x: hidden;
+      background: #0a1628;
+    }
+
+    section {
+      animation: section-fade-in 0.6s ease-out;
+    }
+
+    .product-card {
+      animation: card-entrance 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    }
+
+    .product-card:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+
+    .orb-bg {
+      animation: orb-float 8s ease-in-out infinite;
+    }
+
+    .logo-glow {
+      animation: float-rotate 8s ease-in-out infinite;
+      filter: drop-shadow(0 0 30px rgba(255,109,0,0.4));
     }
   </style>
   <style>body { box-sizing: border-box; }</style>
@@ -95,33 +168,25 @@
      <div class="flex items-center gap-2"><!-- Noviq Logo SVG -->
       <svg width="36" height="36" viewbox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#015F6A" /> <path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="white" />
       </svg><span id="nav-logo-text" class="text-xl font-bold text-flame tracking-tight">noviq</span>
-     </div><a id="nav-cta" href="#" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 bg-flame text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-flame-dark transition-colors"> <i data-lucide="message-circle" style="width:16px;height:16px;"></i> <span id="nav-cta-text">Contactar</span> </a>
+     </div>
     </div>
    </nav><!-- Hero -->
    <section class="relative overflow-hidden">
     <div class="absolute inset-0 dot-grid opacity-40"></div>
     <div class="relative max-w-6xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
-     <div class="grid md:grid-cols-2 gap-12 items-center">
-      <div>
-       <div class="anim-float inline-flex items-center gap-2 bg-teal/10 border border-teal/20 rounded-full px-4 py-1.5 mb-6"><span class="w-2 h-2 rounded-full bg-flame whatsapp-float inline-block"></span> <span id="trial-badge" class="text-sm font-medium text-flame">30 días de prueba gratis</span>
+     <div class="grid md:grid-cols-2 gap-12 items-center"><!-- Logo Column -->
+      <div class="anim-scale relative flex items-center justify-center md:justify-end">
+       <div class="absolute -z-10 -top-6 -right-6 w-40 h-40 bg-flame/20 rounded-full blur-3xl orb-bg"></div>
+       <div class="absolute -z-10 -bottom-4 -left-4 w-32 h-32 bg-teal/15 rounded-full blur-2xl orb-bg" style="animation-delay: -2s;"></div><img src="assets/logo.png" alt="Noviq Logo" width="240" height="240" class="anim-float-rotate" loading="lazy" onerror="console.error('Logo failed to load:', this.src); this.style.background='#e5e7eb'; this.alt='Logo unavailable';">
+      </div><!-- Text Column -->
+      <div class="anim-float space-y-6">
+       <div>
+        <h1 id="hero-title" class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight">Software que <span class="text-flame">simplifica</span> tu negocio</h1>
        </div>
-       <h1 id="hero-title" class="anim-float-d1 text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-[1.08] tracking-tight">Software que<br><span class="text-flame">simplifica</span> tu negocio</h1>
-       <p id="hero-subtitle" class="anim-float-d2 mt-6 text-lg text-white/60 max-w-md leading-relaxed font-light">Soluciones de gestión personalizadas para cada rubro. Potenciá tu operación con tecnología intuitiva y soporte dedicado.</p>
-       <div class="anim-float-d3 mt-10 flex flex-wrap gap-4"><a id="hero-cta" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-flame text-white font-semibold px-8 py-4 rounded-full hover:bg-flame-dark transition-all hover:shadow-lg hover:shadow-flame/20 group"> <i data-lucide="message-circle" style="width:20px;height:20px;"></i> <span id="hero-cta-text">Empezar ahora</span> <i data-lucide="arrow-right" style="width:18px;height:18px;" class="group-hover:translate-x-1 transition-transform"></i> </a>
+       <p id="hero-subtitle" class="text-lg md:text-xl text-white/70 leading-relaxed max-w-lg">Soluciones de gestión personalizadas para cada rubro. Potenciá tu operación con tecnología intuitiva, soporte dedicado 24/7 y análisis en tiempo real que te mantienen adelante de la competencia.</p>
+       <div class="pt-4">
+        <p class="text-sm font-semibold text-flame tracking-widest uppercase mb-6">✓ <span id="trial-badge">30 días de prueba gratis</span></p>
        </div>
-       <div class="anim-float-d3 mt-8 flex items-center gap-6 text-sm text-white/40"><span class="flex items-center gap-1.5"><i data-lucide="check-circle" style="width:15px;height:15px;color:#FF6D00"></i> Sin tarjeta</span> <span class="flex items-center gap-1.5"><i data-lucide="check-circle" style="width:15px;height:15px;color:#FF6D00"></i> Setup inmediato</span> <span class="flex items-center gap-1.5"><i data-lucide="check-circle" style="width:15px;height:15px;color:#FF6D00"></i> Soporte 24/7</span>
-       </div>
-      </div><!-- POS Mockup -->
-      <div class="anim-scale relative flex items-center justify-center">
-       <div class="absolute -z-10 -top-6 -right-6 w-40 h-40 bg-flame/20 rounded-full blur-3xl"></div>
-       <div class="absolute -z-10 -bottom-4 -left-4 w-32 h-32 bg-teal/15 rounded-full blur-2xl"></div>
-       <svg width="320" height="320" viewbox="0 0 36 36" fill="none" class="drop-shadow-2xl"><defs>
-         <lineargradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style="stop-color:#FF6D00;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#FF8A33;stop-opacity:1" />
-         </lineargradient>
-        </defs> <rect width="36" height="36" rx="8" fill="url(#logoGrad)" opacity="0.95" /> <path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="white" />
-       </svg>
       </div>
      </div>
     </div>
@@ -213,7 +278,7 @@
      <p class="text-teal/50 mb-10 max-w-md mx-auto">Escribinos por WhatsApp y te armamos una demo personalizada para tu negocio. Sin compromiso.</p><a id="final-cta" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-flame text-white font-semibold px-10 py-4 rounded-full hover:bg-flame-dark transition-all hover:shadow-lg hover:shadow-flame/20 text-lg group">
       <svg width="24" height="24" viewbox="0 0 24 24" fill="white">
        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" /><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.46-.767-6.184-2.06l-.432-.332-3.09 1.036 1.036-3.09-.332-.432A9.955 9.955 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" />
-      </svg><span id="final-cta-text">Hablar por WhatsApp</span> <i data-lucide="arrow-right" style="width:20px;height:20px;" class="group-hover:translate-x-1 transition-transform"></i> </a>
+      </svg><i data-lucide="arrow-right" style="width:20px;height:20px;" class="group-hover:translate-x-1 transition-transform"></i> </a>
     </div>
    </div>
   </section><!-- Footer -->
@@ -227,19 +292,24 @@
     <div class="flex items-center gap-1 text-teal/30 text-xs"><i data-lucide="code-2" style="width:14px;height:14px;"></i> <span>Hecho con pasión en Argentina</span>
     </div>
    </div>
-  </footer>
+  </footer><!-- Floating WhatsApp Button -->
+  <div class="fixed bottom-6 right-6 z-40"><a id="floating-whatsapp" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 bg-flame text-white font-semibold px-6 py-3 rounded-full hover:bg-flame-dark transition-all hover:shadow-lg hover:shadow-flame/30 whatsapp-float">
+    <svg width="24" height="24" viewbox="0 0 24 24" fill="white">
+     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" /><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.46-.767-6.184-2.06l-.432-.332-3.09 1.036 1.036-3.09-.332-.432A9.955 9.955 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" />
+    </svg></a>
+  </div>
   <script>
   const defaultConfig = {
     hero_title: 'Software que <br><span class="text-flame">simplifica</span> tu negocio',
     hero_subtitle: 'Soluciones de gestión personalizadas para cada rubro. Potenciá tu operación con tecnología intuitiva y soporte dedicado.',
     cta_text: 'Empezar ahora',
-    section_title: 'Todo lo que necesitás, nada que sobre',
+    section_title: 'Todo lo que necesitás',
     trial_text: '30 días de prueba gratis',
     products_title: 'Soluciones innovadoras para tu negocio',
     pos_title: 'Noviq POS',
     pos_desc: 'Gestión completa de ventas con interfaz intuitiva. Inventario en tiempo real, reportes detallados y soporte dedicado.',
-    upcoming_title: 'Noviq Módulos Plus',
-    upcoming_desc: 'Próximamente: Gestión de recursos humanos, contabilidad integrada, y análisis predictivo con IA.',
+    upcoming_title: 'Noviq REST',
+    upcoming_desc: 'Próximamente: Gestión de restaurantes y cafes, control de costos y comandas.',
     whatsapp_number: '5493584903336',
     background_color: '#0a1628',
     surface_color: '#0f1923',
@@ -252,10 +322,7 @@
 
   function updateWhatsAppLinks(number) {
     const url = `https://wa.me/${number}?text=Hola!%20Me%20interesa%20conocer%20más%20sobre%20Noviq`;
-    document.getElementById('nav-cta').href = url;
-    document.getElementById('hero-cta').href = url;
-    document.getElementById('final-cta').href = url;
-    document.getElementById('pos-cta').href = url;
+    document.getElementById('floating-whatsapp').href = url;
   }
 
   // Carousel functionality
@@ -306,7 +373,6 @@
 
     document.getElementById('hero-title').innerHTML = c.hero_title;
     document.getElementById('hero-subtitle').textContent = c.hero_subtitle;
-    document.getElementById('hero-cta-text').textContent = c.cta_text;
     document.getElementById('nav-cta-text').textContent = c.cta_text;
     document.getElementById('final-cta-text').textContent = 'Hablar por WhatsApp';
     document.getElementById('features-title').textContent = c.section_title;
@@ -380,5 +446,5 @@
   setupCarousel();
   lucide.createIcons();
 </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e74eeb8634d7f2a',t:'MTc3NTM1NDE0Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e751308875d7f2a',t:'MTc3NTM1NTYzNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
