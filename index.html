@@ -66,7 +66,9 @@
     }
     @keyframes float-rotate {
       0% { transform: translateY(0px) rotateZ(0deg); }
-      50% { transform: translateY(-20px) rotateZ(180deg); }
+      49% { transform: translateY(-20px) rotateZ(355deg); }
+      50% { transform: translateY(-20px) rotateZ(360deg); }
+      51% { transform: translateY(-20px) rotateZ(360deg); }
       100% { transform: translateY(0px) rotateZ(360deg); }
     }
     @keyframes shimmer {
@@ -154,7 +156,7 @@
     }
 
     .logo-glow {
-      animation: float-rotate 8s ease-in-out infinite;
+      animation: float-rotate 12s ease-in-out infinite;
       filter: drop-shadow(0 0 30px rgba(255,109,0,0.4));
     }
   </style>
@@ -162,11 +164,14 @@
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
  <body class="h-full">
-  <div id="app" class="scroll-container gradient-mesh font-outfit"><!-- Nav -->
+  <div id="app" class="scroll-container gradient-mesh font-outfit">
+   <!-- Nav -->
    <nav class="sticky top-0 z-50 bg-black/40 backdrop-blur-xl border-b border-teal/10">
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-     <div class="flex items-center gap-2"><!-- Noviq Logo SVG -->
-      <svg width="36" height="36" viewbox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#015F6A" /> <path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="white" />
+     <div class="flex items-center gap-2">
+      <!-- Noviq Logo SVG -->
+      <svg width="36" height="36" viewbox="0 0 36 36" fill="none">
+       <rect width="36" height="36" rx="8" fill="#015F6A" /> <path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="white" />
       </svg><span id="nav-logo-text" class="text-xl font-bold text-flame tracking-tight">noviq</span>
      </div>
     </div>
@@ -174,11 +179,8 @@
    <section class="relative overflow-hidden">
     <div class="absolute inset-0 dot-grid opacity-40"></div>
     <div class="relative max-w-6xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
-     <div class="grid md:grid-cols-2 gap-12 items-center"><!-- Logo Column -->
-      <div class="anim-scale relative flex items-center justify-center md:justify-end">
-       <div class="absolute -z-10 -top-6 -right-6 w-40 h-40 bg-flame/20 rounded-full blur-3xl orb-bg"></div>
-       <div class="absolute -z-10 -bottom-4 -left-4 w-32 h-32 bg-teal/15 rounded-full blur-2xl orb-bg" style="animation-delay: -2s;"></div><img src="assets/logo.png" alt="Noviq Logo" width="240" height="240" class="anim-float-rotate" loading="lazy" onerror="console.error('Logo failed to load:', this.src); this.style.background='#e5e7eb'; this.alt='Logo unavailable';">
-      </div><!-- Text Column -->
+     <div class="grid md:grid-cols-2 gap-12 items-center">
+      <!-- Text Column -->
       <div class="anim-float space-y-6">
        <div>
         <h1 id="hero-title" class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight">Software que <span class="text-flame">simplifica</span> tu negocio</h1>
@@ -187,6 +189,10 @@
        <div class="pt-4">
         <p class="text-sm font-semibold text-flame tracking-widest uppercase mb-6">✓ <span id="trial-badge">30 días de prueba gratis</span></p>
        </div>
+      </div><!-- Logo Column -->
+      <div class="anim-scale relative flex items-center justify-center md:justify-end">
+       <div class="absolute -z-10 -top-6 -right-6 w-40 h-40 bg-flame/20 rounded-full blur-3xl orb-bg"></div>
+       <div class="absolute -z-10 -bottom-4 -left-4 w-32 h-32 bg-teal/15 rounded-full blur-2xl orb-bg" style="animation-delay: -2s;"></div><img src="assets/logo.png" alt="Noviq Logo" width="280" height="280" class="anim-float-rotate" loading="lazy" onerror="console.error('Logo failed to load:', this.src); this.style.background='#e5e7eb'; this.alt='Logo unavailable';">
       </div>
      </div>
     </div>
@@ -194,24 +200,28 @@
   </div><!-- Features -->
   <section class="py-20 md:py-28">
    <div class="max-w-6xl mx-auto px-6">
-    <div class="text-center mb-16"><span class="text-flame font-mono text-sm tracking-widest uppercase">¿Por qué Noviq?</span>
+    <div class="text-center mb-16">
+     <span class="text-flame font-mono text-sm tracking-widest uppercase">¿Por qué Noviq?</span>
      <h2 id="features-title" class="mt-3 text-3xl md:text-4xl font-bold text-white tracking-tight">Todo lo que necesitás, nada que sobre</h2>
     </div>
     <div class="grid md:grid-cols-3 gap-6">
      <div class="feature-card card-glass rounded-2xl p-8">
-      <div class="w-12 h-12 rounded-xl bg-teal/10 flex items-center justify-center mb-5"><i data-lucide="settings-2" style="width:24px;height:24px;color:#FF6D00"></i>
+      <div class="w-12 h-12 rounded-xl bg-teal/10 flex items-center justify-center mb-5">
+       <i data-lucide="sliders" style="width:24px;height:24px;color:#FF6D00"></i>
       </div>
       <h3 class="text-lg font-semibold text-white mb-2">Personalizado</h3>
       <p class="text-white/50 text-sm leading-relaxed">Adaptamos cada solución a las necesidades únicas de tu rubro. No usás software genérico, usás el tuyo.</p>
      </div>
      <div class="feature-card card-glass rounded-2xl p-8">
-      <div class="w-12 h-12 rounded-xl bg-flame/10 flex items-center justify-center mb-5"><i data-lucide="zap" style="width:24px;height:24px;color:#FF6D00"></i>
+      <div class="w-12 h-12 rounded-xl bg-flame/10 flex items-center justify-center mb-5">
+       <i data-lucide="headphones" style="width:24px;height:24px;color:#FF6D00"></i>
       </div>
       <h3 class="text-lg font-semibold text-white mb-2">Soporte Rápido</h3>
       <p class="text-white/50 text-sm leading-relaxed">Respuesta inmediata cuando la necesitás. Nuestro equipo está disponible para resolver cualquier situación.</p>
      </div>
      <div class="feature-card card-glass rounded-2xl p-8">
-      <div class="w-12 h-12 rounded-xl bg-teal/10 flex items-center justify-center mb-5"><i data-lucide="shield-check" style="width:24px;height:24px;color:#FF6D00"></i>
+      <div class="w-12 h-12 rounded-xl bg-teal/10 flex items-center justify-center mb-5">
+       <i data-lucide="gift" style="width:24px;height:24px;color:#FF6D00"></i>
       </div>
       <h3 class="text-lg font-semibold text-white mb-2">30 Días Gratis</h3>
       <p class="text-white/50 text-sm leading-relaxed">Probá sin compromiso. Sin tarjeta de crédito, sin letra chica. Si no te convence, no pagás nada.</p>
@@ -222,80 +232,80 @@
   <section class="py-24 md:py-32 relative overflow-hidden">
    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-teal/[0.02] to-transparent pointer-events-none"></div>
    <div class="relative max-w-6xl mx-auto px-6">
-    <div class="text-center mb-16"><span class="text-flame font-mono text-sm tracking-widest uppercase">Nuestros Productos</span>
+    <div class="text-center mb-16">
+     <span class="text-flame font-mono text-sm tracking-widest uppercase">Nuestros Productos</span>
      <h2 id="products-title" class="mt-3 text-3xl md:text-4xl font-bold text-white tracking-tight">Soluciones innovadoras para tu negocio</h2>
     </div>
-    <div class="relative"><!-- Carousel Container -->
-     <div id="carousel-container" class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth" style="scroll-behavior: smooth;"><!-- Card 1: Noviq POS -->
+    <div class="relative">
+     <!-- Carousel Container -->
+     <div id="carousel-container" class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth" style="scroll-behavior: smooth;">
+      <!-- Card 1: Noviq POS -->
       <div class="flex-shrink-0 w-full md:w-[calc(50%-12px)] snap-start">
        <div class="card-glass rounded-2xl p-8 md:p-10 h-full flex flex-col group cursor-pointer transition-all hover:border-flame/30" id="pos-card">
         <div class="flex items-start justify-between mb-6">
-         <div><span class="inline-block px-3 py-1 bg-flame/10 rounded-full text-flame text-xs font-semibold mb-3">DISPONIBLE</span>
+         <div>
+          <span class="inline-block px-3 py-1 bg-flame/10 rounded-full text-flame text-xs font-semibold mb-3">DISPONIBLE</span>
           <h3 id="pos-title" class="text-2xl md:text-3xl font-bold text-white">Noviq POS</h3>
          </div><i data-lucide="shopping-cart" style="width:32px;height:32px;color:#FF6D00;opacity:0.6;"></i>
         </div>
         <p id="pos-desc" class="text-white/60 text-base leading-relaxed flex-grow mb-8">Gestión completa de ventas con interfaz intuitiva. Inventario en tiempo real, reportes detallados y soporte dedicado.</p>
         <div class="space-y-3 mb-8">
-         <div class="flex items-center gap-3 text-white/70 text-sm"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Gestión de inventario en tiempo real</span>
+         <div class="flex items-center gap-3 text-white/70 text-sm">
+          <i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Gestión de inventario en tiempo real</span>
          </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Reportes y analytics avanzados</span>
+         <div class="flex items-center gap-3 text-white/70 text-sm">
+          <i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Reportes y analytics avanzados</span>
          </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm"><i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Integración con múltiples formas de pago</span>
+         <div class="flex items-center gap-3 text-white/70 text-sm">
+          <i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Integración con múltiples formas de pago</span>
          </div>
-        </div><button id="pos-cta" class="w-full bg-flame text-white font-semibold py-3 px-4 rounded-lg hover:bg-flame-dark transition-all flex items-center justify-center gap-2 group-hover:shadow-lg group-hover:shadow-flame/20"> <i data-lucide="message-circle" style="width:18px;height:18px;"></i> <span>Solicitar Demo</span> </button>
+        </div>
        </div>
       </div><!-- Card 2: Próximamente -->
       <div class="flex-shrink-0 w-full md:w-[calc(50%-12px)] snap-start">
        <div class="card-glass rounded-2xl p-8 md:p-10 h-full flex flex-col relative overflow-hidden group cursor-default">
         <div class="absolute top-0 right-0 w-32 h-32 bg-flame/5 rounded-full blur-3xl -z-10"></div>
         <div class="flex items-start justify-between mb-6">
-         <div><span class="inline-block px-3 py-1 bg-teal/10 rounded-full text-teal text-xs font-semibold mb-3">PRÓXIMAMENTE</span>
+         <div>
+          <span class="inline-block px-3 py-1 bg-teal/10 rounded-full text-teal text-xs font-semibold mb-3">PRÓXIMAMENTE</span>
           <h3 id="upcoming-title" class="text-2xl md:text-3xl font-bold text-white">Noviq Módulos Plus</h3>
          </div><i data-lucide="sparkles" style="width:32px;height:32px;color:#015F6A;opacity:0.6;"></i>
         </div>
         <p id="upcoming-desc" class="text-white/60 text-base leading-relaxed flex-grow mb-8">Próximamente: Gestión de recursos humanos, contabilidad integrada, y análisis predictivo con IA.</p>
         <div class="space-y-3 mb-8">
-         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75"><i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Sistema de RRHH completo</span>
+         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75">
+          <i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Sistema de RRHH completo</span>
          </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75"><i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Contabilidad y auditoría automática</span>
+         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75">
+          <i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Contabilidad y auditoría automática</span>
          </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75"><i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Predicciones con inteligencia artificial</span>
+         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75">
+          <i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Predicciones con inteligencia artificial</span>
          </div>
-        </div><button disabled class="w-full bg-white/10 text-white/50 font-semibold py-3 px-4 rounded-lg cursor-default flex items-center justify-center gap-2 border border-white/10"> <i data-lucide="bell" style="width:18px;height:18px;"></i> <span>Notificame cuando esté lista</span> </button>
+        </div>
        </div>
       </div>
      </div><!-- Carousel Navigation Dots -->
-     <div class="flex justify-center gap-2 mt-8"><button id="carousel-dot-1" class="w-2.5 h-2.5 rounded-full bg-flame transition-all" data-slide="0"></button> <button id="carousel-dot-2" class="w-2.5 h-2.5 rounded-full bg-white/20 transition-all hover:bg-white/40" data-slide="1"></button>
+     <div class="flex justify-center gap-2 mt-8">
+      <button id="carousel-dot-1" class="w-2.5 h-2.5 rounded-full bg-flame transition-all" data-slide="0"></button> <button id="carousel-dot-2" class="w-2.5 h-2.5 rounded-full bg-white/20 transition-all hover:bg-white/40" data-slide="1"></button>
      </div>
-    </div>
-   </div>
-  </section><!-- CTA Final -->
-  <section class="py-24">
-   <div class="max-w-3xl mx-auto px-6 text-center">
-    <div class="relative card-glass rounded-3xl p-12 md:p-16 overflow-hidden">
-     <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal via-flame to-teal"></div>
-     <h2 class="text-3xl md:text-4xl font-bold text-teal mb-4">¿Listo para simplificar?</h2>
-     <p class="text-teal/50 mb-10 max-w-md mx-auto">Escribinos por WhatsApp y te armamos una demo personalizada para tu negocio. Sin compromiso.</p><a id="final-cta" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-flame text-white font-semibold px-10 py-4 rounded-full hover:bg-flame-dark transition-all hover:shadow-lg hover:shadow-flame/20 text-lg group">
-      <svg width="24" height="24" viewbox="0 0 24 24" fill="white">
-       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" /><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.46-.767-6.184-2.06l-.432-.332-3.09 1.036 1.036-3.09-.332-.432A9.955 9.955 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" />
-      </svg><i data-lucide="arrow-right" style="width:20px;height:20px;" class="group-hover:translate-x-1 transition-transform"></i> </a>
     </div>
    </div>
   </section><!-- Footer -->
   <footer class="py-8 border-t border-teal/5">
    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
     <div class="flex items-center gap-2 text-teal/40 text-sm">
-     <svg width="20" height="20" viewbox="0 0 36 36" fill="none">
-      <rect width="36" height="36" rx="8" fill="#015F6A" opacity="0.3" /><path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="#015F6A" opacity="0.5" />
+     <svg width="20" height="20" viewbox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#015F6A" opacity="0.3" /><path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="#015F6A" opacity="0.5" />
      </svg><span>© 2025 Noviq. Todos los derechos reservados.</span>
     </div>
-    <div class="flex items-center gap-1 text-teal/30 text-xs"><i data-lucide="code-2" style="width:14px;height:14px;"></i> <span>Hecho con pasión en Argentina</span>
+    <div class="flex items-center gap-1 text-teal/30 text-xs">
+     <i data-lucide="code-2" style="width:14px;height:14px;"></i> <span>Hecho con pasión en Argentina</span>
     </div>
    </div>
   </footer><!-- Floating WhatsApp Button -->
-  <div class="fixed bottom-6 right-6 z-40"><a id="floating-whatsapp" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 bg-flame text-white font-semibold px-6 py-3 rounded-full hover:bg-flame-dark transition-all hover:shadow-lg hover:shadow-flame/30 whatsapp-float">
-    <svg width="24" height="24" viewbox="0 0 24 24" fill="white">
-     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" /><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.46-.767-6.184-2.06l-.432-.332-3.09 1.036 1.036-3.09-.332-.432A9.955 9.955 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" />
+  <div class="fixed bottom-6 right-6 z-40">
+   <a id="floating-whatsapp" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-16 h-16 bg-white rounded-full hover:shadow-lg hover:shadow-white/30 whatsapp-float transition-all" title="Hablar por WhatsApp">
+    <svg width="32" height="32" viewbox="0 0 24 24" fill="currentColor" style="color: #25D366;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" /><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.46-.767-6.184-2.06l-.432-.332-3.09 1.036 1.036-3.09-.332-.432A9.955 9.955 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" />
     </svg></a>
   </div>
   <script>
@@ -303,13 +313,13 @@
     hero_title: 'Software que <br><span class="text-flame">simplifica</span> tu negocio',
     hero_subtitle: 'Soluciones de gestión personalizadas para cada rubro. Potenciá tu operación con tecnología intuitiva y soporte dedicado.',
     cta_text: 'Empezar ahora',
-    section_title: 'Todo lo que necesitás',
+    section_title: 'Todo lo que necesitás, nada que sobre',
     trial_text: '30 días de prueba gratis',
     products_title: 'Soluciones innovadoras para tu negocio',
     pos_title: 'Noviq POS',
     pos_desc: 'Gestión completa de ventas con interfaz intuitiva. Inventario en tiempo real, reportes detallados y soporte dedicado.',
-    upcoming_title: 'Noviq REST',
-    upcoming_desc: 'Próximamente: Gestión de restaurantes y cafes, control de costos y comandas.',
+    upcoming_title: 'Noviq Módulos Plus',
+    upcoming_desc: 'Próximamente: Gestión de recursos humanos, contabilidad integrada, y análisis predictivo con IA.',
     whatsapp_number: '5493584903336',
     background_color: '#0a1628',
     surface_color: '#0f1923',
@@ -373,8 +383,6 @@
 
     document.getElementById('hero-title').innerHTML = c.hero_title;
     document.getElementById('hero-subtitle').textContent = c.hero_subtitle;
-    document.getElementById('nav-cta-text').textContent = c.cta_text;
-    document.getElementById('final-cta-text').textContent = 'Hablar por WhatsApp';
     document.getElementById('features-title').textContent = c.section_title;
     document.getElementById('trial-badge').textContent = c.trial_text;
     document.getElementById('products-title').textContent = c.products_title;
@@ -446,5 +454,5 @@
   setupCarousel();
   lucide.createIcons();
 </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e751308875d7f2a',t:'MTc3NTM1NTYzNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e752d8265377f2a',t:'MTc3NTM1NjcxOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
