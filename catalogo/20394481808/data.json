@@ -1,0 +1,2849 @@
+{
+  "cliente": "20394481808",
+  "nombre_local": "Mi Local",
+  "wpp_numero": "",
+  "actualizado": "18/05/2026 16:44",
+  "total_productos": 284,
+  "productos": [
+    {
+      "nombre": "Auricular Samsung cable",
+      "precio": 4000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $4000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte tv Fijo Alpina 40 a 80 P",
+      "precio": 12000.0,
+      "categoria": "A7-Televisores",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte tv Movil",
+      "precio": 20000.0,
+      "categoria": "A7-Televisores",
+      "imagen_url": "",
+      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pendrive 64 gb",
+      "precio": 24000.0,
+      "categoria": "A6-Computación",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Aro led con tripode ",
+      "precio": 22000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable USB-Tipo C",
+      "precio": 2000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tira de led blanca 5m",
+      "precio": 10000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cepilladora Omaha 650W",
+      "precio": 89500.0,
+      "categoria": "B9-Herramientas Electricas",
+      "imagen_url": "",
+      "descripcion": "Entrega $29500 + 8 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Reposera Plegable",
+      "precio": 30000.0,
+      "categoria": "C4-Sillones de exterior",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Secador de pelo Winco W98",
+      "precio": 70000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "",
+      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Batidora Winco w305",
+      "precio": 62000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $20600 + 6 cuotas semanales de $6900",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Ventilador 3 en 1 18",
+      "precio": 70000.0,
+      "categoria": "B7-Climatización",
+      "imagen_url": "",
+      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate Criollo",
+      "precio": 22000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate de Vidrio revestido",
+      "precio": 3000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Yerbera y Azucarera marca Matero",
+      "precio": 10000.0,
+      "categoria": "D2-Equipos de Mate",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Fabrica de Pastas con Raviolera",
+      "precio": 85000.0,
+      "categoria": "D5-Fabricas de Pastas",
+      "imagen_url": "",
+      "descripcion": "Entrega $28200 + 8 cuotas semanales de $7100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "canasto de ropa con tapa",
+      "precio": 12000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mini Difusor",
+      "precio": 6000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Exhibidor de dulces acrilico",
+      "precio": 10000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pelota de futbol",
+      "precio": 17000.0,
+      "categoria": "B1-Niños",
+      "imagen_url": "",
+      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Monopatin grafitti",
+      "precio": 54000.0,
+      "categoria": "B1-Niños",
+      "imagen_url": "",
+      "descripcion": "Entrega $18000 + 6 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Velador Estrellas",
+      "precio": 11000.0,
+      "categoria": "B1-Niños",
+      "imagen_url": "",
+      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Acolchado infantil 1p",
+      "precio": 30000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Acolchado 2p",
+      "precio": 45000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Almohada Anatomica",
+      "precio": 42000.0,
+      "categoria": "E9-Almohadas",
+      "imagen_url": "",
+      "descripcion": "Entrega $14000 + 4 cuotas semanales de $7000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Almohada Viscoelastica Recta",
+      "precio": 42000.0,
+      "categoria": "E9-Almohadas",
+      "imagen_url": "",
+      "descripcion": "Entrega $14000 + 4 cuotas semanales de $7000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cortina Black out textil",
+      "precio": 56000.0,
+      "categoria": "F2-Cortinas",
+      "imagen_url": "",
+      "descripcion": "Entrega $18800 + 6 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cortina baño impresa",
+      "precio": 16000.0,
+      "categoria": "F2-Cortinas",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cortinas Madras",
+      "precio": 30000.0,
+      "categoria": "F2-Cortinas",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubrecama 1p BlancoTritel",
+      "precio": 48000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $16000 + 5 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Edredon con corderito 2P",
+      "precio": 100000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $33400 + 9 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mantel Ecocuero 2M",
+      "precio": 14000.0,
+      "categoria": "F4-Manteles",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 1 cuotas semanales de $7000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana Brodery 2p",
+      "precio": 45000.0,
+      "categoria": "E6-Sabanas 2  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana 2p Danubio",
+      "precio": 65000.0,
+      "categoria": "E6-Sabanas 2  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $21600 + 7 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Toallon de secado rapido grande",
+      "precio": 16000.0,
+      "categoria": "F5-Toallones y Toallas",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Toallon Arciel Liviano",
+      "precio": 20000.0,
+      "categoria": "F5-Toallones y Toallas",
+      "imagen_url": "",
+      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Botella Keep",
+      "precio": 8400.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $4200 + 1 cuotas semanales de $4200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Toallon Valente Pesado",
+      "precio": 36000.0,
+      "categoria": "F5-Toallones y Toallas",
+      "imagen_url": "",
+      "descripcion": "Entrega $12000 + 4 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Ventilador 10 Pulgadas",
+      "precio": 50000.0,
+      "categoria": "B7-Climatización",
+      "imagen_url": "",
+      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pizarra Magica multicolor",
+      "precio": 7500.0,
+      "categoria": "B1-Niños",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Yerbera y Azucarera Neoprene",
+      "precio": 11000.0,
+      "categoria": "D2-Equipos de Mate",
+      "imagen_url": "",
+      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Puntero Laser",
+      "precio": 18000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 2 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate Pampa Chico",
+      "precio": 18000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 2 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Adaptador Universal",
+      "precio": 10000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana Love Home 2 1-2 plazas",
+      "precio": 35000.0,
+      "categoria": "E6-Sabanas 2  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Frazada corderito 2 1-2 plazas ",
+      "precio": 40000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $13200 + 4 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tira Led RGB",
+      "precio": 15000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Aroma para telas y ambientes",
+      "precio": 5000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable USB-Micro USB",
+      "precio": 2000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Porta vela arabe",
+      "precio": 8000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Velas chicas",
+      "precio": 1000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $1000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Lampara de papel",
+      "precio": 3000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate madera y aluminio",
+      "precio": 4200.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $4200 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mini cargador",
+      "precio": 2000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Taza ceramica Animalitos",
+      "precio": 6500.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $6500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set Tazas y platos cafe 12pc",
+      "precio": 15000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Lampara Giratoria estrellas",
+      "precio": 5000.0,
+      "categoria": "B1-Niños",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Parlante Twins Noga",
+      "precio": 17000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Taza de vidrio 310ml x6",
+      "precio": 18000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 2 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Centrifugador de verduras",
+      "precio": 10000.0,
+      "categoria": "D6-Utensilios de Preparación",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set para condimentos x7 piezas",
+      "precio": 30000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Caja Forrada de 3 Divisiones",
+      "precio": 11000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Porta mate para auto",
+      "precio": 8000.0,
+      "categoria": "D2-Equipos de Mate",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tazon ceramica Tokio",
+      "precio": 6000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Esencias para hornito",
+      "precio": 1500.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $1500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Hornito con escencias",
+      "precio": 8000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sahumerios Bangladesh x10",
+      "precio": 2000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de Cubiertos Tramontina Malibu x24",
+      "precio": 60000.0,
+      "categoria": "D7-Cubiertos",
+      "imagen_url": "",
+      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Velas para hornito X6",
+      "precio": 2000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Manta de Polar Danubio 2 1-2 plazas",
+      "precio": 20000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Manta Country 2 1-2 plazas",
+      "precio": 45000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana Ajustable 2 1-2 Plazas",
+      "precio": 27000.0,
+      "categoria": "E6-Sabanas 2  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $9000 + 3 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Reposeras 5 Posiciones",
+      "precio": 52000.0,
+      "categoria": "C4-Sillones de exterior",
+      "imagen_url": "",
+      "descripcion": "Entrega $17500 + 5 cuotas semanales de $6900",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tender con alas y soga",
+      "precio": 35000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mouse Inalambrico Dinax",
+      "precio": 16000.0,
+      "categoria": "A6-Computación",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable HDMI a mini HDMI",
+      "precio": 6000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Velas de soja en lata",
+      "precio": 3500.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $3500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Velas para hornito x12",
+      "precio": 3500.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $3500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate ceramico Mama",
+      "precio": 2500.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Jarrito de vidrio x6",
+      "precio": 15000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Patillera Vintage",
+      "precio": 11000.0,
+      "categoria": "B4-Cuidado Personal Hombre",
+      "imagen_url": "",
+      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Manta Country 1 1-2 plazas",
+      "precio": 35000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Alfombra inteligente de baño",
+      "precio": 12000.0,
+      "categoria": "F3-Alfombras",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Batidora con bowl Winco",
+      "precio": 95000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $32000 + 9 cuotas semanales de $7000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Plancha a vapor Winco W34",
+      "precio": 62000.0,
+      "categoria": "B6-Electrodomesticos Hogar",
+      "imagen_url": "",
+      "descripcion": "Entrega $20600 + 6 cuotas semanales de $6900",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Depiladora Winco W107",
+      "precio": 52000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "",
+      "descripcion": "Entrega $17500 + 5 cuotas semanales de $6900",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tostadora Winco",
+      "precio": 50000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Planchita de Nano Titanium Winco",
+      "precio": 52000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "",
+      "descripcion": "Entrega $17500 + 5 cuotas semanales de $6900",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Secador de pelo Winco W196",
+      "precio": 50000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "",
+      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Secador de pelo Winco w190",
+      "precio": 40000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "",
+      "descripcion": "Entrega $13200 + 4 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Ramo de flores",
+      "precio": 8000.0,
+      "categoria": "E3-Adornos y Prefumeria Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cuadro Dulce Hogar",
+      "precio": 4000.0,
+      "categoria": "E5-Cuadros y Espejos",
+      "imagen_url": "",
+      "descripcion": "Entrega $4000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tarjeta de Memoria 64GB",
+      "precio": 14000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 1 cuotas semanales de $7000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cargador Kosmo Micro USB",
+      "precio": 7500.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cortina de Microfibra",
+      "precio": 19000.0,
+      "categoria": "F2-Cortinas",
+      "imagen_url": "",
+      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Linterna tactica recagable P50",
+      "precio": 22000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubrecama con funda alcoyana 2p",
+      "precio": 55000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $18400 + 6 cuotas semanales de $6100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "matero palma",
+      "precio": 19000.0,
+      "categoria": "D2-Equipos de Mate",
+      "imagen_url": "",
+      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set matero Bolso fuelle",
+      "precio": 30000.0,
+      "categoria": "D2-Equipos de Mate",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular Head Set RGB",
+      "precio": 25000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Luz de emergencia 60 Led",
+      "precio": 19000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Toalla Danubio Spa 500g 50cm x 90cm",
+      "precio": 8000.0,
+      "categoria": "F5-Toallones y Toallas",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate acero stanley",
+      "precio": 13000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $6500 + 1 cuotas semanales de $6500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Caja Organizadora Madera",
+      "precio": 15000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set tacitas de cafe x3",
+      "precio": 10000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "porta sahumerio ceramica",
+      "precio": 5000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cuadro 22x29 paisaje",
+      "precio": 4500.0,
+      "categoria": "E5-Cuadros y Espejos",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Felpudo 60x40",
+      "precio": 12000.0,
+      "categoria": "F3-Alfombras",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Carpa Playera Automatica 4 personas (Hot Sale)",
+      "precio": 50000.0,
+      "categoria": "C7-Carpas",
+      "imagen_url": "",
+      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set manopla y agarradera",
+      "precio": 5000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pica ajo manual",
+      "precio": 3000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mini cesto con tapa",
+      "precio": 4500.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate Raices",
+      "precio": 12000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sombrilla eco 1,6m",
+      "precio": 19000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cortina de Cocina",
+      "precio": 15000.0,
+      "categoria": "F2-Cortinas",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Lata de galletitas Matero",
+      "precio": 16000.0,
+      "categoria": "E2-Latas decorativas",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Botellon de Vidrio para Liquidos",
+      "precio": 7000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubre Platos (Food cover)",
+      "precio": 5000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Lata deco 14x8cm ",
+      "precio": 7000.0,
+      "categoria": "E2-Latas decorativas",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de 4 tazas con soporte",
+      "precio": 15000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de baño x4 piezas",
+      "precio": 13000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6500 + 1 cuotas semanales de $6500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bowl colores pastel",
+      "precio": 2500.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Azucarera ceramica con cuchara",
+      "precio": 9000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Vaso bombe Cristal Rock x6",
+      "precio": 20000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Botella de vidrio con funda Water",
+      "precio": 9000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Adaptador Bluetooth",
+      "precio": 5000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Jarros de cafe x 6",
+      "precio": 17000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Frasco de vidrio anillado Cobre",
+      "precio": 9500.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $4800 + 1 cuotas semanales de $4700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Jarro porcelana decorado",
+      "precio": 5000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate madera diamante",
+      "precio": 2000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Organizador simil ratan",
+      "precio": 9000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soplador Inflador Inalambrico",
+      "precio": 45000.0,
+      "categoria": "B9-Herramientas Electricas",
+      "imagen_url": "",
+      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Parlante Winco W261",
+      "precio": 125000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $41800 + 8 cuotas semanales de $10400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Manta pie de cama",
+      "precio": 44000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $14800 + 4 cuotas semanales de $7300",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable RCA AV-plug",
+      "precio": 2500.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable RCA audio-plug",
+      "precio": 2000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable Samsung Tipo C a C 45W",
+      "precio": 3000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable Oryx tipo C a C",
+      "precio": 3000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable Oryx engomado V8",
+      "precio": 2500.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cargador Ibek Micro USB",
+      "precio": 6000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Termo Hudson 1L",
+      "precio": 59000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $19400 + 6 cuotas semanales de $6600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Termo Hudson 750cc",
+      "precio": 49000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Termo Hudson 500cc",
+      "precio": 40000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $13200 + 4 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cacerola de vidrio Hudson",
+      "precio": 14000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 1 cuotas semanales de $7000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pava Matera Hudson",
+      "precio": 22000.0,
+      "categoria": "D3-Pavas",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate de aluminio color",
+      "precio": 9000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate de aluminio negro futbol",
+      "precio": 7000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cremera porcelana 80cc",
+      "precio": 6000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Anafe Electrico simple",
+      "precio": 24000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Celular IPRO F188",
+      "precio": 60000.0,
+      "categoria": "A1-Celulares",
+      "imagen_url": "",
+      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bandeja metalica tea",
+      "precio": 5000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tetera ceramica",
+      "precio": 30000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de cuencos x6",
+      "precio": 29000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $9800 + 3 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Canasto organizador triangulos",
+      "precio": 5000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Canasto con tapa chico",
+      "precio": 9000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Canasto con tapa grande",
+      "precio": 13000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6500 + 1 cuotas semanales de $6500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Manta Peluche para cuna",
+      "precio": 44000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $14800 + 4 cuotas semanales de $7300",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana Love Home 1P",
+      "precio": 28000.0,
+      "categoria": "E7-Sabanas 1  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Edredon con corderito 1 Plaza",
+      "precio": 70000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Compresor de aire digital",
+      "precio": 46000.0,
+      "categoria": "B9-Herramientas Electricas",
+      "imagen_url": "",
+      "descripcion": "Entrega $15500 + 5 cuotas semanales de $6100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de herramientas 189 piezas",
+      "precio": 86000.0,
+      "categoria": "C1-Herramientas Manuales",
+      "imagen_url": "",
+      "descripcion": "Entrega $28400 + 8 cuotas semanales de $7200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cafetera Winco w1932 12 Tazas",
+      "precio": 46000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $15500 + 5 cuotas semanales de $6100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate stanley Pastel",
+      "precio": 12000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de parrilla Hudson",
+      "precio": 49000.0,
+      "categoria": "D9-Sets de Asado",
+      "imagen_url": "",
+      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Alfombra Welcome azul",
+      "precio": 6000.0,
+      "categoria": "F3-Alfombras",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tabla rectangular picotera",
+      "precio": 6000.0,
+      "categoria": "D9-Sets de Asado",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Taza Papa",
+      "precio": 6000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cafetera Vitta",
+      "precio": 39000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $13000 + 4 cuotas semanales de $6500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana polar 2p",
+      "precio": 78000.0,
+      "categoria": "E6-Sabanas 2  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $26200 + 7 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate Neo Classic",
+      "precio": 10000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sahumerio Aromanza Palo Santo",
+      "precio": 2800.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $2800 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Matero dorado con hebilla",
+      "precio": 27000.0,
+      "categoria": "D2-Equipos de Mate",
+      "imagen_url": "",
+      "descripcion": "Entrega $9000 + 3 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Diario Intimo infantil",
+      "precio": 6000.0,
+      "categoria": "B1-Niños",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cuadros Cafe",
+      "precio": 2000.0,
+      "categoria": "E3-Adornos y Prefumeria Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Frazada Estocolmo Campomayo Queen",
+      "precio": 67000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $22200 + 7 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate Apalapapa",
+      "precio": 8000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mini Alarma",
+      "precio": 15000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Termo Media Manija",
+      "precio": 27000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $9000 + 3 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de herramientas Alpina 46pcz",
+      "precio": 24000.0,
+      "categoria": "C1-Herramientas Manuales",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pava Electrica Brilia",
+      "precio": 23000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $7800 + 2 cuotas semanales de $7600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Inflador portatil",
+      "precio": 60000.0,
+      "categoria": "B9-Herramientas Electricas",
+      "imagen_url": "",
+      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bolso Termico Liso chico",
+      "precio": 4500.0,
+      "categoria": "C5-Conservadoras y Termolares",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bolso Termico Liso Reforzado",
+      "precio": 10000.0,
+      "categoria": "C5-Conservadoras y Termolares",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bombilla bombi pop",
+      "precio": 1600.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $1600 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate metamate",
+      "precio": 3000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bombilla de acero ",
+      "precio": 6000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Rallador Hudson hexagonal",
+      "precio": 7000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular capibara",
+      "precio": 17000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pilas AA",
+      "precio": 250.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $250 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pilas AAA",
+      "precio": 250.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $250 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Velas aromaticas",
+      "precio": 12000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Velon rustico 12.5 X 10cm",
+      "precio": 20000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Depiladora winco w841",
+      "precio": 46000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "",
+      "descripcion": "Entrega $15500 + 5 cuotas semanales de $6100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubrecama Deluxe reversible Doral 2 P",
+      "precio": 60000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana Regatta  1 plaza",
+      "precio": 44000.0,
+      "categoria": "E7-Sabanas 1  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $14800 + 4 cuotas semanales de $7300",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pava electrica OM",
+      "precio": 25000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte de celular para salida de aire",
+      "precio": 9000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cargador universal Notebook Hytoshy",
+      "precio": 22000.0,
+      "categoria": "A6-Computación",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cortina Chenile de cocina",
+      "precio": 28000.0,
+      "categoria": "F2-Cortinas",
+      "imagen_url": "",
+      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mantel de tussor",
+      "precio": 25000.0,
+      "categoria": "F4-Manteles",
+      "imagen_url": "",
+      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubrecama estampado Haussman 2P",
+      "precio": 76000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $25600 + 7 cuotas semanales de $7200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Set de envases viajero",
+      "precio": 4000.0,
+      "categoria": "E3-Adornos y Prefumeria Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $4000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Hornito solo",
+      "precio": 6000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Maceta con planta perro",
+      "precio": 17000.0,
+      "categoria": "E3-Adornos y Prefumeria Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Jarro Mug diseños",
+      "precio": 9000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate Torpedo alpaca",
+      "precio": 28000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Termo Lumilagro Luminox 1L",
+      "precio": 72000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $24000 + 8 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Copa Postre TK X6",
+      "precio": 20000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Copa Positano TK X6",
+      "precio": 36000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $12000 + 4 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Espejo Suka 40x50",
+      "precio": 29000.0,
+      "categoria": "E1-Cocina y Bazar Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $9800 + 3 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Jarro termico 12V",
+      "precio": 26000.0,
+      "categoria": "B8-Electrodomesticos Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $8800 + 2 cuotas semanales de $8600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sahumerio Hexagonal",
+      "precio": 1000.0,
+      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "imagen_url": "",
+      "descripcion": "Entrega $1000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tapon Stanley",
+      "precio": 3000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Compotera blanca X4",
+      "precio": 8000.0,
+      "categoria": "D8-Vajilla y Artículos de Servir",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Balanza Gancho",
+      "precio": 10000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Freidora de aire Azana 2L",
+      "precio": 62000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $20600 + 6 cuotas semanales de $6900",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubrecama Blanco Tritel 2P",
+      "precio": 60000.0,
+      "categoria": "E8-Acolchados y Mantas",
+      "imagen_url": "",
+      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Carpa Autoarmable 4 personas 2,05x2,05x1,35",
+      "precio": 90000.0,
+      "categoria": "C7-Carpas",
+      "imagen_url": "",
+      "descripcion": "Entrega $30000 + 8 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Colchon inflable 2p con inflador",
+      "precio": 76000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $25600 + 7 cuotas semanales de $7200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Colchon inflable 1P con inflador",
+      "precio": 46000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $15500 + 5 cuotas semanales de $6100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mate calabaza forrado",
+      "precio": 15000.0,
+      "categoria": "D1-Mates",
+      "imagen_url": "",
+      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Licuadora RAF",
+      "precio": 70000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cargador Iphone USB C 20W",
+      "precio": 10000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cargador Lets micro USB",
+      "precio": 5000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mini Laser ritmico",
+      "precio": 32000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $10700 + 3 cuotas semanales de $7100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mouse inalambrico Yelandar",
+      "precio": 7000.0,
+      "categoria": "A6-Computación",
+      "imagen_url": "",
+      "descripcion": "Entrega $7000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bateria de cocina mango desmontable",
+      "precio": 112000.0,
+      "categoria": "D4-Ollas",
+      "imagen_url": "",
+      "descripcion": "Entrega $37100 + 7 cuotas semanales de $10700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable USB C to Lightning",
+      "precio": 4000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $4000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Ventilador de techo con luz y control remoto Vitta Acero",
+      "precio": 185000.0,
+      "categoria": "B7-Climatización",
+      "imagen_url": "",
+      "descripcion": "Entrega $61400 + 12 cuotas semanales de $10300",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Ventilador de techo con luz y control remoto Vitta B o N",
+      "precio": 170000.0,
+      "categoria": "B7-Climatización",
+      "imagen_url": "",
+      "descripcion": "Entrega $56700 + 11 cuotas semanales de $10300",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Parlante Hopestar A65",
+      "precio": 425000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $141800 + 16 cuotas semanales de $17700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Planchita de pelo Exxtra Tech",
+      "precio": 19000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "",
+      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana Cacharel Vainilla 1p",
+      "precio": 35000.0,
+      "categoria": "E7-Sabanas 1  p",
+      "imagen_url": "",
+      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Parlante Moonki PB280",
+      "precio": 340000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $112800 + 16 cuotas semanales de $14200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mini parlante Havit",
+      "precio": 30000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pileta inflable tropical 3,5m x0,70m 4900L",
+      "precio": 230000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $77000 + 15 cuotas semanales de $10200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tensiometro manual",
+      "precio": 22000.0,
+      "categoria": "B3-Cuidado Personal Unisex",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Carpa 3 personas 2,00x1,50x1,15",
+      "precio": 45000.0,
+      "categoria": "C7-Carpas",
+      "imagen_url": "",
+      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Colchon inflable 1P SIN INFLADOR",
+      "precio": 37000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $12200 + 4 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Carpa Domo hexagonal 5 personas 2,70x2,30x1,60",
+      "precio": 185000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $61400 + 12 cuotas semanales de $10300",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Carpa autoarmable 6 personas 2,50x2,50x165m",
+      "precio": 130000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $43600 + 8 cuotas semanales de $10800",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Power Bank Lambo tech 24000mAh",
+      "precio": 22000.0,
+      "categoria": "A2-Celulares Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Radio AM FM Meier",
+      "precio": 43000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $14200 + 4 cuotas semanales de $7200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Molinillo",
+      "precio": 30000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Conservadora 34L Gemplast",
+      "precio": 36000.0,
+      "categoria": "C8-Jardin y Camping Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $12000 + 4 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Samsung A07 ",
+      "precio": 350000.0,
+      "categoria": "A1-Celulares",
+      "imagen_url": "",
+      "descripcion": "Entrega $116400 + 16 cuotas semanales de $14600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Reposera plegable niños",
+      "precio": 25000.0,
+      "categoria": "C4-Sillones de exterior",
+      "imagen_url": "",
+      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Moicroondas Digital Vitta",
+      "precio": 220000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $73000 + 14 cuotas semanales de $10500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pava electrica Herbidora Vitta",
+      "precio": 22000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pava Electrica corte mate Vitta",
+      "precio": 27000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $9000 + 3 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Microondas digital Vitta",
+      "precio": 220000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $73000 + 14 cuotas semanales de $10500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Taladro Inalambrico Winco 10mm",
+      "precio": 60000.0,
+      "categoria": "B9-Herramientas Electricas",
+      "imagen_url": "",
+      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Plancha Seca Winco w33",
+      "precio": 45000.0,
+      "categoria": "B6-Electrodomesticos Hogar",
+      "imagen_url": "",
+      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Amoladora Winco 500W",
+      "precio": 65000.0,
+      "categoria": "B9-Herramientas Electricas",
+      "imagen_url": "",
+      "descripcion": "Entrega $21600 + 7 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Linterna busca huella OM",
+      "precio": 28000.0,
+      "categoria": "A9-Electronica Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Alargue hexagonal colores",
+      "precio": 12000.0,
+      "categoria": "C3-Herramientas Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Toalla y toallon Franco Valente Liviano",
+      "precio": 26000.0,
+      "categoria": "F5-Toallones y Toallas",
+      "imagen_url": "",
+      "descripcion": "Entrega $8800 + 2 cuotas semanales de $8600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Juguera Electrica Winco W329",
+      "precio": 84000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $28000 + 8 cuotas semanales de $7000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Adaptador enchufe universal nivhus",
+      "precio": 5000.0,
+      "categoria": "C3-Herramientas Otros",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular Moonki sound TWS33",
+      "precio": 17000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular vincha Noganet pastel",
+      "precio": 24000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Freidora de aire Nappo 3.2L",
+      "precio": 75000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "",
+      "descripcion": "Entrega $25300 + 7 cuotas semanales de $7100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Parlante Netmak MUV",
+      "precio": 30000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte de auto magnetico Netmak HC22",
+      "precio": 11000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte de auto Netmak HC16",
+      "precio": 10000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte de auto Noga Hold4",
+      "precio": 8000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte Ibek para Bici ",
+      "precio": 8000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte de auto con ventosa D7118",
+      "precio": 10000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte de auto SEISA ",
+      "precio": 10000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Transmisor de bluetooth para auto SEISA",
+      "precio": 11000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Vaso termico manija rebatible 1,2L",
+      "precio": 25000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "",
+      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Convertidor de smart Dinax",
+      "precio": 50000.0,
+      "categoria": "A7-Televisores",
+      "imagen_url": "",
+      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular bt Moonki TW66",
+      "precio": 24000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Microfono inalambrico caja negra",
+      "precio": 34000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $11200 + 3 cuotas semanales de $7600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Microfono inalambrico Netmak",
+      "precio": 34000.0,
+      "categoria": "A5-Parlantes",
+      "imagen_url": "",
+      "descripcion": "Entrega $11200 + 3 cuotas semanales de $7600",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Teclado y mouse Seisa k77",
+      "precio": 28000.0,
+      "categoria": "A6-Computación",
+      "imagen_url": "",
+      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular Gamer HERO",
+      "precio": 32000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $10700 + 3 cuotas semanales de $7100",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular Redmi Bud 6 play",
+      "precio": 40000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $13200 + 4 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular Redmi Buds 3 lite",
+      "precio": 30000.0,
+      "categoria": "A3-Auriculares",
+      "imagen_url": "",
+      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte para bici seis",
+      "precio": 11000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soporte celu para espejo",
+      "precio": 9000.0,
+      "categoria": "A8-Audio para Vehículos",
+      "imagen_url": "",
+      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Redmi A7 Pro",
+      "precio": 340000.0,
+      "categoria": "A1-Celulares",
+      "imagen_url": "",
+      "descripcion": "Entrega $112800 + 16 cuotas semanales de $14200",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Multi M23 128GB",
+      "precio": 240000.0,
+      "categoria": "A1-Celulares",
+      "imagen_url": "",
+      "descripcion": "Entrega $80000 + 16 cuotas semanales de $10000",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Multi M23 PRO 256GB",
+      "precio": 280000.0,
+      "categoria": "A1-Celulares",
+      "imagen_url": "",
+      "descripcion": "Entrega $92800 + 16 cuotas semanales de $11700",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    }
+  ]
+}
