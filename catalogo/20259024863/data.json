@@ -2,15 +2,15 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "05/07/2026 12:53",
+  "actualizado": "05/07/2026 21:07",
   "total_productos": 267,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
       "precio": 4000.0,
       "categoria": "A3-Auriculares",
-      "imagen_url": "imgs/Imagen de WhatsApp 2023-07-18 a las 17.27.44.jpg",
-      "descripcion": "Entrega $4000 + 0 cuotas semanales de $0",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 4000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -19,8 +19,8 @@
       "nombre": "Soporte tv Movil",
       "precio": 20000.0,
       "categoria": "A7-Televisores",
-      "imagen_url": "imgs/IMG-20230120-WA0100.jpg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -30,7 +30,7 @@
       "precio": 24000.0,
       "categoria": "A6-Computación",
       "imagen_url": "imgs/Imagen de WhatsApp 2023-10-26 a las 17.56.52_50c8861b.jpg",
-      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 7900.0,
       "cant_cuotas": 1,
       "monto_cuota": 16100.0
@@ -40,7 +40,7 @@
       "precio": 22000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Aro Led con tripode.jpg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -49,8 +49,8 @@
       "nombre": "Cable USB-Tipo C",
       "precio": 2800.0,
       "categoria": "A2-Celulares Otros",
-      "imagen_url": "imgs/IMG-20230126-WA0004.jpg",
-      "descripcion": "Entrega $2800 + 0 cuotas semanales de $0",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 2800.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -60,7 +60,7 @@
       "precio": 10000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-05-18 a las 11.18.53_97c9853d.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -69,8 +69,8 @@
       "nombre": "Cepilladora Omaha 650W",
       "precio": 89500.0,
       "categoria": "B9-Herramientas Electricas",
-      "imagen_url": "imgs/Imagen de WhatsApp 2023-01-20 a las 17.36.51.jpg",
-      "descripcion": "Entrega $29500 + 8 cuotas semanales de $7500",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 29500.0,
       "cant_cuotas": 6,
       "monto_cuota": 10000.0
@@ -80,7 +80,7 @@
       "precio": 30000.0,
       "categoria": "C4-Sillones de exterior",
       "imagen_url": "imgs/reposera plegable director.jpeg",
-      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 2,
       "monto_cuota": 10000.0
@@ -89,8 +89,8 @@
       "nombre": "Secador de pelo Winco W98",
       "precio": 70000.0,
       "categoria": "B2-Cuidado Personal Mujer",
-      "imagen_url": "imgs/Imagen de WhatsApp 2023-01-20 a las 17.36.58.jpg",
-      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 23000.0,
       "cant_cuotas": 5,
       "monto_cuota": 9400.0
@@ -99,8 +99,8 @@
       "nombre": "Ventilador 3 en 1 18",
       "precio": 70000.0,
       "categoria": "B7-Climatización",
-      "imagen_url": "imgs/IMG-20230126-WA0015.jpg",
-      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 23000.0,
       "cant_cuotas": 5,
       "monto_cuota": 9400.0
@@ -110,7 +110,7 @@
       "precio": 22000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-06-05 a las 19.04.40_97d7df82.jpg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -120,7 +120,7 @@
       "precio": 3000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-05-20 a las 12.24.50_bcd43d7c.jpg",
-      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -130,7 +130,7 @@
       "precio": 11000.0,
       "categoria": "D2-Equipos de Mate",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-02-08 a las 11.38.03_c7277340.jpg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -140,7 +140,7 @@
       "precio": 12000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/descarga.jpeg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -150,7 +150,7 @@
       "precio": 6000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/mini difusor.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -159,8 +159,8 @@
       "nombre": "Exhibidor de dulces acrilico",
       "precio": 10000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
-      "imagen_url": "imgs/IMG-20230214-WA0009.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -170,7 +170,7 @@
       "precio": 17000.0,
       "categoria": "B1-Niños",
       "imagen_url": "imgs/Pelota ade Futbol.jpg",
-      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "descripcion": "",
       "entrega": 5600.0,
       "cant_cuotas": 1,
       "monto_cuota": 11400.0
@@ -179,8 +179,8 @@
       "nombre": "Monopatin grafitti",
       "precio": 54000.0,
       "categoria": "B1-Niños",
-      "imagen_url": "imgs/IMG-20230123-WA0023.jpg",
-      "descripcion": "Entrega $18000 + 6 cuotas semanales de $6000",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 18000.0,
       "cant_cuotas": 4,
       "monto_cuota": 9000.0
@@ -190,7 +190,7 @@
       "precio": 11000.0,
       "categoria": "B1-Niños",
       "imagen_url": "imgs/Velador Estrellas.jpg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -200,7 +200,7 @@
       "precio": 35000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Acolchado infantil 1P .jpg",
-      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "descripcion": "",
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11700.0
@@ -209,8 +209,8 @@
       "nombre": "Acolchado 2p",
       "precio": 45000.0,
       "categoria": "E8-Acolchados y Mantas",
-      "imagen_url": "imgs/IMG-20230216-WA0014.jpg",
-      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 14700.0,
       "cant_cuotas": 3,
       "monto_cuota": 10100.0
@@ -219,8 +219,8 @@
       "nombre": "Almohada Anatomica",
       "precio": 42000.0,
       "categoria": "E9-Almohadas",
-      "imagen_url": "imgs/IMG-20230120-WA0069.jpg",
-      "descripcion": "Entrega $14000 + 4 cuotas semanales de $7000",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 13800.0,
       "cant_cuotas": 3,
       "monto_cuota": 9400.0
@@ -229,8 +229,8 @@
       "nombre": "Almohada Viscoelastica Recta",
       "precio": 42000.0,
       "categoria": "E9-Almohadas",
-      "imagen_url": "imgs/IMG-20230214-WA0008.jpg",
-      "descripcion": "Entrega $14000 + 4 cuotas semanales de $7000",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 13800.0,
       "cant_cuotas": 3,
       "monto_cuota": 9400.0
@@ -239,8 +239,8 @@
       "nombre": "Cortina Black out textil",
       "precio": 50000.0,
       "categoria": "F2-Cortinas",
-      "imagen_url": "imgs/IMG-20230120-WA0083.jpg",
-      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 16400.0,
       "cant_cuotas": 3,
       "monto_cuota": 11200.0
@@ -249,8 +249,8 @@
       "nombre": "Cortina baño impresa",
       "precio": 18000.0,
       "categoria": "F2-Cortinas",
-      "imagen_url": "imgs/IMG-20230120-WA0101.jpg",
-      "descripcion": "Entrega $6000 + 2 cuotas semanales de $6000",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 5900.0,
       "cant_cuotas": 1,
       "monto_cuota": 12100.0
@@ -260,7 +260,7 @@
       "precio": 30000.0,
       "categoria": "F2-Cortinas",
       "imagen_url": "imgs/cortina madra.jpg",
-      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 2,
       "monto_cuota": 10000.0
@@ -270,7 +270,7 @@
       "precio": 48000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Cubrecama 1p blancotritel.jpg",
-      "descripcion": "Entrega $16000 + 5 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 15900.0,
       "cant_cuotas": 3,
       "monto_cuota": 10700.0
@@ -280,7 +280,7 @@
       "precio": 100000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Edredon con corderito.jpg",
-      "descripcion": "Entrega $33400 + 9 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 32800.0,
       "cant_cuotas": 7,
       "monto_cuota": 9600.0
@@ -290,7 +290,7 @@
       "precio": 14000.0,
       "categoria": "F4-Manteles",
       "imagen_url": "imgs/Mantel Ecocuero.jpg",
-      "descripcion": "Entrega $7000 + 1 cuotas semanales de $7000",
+      "descripcion": "",
       "entrega": 4600.0,
       "cant_cuotas": 1,
       "monto_cuota": 9400.0
@@ -299,8 +299,8 @@
       "nombre": "Sabana 2p Danubio",
       "precio": 65000.0,
       "categoria": "E6-Sabanas 2  p",
-      "imagen_url": "imgs/IMG-20230120-WA0016.jpg",
-      "descripcion": "Entrega $21600 + 7 cuotas semanales de $6200",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 21400.0,
       "cant_cuotas": 4,
       "monto_cuota": 10900.0
@@ -310,7 +310,7 @@
       "precio": 16000.0,
       "categoria": "F5-Toallones y Toallas",
       "imagen_url": "imgs/Toallon secado rapido.jpg",
-      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 5300.0,
       "cant_cuotas": 1,
       "monto_cuota": 10700.0
@@ -319,8 +319,8 @@
       "nombre": "Toallon Arciel Liviano",
       "precio": 20000.0,
       "categoria": "F5-Toallones y Toallas",
-      "imagen_url": "imgs/IMG-20230120-WA0084.jpg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -330,7 +330,7 @@
       "precio": 8400.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Botella Keep.jpg",
-      "descripcion": "Entrega $4200 + 1 cuotas semanales de $4200",
+      "descripcion": "",
       "entrega": 8400.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -339,8 +339,8 @@
       "nombre": "Balanza Cocina 10kg",
       "precio": 9000.0,
       "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Imagen de WhatsApp 2023-01-20 a las 17.36.56.jpg",
-      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -349,8 +349,8 @@
       "nombre": "Toallon Valente Pesado",
       "precio": 36000.0,
       "categoria": "F5-Toallones y Toallas",
-      "imagen_url": "imgs/IMG-20230120-WA0084.jpg",
-      "descripcion": "Entrega $12000 + 4 cuotas semanales de $6000",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 12000.0,
       "cant_cuotas": 2,
       "monto_cuota": 12000.0
@@ -360,7 +360,7 @@
       "precio": 50000.0,
       "categoria": "B7-Climatización",
       "imagen_url": "imgs/Ventilador 10 pulgadas.jpg",
-      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 16400.0,
       "cant_cuotas": 3,
       "monto_cuota": 11200.0
@@ -369,8 +369,8 @@
       "nombre": "Autoestereo frente desmotable",
       "precio": 38000.0,
       "categoria": "A8-Audio para Vehículos",
-      "imagen_url": "imgs/IMG-20230119-WA0048.jpg",
-      "descripcion": "Entrega $12800 + 4 cuotas semanales de $6300",
+      "imagen_url": "",
+      "descripcion": "",
       "entrega": 12400.0,
       "cant_cuotas": 2,
       "monto_cuota": 12800.0
@@ -380,7 +380,7 @@
       "precio": 7500.0,
       "categoria": "B1-Niños",
       "imagen_url": "imgs/21e2f21a-b796-4121-a474-384c8bec5ebe.jpeg",
-      "descripcion": "Entrega $7500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 7500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -390,7 +390,7 @@
       "precio": 11000.0,
       "categoria": "D2-Equipos de Mate",
       "imagen_url": "imgs/Yerbero neoprene.jpeg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -400,7 +400,7 @@
       "precio": 22000.0,
       "categoria": "D2-Equipos de Mate",
       "imagen_url": "imgs/Matero caja Premium.jpg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -410,7 +410,7 @@
       "precio": 18000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/IMG-20231222-WA0015.jpg",
-      "descripcion": "Entrega $6000 + 2 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 5900.0,
       "cant_cuotas": 1,
       "monto_cuota": 12100.0
@@ -420,7 +420,7 @@
       "precio": 10000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/descarga (1).jpeg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -430,7 +430,7 @@
       "precio": 35000.0,
       "categoria": "E6-Sabanas 2  p",
       "imagen_url": "imgs/Sabana Love home.jpg",
-      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "descripcion": "",
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11700.0
@@ -440,7 +440,7 @@
       "precio": 15000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-04-30 a las 12.32.04_fab72e19.jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -450,7 +450,7 @@
       "precio": 5000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-05-18 a las 11.56.04_ce892b9f.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -460,7 +460,7 @@
       "precio": 8000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Porta velas.jpg",
-      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -470,7 +470,7 @@
       "precio": 1000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Velas.jpg",
-      "descripcion": "Entrega $1000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 1000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -480,7 +480,7 @@
       "precio": 3000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Lamparas de papel.jpg",
-      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -490,7 +490,7 @@
       "precio": 12000.0,
       "categoria": "E9-Almohadas",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-03-18 a las 12.02.38_175092cf.jpg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -500,7 +500,7 @@
       "precio": 4200.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-06-04 a las 23.34.26_91600140.jpg",
-      "descripcion": "Entrega $4200 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 4200.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -510,7 +510,7 @@
       "precio": 2000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/cargador cubo.jpg",
-      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -520,7 +520,7 @@
       "precio": 6500.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Taza deco animalito.jpg",
-      "descripcion": "Entrega $6500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -530,7 +530,7 @@
       "precio": 15000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/set 12 pc tazas.jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -540,7 +540,7 @@
       "precio": 10000.0,
       "categoria": "D6-Utensilios de Preparación",
       "imagen_url": "imgs/Centrifugador de verduras.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -550,7 +550,7 @@
       "precio": 11000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Caja Forrada X3 divisiones.jpg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -560,7 +560,7 @@
       "precio": 8000.0,
       "categoria": "D2-Equipos de Mate",
       "imagen_url": "imgs/Portamate para auto.jpg",
-      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -570,7 +570,7 @@
       "precio": 6000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Tazon Ceramica Tokio.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -580,7 +580,7 @@
       "precio": 2000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Sahumerio Bangladesh.jpg",
-      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -590,7 +590,7 @@
       "precio": 45000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Colcha Country.jpg",
-      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 14700.0,
       "cant_cuotas": 3,
       "monto_cuota": 10100.0
@@ -600,7 +600,7 @@
       "precio": 52000.0,
       "categoria": "C4-Sillones de exterior",
       "imagen_url": "imgs/Reposeras 5 posiciones.jpg",
-      "descripcion": "Entrega $17500 + 5 cuotas semanales de $6900",
+      "descripcion": "",
       "entrega": 17200.0,
       "cant_cuotas": 3,
       "monto_cuota": 11600.0
@@ -610,7 +610,7 @@
       "precio": 35000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Tender con soga.jpg",
-      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "descripcion": "",
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11700.0
@@ -620,7 +620,7 @@
       "precio": 6000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Cable HDMI a Mini HDMI.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -630,7 +630,7 @@
       "precio": 2500.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate ceramico .jpg",
-      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -640,7 +640,7 @@
       "precio": 15000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Jarrito de Vidrio.jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -650,7 +650,7 @@
       "precio": 35000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Colcha Country 1 P.jpg",
-      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "descripcion": "",
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11700.0
@@ -660,7 +660,7 @@
       "precio": 12000.0,
       "categoria": "F3-Alfombras",
       "imagen_url": "imgs/Alfombra inteligente de baño.jpg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -670,7 +670,7 @@
       "precio": 64000.0,
       "categoria": "B6-Electrodomesticos Hogar",
       "imagen_url": "imgs/Plancha a vapor Winco W34.jpg",
-      "descripcion": "Entrega $21300 + 7 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 21200.0,
       "cant_cuotas": 4,
       "monto_cuota": 10700.0
@@ -680,7 +680,7 @@
       "precio": 52000.0,
       "categoria": "B2-Cuidado Personal Mujer",
       "imagen_url": "imgs/depiladora winco.jpg",
-      "descripcion": "Entrega $17500 + 5 cuotas semanales de $6900",
+      "descripcion": "",
       "entrega": 17200.0,
       "cant_cuotas": 3,
       "monto_cuota": 11600.0
@@ -690,7 +690,7 @@
       "precio": 54000.0,
       "categoria": "B2-Cuidado Personal Mujer",
       "imagen_url": "imgs/Planchita Winco.jpg",
-      "descripcion": "Entrega $18000 + 6 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 18000.0,
       "cant_cuotas": 4,
       "monto_cuota": 9000.0
@@ -700,7 +700,7 @@
       "precio": 28000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Memoria sd 64gb.jpg",
-      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 9200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9400.0
@@ -710,7 +710,7 @@
       "precio": 22000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Linterna tactica.jpg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -720,7 +720,7 @@
       "precio": 19500.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Botella Termica 650ml.jpg",
-      "descripcion": "Entrega $6500 + 2 cuotas semanales de $6500",
+      "descripcion": "",
       "entrega": 6400.0,
       "cant_cuotas": 1,
       "monto_cuota": 13100.0
@@ -730,7 +730,7 @@
       "precio": 55000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Cubrecama con funda Gemma 2p.jpg",
-      "descripcion": "Entrega $18400 + 6 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 18200.0,
       "cant_cuotas": 4,
       "monto_cuota": 9200.0
@@ -740,7 +740,7 @@
       "precio": 19000.0,
       "categoria": "D2-Equipos de Mate",
       "imagen_url": "imgs/Canasta Matera Mimbre.jpg",
-      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 6300.0,
       "cant_cuotas": 1,
       "monto_cuota": 12700.0
@@ -750,7 +750,7 @@
       "precio": 25000.0,
       "categoria": "A3-Auriculares",
       "imagen_url": "imgs/Auricular Head set RGB.jpg",
-      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "descripcion": "",
       "entrega": 8200.0,
       "cant_cuotas": 1,
       "monto_cuota": 16800.0
@@ -760,7 +760,7 @@
       "precio": 19000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Luz de Emergencia 60 led.jpg",
-      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 6300.0,
       "cant_cuotas": 1,
       "monto_cuota": 12700.0
@@ -770,7 +770,7 @@
       "precio": 130000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Parlante Winco W211.jpg",
-      "descripcion": "Entrega $43600 + 8 cuotas semanales de $10800",
+      "descripcion": "",
       "entrega": 42700.0,
       "cant_cuotas": 9,
       "monto_cuota": 9700.0
@@ -780,7 +780,7 @@
       "precio": 36000.0,
       "categoria": "B4-Cuidado Personal Hombre",
       "imagen_url": "imgs/Recortador de barba W816.jpg",
-      "descripcion": "Entrega $12000 + 4 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 12000.0,
       "cant_cuotas": 2,
       "monto_cuota": 12000.0
@@ -790,7 +790,7 @@
       "precio": 38000.0,
       "categoria": "B3-Cuidado Personal Unisex",
       "imagen_url": "imgs/Cortapelo Winco W821.jpg",
-      "descripcion": "Entrega $12800 + 4 cuotas semanales de $6300",
+      "descripcion": "",
       "entrega": 12400.0,
       "cant_cuotas": 2,
       "monto_cuota": 12800.0
@@ -800,7 +800,7 @@
       "precio": 13000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate de acero con bombilla.jpg",
-      "descripcion": "Entrega $6500 + 1 cuotas semanales de $6500",
+      "descripcion": "",
       "entrega": 6500.0,
       "cant_cuotas": 1,
       "monto_cuota": 6500.0
@@ -810,7 +810,7 @@
       "precio": 15000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Caja organizadora madera.jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -820,7 +820,7 @@
       "precio": 10000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Set de tazas de cafe.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -830,7 +830,7 @@
       "precio": 50000.0,
       "categoria": "C7-Carpas",
       "imagen_url": "imgs/Carpa Automatica abierta 4 personas.jpg",
-      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 16400.0,
       "cant_cuotas": 3,
       "monto_cuota": 11200.0
@@ -840,7 +840,7 @@
       "precio": 5000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Set manopla y agarradera.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -850,7 +850,7 @@
       "precio": 3000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Pica Ajo manual.jpg",
-      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -860,7 +860,7 @@
       "precio": 4500.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Mini cesto con tapa.jpg",
-      "descripcion": "Entrega $4500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 4500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -870,7 +870,7 @@
       "precio": 12000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate Raices.jpg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -880,7 +880,7 @@
       "precio": 19000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Sombrilla 1,6m .jpg",
-      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 6300.0,
       "cant_cuotas": 1,
       "monto_cuota": 12700.0
@@ -890,7 +890,7 @@
       "precio": 15000.0,
       "categoria": "F2-Cortinas",
       "imagen_url": "imgs/Cortina de cocina.jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -900,7 +900,7 @@
       "precio": 12000.0,
       "categoria": "E2-Latas decorativas",
       "imagen_url": "imgs/Lata de Galletitas Matero.jpg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -910,7 +910,7 @@
       "precio": 23000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate Camionero aluminio.jpg",
-      "descripcion": "Entrega $7800 + 2 cuotas semanales de $7600",
+      "descripcion": "",
       "entrega": 7600.0,
       "cant_cuotas": 1,
       "monto_cuota": 15400.0
@@ -920,7 +920,7 @@
       "precio": 15000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Set de 4 tazas ceramica con soporte.jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -930,7 +930,7 @@
       "precio": 2500.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/bowl colores pastel.jpg",
-      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -940,7 +940,7 @@
       "precio": 9000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Azucarera de porcelana con cuchara.jpg",
-      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -950,7 +950,7 @@
       "precio": 9000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Botella de vidrio con funda.jpg",
-      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -960,7 +960,7 @@
       "precio": 5000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Adaptador Bluetooth.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -970,7 +970,7 @@
       "precio": 17000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Jarro de cafe x6.jpg",
-      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "descripcion": "",
       "entrega": 5600.0,
       "cant_cuotas": 1,
       "monto_cuota": 11400.0
@@ -980,7 +980,7 @@
       "precio": 5000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Jarro porcelana decorado.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -990,7 +990,7 @@
       "precio": 45000.0,
       "categoria": "B9-Herramientas Electricas",
       "imagen_url": "imgs/Soplador Limpiador inalambrico.jpg",
-      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 14700.0,
       "cant_cuotas": 3,
       "monto_cuota": 10100.0
@@ -1000,7 +1000,7 @@
       "precio": 20000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Vaso termico de cafe.jpg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -1010,7 +1010,7 @@
       "precio": 34000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Termo Stanley 1,2L pastel.jpg",
-      "descripcion": "Entrega $11200 + 3 cuotas semanales de $7600",
+      "descripcion": "",
       "entrega": 11200.0,
       "cant_cuotas": 2,
       "monto_cuota": 11400.0
@@ -1020,7 +1020,7 @@
       "precio": 38000.0,
       "categoria": "B4-Cuidado Personal Hombre",
       "imagen_url": "imgs/Cortapelo Winco w823.jpg",
-      "descripcion": "Entrega $12800 + 4 cuotas semanales de $6300",
+      "descripcion": "",
       "entrega": 12400.0,
       "cant_cuotas": 2,
       "monto_cuota": 12800.0
@@ -1030,7 +1030,7 @@
       "precio": 20000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate camionero algarrobo.jpg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -1040,7 +1040,7 @@
       "precio": 42000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Tender vertical.jpg",
-      "descripcion": "Entrega $14000 + 4 cuotas semanales de $7000",
+      "descripcion": "",
       "entrega": 13800.0,
       "cant_cuotas": 3,
       "monto_cuota": 9400.0
@@ -1050,7 +1050,7 @@
       "precio": 2500.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Cable RCA AV.jpg",
-      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1060,7 +1060,7 @@
       "precio": 2000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Cable RCA audio-plug.jpg",
-      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1070,7 +1070,7 @@
       "precio": 3000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cable Samsung tipo c a c.jpg",
-      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1080,7 +1080,7 @@
       "precio": 3000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cable Oryx tipo C a C.jpg",
-      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1090,7 +1090,7 @@
       "precio": 2500.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cable Oryx engomado V8.jpg",
-      "descripcion": "Entrega $2500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1100,7 +1100,7 @@
       "precio": 40000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Termo Hudson 500cc.jpg",
-      "descripcion": "Entrega $13200 + 4 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 13200.0,
       "cant_cuotas": 2,
       "monto_cuota": 13400.0
@@ -1110,7 +1110,7 @@
       "precio": 9000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate aluminio color liso.jpg",
-      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1120,7 +1120,7 @@
       "precio": 7000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate aluminio negro futbol.jpg",
-      "descripcion": "Entrega $7000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 7000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1130,7 +1130,7 @@
       "precio": 6000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Cremera 80cc.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1140,7 +1140,7 @@
       "precio": 33000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Autoestereo fijo.jpg",
-      "descripcion": "Entrega $11100 + 3 cuotas semanales de $7300",
+      "descripcion": "",
       "entrega": 11000.0,
       "cant_cuotas": 2,
       "monto_cuota": 11000.0
@@ -1150,7 +1150,7 @@
       "precio": 24000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Anafe Electrico simple.jpg",
-      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 7900.0,
       "cant_cuotas": 1,
       "monto_cuota": 16100.0
@@ -1160,7 +1160,7 @@
       "precio": 60000.0,
       "categoria": "A1-Celulares",
       "imagen_url": "imgs/Celular Ipro f188.jpg",
-      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 20000.0,
       "cant_cuotas": 4,
       "monto_cuota": 10000.0
@@ -1170,7 +1170,7 @@
       "precio": 5000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Bandeja metalica.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1180,7 +1180,7 @@
       "precio": 30000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Tetera ceramica.jpg",
-      "descripcion": "Entrega $9900 + 3 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 2,
       "monto_cuota": 10000.0
@@ -1190,7 +1190,7 @@
       "precio": 29000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Set de cuencos x6.jpg",
-      "descripcion": "Entrega $9800 + 3 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 9600.0,
       "cant_cuotas": 2,
       "monto_cuota": 9700.0
@@ -1200,7 +1200,7 @@
       "precio": 28000.0,
       "categoria": "E7-Sabanas 1  p",
       "imagen_url": "imgs/Sabana Love home 1 plaza.jpg",
-      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 9200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9400.0
@@ -1210,7 +1210,7 @@
       "precio": 46000.0,
       "categoria": "B9-Herramientas Electricas",
       "imagen_url": "imgs/Compresor de aire digital.jpeg",
-      "descripcion": "Entrega $15500 + 5 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 15100.0,
       "cant_cuotas": 3,
       "monto_cuota": 10300.0
@@ -1220,7 +1220,7 @@
       "precio": 87000.0,
       "categoria": "C1-Herramientas Manuales",
       "imagen_url": "imgs/Set de herramientas 189 piezas.jpeg",
-      "descripcion": "Entrega $29400 + 8 cuotas semanales de $7200",
+      "descripcion": "",
       "entrega": 28800.0,
       "cant_cuotas": 6,
       "monto_cuota": 9700.0
@@ -1230,7 +1230,7 @@
       "precio": 12000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate Stanley de acero premium.jpg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -1240,7 +1240,7 @@
       "precio": 249000.0,
       "categoria": "B7-Climatización",
       "imagen_url": "imgs/Estufa Garrafera.jpg",
-      "descripcion": "Entrega $82600 + 16 cuotas semanales de $10400",
+      "descripcion": "",
       "entrega": 82600.0,
       "cant_cuotas": 16,
       "monto_cuota": 10400.0
@@ -1250,7 +1250,7 @@
       "precio": 49000.0,
       "categoria": "D9-Sets de Asado",
       "imagen_url": "imgs/Set de parrilla Hudson.jpg",
-      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6500",
+      "descripcion": "",
       "entrega": 16300.0,
       "cant_cuotas": 3,
       "monto_cuota": 10900.0
@@ -1260,7 +1260,7 @@
       "precio": 6000.0,
       "categoria": "F3-Alfombras",
       "imagen_url": "imgs/Alfombra Welcome azul.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1270,7 +1270,7 @@
       "precio": 6000.0,
       "categoria": "D9-Sets de Asado",
       "imagen_url": "imgs/Tabla Rectangular picotera.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1280,7 +1280,7 @@
       "precio": 6000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Taza Papa.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1290,7 +1290,7 @@
       "precio": 39000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Cafetera Vitta.jpg",
-      "descripcion": "Entrega $13000 + 4 cuotas semanales de $6500",
+      "descripcion": "",
       "entrega": 13000.0,
       "cant_cuotas": 2,
       "monto_cuota": 13000.0
@@ -1300,7 +1300,7 @@
       "precio": 78000.0,
       "categoria": "E6-Sabanas 2  p",
       "imagen_url": "imgs/Sabana polar 2p.jpg",
-      "descripcion": "Entrega $26200 + 7 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 25500.0,
       "cant_cuotas": 5,
       "monto_cuota": 10500.0
@@ -1310,7 +1310,7 @@
       "precio": 2800.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Sahumerio Aromanza.jpg",
-      "descripcion": "Entrega $2800 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2800.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1320,7 +1320,7 @@
       "precio": 27000.0,
       "categoria": "D2-Equipos de Mate",
       "imagen_url": "imgs/Bolso matero dorado.jpg",
-      "descripcion": "Entrega $9000 + 3 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 2,
       "monto_cuota": 9000.0
@@ -1330,7 +1330,7 @@
       "precio": 2000.0,
       "categoria": "E3-Adornos y Prefumeria Otros",
       "imagen_url": "imgs/Cuadros cafe.jpg",
-      "descripcion": "Entrega $2000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 2000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1340,7 +1340,7 @@
       "precio": 8000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate Apalapapa.jpg",
-      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1350,7 +1350,7 @@
       "precio": 15000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Mini Alarma .jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -1360,7 +1360,7 @@
       "precio": 24000.0,
       "categoria": "C1-Herramientas Manuales",
       "imagen_url": "imgs/Set de Herramientas Alpina 46pcz.jpg",
-      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 7900.0,
       "cant_cuotas": 1,
       "monto_cuota": 16100.0
@@ -1370,7 +1370,7 @@
       "precio": 620000.0,
       "categoria": "A7-Televisores",
       "imagen_url": "imgs/Smart tv 43 enova.jpg",
-      "descripcion": "Entrega $207200 + 16 cuotas semanales de $25800",
+      "descripcion": "",
       "entrega": 204000.0,
       "cant_cuotas": 16,
       "monto_cuota": 26000.0
@@ -1380,7 +1380,7 @@
       "precio": 6500.0,
       "categoria": "C5-Conservadoras y Termolares",
       "imagen_url": "imgs/bolso termico rayado.jpg",
-      "descripcion": "Entrega $6500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1390,7 +1390,7 @@
       "precio": 4500.0,
       "categoria": "C5-Conservadoras y Termolares",
       "imagen_url": "imgs/Bolso Termco liso chico.jpg",
-      "descripcion": "Entrega $4500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 4500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1400,7 +1400,7 @@
       "precio": 1600.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Bombilla bombi pop.jpeg",
-      "descripcion": "Entrega $1600 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 1600.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1410,7 +1410,7 @@
       "precio": 3000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate metamate.jpeg",
-      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1420,7 +1420,7 @@
       "precio": 6000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Bombillas de acero.jpeg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1430,7 +1430,7 @@
       "precio": 17000.0,
       "categoria": "A3-Auriculares",
       "imagen_url": "imgs/Auriculares capibara.jpeg",
-      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "descripcion": "",
       "entrega": 5600.0,
       "cant_cuotas": 1,
       "monto_cuota": 11400.0
@@ -1440,7 +1440,7 @@
       "precio": 250.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Pilas AA.jpg",
-      "descripcion": "Entrega $250 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 250.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1450,7 +1450,7 @@
       "precio": 250.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Pilas AAA.jpg",
-      "descripcion": "Entrega $250 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 250.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1460,7 +1460,7 @@
       "precio": 12000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Velas aromaticas.jpeg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -1470,7 +1470,7 @@
       "precio": 20000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Velon rustico 12.5 x 10 cm.jpeg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -1480,7 +1480,7 @@
       "precio": 46000.0,
       "categoria": "B2-Cuidado Personal Mujer",
       "imagen_url": "imgs/Depiladora winco w841.jpg",
-      "descripcion": "Entrega $15500 + 5 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 15100.0,
       "cant_cuotas": 3,
       "monto_cuota": 10300.0
@@ -1490,7 +1490,7 @@
       "precio": 60000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Cubrecama Deluxe reversible 2 plazas.jpeg",
-      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 20000.0,
       "cant_cuotas": 4,
       "monto_cuota": 10000.0
@@ -1500,7 +1500,7 @@
       "precio": 44000.0,
       "categoria": "E7-Sabanas 1  p",
       "imagen_url": "imgs/sabana Regatta 1 plaza.jpeg",
-      "descripcion": "Entrega $14800 + 4 cuotas semanales de $7300",
+      "descripcion": "",
       "entrega": 14600.0,
       "cant_cuotas": 3,
       "monto_cuota": 9800.0
@@ -1510,7 +1510,7 @@
       "precio": 9000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Soporte de celular para auto.jpeg",
-      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1520,7 +1520,7 @@
       "precio": 22000.0,
       "categoria": "A6-Computación",
       "imagen_url": "imgs/Cargador universal notebook hytoshy.jpeg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -1530,7 +1530,7 @@
       "precio": 28000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Pava electrica para auto.jpeg",
-      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 9200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9400.0
@@ -1540,7 +1540,7 @@
       "precio": 35000.0,
       "categoria": "E7-Sabanas 1  p",
       "imagen_url": "imgs/Sabana brodery 1 plaza.jpg",
-      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "descripcion": "",
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11700.0
@@ -1550,7 +1550,7 @@
       "precio": 28000.0,
       "categoria": "F2-Cortinas",
       "imagen_url": "imgs/Cortina chenile cocina.jpg",
-      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 9200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9400.0
@@ -1560,7 +1560,7 @@
       "precio": 25000.0,
       "categoria": "F4-Manteles",
       "imagen_url": "imgs/Mantel de tusor.jpg",
-      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "descripcion": "",
       "entrega": 8200.0,
       "cant_cuotas": 1,
       "monto_cuota": 16800.0
@@ -1570,7 +1570,7 @@
       "precio": 76000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Cover quilt estampado 2p.jpg",
-      "descripcion": "Entrega $25600 + 7 cuotas semanales de $7200",
+      "descripcion": "",
       "entrega": 25000.0,
       "cant_cuotas": 5,
       "monto_cuota": 10200.0
@@ -1580,7 +1580,7 @@
       "precio": 4000.0,
       "categoria": "E3-Adornos y Prefumeria Otros",
       "imagen_url": "imgs/Set de embases viajero.jpg",
-      "descripcion": "Entrega $4000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 4000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1590,7 +1590,7 @@
       "precio": 6000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Hornito para esencias.jpg",
-      "descripcion": "Entrega $6000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1600,7 +1600,7 @@
       "precio": 9000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Jarros mug .jpg",
-      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1610,7 +1610,7 @@
       "precio": 28000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate torpedo acero.jpg",
-      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 9200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9400.0
@@ -1620,7 +1620,7 @@
       "precio": 72000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Termo Lumilagro Luminox.jpeg",
-      "descripcion": "Entrega $24000 + 8 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 24000.0,
       "cant_cuotas": 5,
       "monto_cuota": 9600.0
@@ -1630,7 +1630,7 @@
       "precio": 20000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Copa Postre TK x6.jpeg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -1640,7 +1640,7 @@
       "precio": 29000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Espejo Suka 40x50.jpeg",
-      "descripcion": "Entrega $9800 + 3 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 9600.0,
       "cant_cuotas": 2,
       "monto_cuota": 9700.0
@@ -1650,7 +1650,7 @@
       "precio": 26000.0,
       "categoria": "B8-Electrodomesticos Otros",
       "imagen_url": "imgs/Jarro termico 12v.jpeg",
-      "descripcion": "Entrega $8800 + 2 cuotas semanales de $8600",
+      "descripcion": "",
       "entrega": 8600.0,
       "cant_cuotas": 1,
       "monto_cuota": 17400.0
@@ -1660,7 +1660,7 @@
       "precio": 1000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
       "imagen_url": "imgs/Sahumerio Hexagonal.jpeg",
-      "descripcion": "Entrega $1000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 1000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1670,7 +1670,7 @@
       "precio": 3000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Tapon Stanley.jpeg",
-      "descripcion": "Entrega $3000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1680,7 +1680,7 @@
       "precio": 8000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Compotera blanxa X4.jpeg",
-      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1690,7 +1690,7 @@
       "precio": 32000.0,
       "categoria": "B2-Cuidado Personal Mujer",
       "imagen_url": "imgs/Torno para uñas OM.jpeg",
-      "descripcion": "Entrega $10700 + 3 cuotas semanales de $7100",
+      "descripcion": "",
       "entrega": 10600.0,
       "cant_cuotas": 2,
       "monto_cuota": 10700.0
@@ -1700,7 +1700,7 @@
       "precio": 60000.0,
       "categoria": "E8-Acolchados y Mantas",
       "imagen_url": "imgs/Cubrecama 1p blancotritel.jpg",
-      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 20000.0,
       "cant_cuotas": 4,
       "monto_cuota": 10000.0
@@ -1710,7 +1710,7 @@
       "precio": 90000.0,
       "categoria": "C7-Carpas",
       "imagen_url": "imgs/Carpa Automatica.jpg",
-      "descripcion": "Entrega $30000 + 8 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 30000.0,
       "cant_cuotas": 6,
       "monto_cuota": 10000.0
@@ -1720,7 +1720,7 @@
       "precio": 76000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Colchon inflable 2p con inflador.jpg",
-      "descripcion": "Entrega $25600 + 7 cuotas semanales de $7200",
+      "descripcion": "",
       "entrega": 25000.0,
       "cant_cuotas": 5,
       "monto_cuota": 10200.0
@@ -1730,7 +1730,7 @@
       "precio": 46000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Colchon inflable 1p con inflador.jpg",
-      "descripcion": "Entrega $15500 + 5 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 15100.0,
       "cant_cuotas": 3,
       "monto_cuota": 10300.0
@@ -1740,7 +1740,7 @@
       "precio": 15000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate calabaza forrado.jpeg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -1750,7 +1750,7 @@
       "precio": 70000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Licuadora RAF.jpeg",
-      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 23000.0,
       "cant_cuotas": 5,
       "monto_cuota": 9400.0
@@ -1760,7 +1760,7 @@
       "precio": 10000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cargador iphone USB C 20w.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -1770,7 +1770,7 @@
       "precio": 5000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cargador Lets tipo C.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -1780,7 +1780,7 @@
       "precio": 20000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cargador portatil iph.jpg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -1790,7 +1790,7 @@
       "precio": 15000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Microfono corbatero.jpeg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -1800,7 +1800,7 @@
       "precio": 15000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Botella termica sport 750ml.jpeg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -1810,7 +1810,7 @@
       "precio": 112000.0,
       "categoria": "D4-Ollas",
       "imagen_url": "imgs/Bateria de cocina.jpeg",
-      "descripcion": "Entrega $37100 + 7 cuotas semanales de $10700",
+      "descripcion": "",
       "entrega": 36800.0,
       "cant_cuotas": 8,
       "monto_cuota": 9400.0
@@ -1820,7 +1820,7 @@
       "precio": 154000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Freidora de aire Vitta 8L.jpg",
-      "descripcion": "Entrega $51000 + 10 cuotas semanales de $10300",
+      "descripcion": "",
       "entrega": 50600.0,
       "cant_cuotas": 11,
       "monto_cuota": 9400.0
@@ -1830,7 +1830,7 @@
       "precio": 204000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Freidora de aire Vitta 11,8L.jpg",
-      "descripcion": "Entrega $67500 + 13 cuotas semanales de $10500",
+      "descripcion": "",
       "entrega": 67500.0,
       "cant_cuotas": 15,
       "monto_cuota": 9100.0
@@ -1840,7 +1840,7 @@
       "precio": 185000.0,
       "categoria": "B7-Climatización",
       "imagen_url": "imgs/Ventilador de techo con luz acero.jpg",
-      "descripcion": "Entrega $61400 + 12 cuotas semanales de $10300",
+      "descripcion": "",
       "entrega": 61500.0,
       "cant_cuotas": 13,
       "monto_cuota": 9500.0
@@ -1850,7 +1850,7 @@
       "precio": 170000.0,
       "categoria": "B7-Climatización",
       "imagen_url": "imgs/Ventilador de techo con luz y control remoto Vitta B N.jpg",
-      "descripcion": "Entrega $56700 + 11 cuotas semanales de $10300",
+      "descripcion": "",
       "entrega": 56000.0,
       "cant_cuotas": 12,
       "monto_cuota": 9500.0
@@ -1860,7 +1860,7 @@
       "precio": 19000.0,
       "categoria": "B2-Cuidado Personal Mujer",
       "imagen_url": "imgs/Planchita de pelo exxtratech.jpg",
-      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 6300.0,
       "cant_cuotas": 1,
       "monto_cuota": 12700.0
@@ -1870,7 +1870,7 @@
       "precio": 35000.0,
       "categoria": "E7-Sabanas 1  p",
       "imagen_url": "imgs/Sabanas Cacharel Vainilla 1p.jpeg",
-      "descripcion": "Entrega $11600 + 3 cuotas semanales de $7800",
+      "descripcion": "",
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11700.0
@@ -1880,7 +1880,7 @@
       "precio": 340000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Parlante Moonki pb280.jpg",
-      "descripcion": "Entrega $112800 + 16 cuotas semanales de $14200",
+      "descripcion": "",
       "entrega": 112800.0,
       "cant_cuotas": 16,
       "monto_cuota": 14200.0
@@ -1890,7 +1890,7 @@
       "precio": 230000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Pileta inflable trpical 1050.jpg",
-      "descripcion": "Entrega $77000 + 15 cuotas semanales de $10200",
+      "descripcion": "",
       "entrega": 76400.0,
       "cant_cuotas": 16,
       "monto_cuota": 9600.0
@@ -1900,7 +1900,7 @@
       "precio": 22000.0,
       "categoria": "B3-Cuidado Personal Unisex",
       "imagen_url": "imgs/Tensiometro manual.jpeg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -1910,7 +1910,7 @@
       "precio": 45000.0,
       "categoria": "C7-Carpas",
       "imagen_url": "imgs/Carpa para 3 personas.jpeg",
-      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 14700.0,
       "cant_cuotas": 3,
       "monto_cuota": 10100.0
@@ -1920,7 +1920,7 @@
       "precio": 37000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Colchon inflable 1p con inflador.jpg",
-      "descripcion": "Entrega $12200 + 4 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 12200.0,
       "cant_cuotas": 2,
       "monto_cuota": 12400.0
@@ -1930,7 +1930,7 @@
       "precio": 185000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Carpa Domo hexagonal 4P.jpeg",
-      "descripcion": "Entrega $61400 + 12 cuotas semanales de $10300",
+      "descripcion": "",
       "entrega": 61500.0,
       "cant_cuotas": 13,
       "monto_cuota": 9500.0
@@ -1940,7 +1940,7 @@
       "precio": 130000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Carpa Automatica 6 personas.jpg",
-      "descripcion": "Entrega $43600 + 8 cuotas semanales de $10800",
+      "descripcion": "",
       "entrega": 42700.0,
       "cant_cuotas": 9,
       "monto_cuota": 9700.0
@@ -1950,7 +1950,7 @@
       "precio": 22000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Power Bank Lambo tech.jpeg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -1960,7 +1960,7 @@
       "precio": 43000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Radio am fm meier.jpeg",
-      "descripcion": "Entrega $14200 + 4 cuotas semanales de $7200",
+      "descripcion": "",
       "entrega": 14200.0,
       "cant_cuotas": 3,
       "monto_cuota": 9600.0
@@ -1970,7 +1970,7 @@
       "precio": 16000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Anafe de camping.jpeg",
-      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 5300.0,
       "cant_cuotas": 1,
       "monto_cuota": 10700.0
@@ -1980,7 +1980,7 @@
       "precio": 36000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Conservadora 34L gemplast.jpeg",
-      "descripcion": "Entrega $12000 + 4 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 12000.0,
       "cant_cuotas": 2,
       "monto_cuota": 12000.0
@@ -1990,7 +1990,7 @@
       "precio": 25000.0,
       "categoria": "C4-Sillones de exterior",
       "imagen_url": "imgs/Reposera plegable niños.jpeg",
-      "descripcion": "Entrega $8200 + 2 cuotas semanales de $8400",
+      "descripcion": "",
       "entrega": 8200.0,
       "cant_cuotas": 1,
       "monto_cuota": 16800.0
@@ -2000,7 +2000,7 @@
       "precio": 136000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Freidora de aire Vitta 6,5L.jpeg",
-      "descripcion": "Entrega $45100 + 9 cuotas semanales de $10100",
+      "descripcion": "",
       "entrega": 45000.0,
       "cant_cuotas": 10,
       "monto_cuota": 9100.0
@@ -2010,7 +2010,7 @@
       "precio": 220000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Microondas digital Vitta.jpeg",
-      "descripcion": "Entrega $73000 + 14 cuotas semanales de $10500",
+      "descripcion": "",
       "entrega": 72800.0,
       "cant_cuotas": 16,
       "monto_cuota": 9200.0
@@ -2020,7 +2020,7 @@
       "precio": 220000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Microondas digital Vitta.jpeg",
-      "descripcion": "Entrega $73000 + 14 cuotas semanales de $10500",
+      "descripcion": "",
       "entrega": 72800.0,
       "cant_cuotas": 16,
       "monto_cuota": 9200.0
@@ -2030,7 +2030,7 @@
       "precio": 60000.0,
       "categoria": "B9-Herramientas Electricas",
       "imagen_url": "imgs/Taladro Inalambrico 10Mm Winco.jpeg",
-      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 20000.0,
       "cant_cuotas": 4,
       "monto_cuota": 10000.0
@@ -2040,7 +2040,7 @@
       "precio": 45000.0,
       "categoria": "B6-Electrodomesticos Hogar",
       "imagen_url": "imgs/Plancha seca Winco.jpg",
-      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 14700.0,
       "cant_cuotas": 3,
       "monto_cuota": 10100.0
@@ -2050,7 +2050,7 @@
       "precio": 28000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "",
-      "descripcion": "Entrega $9400 + 3 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 9200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9400.0
@@ -2060,7 +2060,7 @@
       "precio": 12000.0,
       "categoria": "C3-Herramientas Otros",
       "imagen_url": "",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -2070,7 +2070,7 @@
       "precio": 84000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Juguera Electrica Winco.jpeg",
-      "descripcion": "Entrega $28000 + 8 cuotas semanales de $7000",
+      "descripcion": "",
       "entrega": 27600.0,
       "cant_cuotas": 6,
       "monto_cuota": 9400.0
@@ -2080,7 +2080,7 @@
       "precio": 5000.0,
       "categoria": "C3-Herramientas Otros",
       "imagen_url": "imgs/Adaptador universal Nivhus.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2090,7 +2090,7 @@
       "precio": 17000.0,
       "categoria": "A3-Auriculares",
       "imagen_url": "imgs/Auricular Moonki 33.jpg",
-      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "descripcion": "",
       "entrega": 5600.0,
       "cant_cuotas": 1,
       "monto_cuota": 11400.0
@@ -2100,7 +2100,7 @@
       "precio": 11000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Soporte Netmak magnetico.jpg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -2110,7 +2110,7 @@
       "precio": 8000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Soporte para auto Noga Hold4.jpg",
-      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2120,7 +2120,7 @@
       "precio": 10000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Soporte para auto con ventosa d7118.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -2130,7 +2130,7 @@
       "precio": 10000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Soporte de auto SEISA 2159-0.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -2140,7 +2140,7 @@
       "precio": 11000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Trasmisor de bt seisa.jpg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -2150,7 +2150,7 @@
       "precio": 34000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Microfono inalambrico caja negra.jpg",
-      "descripcion": "Entrega $11200 + 3 cuotas semanales de $7600",
+      "descripcion": "",
       "entrega": 11200.0,
       "cant_cuotas": 2,
       "monto_cuota": 11400.0
@@ -2160,7 +2160,7 @@
       "precio": 34000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Microfono inalambrico Netmak.jpg",
-      "descripcion": "Entrega $11200 + 3 cuotas semanales de $7600",
+      "descripcion": "",
       "entrega": 11200.0,
       "cant_cuotas": 2,
       "monto_cuota": 11400.0
@@ -2170,7 +2170,7 @@
       "precio": 11000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Soporte para Bici Seis.jpg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -2180,7 +2180,7 @@
       "precio": 9000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Soporte para espejo retrovisor.jpg",
-      "descripcion": "Entrega $4500 + 1 cuotas semanales de $4500",
+      "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2190,7 +2190,7 @@
       "precio": 40000.0,
       "categoria": "D7-Cubiertos",
       "imagen_url": "imgs/Juego de cubiertos carol 24p.jpg",
-      "descripcion": "Entrega $13200 + 4 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 13200.0,
       "cant_cuotas": 2,
       "monto_cuota": 13400.0
@@ -2200,7 +2200,7 @@
       "precio": 6500.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Vasos durax x4.jpg",
-      "descripcion": "Entrega $6500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 6500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2210,7 +2210,7 @@
       "precio": 22000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
       "imagen_url": "imgs/Vaso Cervecero Pasabahce x4.jpg",
-      "descripcion": "Entrega $7200 + 2 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 7300.0,
       "cant_cuotas": 1,
       "monto_cuota": 14700.0
@@ -2220,7 +2220,7 @@
       "precio": 7500.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Aceitero de vidrio diamante 30 cm.jpg",
-      "descripcion": "Entrega $7500 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 7500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2230,7 +2230,7 @@
       "precio": 44000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Termo con yerbero pastel.jpg",
-      "descripcion": "Entrega $14800 + 4 cuotas semanales de $7300",
+      "descripcion": "",
       "entrega": 14600.0,
       "cant_cuotas": 3,
       "monto_cuota": 9800.0
@@ -2240,7 +2240,7 @@
       "precio": 43000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Tostadora Microsonic.jpg",
-      "descripcion": "Entrega $14200 + 4 cuotas semanales de $7200",
+      "descripcion": "",
       "entrega": 14200.0,
       "cant_cuotas": 3,
       "monto_cuota": 9600.0
@@ -2250,7 +2250,7 @@
       "precio": 78000.0,
       "categoria": "D4-Ollas",
       "imagen_url": "imgs/Bateria Jovifel.jpg",
-      "descripcion": "Entrega $26200 + 7 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 25500.0,
       "cant_cuotas": 5,
       "monto_cuota": 10500.0
@@ -2260,7 +2260,7 @@
       "precio": 26000.0,
       "categoria": "D6-Utensilios de Preparación",
       "imagen_url": "imgs/Set de utensilios Suka.jpg",
-      "descripcion": "Entrega $8800 + 2 cuotas semanales de $8600",
+      "descripcion": "",
       "entrega": 8600.0,
       "cant_cuotas": 1,
       "monto_cuota": 17400.0
@@ -2270,7 +2270,7 @@
       "precio": 39000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Licuadora de mano Vitta.jpg",
-      "descripcion": "Entrega $13000 + 4 cuotas semanales de $6500",
+      "descripcion": "",
       "entrega": 13000.0,
       "cant_cuotas": 2,
       "monto_cuota": 13000.0
@@ -2280,7 +2280,7 @@
       "precio": 10000.0,
       "categoria": "F6-Blanqueria Otros",
       "imagen_url": "imgs/Funda de silla.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -2290,7 +2290,7 @@
       "precio": 105000.0,
       "categoria": "B7-Climatización",
       "imagen_url": "imgs/convector winco w182.jpg",
-      "descripcion": "Entrega $35000 + 10 cuotas semanales de $7000",
+      "descripcion": "",
       "entrega": 34300.0,
       "cant_cuotas": 7,
       "monto_cuota": 10100.0
@@ -2300,7 +2300,7 @@
       "precio": 64000.0,
       "categoria": "B6-Electrodomesticos Hogar",
       "imagen_url": "imgs/Desarrugador por vapor winco w2008.jpg",
-      "descripcion": "Entrega $21300 + 7 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 21200.0,
       "cant_cuotas": 4,
       "monto_cuota": 10700.0
@@ -2310,7 +2310,7 @@
       "precio": 115000.0,
       "categoria": "B7-Climatización",
       "imagen_url": "imgs/Termoconvector Winco w184.jpg",
-      "descripcion": "Entrega $38000 + 7 cuotas semanales de $11000",
+      "descripcion": "",
       "entrega": 38200.0,
       "cant_cuotas": 8,
       "monto_cuota": 9600.0
@@ -2320,7 +2320,7 @@
       "precio": 39000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate imperial cuero labrado.jpg",
-      "descripcion": "Entrega $13000 + 4 cuotas semanales de $6500",
+      "descripcion": "",
       "entrega": 13000.0,
       "cant_cuotas": 2,
       "monto_cuota": 13000.0
@@ -2330,7 +2330,7 @@
       "precio": 37000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate imperial cuero liso.jpg",
-      "descripcion": "Entrega $12200 + 4 cuotas semanales de $6200",
+      "descripcion": "",
       "entrega": 12200.0,
       "cant_cuotas": 2,
       "monto_cuota": 12400.0
@@ -2340,7 +2340,7 @@
       "precio": 59000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate Imperial cuero labrado con base.jpg",
-      "descripcion": "Entrega $19400 + 6 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 19400.0,
       "cant_cuotas": 4,
       "monto_cuota": 9900.0
@@ -2350,7 +2350,7 @@
       "precio": 59000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/Mate imperial algarrobo en caja.jpg",
-      "descripcion": "Entrega $19400 + 6 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 19400.0,
       "cant_cuotas": 4,
       "monto_cuota": 9900.0
@@ -2360,7 +2360,7 @@
       "precio": 24000.0,
       "categoria": "D1-Mates",
       "imagen_url": "imgs/mate camionero algarrobo base acero.jpg",
-      "descripcion": "Entrega $8000 + 2 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 7900.0,
       "cant_cuotas": 1,
       "monto_cuota": 16100.0
@@ -2370,7 +2370,7 @@
       "precio": 32000.0,
       "categoria": "C9-Termos",
       "imagen_url": "imgs/Vaso quencher con parlante.jpg",
-      "descripcion": "Entrega $10700 + 3 cuotas semanales de $7100",
+      "descripcion": "",
       "entrega": 10600.0,
       "cant_cuotas": 2,
       "monto_cuota": 10700.0
@@ -2380,7 +2380,7 @@
       "precio": 7000.0,
       "categoria": "A8-Audio para Vehículos",
       "imagen_url": "imgs/Cargador auto only.jpg",
-      "descripcion": "Entrega $7000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 7000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2390,7 +2390,7 @@
       "precio": 18000.0,
       "categoria": "A6-Computación",
       "imagen_url": "imgs/Teclado con mouse.jpg",
-      "descripcion": "Entrega $6000 + 2 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 5900.0,
       "cant_cuotas": 1,
       "monto_cuota": 12100.0
@@ -2400,7 +2400,7 @@
       "precio": 32000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Radio carga solar.jpg",
-      "descripcion": "Entrega $10700 + 3 cuotas semanales de $7100",
+      "descripcion": "",
       "entrega": 10600.0,
       "cant_cuotas": 2,
       "monto_cuota": 10700.0
@@ -2410,7 +2410,7 @@
       "precio": 36000.0,
       "categoria": "F2-Cortinas",
       "imagen_url": "imgs/Cortina de tussor.jpg",
-      "descripcion": "Entrega $12000 + 4 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 12000.0,
       "cant_cuotas": 2,
       "monto_cuota": 12000.0
@@ -2420,7 +2420,7 @@
       "precio": 60000.0,
       "categoria": "F6-Blanqueria Otros",
       "imagen_url": "imgs/Funda de silla.jpg",
-      "descripcion": "Entrega $19800 + 6 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 20000.0,
       "cant_cuotas": 4,
       "monto_cuota": 10000.0
@@ -2430,7 +2430,7 @@
       "precio": 8000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cargador samsung 45w.jpg",
-      "descripcion": "Entrega $8000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2440,7 +2440,7 @@
       "precio": 11000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/cortador manual de verduras.jpg",
-      "descripcion": "Entrega $5500 + 1 cuotas semanales de $5500",
+      "descripcion": "",
       "entrega": 5500.0,
       "cant_cuotas": 1,
       "monto_cuota": 5500.0
@@ -2450,7 +2450,7 @@
       "precio": 45000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Cafetera italiana TK.jpg",
-      "descripcion": "Entrega $15000 + 5 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 14700.0,
       "cant_cuotas": 3,
       "monto_cuota": 10100.0
@@ -2460,7 +2460,7 @@
       "precio": 15000.0,
       "categoria": "D2-Equipos de Mate",
       "imagen_url": "imgs/Bolso Matero papa.jpg",
-      "descripcion": "Entrega $7500 + 1 cuotas semanales de $7500",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
@@ -2470,7 +2470,7 @@
       "precio": 19000.0,
       "categoria": "B1-Niños",
       "imagen_url": "imgs/Pelota de futbol Mundia 2026.jpg",
-      "descripcion": "Entrega $6200 + 2 cuotas semanales de $6400",
+      "descripcion": "",
       "entrega": 6300.0,
       "cant_cuotas": 1,
       "monto_cuota": 12700.0
@@ -2480,7 +2480,7 @@
       "precio": 160000.0,
       "categoria": "C8-Jardin y Camping Otros",
       "imagen_url": "imgs/Gazebo sin paredes.jpg",
-      "descripcion": "Entrega $53000 + 10 cuotas semanales de $10700",
+      "descripcion": "",
       "entrega": 53300.0,
       "cant_cuotas": 11,
       "monto_cuota": 9700.0
@@ -2490,7 +2490,7 @@
       "precio": 16000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Panel solar cargador.jpg",
-      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 5300.0,
       "cant_cuotas": 1,
       "monto_cuota": 10700.0
@@ -2500,7 +2500,7 @@
       "precio": 12000.0,
       "categoria": "A4-SmartWatch",
       "imagen_url": "imgs/Watch smart.jpg",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -2510,7 +2510,7 @@
       "precio": 12000.0,
       "categoria": "A7-Televisores",
       "imagen_url": "",
-      "descripcion": "Entrega $6000 + 1 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 1,
       "monto_cuota": 6000.0
@@ -2520,7 +2520,7 @@
       "precio": 860000.0,
       "categoria": "A7-Televisores",
       "imagen_url": "imgs/Smart TV 50 Telefunken.jpg",
-      "descripcion": "Entrega $287200 + 16 cuotas semanales de $35800",
+      "descripcion": "",
       "entrega": 284000.0,
       "cant_cuotas": 16,
       "monto_cuota": 36000.0
@@ -2530,7 +2530,7 @@
       "precio": 100000.0,
       "categoria": "",
       "imagen_url": "imgs/Arrancador de auto.jpg",
-      "descripcion": "Entrega $33400 + 9 cuotas semanales de $7400",
+      "descripcion": "",
       "entrega": 32800.0,
       "cant_cuotas": 7,
       "monto_cuota": 9600.0
@@ -2540,7 +2540,7 @@
       "precio": 10000.0,
       "categoria": "A7-Televisores",
       "imagen_url": "imgs/Soporte fijo 26 a 63.jpg",
-      "descripcion": "Entrega $5000 + 1 cuotas semanales de $5000",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 1,
       "monto_cuota": 5000.0
@@ -2550,7 +2550,7 @@
       "precio": 5000.0,
       "categoria": "E1-Cocina y Bazar Otros",
       "imagen_url": "imgs/Batidor de cafe manual.jpg",
-      "descripcion": "Entrega $5000 + 0 cuotas semanales de $0",
+      "descripcion": "",
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
@@ -2560,7 +2560,7 @@
       "precio": 38000.0,
       "categoria": "F5-Toallones y Toallas",
       "imagen_url": "imgs/Juego de toalla y toallon Danubio 600g.jpg",
-      "descripcion": "Entrega $12800 + 4 cuotas semanales de $6300",
+      "descripcion": "",
       "entrega": 12400.0,
       "cant_cuotas": 2,
       "monto_cuota": 12800.0
@@ -2570,7 +2570,7 @@
       "precio": 38000.0,
       "categoria": "B4-Cuidado Personal Hombre",
       "imagen_url": "imgs/Cortapelo Daling DL1903.jpg",
-      "descripcion": "Entrega $12800 + 4 cuotas semanales de $6300",
+      "descripcion": "",
       "entrega": 12400.0,
       "cant_cuotas": 2,
       "monto_cuota": 12800.0
@@ -2580,7 +2580,7 @@
       "precio": 239000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Horno Electrico Smartlife 40l.jpg",
-      "descripcion": "Entrega $80000 + 15 cuotas semanales de $10600",
+      "descripcion": "",
       "entrega": 79000.0,
       "cant_cuotas": 16,
       "monto_cuota": 10000.0
@@ -2590,7 +2590,7 @@
       "precio": 64000.0,
       "categoria": "B5-Electrodomesticos Cocina",
       "imagen_url": "imgs/Mixer Eiffel.jpg",
-      "descripcion": "Entrega $21300 + 7 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 21200.0,
       "cant_cuotas": 4,
       "monto_cuota": 10700.0
@@ -2600,7 +2600,7 @@
       "precio": 55000.0,
       "categoria": "A7-Televisores",
       "imagen_url": "imgs/Tv Box OM.jpg",
-      "descripcion": "Entrega $18400 + 6 cuotas semanales de $6100",
+      "descripcion": "",
       "entrega": 18200.0,
       "cant_cuotas": 4,
       "monto_cuota": 9200.0
@@ -2610,7 +2610,7 @@
       "precio": 17000.0,
       "categoria": "A3-Auriculares",
       "imagen_url": "imgs/Auricular Time JS25.jpg",
-      "descripcion": "Entrega $8500 + 1 cuotas semanales de $8500",
+      "descripcion": "",
       "entrega": 5600.0,
       "cant_cuotas": 1,
       "monto_cuota": 11400.0
@@ -2620,7 +2620,7 @@
       "precio": 20000.0,
       "categoria": "A3-Auriculares",
       "imagen_url": "imgs/Auricular Time js 370.jpg",
-      "descripcion": "Entrega $6800 + 2 cuotas semanales de $6600",
+      "descripcion": "",
       "entrega": 6600.0,
       "cant_cuotas": 1,
       "monto_cuota": 13400.0
@@ -2630,7 +2630,7 @@
       "precio": 70000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Parlante Big Sound 6.5p.jpg",
-      "descripcion": "Entrega $23100 + 7 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 23000.0,
       "cant_cuotas": 5,
       "monto_cuota": 9400.0
@@ -2640,7 +2640,7 @@
       "precio": 44000.0,
       "categoria": "A5-Parlantes",
       "imagen_url": "imgs/Parlante big sound chico.jpg",
-      "descripcion": "Entrega $14800 + 4 cuotas semanales de $7300",
+      "descripcion": "",
       "entrega": 14600.0,
       "cant_cuotas": 3,
       "monto_cuota": 9800.0
@@ -2650,7 +2650,7 @@
       "precio": 18000.0,
       "categoria": "A3-Auriculares",
       "imagen_url": "imgs/Auricular time JS52.jpg",
-      "descripcion": "Entrega $6000 + 2 cuotas semanales de $6000",
+      "descripcion": "",
       "entrega": 5900.0,
       "cant_cuotas": 1,
       "monto_cuota": 12100.0
@@ -2660,7 +2660,7 @@
       "precio": 16000.0,
       "categoria": "A3-Auriculares",
       "imagen_url": "imgs/Auricula Capibara accesorios.jpg",
-      "descripcion": "Entrega $8000 + 1 cuotas semanales de $8000",
+      "descripcion": "",
       "entrega": 5300.0,
       "cant_cuotas": 1,
       "monto_cuota": 10700.0
@@ -2670,7 +2670,7 @@
       "precio": 50000.0,
       "categoria": "A9-Electronica Otros",
       "imagen_url": "imgs/Camara de vigilancia noga.jpg",
-      "descripcion": "Entrega $16500 + 5 cuotas semanales de $6700",
+      "descripcion": "",
       "entrega": 16400.0,
       "cant_cuotas": 3,
       "monto_cuota": 11200.0
