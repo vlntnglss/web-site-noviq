@@ -122,25 +122,6 @@
       color: var(--light);
       pointer-events: none;
     }
-    .wpp-btn {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      background: #25D366;
-      color: var(--white);
-      border: none;
-      border-radius: 50px;
-      padding: 10px 18px;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 500;
-      font-size: 14px;
-      cursor: pointer;
-      text-decoration: none;
-      transition: background .2s, transform .15s;
-      white-space: nowrap;
-    }
-    .wpp-btn:hover { background: #1FAD56; transform: translateY(-1px); }
-    .wpp-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
 
     /* ── Hero strip ────────────────────────────────────────────────────── */
     .hero {
@@ -192,35 +173,7 @@
       letter-spacing: .06em;
       white-space: nowrap;
     }
-    .filter-chips {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      flex: 1;
-    }
-    .chip {
-      padding: 7px 16px;
-      border-radius: 50px;
-      border: 1.5px solid var(--border);
-      background: var(--white);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--mid);
-      cursor: pointer;
-      transition: all .18s;
-      white-space: nowrap;
-    }
-    .chip:hover {
-      border-color: var(--teal);
-      color: var(--teal);
-      background: var(--teal-xlight);
-    }
-    .chip.active {
-      background: var(--teal);
-      border-color: var(--teal);
-      color: var(--white);
-    }
+    .filter-chips { display: flex; gap: 8px; flex-wrap: wrap; flex: 1; }
     .sort-select {
       padding: 8px 14px;
       border: 1.5px solid var(--border);
@@ -240,6 +193,7 @@
       background-position: right 12px center;
     }
     .sort-select:focus { border-color: var(--teal); }
+    .category-select { flex: 1; min-width: 160px; max-width: 280px; color: var(--dark); }
 
     /* ── Results info ──────────────────────────────────────────────────── */
     .results-info {
@@ -480,10 +434,10 @@
     @media (max-width: 640px) {
       .header-inner { height: auto; padding: 12px 16px; flex-wrap: wrap; }
       .header-search { max-width: 100%; order: 3; flex: 0 0 100%; }
-      .wpp-btn span { display: none; }
-      .wpp-btn { padding: 10px 12px; }
       .hero { padding: 36px 16px 32px; }
-      .toolbar { padding: 16px 16px 0; }
+      .toolbar { padding: 16px 16px 0; gap: 8px; }
+      .category-select, .sort-select { flex: 1 1 100%; max-width: none; }
+      .toolbar-label { flex: 0 0 100%; }
       .grid { padding: 0 16px 16px; gap: 14px; }
       .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
       .card-price { font-size: 18px; }
@@ -511,11 +465,6 @@
         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         <input type="text" id="search-input" placeholder="Buscar producto..." autocomplete="off" />
       </div>
-
-      <a class="wpp-btn" id="wpp-link" href="#" target="_blank" rel="noopener">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        <span>Consultar</span>
-      </a>
     </div>
   </header>
 
@@ -530,9 +479,9 @@
   <!-- ── Toolbar ─────────────────────────────────────────────────────────── -->
   <div class="toolbar">
     <span class="toolbar-label">Categoría</span>
-    <div class="filter-chips" id="filter-chips">
-      <button class="chip active" data-cat="todas">Todas</button>
-    </div>
+    <select class="sort-select category-select" id="category-select">
+      <option value="todas">Todas las categorías</option>
+    </select>
     <select class="sort-select" id="sort-select">
       <option value="default">Orden original</option>
       <option value="price-asc">Precio: menor a mayor</option>
@@ -605,7 +554,6 @@
     function init() {
       // Datos del local
       const nombre = catalogMeta.nombre_local || 'Nuestro Local';
-      const wpp    = catalogMeta.wpp_numero   || '';
       const initials = nombre.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
 
       $('header-local-name').textContent = nombre;
@@ -613,37 +561,25 @@
       $('hero-local-name').textContent   = nombre;
       document.title = `Catálogo · ${nombre}`;
 
-      if (wpp) {
-        const msg = encodeURIComponent(`Hola! Vi su catálogo y quisiera consultar por un producto.`);
-        $('wpp-link').href = `https://wa.me/${wpp}?text=${msg}`;
-      } else {
-        $('wpp-link').style.display = 'none';
-      }
-
-      buildCategoryChips();
+      buildCategoryOptions();
       render();
     }
 
-    // ── Categorías ────────────────────────────────────────────────────────────
-    function buildCategoryChips() {
-      const cats = [...new Set(allProducts.map(p => p.categoria).filter(Boolean))].sort();
-      const wrap = $('filter-chips');
+    // ── Categorías (desplegable) ──────────────────────────────────────────────
+    function buildCategoryOptions() {
+      const cats = [...new Set(allProducts.map(p => p.categoria).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b, 'es'));
+      const sel = $('category-select');
       cats.forEach(cat => {
-        const btn = document.createElement('button');
-        btn.className  = 'chip';
-        btn.dataset.cat = cat;
-        btn.textContent = cat;
-        btn.addEventListener('click', () => setFilter(cat));
-        wrap.appendChild(btn);
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat;
+        sel.appendChild(opt);
       });
-    }
-
-    function setFilter(cat) {
-      activeFilter = cat;
-      document.querySelectorAll('.chip').forEach(c => {
-        c.classList.toggle('active', c.dataset.cat === cat);
+      sel.addEventListener('change', e => {
+        activeFilter = e.target.value;
+        render();
       });
-      render();
     }
 
     // ── Ordenamiento ──────────────────────────────────────────────────────────
@@ -679,6 +615,22 @@
       return list;
     }
 
+    // ── URL de imagen ──────────────────────────────────────────────────────────
+    // El data.json guarda imagen_url como "imgs/<archivo>" (relativa a la carpeta
+    // del cliente) o como URL absoluta. La página se sirve desde la raíz del
+    // catálogo, así que a las rutas relativas hay que anteponerles "./<cliente>/"
+    // para que apunten a  catalogo/<cliente>/imgs/<archivo>. Antes solo se
+    // mostraban las que empezaban con http, por eso las locales no cargaban.
+    function buildImgUrl(raw) {
+      raw = String(raw || '').trim();
+      if (!raw) return '';
+      if (/^https?:\/\//i.test(raw)) return raw;          // URL absoluta
+      if (raw.startsWith('/')) return raw;                 // ruta absoluta del sitio
+      raw = raw.replace(/^\.?\/+/, '').replace(/^(\.\.\/)+/, '');  // saca ./ y ../ iniciales
+      if (!raw.includes('/')) raw = 'imgs/' + raw;         // solo nombre → imgs/<archivo>
+      return `./${clientId}/${raw}`;
+    }
+
     // ── Render ────────────────────────────────────────────────────────────────
     function render() {
       const list = getFiltered();
@@ -701,9 +653,9 @@
         card.className = 'card';
         card.style.animationDelay = `${Math.min(i * 0.04, 0.5)}s`;
 
-        const tieneImagen = p.imagen_url && p.imagen_url.startsWith('http');
-        const imgHtml = tieneImagen
-          ? `<img src="${escHtml(p.imagen_url)}" alt="${escHtml(p.nombre)}" loading="lazy"
+        const imgSrc = buildImgUrl(p.imagen_url);
+        const imgHtml = imgSrc
+          ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(p.nombre)}" loading="lazy"
                onerror="this.parentNode.innerHTML=placeholderHtml()" />`
           : `<div class="img-placeholder">
                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
