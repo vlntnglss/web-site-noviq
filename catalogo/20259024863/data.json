@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "06/07/2026 07:10",
-  "total_productos": 267,
+  "actualizado": "08/07/2026 18:48",
+  "total_productos": 260,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -864,16 +864,6 @@
       "entrega": 4500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Mate Raices",
-      "precio": 12000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate Raices.jpg",
-      "descripcion": "",
-      "entrega": 6000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 6000.0
     },
     {
       "nombre": "Sombrilla eco 1,6m",
@@ -1806,16 +1796,6 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Bateria de cocina mango desmontable",
-      "precio": 112000.0,
-      "categoria": "D4-Ollas",
-      "imagen_url": "imgs/Bateria de cocina.jpeg",
-      "descripcion": "",
-      "entrega": 36800.0,
-      "cant_cuotas": 8,
-      "monto_cuota": 9400.0
-    },
-    {
       "nombre": "Freidora de aire Vitta 8L Digital",
       "precio": 154000.0,
       "categoria": "B5-Electrodomesticos Cocina",
@@ -1946,16 +1926,6 @@
       "monto_cuota": 9700.0
     },
     {
-      "nombre": "Power Bank Lambo tech 24000mAh",
-      "precio": 22000.0,
-      "categoria": "A2-Celulares Otros",
-      "imagen_url": "imgs/Power Bank Lambo tech.jpeg",
-      "descripcion": "",
-      "entrega": 7300.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 14700.0
-    },
-    {
       "nombre": "Radio AM FM Meier",
       "precio": 43000.0,
       "categoria": "A5-Parlantes",
@@ -2014,26 +1984,6 @@
       "entrega": 72800.0,
       "cant_cuotas": 16,
       "monto_cuota": 9200.0
-    },
-    {
-      "nombre": "Microondas digital Vitta",
-      "precio": 220000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Microondas digital Vitta.jpeg",
-      "descripcion": "",
-      "entrega": 72800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 9200.0
-    },
-    {
-      "nombre": "Taladro Inalambrico Winco 10mm",
-      "precio": 60000.0,
-      "categoria": "B9-Herramientas Electricas",
-      "imagen_url": "imgs/Taladro Inalambrico 10Mm Winco.jpeg",
-      "descripcion": "",
-      "entrega": 20000.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Plancha Seca Winco w33",
@@ -2166,16 +2116,6 @@
       "monto_cuota": 11400.0
     },
     {
-      "nombre": "Soporte para bici seis",
-      "precio": 11000.0,
-      "categoria": "A8-Audio para Vehículos",
-      "imagen_url": "imgs/Soporte para Bici Seis.jpg",
-      "descripcion": "",
-      "entrega": 5500.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 5500.0
-    },
-    {
       "nombre": "Soporte celu para espejo",
       "precio": 9000.0,
       "categoria": "A8-Audio para Vehículos",
@@ -2224,16 +2164,6 @@
       "entrega": 7500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Termo Stanley con yerbero pastel",
-      "precio": 44000.0,
-      "categoria": "C9-Termos",
-      "imagen_url": "imgs/Termo con yerbero pastel.jpg",
-      "descripcion": "",
-      "entrega": 14600.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9800.0
     },
     {
       "nombre": "Tostadora Microsonic",
