@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "08/07/2026 18:49",
-  "total_productos": 260,
+  "actualizado": "13/07/2026 20:34",
+  "total_productos": 257,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -332,16 +332,6 @@
       "imagen_url": "imgs/Botella Keep.jpg",
       "descripcion": "",
       "entrega": 8400.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Balanza Cocina 10kg",
-      "precio": 9000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "",
-      "descripcion": "",
-      "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -1016,6 +1006,16 @@
       "monto_cuota": 12800.0
     },
     {
+      "nombre": "Parlante Winco W261",
+      "precio": 125000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Parlante Winco W261.jpg",
+      "descripcion": "",
+      "entrega": 41300.0,
+      "cant_cuotas": 9,
+      "monto_cuota": 9300.0
+    },
+    {
       "nombre": "Mate camionero algarrobo",
       "precio": 20000.0,
       "categoria": "D1-Mates",
@@ -1134,16 +1134,6 @@
       "entrega": 11000.0,
       "cant_cuotas": 2,
       "monto_cuota": 11000.0
-    },
-    {
-      "nombre": "Anafe Electrico simple",
-      "precio": 24000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Anafe Electrico simple.jpg",
-      "descripcion": "",
-      "entrega": 7900.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 16100.0
     },
     {
       "nombre": "Celular IPRO F188",
@@ -1276,16 +1266,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Cafetera Vitta",
-      "precio": 39000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Cafetera Vitta.jpg",
-      "descripcion": "",
-      "entrega": 13000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 13000.0
-    },
-    {
       "nombre": "Sabana polar 2p",
       "precio": 78000.0,
       "categoria": "E6-Sabanas 2  p",
@@ -1334,6 +1314,16 @@
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Redmi A5 128gb 4gb",
+      "precio": 358000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Redmi A5.jpeg",
+      "descripcion": "",
+      "entrega": 118000.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 15000.0
     },
     {
       "nombre": "Mini Alarma",
@@ -1796,6 +1786,16 @@
       "monto_cuota": 10000.0
     },
     {
+      "nombre": "Redmi 15C",
+      "precio": 375000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Redmi 15C.jpeg",
+      "descripcion": "128GB . 8gb RAM",
+      "entrega": 123800.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 15700.0
+    },
+    {
       "nombre": "Freidora de aire Vitta 8L Digital",
       "precio": 154000.0,
       "categoria": "B5-Electrodomesticos Cocina",
@@ -1804,16 +1804,6 @@
       "entrega": 50600.0,
       "cant_cuotas": 11,
       "monto_cuota": 9400.0
-    },
-    {
-      "nombre": "Freidora de aire Vitta 11,8L",
-      "precio": 204000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Freidora de aire Vitta 11,8L.jpg",
-      "descripcion": "",
-      "entrega": 67500.0,
-      "cant_cuotas": 15,
-      "monto_cuota": 9100.0
     },
     {
       "nombre": "Ventilador de techo con luz y control remoto Vitta Acero",
@@ -1874,16 +1864,6 @@
       "entrega": 76400.0,
       "cant_cuotas": 16,
       "monto_cuota": 9600.0
-    },
-    {
-      "nombre": "Tensiometro manual",
-      "precio": 22000.0,
-      "categoria": "B3-Cuidado Personal Unisex",
-      "imagen_url": "imgs/Tensiometro manual.jpeg",
-      "descripcion": "",
-      "entrega": 7300.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 14700.0
     },
     {
       "nombre": "Carpa 3 personas 2,00x1,50x1,15",
@@ -2206,16 +2186,6 @@
       "monto_cuota": 13000.0
     },
     {
-      "nombre": "Funda de silla individual",
-      "precio": 10000.0,
-      "categoria": "F6-Blanqueria Otros",
-      "imagen_url": "imgs/Funda de silla.jpg",
-      "descripcion": "",
-      "entrega": 5000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 5000.0
-    },
-    {
       "nombre": "Termoconvector Winco w182",
       "precio": 105000.0,
       "categoria": "B7-Climatización",
@@ -2436,16 +2406,6 @@
       "monto_cuota": 6000.0
     },
     {
-      "nombre": "Pack Premium TDA",
-      "precio": 12000.0,
-      "categoria": "A7-Televisores",
-      "imagen_url": "",
-      "descripcion": "",
-      "entrega": 6000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 6000.0
-    },
-    {
       "nombre": "Smart TV 50 Telefunken",
       "precio": 860000.0,
       "categoria": "A7-Televisores",
@@ -2454,6 +2414,16 @@
       "entrega": 284000.0,
       "cant_cuotas": 16,
       "monto_cuota": 36000.0
+    },
+    {
+      "nombre": "Realme C75X ",
+      "precio": 430000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Realme C75 256gb.jpg",
+      "descripcion": "256GB 8gbRAM",
+      "entrega": 142000.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 18000.0
     },
     {
       "nombre": "Arrancador de auto",
@@ -2566,16 +2536,6 @@
       "monto_cuota": 9400.0
     },
     {
-      "nombre": "Parlante Big Sound chico",
-      "precio": 44000.0,
-      "categoria": "A5-Parlantes",
-      "imagen_url": "imgs/Parlante big sound chico.jpg",
-      "descripcion": "",
-      "entrega": 14600.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9800.0
-    },
-    {
       "nombre": "Auricular Time JS52",
       "precio": 18000.0,
       "categoria": "A3-Auriculares",
@@ -2604,6 +2564,16 @@
       "entrega": 16400.0,
       "cant_cuotas": 3,
       "monto_cuota": 11200.0
+    },
+    {
+      "nombre": "Realme Note 70",
+      "precio": 430000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/realme note 70.jpeg",
+      "descripcion": "256 gb 12gbRAM",
+      "entrega": 142000.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 18000.0
     }
   ]
 }
