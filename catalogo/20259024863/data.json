@@ -2,7 +2,7 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "13/07/2026 20:34",
+  "actualizado": "14/07/2026 12:31",
   "total_productos": 257,
   "productos": [
     {
@@ -248,12 +248,12 @@
     {
       "nombre": "Cortina baño impresa",
       "precio": 18000.0,
-      "categoria": "F2-Cortinas",
+      "categoria": "",
       "imagen_url": "",
       "descripcion": "",
-      "entrega": 5900.0,
+      "entrega": 9000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 12100.0
+      "monto_cuota": 9000.0
     },
     {
       "nombre": "Cortina Madra",
@@ -294,6 +294,16 @@
       "entrega": 4600.0,
       "cant_cuotas": 1,
       "monto_cuota": 9400.0
+    },
+    {
+      "nombre": "Sabana Brodery 2p",
+      "precio": 45000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 15000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Sabana 2p Danubio",
@@ -418,12 +428,12 @@
     {
       "nombre": "Sabana Love Home 2 1-2 plazas",
       "precio": 35000.0,
-      "categoria": "E6-Sabanas 2  p",
+      "categoria": "Blanqueria",
       "imagen_url": "imgs/Sabana Love home.jpg",
       "descripcion": "",
-      "entrega": 11600.0,
+      "entrega": 12000.0,
       "cant_cuotas": 2,
-      "monto_cuota": 11700.0
+      "monto_cuota": 11500.0
     },
     {
       "nombre": "Tira Led RGB",
@@ -1186,6 +1196,16 @@
       "monto_cuota": 9400.0
     },
     {
+      "nombre": "Edredon con corderito 1 Plaza",
+      "precio": 75000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Endredon con corderito 1 P.jpg",
+      "descripcion": "",
+      "entrega": 25000.0,
+      "cant_cuotas": 5,
+      "monto_cuota": 10000.0
+    },
+    {
       "nombre": "Compresor de aire digital",
       "precio": 46000.0,
       "categoria": "B9-Herramientas Electricas",
@@ -1314,16 +1334,6 @@
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Redmi A5 128gb 4gb",
-      "precio": 358000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Redmi A5.jpeg",
-      "descripcion": "",
-      "entrega": 118000.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 15000.0
     },
     {
       "nombre": "Mini Alarma",
@@ -1516,14 +1526,14 @@
       "monto_cuota": 9400.0
     },
     {
-      "nombre": "Sabana Brodery Cacharel 1P",
+      "nombre": "Sabana Brodery o Vainilla 1P",
       "precio": 35000.0,
-      "categoria": "E7-Sabanas 1  p",
+      "categoria": "Blanqueria",
       "imagen_url": "imgs/Sabana brodery 1 plaza.jpg",
       "descripcion": "",
-      "entrega": 11600.0,
+      "entrega": 12000.0,
       "cant_cuotas": 2,
-      "monto_cuota": 11700.0
+      "monto_cuota": 11500.0
     },
     {
       "nombre": "Cortina Chenile de cocina",
@@ -1786,7 +1796,7 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Redmi 15C",
+      "nombre": "Celular Redmi 15C",
       "precio": 375000.0,
       "categoria": "Celulares",
       "imagen_url": "imgs/Redmi 15C.jpeg",
@@ -2226,16 +2236,6 @@
       "monto_cuota": 13000.0
     },
     {
-      "nombre": "Mate imperial cuero liso",
-      "precio": 37000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate imperial cuero liso.jpg",
-      "descripcion": "",
-      "entrega": 12200.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12400.0
-    },
-    {
       "nombre": "Mate cuero labrado con base",
       "precio": 59000.0,
       "categoria": "D1-Mates",
@@ -2416,7 +2416,7 @@
       "monto_cuota": 36000.0
     },
     {
-      "nombre": "Realme C75X ",
+      "nombre": "Celular Realme C75X ",
       "precio": 430000.0,
       "categoria": "Celulares",
       "imagen_url": "imgs/Realme C75 256gb.jpg",
@@ -2566,7 +2566,7 @@
       "monto_cuota": 11200.0
     },
     {
-      "nombre": "Realme Note 70",
+      "nombre": "Celular Realme Note 70",
       "precio": 430000.0,
       "categoria": "Celulares",
       "imagen_url": "imgs/realme note 70.jpeg",
