@@ -2,7 +2,7 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "17/07/2026 10:54",
+  "actualizado": "17/07/2026 11:25",
   "total_productos": 255,
   "productos": [
     {
@@ -18,8 +18,8 @@
     {
       "nombre": "Soporte tv Movil",
       "precio": 20000.0,
-      "categoria": "A7-Televisores",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Soporte TV movil.jpeg",
       "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 1,
@@ -419,7 +419,7 @@
       "nombre": "Adaptador Universal",
       "precio": 10000.0,
       "categoria": "A9-Electronica Otros",
-      "imagen_url": "imgs/descarga (1).jpeg",
+      "imagen_url": "",
       "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 0,
@@ -1119,7 +1119,7 @@
       "nombre": "Cremera porcelana 80cc",
       "precio": 6000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
-      "imagen_url": "imgs/Cremera 80cc.jpg",
+      "imagen_url": "",
       "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
