@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "17/07/2026 11:25",
-  "total_productos": 255,
+  "actualizado": "24/07/2026 19:50",
+  "total_productos": 260,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -346,6 +346,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Lampara Led",
+      "precio": 15000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Lampara led.jpg",
+      "descripcion": "",
+      "entrega": 15000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
       "nombre": "Toallon Valente Pesado",
       "precio": 36000.0,
       "categoria": "F5-Toallones y Toallas",
@@ -436,16 +446,6 @@
       "monto_cuota": 11600.0
     },
     {
-      "nombre": "Tira Led RGB",
-      "precio": 15000.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "imgs/Imagen de WhatsApp 2024-04-30 a las 12.32.04_fab72e19.jpg",
-      "descripcion": "",
-      "entrega": 15000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Aroma para telas y ambientes",
       "precio": 5000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
@@ -532,6 +532,16 @@
       "imagen_url": "imgs/set 12 pc tazas.jpg",
       "descripcion": "",
       "entrega": 15000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable de Datos Iphone",
+      "precio": 4500.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Cable Datos iphone.jpg",
+      "descripcion": "",
+      "entrega": 4500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -726,6 +736,16 @@
       "monto_cuota": 10500.0
     },
     {
+      "nombre": "Humificador simil madera",
+      "precio": 14000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Humidificadores.jpg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
       "nombre": "Cubrecama con funda alcoyana 2p",
       "precio": 55000.0,
       "categoria": "E8-Acolchados y Mantas",
@@ -774,16 +794,6 @@
       "entrega": 44500.0,
       "cant_cuotas": 9,
       "monto_cuota": 9500.0
-    },
-    {
-      "nombre": "Recortador de barba W816",
-      "precio": 36000.0,
-      "categoria": "B4-Cuidado Personal Hombre",
-      "imagen_url": "imgs/Recortador de barba W816.jpg",
-      "descripcion": "",
-      "entrega": 12200.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11900.0
     },
     {
       "nombre": "Cortapelo Winco W821",
@@ -1036,16 +1046,6 @@
       "monto_cuota": 11000.0
     },
     {
-      "nombre": "Tender Vertical tres pisos",
-      "precio": 42000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/Tender vertical.jpg",
-      "descripcion": "",
-      "entrega": 14400.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9200.0
-    },
-    {
       "nombre": "Cable RCA AV-plug",
       "precio": 2500.0,
       "categoria": "A9-Electronica Otros",
@@ -1154,6 +1154,16 @@
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Individuales redondo x6",
+      "precio": 32000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Individual textil redondo.jpg",
+      "descripcion": "",
+      "entrega": 10800.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10600.0
     },
     {
       "nombre": "Tetera ceramica",
@@ -1296,16 +1306,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Matero dorado con hebilla",
-      "precio": 27000.0,
-      "categoria": "D2-Equipos de Mate",
-      "imagen_url": "imgs/Bolso matero dorado.jpg",
-      "descripcion": "",
-      "entrega": 9200.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 17800.0
-    },
-    {
       "nombre": "Cuadro Cafe",
       "precio": 2000.0,
       "categoria": "E3-Adornos y Prefumeria Otros",
@@ -1364,6 +1364,16 @@
       "entrega": 210400.0,
       "cant_cuotas": 16,
       "monto_cuota": 25600.0
+    },
+    {
+      "nombre": "Inflador portatil Oryx",
+      "precio": 53000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Inflador portatil.jpeg",
+      "descripcion": "",
+      "entrega": 17900.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11700.0
     },
     {
       "nombre": "Bolso Termico rayado",
@@ -1796,16 +1806,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Freidora de aire Vitta 8L Digital",
-      "precio": 154000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Freidora de aire Vitta 8L.jpg",
-      "descripcion": "",
-      "entrega": 52800.0,
-      "cant_cuotas": 11,
-      "monto_cuota": 9200.0
-    },
-    {
       "nombre": "Ventilador de techo con luz y control remoto Vitta Acero",
       "precio": 185000.0,
       "categoria": "B7-Climatización",
@@ -1826,16 +1826,6 @@
       "monto_cuota": 9400.0
     },
     {
-      "nombre": "Planchita de pelo Exxtra Tech",
-      "precio": 19000.0,
-      "categoria": "B2-Cuidado Personal Mujer",
-      "imagen_url": "imgs/Planchita de pelo exxtratech.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Sabana Cacharel Vainilla 1p",
       "precio": 35000.0,
       "categoria": "E7-Sabanas 1  p",
@@ -1844,16 +1834,6 @@
       "entrega": 11800.0,
       "cant_cuotas": 2,
       "monto_cuota": 11600.0
-    },
-    {
-      "nombre": "Parlante Moonki PB280",
-      "precio": 340000.0,
-      "categoria": "A5-Parlantes",
-      "imagen_url": "imgs/Parlante Moonki pb280.jpg",
-      "descripcion": "",
-      "entrega": 116000.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 14000.0
     },
     {
       "nombre": "Pileta inflable tropical 3,5m x0,70m 4900L",
@@ -1924,6 +1904,16 @@
       "entrega": 16000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Balanza personal ",
+      "precio": 22000.0,
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/Balanza personal ogaan.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 13000.0
     },
     {
       "nombre": "Conservadora 34L Gemplast",
@@ -2206,16 +2196,6 @@
       "monto_cuota": 10600.0
     },
     {
-      "nombre": "Termoconvector Winco w184",
-      "precio": 115000.0,
-      "categoria": "B7-Climatización",
-      "imagen_url": "imgs/Termoconvector Winco w184.jpg",
-      "descripcion": "",
-      "entrega": 39000.0,
-      "cant_cuotas": 8,
-      "monto_cuota": 9500.0
-    },
-    {
       "nombre": "Mate imperial cuero labrado",
       "precio": 39000.0,
       "categoria": "D1-Mates",
@@ -2234,26 +2214,6 @@
       "entrega": 20200.0,
       "cant_cuotas": 4,
       "monto_cuota": 9700.0
-    },
-    {
-      "nombre": "Mate Imperial algarrobo en caja",
-      "precio": 59000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate imperial algarrobo en caja.jpg",
-      "descripcion": "",
-      "entrega": 20200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 9700.0
-    },
-    {
-      "nombre": "Mate camionero algarrobo base acero",
-      "precio": 24000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/mate camionero algarrobo base acero.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 15000.0
     },
     {
       "nombre": "Vaso quencher con parlante",
@@ -2386,6 +2346,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Pack Premium TDA",
+      "precio": 12000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Pack premium.jpeg",
+      "descripcion": "",
+      "entrega": 12000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
       "nombre": "Smart TV 50 Telefunken",
       "precio": 860000.0,
       "categoria": "A7-Televisores",
@@ -2466,16 +2436,6 @@
       "monto_cuota": 9900.0
     },
     {
-      "nombre": "Mixer Eiffel",
-      "precio": 64000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Mixer Eiffel.jpg",
-      "descripcion": "",
-      "entrega": 21600.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10600.0
-    },
-    {
       "nombre": "TV box OM",
       "precio": 55000.0,
       "categoria": "A7-Televisores",
@@ -2536,16 +2496,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Camara de vigilancia Noga",
-      "precio": 50000.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "imgs/Camara de vigilancia noga.jpg",
-      "descripcion": "",
-      "entrega": 17000.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11000.0
-    },
-    {
       "nombre": "Celular Realme Note 70",
       "precio": 430000.0,
       "categoria": "Celulares",
@@ -2554,6 +2504,106 @@
       "entrega": 146800.0,
       "cant_cuotas": 16,
       "monto_cuota": 17700.0
+    },
+    {
+      "nombre": "Celular moto g9 Outlet",
+      "precio": 70000.0,
+      "categoria": "Celulares",
+      "imagen_url": "",
+      "descripcion": "Usado",
+      "entrega": 70000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Taladro rotopercutor Oryx",
+      "precio": 128000.0,
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Taladro Rotopercutor Oryx.jpeg",
+      "descripcion": "",
+      "entrega": 43400.0,
+      "cant_cuotas": 9,
+      "monto_cuota": 9400.0
+    },
+    {
+      "nombre": "Organizadores de vidrio y bambu x3",
+      "precio": 23000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Organizadores de vidrio y bambu.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 14000.0
+    },
+    {
+      "nombre": "Copon Orlando X6",
+      "precio": 26000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Copon Orlando.jpeg",
+      "descripcion": "610 ml",
+      "entrega": 9000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 8500.0
+    },
+    {
+      "nombre": "Vaso Tokyo Home X6",
+      "precio": 24000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Vasos Tokyo Home.jpeg",
+      "descripcion": "Bordes dorados",
+      "entrega": 9000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 7500.0
+    },
+    {
+      "nombre": "Kit asador madera",
+      "precio": 15000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Kit asador madera.jpeg",
+      "descripcion": "",
+      "entrega": 15000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Parlante party OM",
+      "precio": 26000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Parlante Party OM.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 17000.0
+    },
+    {
+      "nombre": "Parlante x911",
+      "precio": 19000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Parlante x911.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Kit de higiene Romantic",
+      "precio": 14000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Set de higiene Romantic.jpeg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Planchita Nano Titanium",
+      "precio": 26000.0,
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/Planchita de Nanotitanio.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 8500.0
     }
   ]
 }
