@@ -2,14 +2,14 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "25/07/2026 18:20",
+  "actualizado": "25/07/2026 18:40",
   "total_productos": 263,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
       "precio": 4000.0,
-      "categoria": "A3-Auriculares",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Auricular samsung cable.jpeg",
       "descripcion": "",
       "entrega": 4000.0,
       "cant_cuotas": 0,
@@ -68,8 +68,8 @@
     {
       "nombre": "Cepilladora Omaha 650W",
       "precio": 89500.0,
-      "categoria": "B9-Herramientas Electricas",
-      "imagen_url": "",
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Cepilladora Omaha 650w.jpeg",
       "descripcion": "",
       "entrega": 30700.0,
       "cant_cuotas": 6,
@@ -88,8 +88,8 @@
     {
       "nombre": "Secador de pelo Winco W98",
       "precio": 70000.0,
-      "categoria": "B2-Cuidado Personal Mujer",
-      "imagen_url": "",
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/Secador de pelo winco w98.jpeg",
       "descripcion": "",
       "entrega": 24000.0,
       "cant_cuotas": 5,
@@ -158,8 +158,8 @@
     {
       "nombre": "Exhibidor de dulces acrilico",
       "precio": 10000.0,
-      "categoria": "D8-Vajilla y Artículos de Servir",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Exhibidor de dulces porcelana.jpg",
       "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 0,
@@ -178,8 +178,8 @@
     {
       "nombre": "Monopatin grafitti",
       "precio": 54000.0,
-      "categoria": "B1-Niños",
-      "imagen_url": "",
+      "categoria": "Niños",
+      "imagen_url": "imgs/Monopatin graffitti.jpeg",
       "descripcion": "",
       "entrega": 18300.0,
       "cant_cuotas": 3,
@@ -198,7 +198,7 @@
     {
       "nombre": "Acolchado 1p",
       "precio": 35000.0,
-      "categoria": "E8-Acolchados y Mantas",
+      "categoria": "Blanqueria",
       "imagen_url": "imgs/Acolchado infantil 1P .jpg",
       "descripcion": "",
       "entrega": 11800.0,
@@ -208,8 +208,8 @@
     {
       "nombre": "Acolchado 2p",
       "precio": 45000.0,
-      "categoria": "E8-Acolchados y Mantas",
-      "imagen_url": "",
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Acolchado 2p.jpeg",
       "descripcion": "",
       "entrega": 15300.0,
       "cant_cuotas": 3,
@@ -2586,7 +2586,7 @@
       "monto_cuota": 8500.0
     },
     {
-      "nombre": "Set pava eléctrica Inova ",
+      "nombre": "Set pava electrica Inova ",
       "precio": 41000.0,
       "categoria": "Cocina y Bazar",
       "imagen_url": "imgs/Set Pava electrica c accesorios.jpeg",
@@ -2596,7 +2596,7 @@
       "monto_cuota": 9000.0
     },
     {
-      "nombre": "Jarra eléctrica Inova",
+      "nombre": "Jarra electrica Inova",
       "precio": 30000.0,
       "categoria": "Cocina y Bazar",
       "imagen_url": "imgs/Jarra electrica Inova .jpeg",
