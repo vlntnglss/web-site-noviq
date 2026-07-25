@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "24/07/2026 19:50",
-  "total_productos": 260,
+  "actualizado": "25/07/2026 18:20",
+  "total_productos": 263,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -1326,16 +1326,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Celular Redmi A5 128gb 4gb",
-      "precio": 358000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Redmi A5.jpeg",
-      "descripcion": "",
-      "entrega": 121200.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 14800.0
-    },
-    {
       "nombre": "Mini Alarma",
       "precio": 15000.0,
       "categoria": "A9-Electronica Otros",
@@ -2496,16 +2486,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Celular Realme Note 70",
-      "precio": 430000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/realme note 70.jpeg",
-      "descripcion": "256 gb 12gbRAM",
-      "entrega": 146800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 17700.0
-    },
-    {
       "nombre": "Celular moto g9 Outlet",
       "precio": 70000.0,
       "categoria": "Celulares",
@@ -2604,6 +2584,56 @@
       "entrega": 9000.0,
       "cant_cuotas": 2,
       "monto_cuota": 8500.0
+    },
+    {
+      "nombre": "Set pava eléctrica Inova ",
+      "precio": 41000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Set Pava electrica c accesorios.jpeg",
+      "descripcion": "Incluye yerbero y mate de aluminio",
+      "entrega": 14000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Jarra eléctrica Inova",
+      "precio": 30000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Jarra electrica Inova .jpeg",
+      "descripcion": "",
+      "entrega": 10200.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Termo y mate Contigo 1,2lt",
+      "precio": 47000.0,
+      "categoria": "Termos y Mates",
+      "imagen_url": "imgs/Termo y mate Contigo.jpeg",
+      "descripcion": "",
+      "entrega": 16100.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10300.0
+    },
+    {
+      "nombre": "Mate listo Stanley",
+      "precio": 27000.0,
+      "categoria": "Termos y Mates",
+      "imagen_url": "imgs/Mate listo Stanley.jpeg",
+      "descripcion": "Incluye bombilla extra y tapa de termo",
+      "entrega": 9000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Termo y mate Stanley 1lt",
+      "precio": 42000.0,
+      "categoria": "Termos y Mates",
+      "imagen_url": "imgs/Termo y mate Stanley 1LT.jpeg",
+      "descripcion": "",
+      "entrega": 14400.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9200.0
     }
   ]
 }
