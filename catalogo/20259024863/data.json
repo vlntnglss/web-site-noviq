@@ -2,13 +2,13 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "25/07/2026 18:40",
-  "total_productos": 263,
+  "actualizado": "25/07/2026 19:17",
+  "total_productos": 264,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
       "precio": 4000.0,
-      "categoria": "",
+      "categoria": "Audio",
       "imagen_url": "imgs/Auricular samsung cable.jpeg",
       "descripcion": "",
       "entrega": 4000.0,
@@ -18,7 +18,7 @@
     {
       "nombre": "Soporte tv Movil",
       "precio": 20000.0,
-      "categoria": "",
+      "categoria": "TV",
       "imagen_url": "imgs/Soporte TV movil.jpeg",
       "descripcion": "",
       "entrega": 9000.0,
@@ -2634,6 +2634,16 @@
       "entrega": 14400.0,
       "cant_cuotas": 3,
       "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Set pava electrica Inovaa",
+      "precio": 41000.0,
+      "categoria": "",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9000.0
     }
   ]
 }
