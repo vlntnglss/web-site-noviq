@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "25/07/2026 19:17",
-  "total_productos": 264,
+  "actualizado": "28/07/2026 19:05",
+  "total_productos": 259,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -48,8 +48,8 @@
     {
       "nombre": "Cable USB-Tipo C",
       "precio": 2800.0,
-      "categoria": "A2-Celulares Otros",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Cable usb tipo c.jpeg",
       "descripcion": "",
       "entrega": 2800.0,
       "cant_cuotas": 0,
@@ -98,8 +98,8 @@
     {
       "nombre": "Ventilador 3 en 1 18",
       "precio": 70000.0,
-      "categoria": "B7-Climatización",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Ventilador 3 en 1 118.jpeg",
       "descripcion": "",
       "entrega": 24000.0,
       "cant_cuotas": 5,
@@ -218,8 +218,8 @@
     {
       "nombre": "Almohada Anatomica",
       "precio": 42000.0,
-      "categoria": "E9-Almohadas",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Almohada anatomica.jpeg",
       "descripcion": "",
       "entrega": 14400.0,
       "cant_cuotas": 3,
@@ -228,8 +228,8 @@
     {
       "nombre": "Almohada Viscoelastica Recta",
       "precio": 42000.0,
-      "categoria": "E9-Almohadas",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Almohada viscoelastica recta.jpeg",
       "descripcion": "",
       "entrega": 14400.0,
       "cant_cuotas": 3,
@@ -238,8 +238,8 @@
     {
       "nombre": "Cortina Black out textil",
       "precio": 50000.0,
-      "categoria": "F2-Cortinas",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Cortina black out textil.jpeg",
       "descripcion": "",
       "entrega": 17000.0,
       "cant_cuotas": 3,
@@ -249,7 +249,7 @@
       "nombre": "Cortina baño impresa",
       "precio": 18000.0,
       "categoria": "",
-      "imagen_url": "",
+      "imagen_url": "imgs/Cortina baño impresa.jpeg",
       "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 1,
@@ -299,7 +299,7 @@
       "nombre": "Sabana Brodery 2p",
       "precio": 45000.0,
       "categoria": "Blanqueria",
-      "imagen_url": "",
+      "imagen_url": "imgs/Sabana brodery 2p.jpeg",
       "descripcion": "",
       "entrega": 15300.0,
       "cant_cuotas": 3,
@@ -308,8 +308,8 @@
     {
       "nombre": "Sabana 2p Danubio",
       "precio": 65000.0,
-      "categoria": "E6-Sabanas 2  p",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Sabana Danubio 2p.jpeg",
       "descripcion": "",
       "entrega": 22200.0,
       "cant_cuotas": 4,
@@ -328,8 +328,8 @@
     {
       "nombre": "Toallon Arciel Liviano",
       "precio": 20000.0,
-      "categoria": "F5-Toallones y Toallas",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/toallon arciel liviano.jpeg",
       "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 1,
@@ -356,10 +356,10 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Toallon Valente Pesado",
+      "nombre": "Toalla y Toallon Valente Pesado",
       "precio": 36000.0,
-      "categoria": "F5-Toallones y Toallas",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Toallon valente pesado.jpeg",
       "descripcion": "",
       "entrega": 12200.0,
       "cant_cuotas": 2,
@@ -378,8 +378,8 @@
     {
       "nombre": "Autoestereo frente desmotable",
       "precio": 38000.0,
-      "categoria": "A8-Audio para Vehículos",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Autoestereo frente desmontable.jpeg",
       "descripcion": "",
       "entrega": 12800.0,
       "cant_cuotas": 2,
@@ -718,7 +718,7 @@
     {
       "nombre": "Linterna tactica recagable P50",
       "precio": 22000.0,
-      "categoria": "A9-Electronica Otros",
+      "categoria": "",
       "imagen_url": "imgs/Linterna tactica.jpg",
       "descripcion": "",
       "entrega": 9000.0,
@@ -946,16 +946,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Botella de vidrio con funda Water",
-      "precio": 9000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/Botella de vidrio con funda.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Adaptador Bluetooth",
       "precio": 5000.0,
       "categoria": "A9-Electronica Otros",
@@ -1118,8 +1108,8 @@
     {
       "nombre": "Cremera porcelana 80cc",
       "precio": 6000.0,
-      "categoria": "D8-Vajilla y Artículos de Servir",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Cremera de porcelana.jpeg",
       "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
@@ -1856,16 +1846,6 @@
       "monto_cuota": 12200.0
     },
     {
-      "nombre": "Carpa Domo hexagonal 5 personas 2,70x2,30x1,60",
-      "precio": 185000.0,
-      "categoria": "C8-Jardin y Camping Otros",
-      "imagen_url": "imgs/Carpa Domo hexagonal 4P.jpeg",
-      "descripcion": "",
-      "entrega": 62800.0,
-      "cant_cuotas": 13,
-      "monto_cuota": 9400.0
-    },
-    {
       "nombre": "Carpa autoarmable 6 personas 2,50x2,50x165m",
       "precio": 130000.0,
       "categoria": "C8-Jardin y Camping Otros",
@@ -1958,22 +1938,12 @@
     {
       "nombre": "Linterna busca huella OM",
       "precio": 28000.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "",
+      "categoria": "",
+      "imagen_url": "imgs/Linterna busca huella om.jpeg",
       "descripcion": "",
       "entrega": 9600.0,
       "cant_cuotas": 2,
       "monto_cuota": 9200.0
-    },
-    {
-      "nombre": "Alargue hexagonal colores",
-      "precio": 12000.0,
-      "categoria": "C3-Herramientas Otros",
-      "imagen_url": "",
-      "descripcion": "",
-      "entrega": 12000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Juguera Electrica Winco W329",
@@ -2356,16 +2326,6 @@
       "monto_cuota": 35500.0
     },
     {
-      "nombre": "Celular Realme C75X ",
-      "precio": 430000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Realme C75 256gb.jpg",
-      "descripcion": "256GB 8gbRAM",
-      "entrega": 146800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 17700.0
-    },
-    {
       "nombre": "Arrancador de auto",
       "precio": 100000.0,
       "categoria": "",
@@ -2486,16 +2446,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Celular moto g9 Outlet",
-      "precio": 70000.0,
-      "categoria": "Celulares",
-      "imagen_url": "",
-      "descripcion": "Usado",
-      "entrega": 70000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Taladro rotopercutor Oryx",
       "precio": 128000.0,
       "categoria": "Herramientas",
@@ -2586,16 +2536,6 @@
       "monto_cuota": 8500.0
     },
     {
-      "nombre": "Set pava electrica Inova ",
-      "precio": 41000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Set Pava electrica c accesorios.jpeg",
-      "descripcion": "Incluye yerbero y mate de aluminio",
-      "entrega": 14000.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9000.0
-    },
-    {
       "nombre": "Jarra electrica Inova",
       "precio": 30000.0,
       "categoria": "Cocina y Bazar",
@@ -2638,12 +2578,22 @@
     {
       "nombre": "Set pava electrica Inovaa",
       "precio": 41000.0,
-      "categoria": "",
-      "imagen_url": "",
-      "descripcion": "",
+      "categoria": "Termos y Mates",
+      "imagen_url": "imgs/Set Pava electrica c accesorios.jpeg",
+      "descripcion": "Incluye yerbero y mate",
       "entrega": 14000.0,
       "cant_cuotas": 3,
       "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Soldadora bta",
+      "precio": 125000.0,
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Soldadora bta.jpeg",
+      "descripcion": "",
+      "entrega": 42200.0,
+      "cant_cuotas": 9,
+      "monto_cuota": 9200.0
     }
   ]
 }
