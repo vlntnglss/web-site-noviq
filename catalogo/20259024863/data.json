@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "10/08/2026 21:38",
-  "total_productos": 263,
+  "actualizado": "11/08/2026 19:47",
+  "total_productos": 262,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -2087,13 +2087,13 @@
     },
     {
       "nombre": "Set de utensilios Suka",
-      "precio": 26000.0,
-      "categoria": "D6-Utensilios de Preparación",
+      "precio": 22000.0,
+      "categoria": "",
       "imagen_url": "imgs/Set de utensilios Suka.jpg",
       "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 17000.0
+      "monto_cuota": 13000.0
     },
     {
       "nombre": "Licuadora de mano Vitta",
@@ -2374,16 +2374,6 @@
       "entrega": 16000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Taladro rotopercutor Oryx",
-      "precio": 128000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Taladro Rotopercutor Oryx.jpeg",
-      "descripcion": "",
-      "entrega": 43400.0,
-      "cant_cuotas": 9,
-      "monto_cuota": 9400.0
     },
     {
       "nombre": "Organizadores de vidrio y bambu x3",
