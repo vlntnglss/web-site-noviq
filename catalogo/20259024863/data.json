@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "30/07/2026 17:46",
-  "total_productos": 275,
+  "actualizado": "10/08/2026 21:38",
+  "total_productos": 263,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -132,16 +132,6 @@
       "imagen_url": "imgs/Imagen de WhatsApp 2024-02-08 a las 11.38.03_c7277340.jpg",
       "descripcion": "",
       "entrega": 11000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "canasto de ropa con tapa",
-      "precio": 12000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/descarga.jpeg",
-      "descripcion": "",
-      "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -356,16 +346,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Toalla y Toallon Valente Pesado",
-      "precio": 36000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Toallon valente pesado.jpeg",
-      "descripcion": "",
-      "entrega": 12200.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11900.0
-    },
-    {
       "nombre": "Ventilador 10 Pulgadas",
       "precio": 50000.0,
       "categoria": "B7-Climatización",
@@ -576,16 +556,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Porta mate para auto",
-      "precio": 8000.0,
-      "categoria": "D2-Equipos de Mate",
-      "imagen_url": "imgs/Portamate para auto.jpg",
-      "descripcion": "",
-      "entrega": 8000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Tazon ceramica Tokio",
       "precio": 6000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
@@ -726,26 +696,6 @@
       "monto_cuota": 13000.0
     },
     {
-      "nombre": "Botella Termica stanley 890ml",
-      "precio": 19500.0,
-      "categoria": "C9-Termos",
-      "imagen_url": "imgs/Botella Termica 650ml.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 10500.0
-    },
-    {
-      "nombre": "Humificador simil madera",
-      "precio": 14000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Humidificadores.jpg",
-      "descripcion": "",
-      "entrega": 14000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Cubrecama con funda alcoyana 2p",
       "precio": 55000.0,
       "categoria": "E8-Acolchados y Mantas",
@@ -868,7 +818,7 @@
     {
       "nombre": "Mini cesto con tapa",
       "precio": 4500.0,
-      "categoria": "E1-Cocina y Bazar Otros",
+      "categoria": "",
       "imagen_url": "imgs/Mini cesto con tapa.jpg",
       "descripcion": "",
       "entrega": 4500.0,
@@ -1046,6 +996,16 @@
       "monto_cuota": 11000.0
     },
     {
+      "nombre": "Tender Vertical tres pisos",
+      "precio": 44000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Tender vertical.jpg",
+      "descripcion": "",
+      "entrega": 14900.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9700.0
+    },
+    {
       "nombre": "Cable RCA AV-plug",
       "precio": 2500.0,
       "categoria": "A9-Electronica Otros",
@@ -1208,7 +1168,7 @@
     {
       "nombre": "Set de herramientas 189 piezas",
       "precio": 87000.0,
-      "categoria": "C1-Herramientas Manuales",
+      "categoria": "Herramientas",
       "imagen_url": "imgs/Set de herramientas 189 piezas.jpeg",
       "descripcion": "",
       "entrega": 29400.0,
@@ -1326,6 +1286,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "juego de llaves Alpina 108 pcz",
+      "precio": 90000.0,
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Caja de Herramientas 108 pcz.jpg",
+      "descripcion": "",
+      "entrega": 30600.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 9900.0
+    },
+    {
       "nombre": "Set de herramientas Alpina 46pcz",
       "precio": 24000.0,
       "categoria": "C1-Herramientas Manuales",
@@ -1344,16 +1314,6 @@
       "entrega": 210400.0,
       "cant_cuotas": 16,
       "monto_cuota": 25600.0
-    },
-    {
-      "nombre": "Inflador portatil ",
-      "precio": 53000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Inflador portatil.jpeg",
-      "descripcion": "",
-      "entrega": 17900.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11700.0
     },
     {
       "nombre": "Bolso Termico rayado",
@@ -1716,16 +1676,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Moto G05",
-      "precio": 345000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Moto G05.jpeg",
-      "descripcion": "",
-      "entrega": 117800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 14200.0
-    },
-    {
       "nombre": "Licuadora RAF",
       "precio": 70000.0,
       "categoria": "B5-Electrodomesticos Cocina",
@@ -1926,16 +1876,6 @@
       "monto_cuota": 11900.0
     },
     {
-      "nombre": "Samsung A07",
-      "precio": 380000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Samsung A07.jpeg",
-      "descripcion": "",
-      "entrega": 128800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 15700.0
-    },
-    {
       "nombre": "Reposera plegable niños",
       "precio": 25000.0,
       "categoria": "C4-Sillones de exterior",
@@ -1977,13 +1917,13 @@
     },
     {
       "nombre": "TV Box Onn",
-      "precio": 50000.0,
+      "precio": 55000.0,
       "categoria": "TV",
       "imagen_url": "",
       "descripcion": "",
-      "entrega": 17000.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11000.0
+      "entrega": 18600.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9100.0
     },
     {
       "nombre": "Linterna busca huella OM",
@@ -2146,26 +2086,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Tostadora Microsonic",
-      "precio": 43000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Tostadora Microsonic.jpg",
-      "descripcion": "",
-      "entrega": 14500.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9500.0
-    },
-    {
-      "nombre": "Bateria de cocina Jovifel X3",
-      "precio": 78000.0,
-      "categoria": "D4-Ollas",
-      "imagen_url": "imgs/Bateria Jovifel.jpg",
-      "descripcion": "",
-      "entrega": 26500.0,
-      "cant_cuotas": 5,
-      "monto_cuota": 10300.0
-    },
-    {
       "nombre": "Set de utensilios Suka",
       "precio": 26000.0,
       "categoria": "D6-Utensilios de Preparación",
@@ -2184,16 +2104,6 @@
       "entrega": 13400.0,
       "cant_cuotas": 2,
       "monto_cuota": 12800.0
-    },
-    {
-      "nombre": "Termoconvector Winco w182",
-      "precio": 105000.0,
-      "categoria": "B7-Climatización",
-      "imagen_url": "imgs/convector winco w182.jpg",
-      "descripcion": "",
-      "entrega": 35700.0,
-      "cant_cuotas": 7,
-      "monto_cuota": 9900.0
     },
     {
       "nombre": "Desarrugador por vapor Winco w2008",
@@ -2234,16 +2144,6 @@
       "entrega": 10800.0,
       "cant_cuotas": 2,
       "monto_cuota": 10600.0
-    },
-    {
-      "nombre": "Teclado con mouse",
-      "precio": 18000.0,
-      "categoria": "A6-Computación",
-      "imagen_url": "imgs/Teclado con mouse.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 9000.0
     },
     {
       "nombre": "Cortina Tussor",
@@ -2400,16 +2300,6 @@
       "precio": 38000.0,
       "categoria": "F5-Toallones y Toallas",
       "imagen_url": "imgs/Juego de toalla y toallon Danubio 600g.jpg",
-      "descripcion": "",
-      "entrega": 12800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12600.0
-    },
-    {
-      "nombre": "Cortapelo Daling DL 1903",
-      "precio": 38000.0,
-      "categoria": "B4-Cuidado Personal Hombre",
-      "imagen_url": "imgs/Cortapelo Daling DL1903.jpg",
       "descripcion": "",
       "entrega": 12800.0,
       "cant_cuotas": 2,
@@ -2616,26 +2506,6 @@
       "monto_cuota": 9200.0
     },
     {
-      "nombre": "Set pava electrica Inovaa",
-      "precio": 41000.0,
-      "categoria": "Termos y Mates",
-      "imagen_url": "imgs/Set Pava electrica c accesorios.jpeg",
-      "descripcion": "Incluye yerbero y mate",
-      "entrega": 14000.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9000.0
-    },
-    {
-      "nombre": "Soldadora bta",
-      "precio": 125000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Soldadora bta.jpeg",
-      "descripcion": "",
-      "entrega": 42200.0,
-      "cant_cuotas": 9,
-      "monto_cuota": 9200.0
-    },
-    {
       "nombre": "Hidrolavadora Fierce",
       "precio": 119000.0,
       "categoria": "Herramientas",
@@ -2754,6 +2624,16 @@
       "entrega": 4500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Inflador portatil Oryx",
+      "precio": 53000.0,
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Inflador portatil.jpeg",
+      "descripcion": "",
+      "entrega": 17900.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11700.0
     }
   ]
 }
