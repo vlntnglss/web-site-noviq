@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "11/08/2026 19:47",
-  "total_productos": 262,
+  "actualizado": "12/08/2026 22:55",
+  "total_productos": 285,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -94,6 +94,26 @@
       "entrega": 24000.0,
       "cant_cuotas": 5,
       "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Batidora Winco w305",
+      "precio": 65000.0,
+      "categoria": "Electrodomesticos",
+      "imagen_url": "imgs/Batidora de mano Winco w305.jpeg",
+      "descripcion": "",
+      "entrega": 22200.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 10700.0
+    },
+    {
+      "nombre": "Multiprocesadora W1819",
+      "precio": 138000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Multiprocesadora Winco w1819.jpeg",
+      "descripcion": "",
+      "entrega": 47000.0,
+      "cant_cuotas": 10,
+      "monto_cuota": 9100.0
     },
     {
       "nombre": "Ventilador 3 en 1 18",
@@ -486,16 +506,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Redmi 13",
-      "precio": 405000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Redmi 13c.jpg",
-      "descripcion": "256 gb",
-      "entrega": 137800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 16700.0
-    },
-    {
       "nombre": "Mini cargador",
       "precio": 2000.0,
       "categoria": "A9-Electronica Otros",
@@ -544,6 +554,16 @@
       "entrega": 10000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Secaplatos 2 pisos simil ratan",
+      "precio": 24000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Secaplatos dos pisos.jpg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 15000.0
     },
     {
       "nombre": "Caja Forrada de 3 Divisiones",
@@ -656,6 +676,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Batidora de mano con bowl Winco W303",
+      "precio": 95000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Batidora con Bowl Winco.jpg",
+      "descripcion": "",
+      "entrega": 32600.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 10400.0
+    },
+    {
       "nombre": "Plancha a vapor Winco W34",
       "precio": 64000.0,
       "categoria": "B6-Electrodomesticos Hogar",
@@ -674,6 +704,16 @@
       "entrega": 17800.0,
       "cant_cuotas": 3,
       "monto_cuota": 11400.0
+    },
+    {
+      "nombre": "Secador de pelo Winco w190",
+      "precio": 40000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Secador de pelo w190.jpg",
+      "descripcion": "",
+      "entrega": 13600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 13200.0
     },
     {
       "nombre": "Tarjeta de Memoria 64GB",
@@ -746,14 +786,34 @@
       "monto_cuota": 9500.0
     },
     {
+      "nombre": "Recortador de barba W816",
+      "precio": 38000.0,
+      "categoria": "cuidado personal Hombre",
+      "imagen_url": "imgs/Recortador de barba W816.jpg",
+      "descripcion": "",
+      "entrega": 12800.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12600.0
+    },
+    {
       "nombre": "Cortapelo Winco W821",
       "precio": 38000.0,
-      "categoria": "B3-Cuidado Personal Unisex",
+      "categoria": "cuidado personal Hombre",
       "imagen_url": "imgs/Cortapelo Winco W821.jpg",
       "descripcion": "",
       "entrega": 12800.0,
       "cant_cuotas": 2,
       "monto_cuota": 12600.0
+    },
+    {
+      "nombre": "Cortapelo Afeitador W826",
+      "precio": 29000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Cortapelo Afeitador W826.jpg",
+      "descripcion": "",
+      "entrega": 9800.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9600.0
     },
     {
       "nombre": "Mate acero stanley",
@@ -1046,6 +1106,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Termo Hudson 1L",
+      "precio": 58000.0,
+      "categoria": "Termos y Mates",
+      "imagen_url": "imgs/Termo Hudson 1L .jpg",
+      "descripcion": "",
+      "entrega": 19600.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9600.0
+    },
+    {
       "nombre": "Termo Hudson 500cc",
       "precio": 40000.0,
       "categoria": "C9-Termos",
@@ -1054,6 +1124,26 @@
       "entrega": 13600.0,
       "cant_cuotas": 2,
       "monto_cuota": 13200.0
+    },
+    {
+      "nombre": "Pava Matera Color Hudson",
+      "precio": 34000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Pava Matera.jpg",
+      "descripcion": "",
+      "entrega": 11600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 11200.0
+    },
+    {
+      "nombre": "Pava Silvadora Hudson",
+      "precio": 27000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Pava silvadora Hudson.jpg",
+      "descripcion": "",
+      "entrega": 9200.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 17800.0
     },
     {
       "nombre": "Mate de aluminio color",
@@ -1174,6 +1264,16 @@
       "entrega": 29400.0,
       "cant_cuotas": 6,
       "monto_cuota": 9600.0
+    },
+    {
+      "nombre": "Cafetera Winco w1932 12 Tazas",
+      "precio": 56000.0,
+      "categoria": "Desayuno",
+      "imagen_url": "imgs/Cafetera de filtro 12 tazas Winco w1932.jpg",
+      "descripcion": "",
+      "entrega": 19200.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9200.0
     },
     {
       "nombre": "Mate stanley Pastel",
@@ -1352,6 +1452,16 @@
       "imagen_url": "imgs/Mate metamate.jpeg",
       "descripcion": "",
       "entrega": 3000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Bombilla de acero",
+      "precio": 6000.0,
+      "categoria": "Termos y Mates",
+      "imagen_url": "imgs/Bombillas de acero.jpeg",
+      "descripcion": "",
+      "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -1766,16 +1876,6 @@
       "monto_cuota": 11000.0
     },
     {
-      "nombre": "Moto G06",
-      "precio": 360000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Moto G06.jpg",
-      "descripcion": "4/126 gb",
-      "entrega": 123200.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 14800.0
-    },
-    {
       "nombre": "Sabana Cacharel Vainilla 1p",
       "precio": 35000.0,
       "categoria": "E7-Sabanas 1  p",
@@ -1906,6 +2006,16 @@
       "monto_cuota": 9100.0
     },
     {
+      "nombre": "Taladro Inalambrico Winco 10mm",
+      "precio": 60000.0,
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Taladro Inalambrico 10Mm Winco.jpeg",
+      "descripcion": "",
+      "entrega": 20400.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9900.0
+    },
+    {
       "nombre": "Plancha Seca Winco w33",
       "precio": 45000.0,
       "categoria": "B6-Electrodomesticos Hogar",
@@ -1914,6 +2024,16 @@
       "entrega": 15300.0,
       "cant_cuotas": 3,
       "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Cortapelo Inalambrica Winco w829",
+      "precio": 42000.0,
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/Cortapelo Inalambrica Winco W829.jpeg",
+      "descripcion": "",
+      "entrega": 14400.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9200.0
     },
     {
       "nombre": "TV Box Onn",
@@ -1934,6 +2054,16 @@
       "entrega": 9600.0,
       "cant_cuotas": 2,
       "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Afeitadora profesional Winco W830",
+      "precio": 54000.0,
+      "categoria": "cuidado personal Hombre",
+      "imagen_url": "imgs/afeitadora Profesional winco w830.jpeg",
+      "descripcion": "",
+      "entrega": 18300.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11900.0
     },
     {
       "nombre": "Juguera Electrica Winco W329",
@@ -2624,6 +2754,106 @@
       "entrega": 17900.0,
       "cant_cuotas": 3,
       "monto_cuota": 11700.0
+    },
+    {
+      "nombre": "Cafetera Winco W1931",
+      "precio": 41000.0,
+      "categoria": "Desayuno",
+      "imagen_url": "imgs/Cafetera Winco W1931.jpeg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Cafetera Programable w1935",
+      "precio": 91000.0,
+      "categoria": "Desayuno",
+      "imagen_url": "imgs/Cafetera Programable W1935.jpeg",
+      "descripcion": "Con pantalla digital",
+      "entrega": 31000.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Licuadora Winco w1803",
+      "precio": 75000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Licuadora Winco w1803.jpeg",
+      "descripcion": "Con Jarra de vidrio",
+      "entrega": 25500.0,
+      "cant_cuotas": 5,
+      "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Licuadora Winco w1802",
+      "precio": 71000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Licuadora Winco w1802.jpeg",
+      "descripcion": "con jarra de plastico",
+      "entrega": 24000.0,
+      "cant_cuotas": 5,
+      "monto_cuota": 9400.0
+    },
+    {
+      "nombre": "Depiladora Winco w2840",
+      "precio": 29000.0,
+      "categoria": "Cuidado personal mujer",
+      "imagen_url": "imgs/Depiladora Winco w2840.jpeg",
+      "descripcion": "",
+      "entrega": 9800.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9600.0
+    },
+    {
+      "nombre": "Batidora de mano con bowl Winco w313",
+      "precio": 73000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Batidora con Bowl Winco w313.jpeg",
+      "descripcion": "",
+      "entrega": 25000.0,
+      "cant_cuotas": 5,
+      "monto_cuota": 9600.0
+    },
+    {
+      "nombre": "Batidora de mano Winco w312",
+      "precio": 50000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Batidora de mano Winco w312.jpeg",
+      "descripcion": "",
+      "entrega": 17000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11000.0
+    },
+    {
+      "nombre": "Tocadisco Winco w410",
+      "precio": 225000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Tocadiscos Winco w410.jpeg",
+      "descripcion": "con parlantes",
+      "entrega": 76200.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 9300.0
+    },
+    {
+      "nombre": "Aspiradora Winco w1530",
+      "precio": 113000.0,
+      "categoria": "Electrodomesticos Hogar",
+      "imagen_url": "imgs/Aspiradora winco w1530.jpeg",
+      "descripcion": "10 Litros",
+      "entrega": 38600.0,
+      "cant_cuotas": 8,
+      "monto_cuota": 9300.0
+    },
+    {
+      "nombre": "Jarra electrica Winco w1704",
+      "precio": 28000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Jarra Electrica Winco w1704.jpeg",
+      "descripcion": "",
+      "entrega": 9600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9200.0
     }
   ]
 }
