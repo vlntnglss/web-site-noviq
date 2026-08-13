@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "12/08/2026 22:55",
-  "total_productos": 285,
+  "actualizado": "12/08/2026 23:16",
+  "total_productos": 281,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -359,7 +359,7 @@
       "nombre": "Balanza Cocina 10kg",
       "precio": 10000.0,
       "categoria": "Cocina y Bazar",
-      "imagen_url": "",
+      "imagen_url": "imgs/Balanza de cocina 10kg.jpeg",
       "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 0,
@@ -427,11 +427,11 @@
     },
     {
       "nombre": "Adaptador Universal",
-      "precio": 10000.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "",
+      "precio": 15000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Adaptador universal.jpeg",
       "descripcion": "",
-      "entrega": 10000.0,
+      "entrega": 15000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -512,16 +512,6 @@
       "imagen_url": "imgs/cargador cubo.jpg",
       "descripcion": "",
       "entrega": 2000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Taza ceramica Animalitos",
-      "precio": 6500.0,
-      "categoria": "D8-Vajilla y Artículos de Servir",
-      "imagen_url": "imgs/Taza deco animalito.jpg",
-      "descripcion": "",
-      "entrega": 6500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -618,7 +608,7 @@
     {
       "nombre": "Tender con alas y soga",
       "precio": 35000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
+      "categoria": "",
       "imagen_url": "imgs/Tender con soga.jpg",
       "descripcion": "",
       "entrega": 11800.0,
@@ -1936,16 +1926,6 @@
       "monto_cuota": 9500.0
     },
     {
-      "nombre": "Radio AM FM Meier",
-      "precio": 43000.0,
-      "categoria": "A5-Parlantes",
-      "imagen_url": "imgs/Radio am fm meier.jpeg",
-      "descripcion": "",
-      "entrega": 14500.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9500.0
-    },
-    {
       "nombre": "Anafe de camping",
       "precio": 16000.0,
       "categoria": "C8-Jardin y Camping Otros",
@@ -2039,7 +2019,7 @@
       "nombre": "TV Box Onn",
       "precio": 55000.0,
       "categoria": "TV",
-      "imagen_url": "",
+      "imagen_url": "imgs/Tv bo onn.jpeg",
       "descripcion": "",
       "entrega": 18600.0,
       "cant_cuotas": 4,
@@ -2234,16 +2214,6 @@
       "entrega": 13400.0,
       "cant_cuotas": 2,
       "monto_cuota": 12800.0
-    },
-    {
-      "nombre": "Desarrugador por vapor Winco w2008",
-      "precio": 64000.0,
-      "categoria": "B6-Electrodomesticos Hogar",
-      "imagen_url": "imgs/Desarrugador por vapor winco w2008.jpg",
-      "descripcion": "",
-      "entrega": 21600.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10600.0
     },
     {
       "nombre": "Mate imperial cuero labrado",
@@ -2444,16 +2414,6 @@
       "entrega": 80600.0,
       "cant_cuotas": 16,
       "monto_cuota": 9900.0
-    },
-    {
-      "nombre": "TV box OM",
-      "precio": 55000.0,
-      "categoria": "A7-Televisores",
-      "imagen_url": "imgs/Tv Box OM.jpg",
-      "descripcion": "",
-      "entrega": 18600.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 9100.0
     },
     {
       "nombre": "Auricular Time JS25",
