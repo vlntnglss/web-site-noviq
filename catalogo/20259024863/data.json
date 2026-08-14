@@ -2,7 +2,7 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "12/08/2026 23:19",
+  "actualizado": "14/08/2026 17:25",
   "total_productos": 281,
   "productos": [
     {
@@ -127,13 +127,13 @@
     },
     {
       "nombre": "Mate Criollo",
-      "precio": 22000.0,
+      "precio": 25000.0,
       "categoria": "Termos y Mates",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-06-05 a las 19.04.40_97d7df82.jpg",
       "descripcion": "",
       "entrega": 9000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 13000.0
+      "monto_cuota": 16000.0
     },
     {
       "nombre": "Mate de Vidrio revestido",
@@ -556,16 +556,6 @@
       "monto_cuota": 15000.0
     },
     {
-      "nombre": "Caja Forrada de 3 Divisiones",
-      "precio": 11000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/Caja Forrada X3 divisiones.jpg",
-      "descripcion": "",
-      "entrega": 11000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Tazon ceramica Tokio",
       "precio": 6000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
@@ -726,6 +716,16 @@
       "monto_cuota": 13000.0
     },
     {
+      "nombre": "Microfono Karaoke",
+      "precio": 14000.0,
+      "categoria": "Niños",
+      "imagen_url": "imgs/Microfono Karaoke.jpg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
       "nombre": "Cubrecama con funda alcoyana 2p",
       "precio": 55000.0,
       "categoria": "E8-Acolchados y Mantas",
@@ -734,6 +734,16 @@
       "entrega": 18600.0,
       "cant_cuotas": 4,
       "monto_cuota": 9100.0
+    },
+    {
+      "nombre": "Tecno Spark Go1",
+      "precio": 270000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Tecno spark go 1.jpg",
+      "descripcion": "64gb 6gb RAM",
+      "entrega": 92400.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 11100.0
     },
     {
       "nombre": "matero palma",
@@ -1396,16 +1406,6 @@
       "monto_cuota": 15000.0
     },
     {
-      "nombre": "Smart TV 43 Enova",
-      "precio": 620000.0,
-      "categoria": "A7-Televisores",
-      "imagen_url": "imgs/Smart tv 43 enova.jpg",
-      "descripcion": "",
-      "entrega": 210400.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 25600.0
-    },
-    {
       "nombre": "Bolso Termico rayado",
       "precio": 6500.0,
       "categoria": "C5-Conservadoras y Termolares",
@@ -1417,11 +1417,11 @@
     },
     {
       "nombre": "Bolso Termico Liso chico",
-      "precio": 4500.0,
-      "categoria": "C5-Conservadoras y Termolares",
+      "precio": 6500.0,
+      "categoria": "",
       "imagen_url": "imgs/Bolso Termco liso chico.jpg",
       "descripcion": "",
-      "entrega": 4500.0,
+      "entrega": 6500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -1876,6 +1876,16 @@
       "monto_cuota": 11600.0
     },
     {
+      "nombre": "Smartwatch con mallas intercambiables",
+      "precio": 32000.0,
+      "categoria": "SmartWatch",
+      "imagen_url": "imgs/Smartwatch con mallas intercambiables.jpg",
+      "descripcion": "",
+      "entrega": 10800.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10600.0
+    },
+    {
       "nombre": "Pileta inflable tropical 3,5m x0,70m 4900L",
       "precio": 230000.0,
       "categoria": "C8-Jardin y Camping Otros",
@@ -1954,6 +1964,16 @@
       "entrega": 12200.0,
       "cant_cuotas": 2,
       "monto_cuota": 11900.0
+    },
+    {
+      "nombre": "Samsung A07",
+      "precio": 380000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Samsung A07.jpeg",
+      "descripcion": "",
+      "entrega": 128800.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 15700.0
     },
     {
       "nombre": "Reposera plegable niños",
@@ -2156,6 +2176,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Redmi A7 Pro",
+      "precio": 340000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Redmi A7 pro.jpg",
+      "descripcion": "64 GB",
+      "entrega": 116000.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 14000.0
+    },
+    {
       "nombre": "Juego de cubiertos Carol 24 p",
       "precio": 40000.0,
       "categoria": "D7-Cubiertos",
@@ -2306,16 +2336,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Pelota de futbol mundial 2026",
-      "precio": 19000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Pelota de futbol Mundia 2026.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Gazebo sin paredes",
       "precio": 160000.0,
       "categoria": "C8-Jardin y Camping Otros",
@@ -2354,16 +2374,6 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Smart TV 50 Telefunken",
-      "precio": 860000.0,
-      "categoria": "A7-Televisores",
-      "imagen_url": "imgs/Smart TV 50 Telefunken.jpg",
-      "descripcion": "",
-      "entrega": 292000.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 35500.0
     },
     {
       "nombre": "Arrancador de auto",
@@ -2414,16 +2424,6 @@
       "entrega": 80600.0,
       "cant_cuotas": 16,
       "monto_cuota": 9900.0
-    },
-    {
-      "nombre": "Auricular Time JS25",
-      "precio": 17000.0,
-      "categoria": "A3-Auriculares",
-      "imagen_url": "imgs/Auricular Time JS25.jpg",
-      "descripcion": "",
-      "entrega": 17000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Auricular Time JS 370",
@@ -2554,16 +2554,6 @@
       "entrega": 10200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9900.0
-    },
-    {
-      "nombre": "Termo y mate Contigo 1,2lt",
-      "precio": 47000.0,
-      "categoria": "Termos y Mates",
-      "imagen_url": "imgs/Termo y mate Contigo.jpeg",
-      "descripcion": "",
-      "entrega": 16100.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 10300.0
     },
     {
       "nombre": "Mate listo Stanley",
@@ -2786,16 +2776,6 @@
       "monto_cuota": 11000.0
     },
     {
-      "nombre": "Tocadisco Winco w410",
-      "precio": 225000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Tocadiscos Winco w410.jpeg",
-      "descripcion": "con parlantes",
-      "entrega": 76200.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 9300.0
-    },
-    {
       "nombre": "Aspiradora Winco w1530",
       "precio": 113000.0,
       "categoria": "Electrodomesticos Hogar",
@@ -2814,6 +2794,26 @@
       "entrega": 9600.0,
       "cant_cuotas": 2,
       "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Auricular capibara con cartera",
+      "precio": 14000.0,
+      "categoria": "Niños",
+      "imagen_url": "imgs/Auricular capibara con cartera.jpeg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Pistola burbujero",
+      "precio": 15000.0,
+      "categoria": "Niños",
+      "imagen_url": "imgs/Pistola burbujero.jpeg",
+      "descripcion": "",
+      "entrega": 15000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     }
   ]
 }
