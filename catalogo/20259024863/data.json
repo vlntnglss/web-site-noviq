@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "14/08/2026 17:25",
-  "total_productos": 281,
+  "actualizado": "18/08/2026 18:24",
+  "total_productos": 275,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -184,16 +184,6 @@
       "entrega": 17000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Monopatin grafitti",
-      "precio": 54000.0,
-      "categoria": "Niños",
-      "imagen_url": "imgs/Monopatin graffitti.jpeg",
-      "descripcion": "",
-      "entrega": 18300.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11900.0
     },
     {
       "nombre": "Velador Estrellas",
@@ -654,16 +644,6 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Batidora de mano con bowl Winco W303",
-      "precio": 95000.0,
-      "categoria": "Electrodomesticos cocina",
-      "imagen_url": "imgs/Batidora con Bowl Winco.jpg",
-      "descripcion": "",
-      "entrega": 32600.0,
-      "cant_cuotas": 6,
-      "monto_cuota": 10400.0
     },
     {
       "nombre": "Plancha a vapor Winco W34",
@@ -1174,16 +1154,6 @@
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Autoestereo BT frente fijo",
-      "precio": 33000.0,
-      "categoria": "A8-Audio para Vehículos",
-      "imagen_url": "imgs/Autoestereo fijo.jpg",
-      "descripcion": "",
-      "entrega": 11200.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10900.0
     },
     {
       "nombre": "Celular IPRO F188",
@@ -2086,16 +2056,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Auricular Moonki sound TWS33",
-      "precio": 17000.0,
-      "categoria": "A3-Auriculares",
-      "imagen_url": "imgs/Auricular Moonki 33.jpg",
-      "descripcion": "",
-      "entrega": 17000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Soporte de auto magnetico Netmak HC22",
       "precio": 11000.0,
       "categoria": "A8-Audio para Vehículos",
@@ -2426,16 +2386,6 @@
       "monto_cuota": 9900.0
     },
     {
-      "nombre": "Auricular Time JS 370",
-      "precio": 20000.0,
-      "categoria": "A3-Auriculares",
-      "imagen_url": "imgs/Auricular Time js 370.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 11000.0
-    },
-    {
       "nombre": "Parlante Big Sound 6.5\"",
       "precio": 70000.0,
       "categoria": "A5-Parlantes",
@@ -2496,16 +2446,6 @@
       "monto_cuota": 7500.0
     },
     {
-      "nombre": "Kit asador madera",
-      "precio": 15000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Kit asador madera.jpeg",
-      "descripcion": "",
-      "entrega": 15000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Parlante party OM",
       "precio": 26000.0,
       "categoria": "Audio",
@@ -2514,16 +2454,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 17000.0
-    },
-    {
-      "nombre": "Parlante x911",
-      "precio": 19000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Parlante x911.jpeg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Kit de higiene Romantic",
@@ -2616,7 +2546,7 @@
       "monto_cuota": 11200.0
     },
     {
-      "nombre": "Auricular Gamer Headset",
+      "nombre": "Auricular JK 607",
       "precio": 16000.0,
       "categoria": "Audio",
       "imagen_url": "imgs/Auricular gamer Headseat.jpeg",
@@ -2814,6 +2744,16 @@
       "entrega": 15000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Alfombra de piel",
+      "precio": 30000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Alfombra de piel.jpeg",
+      "descripcion": "",
+      "entrega": 10200.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9900.0
     }
   ]
 }
