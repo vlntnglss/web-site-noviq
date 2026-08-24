@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "18/08/2026 18:24",
-  "total_productos": 275,
+  "actualizado": "24/08/2026 10:28",
+  "total_productos": 266,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -364,16 +364,6 @@
       "entrega": 17000.0,
       "cant_cuotas": 3,
       "monto_cuota": 11000.0
-    },
-    {
-      "nombre": "Autoestereo frente desmotable",
-      "precio": 38000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Autoestereo frente desmontable.jpeg",
-      "descripcion": "",
-      "entrega": 12800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12600.0
     },
     {
       "nombre": "Pizarra Magica multicolor",
@@ -876,16 +866,6 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Infinix Smart 10",
-      "precio": 366000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Infinix Smart 9.jpg",
-      "descripcion": "",
-      "entrega": 124400.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 15100.0
-    },
-    {
       "nombre": "Cortina de Cocina",
       "precio": 15000.0,
       "categoria": "F2-Cortinas",
@@ -996,16 +976,6 @@
       "monto_cuota": 11000.0
     },
     {
-      "nombre": "Termo Stanley 1,2L pastel",
-      "precio": 34000.0,
-      "categoria": "C9-Termos",
-      "imagen_url": "imgs/Termo Stanley 1,2L pastel.jpg",
-      "descripcion": "",
-      "entrega": 11600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11200.0
-    },
-    {
       "nombre": "Cortapelo Winco W823",
       "precio": 38000.0,
       "categoria": "B4-Cuidado Personal Hombre",
@@ -1114,16 +1084,6 @@
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11200.0
-    },
-    {
-      "nombre": "Pava Silvadora Hudson",
-      "precio": 27000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Pava silvadora Hudson.jpg",
-      "descripcion": "",
-      "entrega": 9200.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 17800.0
     },
     {
       "nombre": "Mate de aluminio color",
@@ -1346,16 +1306,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Mini Alarma",
-      "precio": 15000.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "imgs/Mini Alarma .jpg",
-      "descripcion": "",
-      "entrega": 15000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "juego de llaves Alpina 108 pcz",
       "precio": 90000.0,
       "categoria": "Herramientas",
@@ -1474,16 +1424,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 11000.0
-    },
-    {
-      "nombre": "Depiladora winco w841",
-      "precio": 46000.0,
-      "categoria": "B2-Cuidado Personal Mujer",
-      "imagen_url": "imgs/Depiladora winco w841.jpg",
-      "descripcion": "",
-      "entrega": 15700.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 10100.0
     },
     {
       "nombre": "Cubrecama Deluxe reversible Doral 2 P",
@@ -1934,16 +1874,6 @@
       "entrega": 12200.0,
       "cant_cuotas": 2,
       "monto_cuota": 11900.0
-    },
-    {
-      "nombre": "Samsung A07",
-      "precio": 380000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Samsung A07.jpeg",
-      "descripcion": "",
-      "entrega": 128800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 15700.0
     },
     {
       "nombre": "Reposera plegable niños",
@@ -2526,16 +2456,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Parlantes para auto PERVOI 6 pulgadas",
-      "precio": 56000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/parlante para auto pervoi.jpeg",
-      "descripcion": "",
-      "entrega": 19200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 9200.0
-    },
-    {
       "nombre": "Parlante Big Sound 4x2",
       "precio": 34000.0,
       "categoria": "Audio",
@@ -2704,16 +2624,6 @@
       "entrega": 17000.0,
       "cant_cuotas": 3,
       "monto_cuota": 11000.0
-    },
-    {
-      "nombre": "Aspiradora Winco w1530",
-      "precio": 113000.0,
-      "categoria": "Electrodomesticos Hogar",
-      "imagen_url": "imgs/Aspiradora winco w1530.jpeg",
-      "descripcion": "10 Litros",
-      "entrega": 38600.0,
-      "cant_cuotas": 8,
-      "monto_cuota": 9300.0
     },
     {
       "nombre": "Jarra electrica Winco w1704",
