@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "24/08/2026 10:28",
-  "total_productos": 266,
+  "actualizado": "28/08/2026 18:27",
+  "total_productos": 258,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -44,16 +44,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 13000.0
-    },
-    {
-      "nombre": "Cable USB-Tipo C",
-      "precio": 2800.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Cable usb tipo c.jpeg",
-      "descripcion": "",
-      "entrega": 2800.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Tira de led blanca 5m",
@@ -154,6 +144,16 @@
       "entrega": 11000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Fabrica de pastas 180mm",
+      "precio": 61000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Fabrica de pastas 180mm.jpeg",
+      "descripcion": "",
+      "entrega": 20600.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 10100.0
     },
     {
       "nombre": "Mini Difusor",
@@ -274,16 +274,6 @@
       "entrega": 16200.0,
       "cant_cuotas": 3,
       "monto_cuota": 10600.0
-    },
-    {
-      "nombre": "Edredon con corderito 2P",
-      "precio": 100000.0,
-      "categoria": "E8-Acolchados y Mantas",
-      "imagen_url": "imgs/Edredon con corderito.jpg",
-      "descripcion": "",
-      "entrega": 34200.0,
-      "cant_cuotas": 7,
-      "monto_cuota": 9400.0
     },
     {
       "nombre": "Mantel Ecocuero 2M",
@@ -462,16 +452,6 @@
       "imagen_url": "imgs/Lamparas de papel.jpg",
       "descripcion": "",
       "entrega": 3000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Almohada Siliconada procol",
-      "precio": 12000.0,
-      "categoria": "E9-Almohadas",
-      "imagen_url": "imgs/Imagen de WhatsApp 2024-03-18 a las 12.02.38_175092cf.jpg",
-      "descripcion": "",
-      "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -656,16 +636,6 @@
       "monto_cuota": 11400.0
     },
     {
-      "nombre": "Secador de pelo Winco w190",
-      "precio": 40000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Secador de pelo w190.jpg",
-      "descripcion": "",
-      "entrega": 13600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 13200.0
-    },
-    {
       "nombre": "Tarjeta de Memoria 64GB",
       "precio": 28000.0,
       "categoria": "A2-Celulares Otros",
@@ -744,16 +714,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Parlante Winco W211",
-      "precio": 130000.0,
-      "categoria": "A5-Parlantes",
-      "imagen_url": "imgs/Parlante Winco W211.jpg",
-      "descripcion": "",
-      "entrega": 44500.0,
-      "cant_cuotas": 9,
-      "monto_cuota": 9500.0
     },
     {
       "nombre": "Recortador de barba W816",
@@ -954,16 +914,6 @@
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Soplador Inflador Inalambrico",
-      "precio": 45000.0,
-      "categoria": "B9-Herramientas Electricas",
-      "imagen_url": "imgs/Soplador Limpiador inalambrico.jpg",
-      "descripcion": "",
-      "entrega": 15300.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9900.0
     },
     {
       "nombre": "Vaso termico de cafe",
@@ -1316,16 +1266,6 @@
       "monto_cuota": 9900.0
     },
     {
-      "nombre": "Set de herramientas Alpina 46pcz",
-      "precio": 24000.0,
-      "categoria": "C1-Herramientas Manuales",
-      "imagen_url": "imgs/Set de Herramientas Alpina 46pcz.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 15000.0
-    },
-    {
       "nombre": "Bolso Termico rayado",
       "precio": 6500.0,
       "categoria": "C5-Conservadoras y Termolares",
@@ -1598,7 +1538,7 @@
     {
       "nombre": "Sahumerio Hexagonal",
       "precio": 1000.0,
-      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "categoria": "",
       "imagen_url": "imgs/Sahumerio Hexagonal.jpeg",
       "descripcion": "",
       "entrega": 1000.0,
@@ -2186,16 +2126,6 @@
       "monto_cuota": 9900.0
     },
     {
-      "nombre": "Cargador Samsumg 45W",
-      "precio": 8000.0,
-      "categoria": "A2-Celulares Otros",
-      "imagen_url": "imgs/Cargador samsung 45w.jpg",
-      "descripcion": "",
-      "entrega": 8000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Cortador manual de verduras",
       "precio": 11000.0,
       "categoria": "E1-Cocina y Bazar Otros",
@@ -2396,16 +2326,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Planchita Nano Titanium",
-      "precio": 26000.0,
-      "categoria": "Cuidado Personal",
-      "imagen_url": "imgs/Planchita de Nanotitanio.jpeg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 8500.0
-    },
-    {
       "nombre": "Jarra electrica Inova",
       "precio": 30000.0,
       "categoria": "Cocina y Bazar",
@@ -2464,16 +2384,6 @@
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11200.0
-    },
-    {
-      "nombre": "Auricular JK 607",
-      "precio": 16000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Auricular gamer Headseat.jpeg",
-      "descripcion": "",
-      "entrega": 8000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 8000.0
     },
     {
       "nombre": "Mouse inalambrico Time ",
@@ -2664,6 +2574,16 @@
       "entrega": 10200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Soldadora Daewoo",
+      "precio": 140000.0,
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Soldadora Daewoo.jpeg",
+      "descripcion": "",
+      "entrega": 48000.0,
+      "cant_cuotas": 10,
+      "monto_cuota": 9200.0
     }
   ]
 }
