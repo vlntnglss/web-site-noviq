@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "28/08/2026 18:27",
-  "total_productos": 258,
+  "actualizado": "04/09/2026 12:12",
+  "total_productos": 252,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -266,16 +266,6 @@
       "monto_cuota": 9900.0
     },
     {
-      "nombre": "Cubrecama 1p BlancoTritel",
-      "precio": 48000.0,
-      "categoria": "E8-Acolchados y Mantas",
-      "imagen_url": "imgs/Cubrecama 1p blancotritel.jpg",
-      "descripcion": "",
-      "entrega": 16200.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 10600.0
-    },
-    {
       "nombre": "Mantel Ecocuero 2M",
       "precio": 14000.0,
       "categoria": "F4-Manteles",
@@ -432,16 +422,6 @@
       "imagen_url": "imgs/Porta velas.jpg",
       "descripcion": "",
       "entrega": 8000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Velas chicas",
-      "precio": 1000.0,
-      "categoria": "E4-Perfumes, Velas y Saumerios",
-      "imagen_url": "imgs/Velas.jpg",
-      "descripcion": "",
-      "entrega": 1000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -604,16 +584,6 @@
       "entrega": 11800.0,
       "cant_cuotas": 2,
       "monto_cuota": 11600.0
-    },
-    {
-      "nombre": "Alfombra inteligente de baño",
-      "precio": 12000.0,
-      "categoria": "F3-Alfombras",
-      "imagen_url": "imgs/Alfombra inteligente de baño.jpg",
-      "descripcion": "",
-      "entrega": 12000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Plancha a vapor Winco W34",
@@ -1236,16 +1206,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Cuadro Cafe",
-      "precio": 2000.0,
-      "categoria": "E3-Adornos y Prefumeria Otros",
-      "imagen_url": "imgs/Cuadros cafe.jpg",
-      "descripcion": "",
-      "entrega": 2000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Mate Apalapapa",
       "precio": 8000.0,
       "categoria": "D1-Mates",
@@ -1514,16 +1474,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 11000.0
-    },
-    {
-      "nombre": "Espejo Suka 40x50",
-      "precio": 29000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/Espejo Suka 40x50.jpeg",
-      "descripcion": "",
-      "entrega": 9800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 9600.0
     },
     {
       "nombre": "Jarro termico 12V",
@@ -1824,16 +1774,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 16000.0
-    },
-    {
-      "nombre": "Freidora de aire Vitta 6,5L",
-      "precio": 136000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Freidora de aire Vitta 6,5L.jpeg",
-      "descripcion": "",
-      "entrega": 46000.0,
-      "cant_cuotas": 9,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Moicroondas Digital Vitta",
@@ -2246,9 +2186,9 @@
       "monto_cuota": 9900.0
     },
     {
-      "nombre": "Parlante Big Sound 6.5\"",
+      "nombre": "Parlante Big Sound 6.5",
       "precio": 70000.0,
-      "categoria": "A5-Parlantes",
+      "categoria": "Audio",
       "imagen_url": "imgs/Parlante Big Sound 6.5p.jpg",
       "descripcion": "",
       "entrega": 24000.0,
@@ -2294,16 +2234,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 2,
       "monto_cuota": 8500.0
-    },
-    {
-      "nombre": "Vaso Tokyo Home X6",
-      "precio": 24000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Vasos Tokyo Home.jpeg",
-      "descripcion": "Bordes dorados",
-      "entrega": 9000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 7500.0
     },
     {
       "nombre": "Parlante party OM",
@@ -2584,6 +2514,16 @@
       "entrega": 48000.0,
       "cant_cuotas": 10,
       "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Colchon y somier ",
+      "precio": 500000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Colchon y somier.jpeg",
+      "descripcion": "",
+      "entrega": 170400.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 20600.0
     }
   ]
 }
