@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "04/09/2026 12:12",
-  "total_productos": 252,
+  "actualizado": "07/09/2026 18:43",
+  "total_productos": 246,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -274,16 +274,6 @@
       "entrega": 14000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Sabana Brodery 2p",
-      "precio": 45000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Sabana brodery 2p.jpeg",
-      "descripcion": "",
-      "entrega": 15300.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9900.0
     },
     {
       "nombre": "Sabana 2p Danubio",
@@ -696,16 +686,6 @@
       "monto_cuota": 12600.0
     },
     {
-      "nombre": "Cortapelo Winco W821",
-      "precio": 38000.0,
-      "categoria": "cuidado personal Hombre",
-      "imagen_url": "imgs/Cortapelo Winco W821.jpg",
-      "descripcion": "",
-      "entrega": 12800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12600.0
-    },
-    {
       "nombre": "Cortapelo Afeitador W826",
       "precio": 29000.0,
       "categoria": "",
@@ -794,16 +774,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Cortina de Cocina",
-      "precio": 15000.0,
-      "categoria": "F2-Cortinas",
-      "imagen_url": "imgs/Cortina de cocina.jpg",
-      "descripcion": "",
-      "entrega": 15000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Lata de galletitas Matero",
@@ -1776,24 +1746,14 @@
       "monto_cuota": 16000.0
     },
     {
-      "nombre": "Moicroondas Digital Vitta",
+      "nombre": "Microondas Digital Vitta",
       "precio": 220000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
+      "categoria": "",
       "imagen_url": "imgs/Microondas digital Vitta.jpeg",
       "descripcion": "",
       "entrega": 74400.0,
       "cant_cuotas": 16,
       "monto_cuota": 9100.0
-    },
-    {
-      "nombre": "Taladro Inalambrico Winco 10mm",
-      "precio": 60000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Taladro Inalambrico 10Mm Winco.jpeg",
-      "descripcion": "",
-      "entrega": 20400.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 9900.0
     },
     {
       "nombre": "Plancha Seca Winco w33",
@@ -1804,16 +1764,6 @@
       "entrega": 15300.0,
       "cant_cuotas": 3,
       "monto_cuota": 9900.0
-    },
-    {
-      "nombre": "Cortapelo Inalambrica Winco w829",
-      "precio": 42000.0,
-      "categoria": "Cuidado Personal",
-      "imagen_url": "imgs/Cortapelo Inalambrica Winco W829.jpeg",
-      "descripcion": "",
-      "entrega": 14400.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9200.0
     },
     {
       "nombre": "TV Box Onn",
@@ -2514,16 +2464,6 @@
       "entrega": 48000.0,
       "cant_cuotas": 10,
       "monto_cuota": 9200.0
-    },
-    {
-      "nombre": "Colchon y somier ",
-      "precio": 500000.0,
-      "categoria": "Muebles",
-      "imagen_url": "imgs/Colchon y somier.jpeg",
-      "descripcion": "",
-      "entrega": 170400.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 20600.0
     }
   ]
 }
