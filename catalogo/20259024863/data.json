@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "07/09/2026 18:43",
-  "total_productos": 246,
+  "actualizado": "09/09/2026 16:58",
+  "total_productos": 258,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -616,6 +616,16 @@
       "monto_cuota": 13000.0
     },
     {
+      "nombre": "Humificador simil madera",
+      "precio": 14000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Humidificadores.jpg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
       "nombre": "Microfono Karaoke",
       "precio": 14000.0,
       "categoria": "Niños",
@@ -938,7 +948,7 @@
     {
       "nombre": "Cable Oryx tipo C a C",
       "precio": 3000.0,
-      "categoria": "A2-Celulares Otros",
+      "categoria": "",
       "imagen_url": "imgs/Cable Oryx tipo C a C.jpg",
       "descripcion": "",
       "entrega": 3000.0,
@@ -1996,6 +2006,16 @@
       "monto_cuota": 10600.0
     },
     {
+      "nombre": "Teclado con mouse",
+      "precio": 18000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Teclado con mouse.jpg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 9000.0
+    },
+    {
       "nombre": "Cortina Tussor",
       "precio": 36000.0,
       "categoria": "F2-Cortinas",
@@ -2166,6 +2186,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Camara de vigilancia Noga",
+      "precio": 45000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Camara de vigilancia noga.jpg",
+      "descripcion": "",
+      "entrega": 15300.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9900.0
+    },
+    {
       "nombre": "Organizadores de vidrio y bambu x3",
       "precio": 23000.0,
       "categoria": "Cocina y Bazar",
@@ -2256,6 +2286,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Parlantes para auto PERVOI 6 pulgadas",
+      "precio": 56000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/parlante para auto pervoi.jpeg",
+      "descripcion": "",
+      "entrega": 19200.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9200.0
+    },
+    {
       "nombre": "Parlante Big Sound 4x2",
       "precio": 34000.0,
       "categoria": "Audio",
@@ -2264,6 +2304,16 @@
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11200.0
+    },
+    {
+      "nombre": "Auricular JK 607",
+      "precio": 16000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Auricular gamer Headseat.jpeg",
+      "descripcion": "",
+      "entrega": 8000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 8000.0
     },
     {
       "nombre": "Mouse inalambrico Time ",
@@ -2334,16 +2384,6 @@
       "entrega": 4500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Inflador portatil Oryx",
-      "precio": 53000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Inflador portatil.jpeg",
-      "descripcion": "",
-      "entrega": 17900.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11700.0
     },
     {
       "nombre": "Cafetera Winco W1931",
@@ -2464,6 +2504,86 @@
       "entrega": 48000.0,
       "cant_cuotas": 10,
       "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Alfombra alargada",
+      "precio": 26000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Alfombra alargada.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 8500.0
+    },
+    {
+      "nombre": "Cable tipo C a C iphone",
+      "precio": 0.0,
+      "categoria": "Celulares",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 0.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Mesa auxiliar",
+      "precio": 45000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Mesa auxiliar.jpeg",
+      "descripcion": "",
+      "entrega": 15300.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Cortapelo OSR",
+      "precio": 22000.0,
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/cortapelo OSR.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 13000.0
+    },
+    {
+      "nombre": "Secador de pelo Time",
+      "precio": 18000.0,
+      "categoria": "Cuidado personal mujer",
+      "imagen_url": "imgs/secador de pelo Time.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Camara de vigilancia para exterior",
+      "precio": 56000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Camara de vigilancia exteriores.jpeg",
+      "descripcion": "",
+      "entrega": 19200.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Cable malla tipo C",
+      "precio": 3000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Cable malla tipo c.jpeg",
+      "descripcion": "",
+      "entrega": 3000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cable Tc Tc",
+      "precio": 4000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/cable tc tc.jpeg",
+      "descripcion": "",
+      "entrega": 4000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     }
   ]
 }
