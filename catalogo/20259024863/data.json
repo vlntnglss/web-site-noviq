@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "09/09/2026 16:58",
-  "total_productos": 258,
+  "actualizado": "11/09/2026 12:00",
+  "total_productos": 264,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -218,7 +218,7 @@
     {
       "nombre": "Almohada Anatomica",
       "precio": 42000.0,
-      "categoria": "",
+      "categoria": "Blanqueria",
       "imagen_url": "imgs/Almohada anatomica.jpeg",
       "descripcion": "",
       "entrega": 14400.0,
@@ -228,7 +228,7 @@
     {
       "nombre": "Almohada Viscoelastica Recta",
       "precio": 42000.0,
-      "categoria": "",
+      "categoria": "Blanqueria",
       "imagen_url": "imgs/Almohada viscoelastica recta.jpeg",
       "descripcion": "",
       "entrega": 14400.0,
@@ -274,6 +274,16 @@
       "entrega": 14000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sabana Brodery 2p",
+      "precio": 45000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Sabana brodery 2p.jpeg",
+      "descripcion": "",
+      "entrega": 15300.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9900.0
     },
     {
       "nombre": "Sabana 2p Danubio",
@@ -324,6 +334,16 @@
       "entrega": 10000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Toalla y Toallon Valente Pesado",
+      "precio": 39000.0,
+      "categoria": "Toallas y toallones",
+      "imagen_url": "imgs/Toallon valente pesado.jpeg",
+      "descripcion": "",
+      "entrega": 13400.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12800.0
     },
     {
       "nombre": "Ventilador 10 Pulgadas",
@@ -426,6 +446,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Almohada Siliconada procol",
+      "precio": 12000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Imagen de WhatsApp 2024-03-18 a las 12.02.38_175092cf.jpg",
+      "descripcion": "",
+      "entrega": 12000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
       "nombre": "Mate madera y aluminio",
       "precio": 4200.0,
       "categoria": "D1-Mates",
@@ -507,13 +537,13 @@
     },
     {
       "nombre": "Manta Country 2 1-2 plazas",
-      "precio": 45000.0,
-      "categoria": "E8-Acolchados y Mantas",
+      "precio": 50000.0,
+      "categoria": "Acolchados y mantas",
       "imagen_url": "imgs/Colcha Country.jpg",
       "descripcion": "",
-      "entrega": 15300.0,
+      "entrega": 17000.0,
       "cant_cuotas": 3,
-      "monto_cuota": 9900.0
+      "monto_cuota": 11000.0
     },
     {
       "nombre": "Reposeras 5 Posiciones",
@@ -644,16 +674,6 @@
       "entrega": 18600.0,
       "cant_cuotas": 4,
       "monto_cuota": 9100.0
-    },
-    {
-      "nombre": "Tecno Spark Go1",
-      "precio": 270000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Tecno spark go 1.jpg",
-      "descripcion": "64gb 6gb RAM",
-      "entrega": 92400.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 11100.0
     },
     {
       "nombre": "matero palma",
@@ -1368,7 +1388,7 @@
     {
       "nombre": "Cortina Chenile de cocina",
       "precio": 28000.0,
-      "categoria": "F2-Cortinas",
+      "categoria": "Cortinas",
       "imagen_url": "imgs/Cortina chenile cocina.jpg",
       "descripcion": "",
       "entrega": 9600.0,
@@ -1756,16 +1776,6 @@
       "monto_cuota": 16000.0
     },
     {
-      "nombre": "Microondas Digital Vitta",
-      "precio": 220000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Microondas digital Vitta.jpeg",
-      "descripcion": "",
-      "entrega": 74400.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 9100.0
-    },
-    {
       "nombre": "Plancha Seca Winco w33",
       "precio": 45000.0,
       "categoria": "B6-Electrodomesticos Hogar",
@@ -2018,7 +2028,7 @@
     {
       "nombre": "Cortina Tussor",
       "precio": 36000.0,
-      "categoria": "F2-Cortinas",
+      "categoria": "Cortinas",
       "imagen_url": "imgs/Cortina de tussor.jpg",
       "descripcion": "",
       "entrega": 12200.0,
@@ -2028,7 +2038,7 @@
     {
       "nombre": "Funda de silla X6",
       "precio": 60000.0,
-      "categoria": "F6-Blanqueria Otros",
+      "categoria": "Blanqueria",
       "imagen_url": "imgs/Funda de silla.jpg",
       "descripcion": "",
       "entrega": 20400.0,
@@ -2244,16 +2254,6 @@
       "entrega": 10200.0,
       "cant_cuotas": 2,
       "monto_cuota": 9900.0
-    },
-    {
-      "nombre": "Mate listo Stanley",
-      "precio": 27000.0,
-      "categoria": "Termos y Mates",
-      "imagen_url": "imgs/Mate listo Stanley.jpeg",
-      "descripcion": "Incluye bombilla extra y tapa de termo",
-      "entrega": 9000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 9000.0
     },
     {
       "nombre": "Termo y mate Stanley 1lt",
@@ -2517,11 +2517,11 @@
     },
     {
       "nombre": "Cable tipo C a C iphone",
-      "precio": 0.0,
+      "precio": 4000.0,
       "categoria": "Celulares",
       "imagen_url": "",
       "descripcion": "",
-      "entrega": 0.0,
+      "entrega": 4000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -2582,6 +2582,66 @@
       "imagen_url": "imgs/cable tc tc.jpeg",
       "descripcion": "",
       "entrega": 4000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cesto de ropa ",
+      "precio": 16000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Canasto de ropa de tela.jpeg",
+      "descripcion": "de tela",
+      "entrega": 16000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubrecama reversible 2p",
+      "precio": 42000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Cubrecama reversible 2p.jpeg",
+      "descripcion": "",
+      "entrega": 14400.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9200.0
+    },
+    {
+      "nombre": "Cortina de tela para baño",
+      "precio": 15000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Cortina teflon raso.jpeg",
+      "descripcion": "",
+      "entrega": 15000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cubrecolchon",
+      "precio": 26000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Cubrecolchon.jpeg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 17000.0
+    },
+    {
+      "nombre": "Cortina chenile",
+      "precio": 40000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Cortina chenile.jpeg",
+      "descripcion": "",
+      "entrega": 13600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 13200.0
+    },
+    {
+      "nombre": "Fundas para almohada Delfin Blanco",
+      "precio": 12000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Fundas para almohada.jpeg",
+      "descripcion": "x2",
+      "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     }
