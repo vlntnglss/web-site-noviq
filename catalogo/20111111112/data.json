@@ -1,0 +1,27 @@
+{
+  "cliente": "20111111112",
+  "nombre_local": "Prueba Noviq",
+  "usa_planes": false,
+  "wpp_numero": "543584903336",
+  "pedidos": {
+    "activos": true,
+    "endpoint": "https://api.noviq-app.com/pedido/NQ5B47830602",
+    "envio": false,
+    "zona": "",
+    "costo_envio": 0.0,
+    "hora_desde": 9,
+    "hora_hasta": 20,
+    "abierto": true
+  },
+  "actualizado": "12/09/2026 15:57",
+  "total_productos": 1,
+  "productos": [
+    {
+      "nombre": "Galletitas Serranitas 315g",
+      "precio": 1100.0,
+      "categoria": "Almacen",
+      "imagen_url": "imgs/serranitas.jpg",
+      "descripcion": ""
+    }
+  ]
+}
