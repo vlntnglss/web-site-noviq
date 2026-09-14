@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "11/09/2026 12:00",
-  "total_productos": 264,
+  "actualizado": "14/09/2026 19:20",
+  "total_productos": 256,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -206,16 +206,6 @@
       "monto_cuota": 11600.0
     },
     {
-      "nombre": "Acolchado 2p",
-      "precio": 45000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Acolchado 2p.jpeg",
-      "descripcion": "",
-      "entrega": 15300.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9900.0
-    },
-    {
       "nombre": "Almohada Anatomica",
       "precio": 42000.0,
       "categoria": "Blanqueria",
@@ -374,16 +364,6 @@
       "entrega": 11000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Matero Caja premium",
-      "precio": 22000.0,
-      "categoria": "D2-Equipos de Mate",
-      "imagen_url": "imgs/Matero caja Premium.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 13000.0
     },
     {
       "nombre": "Mate Pampa Chico",
@@ -706,26 +686,6 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Recortador de barba W816",
-      "precio": 38000.0,
-      "categoria": "cuidado personal Hombre",
-      "imagen_url": "imgs/Recortador de barba W816.jpg",
-      "descripcion": "",
-      "entrega": 12800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12600.0
-    },
-    {
-      "nombre": "Cortapelo Afeitador W826",
-      "precio": 29000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Cortapelo Afeitador W826.jpg",
-      "descripcion": "",
-      "entrega": 9800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 9600.0
-    },
-    {
       "nombre": "Mate acero stanley",
       "precio": 13000.0,
       "categoria": "D1-Mates",
@@ -916,16 +876,6 @@
       "monto_cuota": 9200.0
     },
     {
-      "nombre": "Mate camionero algarrobo",
-      "precio": 20000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate camionero algarrobo.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 11000.0
-    },
-    {
       "nombre": "Tender Vertical tres pisos",
       "precio": 44000.0,
       "categoria": "",
@@ -1034,16 +984,6 @@
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Celular IPRO F188",
-      "precio": 60000.0,
-      "categoria": "A1-Celulares",
-      "imagen_url": "imgs/Celular Ipro f188.jpg",
-      "descripcion": "",
-      "entrega": 20400.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 9900.0
     },
     {
       "nombre": "Bandeja metalica tea",
@@ -1676,16 +1616,6 @@
       "monto_cuota": 11600.0
     },
     {
-      "nombre": "Smartwatch con mallas intercambiables",
-      "precio": 32000.0,
-      "categoria": "SmartWatch",
-      "imagen_url": "imgs/Smartwatch con mallas intercambiables.jpg",
-      "descripcion": "",
-      "entrega": 10800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10600.0
-    },
-    {
       "nombre": "Pileta inflable tropical 3,5m x0,70m 4900L",
       "precio": 230000.0,
       "categoria": "C8-Jardin y Camping Otros",
@@ -2036,16 +1966,6 @@
       "monto_cuota": 11900.0
     },
     {
-      "nombre": "Funda de silla X6",
-      "precio": 60000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Funda de silla.jpg",
-      "descripcion": "",
-      "entrega": 20400.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 9900.0
-    },
-    {
       "nombre": "Cortador manual de verduras",
       "precio": 11000.0,
       "categoria": "E1-Cocina y Bazar Otros",
@@ -2154,16 +2074,6 @@
       "entrega": 12800.0,
       "cant_cuotas": 2,
       "monto_cuota": 12600.0
-    },
-    {
-      "nombre": "Horno Electrico smartlife con 40L conveccion",
-      "precio": 239000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Horno Electrico Smartlife 40l.jpg",
-      "descripcion": "",
-      "entrega": 80600.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 9900.0
     },
     {
       "nombre": "Parlante Big Sound 6.5",
@@ -2566,32 +2476,12 @@
       "monto_cuota": 9200.0
     },
     {
-      "nombre": "Cable malla tipo C",
-      "precio": 3000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Cable malla tipo c.jpeg",
-      "descripcion": "",
-      "entrega": 3000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Cable Tc Tc",
       "precio": 4000.0,
       "categoria": "Celulares",
       "imagen_url": "imgs/cable tc tc.jpeg",
       "descripcion": "",
       "entrega": 4000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Cesto de ropa ",
-      "precio": 16000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Canasto de ropa de tela.jpeg",
-      "descripcion": "de tela",
-      "entrega": 16000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -2644,6 +2534,36 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cesto de ropa de tela",
+      "precio": 16000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Canasto de ropa de tela.jpeg",
+      "descripcion": "",
+      "entrega": 16000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Taladro Inalambrico Garden Plus",
+      "precio": 115000.0,
+      "categoria": "Herramientas electricas",
+      "imagen_url": "imgs/Taladro Inalambrico Garden Plus.jpeg",
+      "descripcion": "",
+      "entrega": 39000.0,
+      "cant_cuotas": 8,
+      "monto_cuota": 9500.0
+    },
+    {
+      "nombre": "Aspiradora sansei 10Litros",
+      "precio": 115000.0,
+      "categoria": "Electrodomesticos Hogar",
+      "imagen_url": "imgs/Aspiradora Sansei.jpeg",
+      "descripcion": "",
+      "entrega": 39000.0,
+      "cant_cuotas": 8,
+      "monto_cuota": 9500.0
     }
   ]
 }
