@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "14/09/2026 19:29",
-  "total_productos": 256,
+  "actualizado": "17/09/2026 17:00",
+  "total_productos": 254,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -21,19 +21,19 @@
       "categoria": "TV",
       "imagen_url": "imgs/Soporte TV movil.jpeg",
       "descripcion": "",
-      "entrega": 9000.0,
+      "entrega": 10000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 11000.0
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Pendrive 64 gb",
       "precio": 24000.0,
-      "categoria": "A6-Computación",
+      "categoria": "",
       "imagen_url": "imgs/Imagen de WhatsApp 2023-10-26 a las 17.56.52_50c8861b.jpg",
       "descripcion": "",
-      "entrega": 9000.0,
+      "entrega": 12000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 15000.0
+      "monto_cuota": 12000.0
     },
     {
       "nombre": "Aro led con tripode",
@@ -41,9 +41,9 @@
       "categoria": "Electronicos",
       "imagen_url": "imgs/Aro Led con tripode.jpg",
       "descripcion": "",
-      "entrega": 9000.0,
+      "entrega": 11000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 13000.0
+      "monto_cuota": 11000.0
     },
     {
       "nombre": "Tira de led blanca 5m",
@@ -71,9 +71,9 @@
       "categoria": "Camping",
       "imagen_url": "imgs/reposera plegable director.jpeg",
       "descripcion": "",
-      "entrega": 10200.0,
+      "entrega": 10000.0,
       "cant_cuotas": 2,
-      "monto_cuota": 9900.0
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Secador de pelo Winco W98",
@@ -121,9 +121,9 @@
       "categoria": "Termos y Mates",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-06-05 a las 19.04.40_97d7df82.jpg",
       "descripcion": "",
-      "entrega": 9000.0,
+      "entrega": 13000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 16000.0
+      "monto_cuota": 12000.0
     },
     {
       "nombre": "Mate de Vidrio revestido",
@@ -386,16 +386,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Sabana Love Home 2 1-2 plazas",
-      "precio": 35000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Sabana Love home.jpg",
-      "descripcion": "",
-      "entrega": 11800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11600.0
-    },
-    {
       "nombre": "Aroma para telas y ambientes",
       "precio": 5000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
@@ -491,9 +481,9 @@
       "categoria": "Cocina y Bazar",
       "imagen_url": "imgs/Secaplatos dos pisos.jpg",
       "descripcion": "",
-      "entrega": 9000.0,
+      "entrega": 12000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 15000.0
+      "monto_cuota": 12000.0
     },
     {
       "nombre": "Tazon ceramica Tokio",
@@ -854,16 +844,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 11000.0
-    },
-    {
-      "nombre": "Cortapelo Winco W823",
-      "precio": 38000.0,
-      "categoria": "B4-Cuidado Personal Hombre",
-      "imagen_url": "imgs/Cortapelo Winco w823.jpg",
-      "descripcion": "",
-      "entrega": 12800.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12600.0
     },
     {
       "nombre": "Parlante Winco W261",
@@ -1846,16 +1826,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Redmi A7 Pro",
-      "precio": 340000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Redmi A7 pro.jpg",
-      "descripcion": "64 GB",
-      "entrega": 116000.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 14000.0
-    },
-    {
       "nombre": "Juego de cubiertos Carol 24 p",
       "precio": 40000.0,
       "categoria": "D7-Cubiertos",
@@ -2096,16 +2066,6 @@
       "monto_cuota": 9000.0
     },
     {
-      "nombre": "Auriculares Capibara accesorios",
-      "precio": 16000.0,
-      "categoria": "A3-Auriculares",
-      "imagen_url": "imgs/Auricula Capibara accesorios.jpg",
-      "descripcion": "",
-      "entrega": 16000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Camara de vigilancia Noga",
       "precio": 45000.0,
       "categoria": "Electronicos",
@@ -2177,13 +2137,13 @@
     },
     {
       "nombre": "Hidrolavadora Fierce",
-      "precio": 119000.0,
+      "precio": 125000.0,
       "categoria": "Herramientas",
       "imagen_url": "imgs/Hidrolavadora Fierce.jpeg",
       "descripcion": "1100W",
-      "entrega": 40600.0,
-      "cant_cuotas": 8,
-      "monto_cuota": 9800.0
+      "entrega": 42200.0,
+      "cant_cuotas": 9,
+      "monto_cuota": 9200.0
     },
     {
       "nombre": "Auricular vincha Capibara",
@@ -2416,16 +2376,6 @@
       "monto_cuota": 9200.0
     },
     {
-      "nombre": "Alfombra alargada",
-      "precio": 26000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Alfombra alargada.jpeg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 8500.0
-    },
-    {
       "nombre": "Cable tipo C a C iphone",
       "precio": 4000.0,
       "categoria": "Celulares",
@@ -2436,7 +2386,7 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Mesa auxiliar",
+      "nombre": "Mesa de cafe",
       "precio": 45000.0,
       "categoria": "Muebles",
       "imagen_url": "imgs/Mesa auxiliar.jpeg",
@@ -2464,16 +2414,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 9000.0
-    },
-    {
-      "nombre": "Camara de vigilancia para exterior",
-      "precio": 56000.0,
-      "categoria": "Electronicos",
-      "imagen_url": "imgs/Camara de vigilancia exteriores.jpeg",
-      "descripcion": "",
-      "entrega": 19200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 9200.0
     },
     {
       "nombre": "Cable Tc Tc",
@@ -2564,6 +2504,46 @@
       "entrega": 39000.0,
       "cant_cuotas": 8,
       "monto_cuota": 9500.0
+    },
+    {
+      "nombre": "Cazuelas de barro",
+      "precio": 18000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Cazuelas de barro x4.jpeg",
+      "descripcion": "x 4 unidades",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Vasos Nex Cook ",
+      "precio": 27000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Vasos x6 Nex Cook.jpeg",
+      "descripcion": "X6 unidades",
+      "entrega": 9000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Especieros",
+      "precio": 30000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Especieros.jpeg",
+      "descripcion": "",
+      "entrega": 10200.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Alfombra de baño",
+      "precio": 10000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Alfombra de baño.jpeg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     }
   ]
 }
