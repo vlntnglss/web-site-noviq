@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "17/09/2026 18:38",
-  "total_productos": 253,
+  "actualizado": "21/09/2026 20:58",
+  "total_productos": 259,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -374,6 +374,16 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 9000.0
+    },
+    {
+      "nombre": "Cable Auxiliar",
+      "precio": 1000.0,
+      "categoria": "",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 1000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     },
     {
       "nombre": "Adaptador Universal",
@@ -806,6 +816,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Aro led rgb",
+      "precio": 22000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Aro Led RGB.jpg",
+      "descripcion": "",
+      "entrega": 11000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 11000.0
+    },
+    {
       "nombre": "Adaptador Bluetooth",
       "precio": 5000.0,
       "categoria": "A9-Electronica Otros",
@@ -834,6 +854,16 @@
       "entrega": 5000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Soplador Inflador Inalambrico",
+      "precio": 46000.0,
+      "categoria": "Herramientas electricas",
+      "imagen_url": "imgs/Soplador Inalambrico.jpeg",
+      "descripcion": "",
+      "entrega": 16000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Vaso termico de cafe",
@@ -996,16 +1026,6 @@
       "monto_cuota": 9600.0
     },
     {
-      "nombre": "Sabana Love Home 1P",
-      "precio": 28000.0,
-      "categoria": "Sabanas",
-      "imagen_url": "imgs/Sabana Love home 1 plaza.jpg",
-      "descripcion": "",
-      "entrega": 9600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 9200.0
-    },
-    {
       "nombre": "Edredon con corderito 1 Plaza",
       "precio": 75000.0,
       "categoria": "Blanqueria",
@@ -1024,16 +1044,6 @@
       "entrega": 15700.0,
       "cant_cuotas": 3,
       "monto_cuota": 10100.0
-    },
-    {
-      "nombre": "Set de herramientas 189 piezas",
-      "precio": 87000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Set de herramientas 189 piezas.jpeg",
-      "descripcion": "",
-      "entrega": 29400.0,
-      "cant_cuotas": 6,
-      "monto_cuota": 9600.0
     },
     {
       "nombre": "Cafetera Winco w1932 12 Tazas",
@@ -1067,13 +1077,13 @@
     },
     {
       "nombre": "Set de parrilla Hudson",
-      "precio": 49000.0,
-      "categoria": "D9-Sets de Asado",
+      "precio": 60000.0,
+      "categoria": "",
       "imagen_url": "imgs/Set de parrilla Hudson.jpg",
       "descripcion": "",
-      "entrega": 16600.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 10800.0
+      "entrega": 20400.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9900.0
     },
     {
       "nombre": "Alfombra Welcome azul",
@@ -1090,16 +1100,6 @@
       "precio": 6000.0,
       "categoria": "D9-Sets de Asado",
       "imagen_url": "imgs/Tabla Rectangular picotera.jpg",
-      "descripcion": "",
-      "entrega": 6000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Taza Papa",
-      "precio": 6000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/Taza Papa.jpg",
       "descripcion": "",
       "entrega": 6000.0,
       "cant_cuotas": 0,
@@ -1546,14 +1546,24 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Botella termica Sport 750ml",
-      "precio": 15000.0,
-      "categoria": "C9-Termos",
-      "imagen_url": "imgs/Botella termica sport 750ml.jpeg",
+      "nombre": "Bateria de cocina mango desmontable",
+      "precio": 115000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Bateria de cocina.jpeg",
       "descripcion": "",
-      "entrega": 15000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
+      "entrega": 39000.0,
+      "cant_cuotas": 8,
+      "monto_cuota": 9500.0
+    },
+    {
+      "nombre": "Freidora de aire Vitta 8L Digital",
+      "precio": 155000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Freidora de aire Vitta 8L.jpg",
+      "descripcion": "",
+      "entrega": 55000.0,
+      "cant_cuotas": 10,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Ventilador de techo con luz y control remoto Vitta Acero",
@@ -1684,6 +1694,16 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 16000.0
+    },
+    {
+      "nombre": "Freidora de aire Vitta 6,5L",
+      "precio": 130000.0,
+      "categoria": "Electrodomesticos Hogar",
+      "imagen_url": "imgs/Freidora de aire Vitta 6,5L.jpeg",
+      "descripcion": "",
+      "entrega": 44500.0,
+      "cant_cuotas": 9,
+      "monto_cuota": 9500.0
     },
     {
       "nombre": "Plancha Seca Winco w33",
@@ -1874,16 +1894,6 @@
       "entrega": 9000.0,
       "cant_cuotas": 1,
       "monto_cuota": 13000.0
-    },
-    {
-      "nombre": "Licuadora de mano Vitta",
-      "precio": 39000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Licuadora de mano Vitta.jpg",
-      "descripcion": "",
-      "entrega": 13400.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12800.0
     },
     {
       "nombre": "Mate imperial cuero labrado",
@@ -2226,16 +2236,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Parlante Dual Xaea",
-      "precio": 41000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Parlante Dual Xaea.jpeg",
-      "descripcion": "",
-      "entrega": 14000.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 9000.0
-    },
-    {
       "nombre": "Cable USb V8 Thor",
       "precio": 4500.0,
       "categoria": "Celulares",
@@ -2244,6 +2244,16 @@
       "entrega": 4500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Inflador portatil ",
+      "precio": 54000.0,
+      "categoria": "Herramientas",
+      "imagen_url": "imgs/Inflador portatil.jpeg",
+      "descripcion": "",
+      "entrega": 18300.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11900.0
     },
     {
       "nombre": "Cafetera Winco W1931",
@@ -2406,6 +2416,16 @@
       "monto_cuota": 9000.0
     },
     {
+      "nombre": "Camara de vigilancia para exterior",
+      "precio": 50000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Camara de vigilancia exteriores.jpeg",
+      "descripcion": "",
+      "entrega": 17000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11000.0
+    },
+    {
       "nombre": "Cable Tc Tc",
       "precio": 4000.0,
       "categoria": "Celulares",
@@ -2476,16 +2496,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Taladro Inalambrico Garden Plus",
-      "precio": 115000.0,
-      "categoria": "Herramientas electricas",
-      "imagen_url": "imgs/Taladro Inalambrico Garden Plus.jpeg",
-      "descripcion": "",
-      "entrega": 39000.0,
-      "cant_cuotas": 8,
-      "monto_cuota": 9500.0
-    },
-    {
       "nombre": "Aspiradora sansei 10Litros",
       "precio": 115000.0,
       "categoria": "Electrodomesticos Hogar",
@@ -2532,6 +2542,56 @@
       "imagen_url": "imgs/Alfombra de baño.jpeg",
       "descripcion": "",
       "entrega": 10000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Auricular p9 pro",
+      "precio": 12000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Auricular p9 pro.jpg",
+      "descripcion": "generico",
+      "entrega": 12000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sandwichera OM",
+      "precio": 32000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Sandwichera OM.jpg",
+      "descripcion": "",
+      "entrega": 10800.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10600.0
+    },
+    {
+      "nombre": "Cortapelo OSR liso",
+      "precio": 20000.0,
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/Cortapelo OSR liso.jpg",
+      "descripcion": "",
+      "entrega": 9000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 11000.0
+    },
+    {
+      "nombre": "Camara de interior Noga NGW11",
+      "precio": 40000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Camara de interior noga ngw11.jpg",
+      "descripcion": "",
+      "entrega": 13600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 13200.0
+    },
+    {
+      "nombre": "Adaptador universal comun",
+      "precio": 7000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/Adaptador universal comun.jpg",
+      "descripcion": "",
+      "entrega": 7000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     }
