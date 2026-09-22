@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "21/09/2026 20:58",
-  "total_productos": 259,
+  "actualizado": "21/09/2026 21:44",
+  "total_productos": 262,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -2236,6 +2236,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Parlante Dual Xaea",
+      "precio": 41000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Parlante Dual Xaea.jpeg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 9000.0
+    },
+    {
       "nombre": "Cable USb V8 Thor",
       "precio": 4500.0,
       "categoria": "Celulares",
@@ -2594,6 +2604,26 @@
       "entrega": 7000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Atornillador Melech 177",
+      "precio": 90000.0,
+      "categoria": "Herramientas electricas",
+      "imagen_url": "imgs/Atornillador Melech 177.jpg",
+      "descripcion": "",
+      "entrega": 30600.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Atornillador Melech 12V",
+      "precio": 60000.0,
+      "categoria": "Herramientas electricas",
+      "imagen_url": "imgs/Atornillador Melech 12v.jpg",
+      "descripcion": "",
+      "entrega": 20400.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 9900.0
     }
   ]
 }
