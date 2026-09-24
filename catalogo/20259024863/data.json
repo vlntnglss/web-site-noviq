@@ -2,7 +2,7 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "21/09/2026 21:44",
+  "actualizado": "23/09/2026 22:15",
   "total_productos": 262,
   "productos": [
     {
@@ -84,16 +84,6 @@
       "entrega": 24000.0,
       "cant_cuotas": 5,
       "monto_cuota": 9200.0
-    },
-    {
-      "nombre": "Batidora Winco w305",
-      "precio": 65000.0,
-      "categoria": "Electrodomesticos",
-      "imagen_url": "imgs/Batidora de mano Winco w305.jpeg",
-      "descripcion": "",
-      "entrega": 22200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10700.0
     },
     {
       "nombre": "Multiprocesadora W1819",
@@ -456,6 +446,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Nokia 106",
+      "precio": 50000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Nokia 106.jpg",
+      "descripcion": "",
+      "entrega": 20000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10000.0
+    },
+    {
       "nombre": "Set Tazas y platos cafe 12pc",
       "precio": 15000.0,
       "categoria": "D8-Vajilla y Artículos de Servir",
@@ -588,7 +588,7 @@
     {
       "nombre": "Plancha a vapor Winco W34",
       "precio": 64000.0,
-      "categoria": "B6-Electrodomesticos Hogar",
+      "categoria": "",
       "imagen_url": "imgs/Plancha a vapor Winco W34.jpg",
       "descripcion": "",
       "entrega": 21600.0,
@@ -1334,16 +1334,6 @@
       "entrega": 26000.0,
       "cant_cuotas": 5,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Set de envases viajero",
-      "precio": 4000.0,
-      "categoria": "E3-Adornos y Prefumeria Otros",
-      "imagen_url": "imgs/Set de embases viajero.jpg",
-      "descripcion": "",
-      "entrega": 4000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Hornito solo",
@@ -2406,16 +2396,6 @@
       "monto_cuota": 9900.0
     },
     {
-      "nombre": "Cortapelo OSR",
-      "precio": 22000.0,
-      "categoria": "Cuidado Personal",
-      "imagen_url": "imgs/cortapelo OSR.jpeg",
-      "descripcion": "",
-      "entrega": 9000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 13000.0
-    },
-    {
       "nombre": "Secador de pelo Time",
       "precio": 18000.0,
       "categoria": "Cuidado personal mujer",
@@ -2566,7 +2546,7 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Sandwichera OM",
+      "nombre": "Sandwichera ORYX",
       "precio": 32000.0,
       "categoria": "Electrodomesticos cocina",
       "imagen_url": "imgs/Sandwichera OM.jpg",
@@ -2581,9 +2561,9 @@
       "categoria": "Cuidado Personal",
       "imagen_url": "imgs/Cortapelo OSR liso.jpg",
       "descripcion": "",
-      "entrega": 9000.0,
+      "entrega": 10000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 11000.0
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Camara de interior Noga NGW11",
@@ -2624,6 +2604,26 @@
       "entrega": 20400.0,
       "cant_cuotas": 4,
       "monto_cuota": 9900.0
+    },
+    {
+      "nombre": "Palita y atizador",
+      "precio": 30000.0,
+      "categoria": "Camping",
+      "imagen_url": "imgs/Palita y atizador.jpeg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Radio Carga solar KBroad",
+      "precio": 35000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Radio carga solar KBroad.jpeg",
+      "descripcion": "",
+      "entrega": 11800.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 11600.0
     }
   ]
 }
