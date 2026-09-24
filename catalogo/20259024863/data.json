@@ -2,7 +2,7 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "23/09/2026 22:15",
+  "actualizado": "24/09/2026 12:52",
   "total_productos": 262,
   "productos": [
     {
@@ -2246,16 +2246,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Inflador portatil ",
-      "precio": 54000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Inflador portatil.jpeg",
-      "descripcion": "",
-      "entrega": 18300.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11900.0
-    },
-    {
       "nombre": "Cafetera Winco W1931",
       "precio": 41000.0,
       "categoria": "Desayuno",
@@ -2624,6 +2614,16 @@
       "entrega": 11800.0,
       "cant_cuotas": 2,
       "monto_cuota": 11600.0
+    },
+    {
+      "nombre": "Inflador portatil",
+      "precio": 54000.0,
+      "categoria": "Herramientas electricas",
+      "imagen_url": "imgs/Inflador portatil.jpeg",
+      "descripcion": "",
+      "entrega": 18300.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11900.0
     }
   ]
 }
