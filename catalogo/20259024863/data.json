@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "25/09/2026 12:14",
-  "total_productos": 260,
+  "actualizado": "01/10/2026 17:01",
+  "total_productos": 258,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -171,19 +171,9 @@
       "categoria": "",
       "imagen_url": "imgs/Pelota ade Futbol.jpg",
       "descripcion": "",
-      "entrega": 17000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Velador Estrellas",
-      "precio": 11000.0,
-      "categoria": "B1-Niños",
-      "imagen_url": "imgs/Velador Estrellas.jpg",
-      "descripcion": "",
-      "entrega": 11000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
+      "entrega": 8500.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 8500.0
     },
     {
       "nombre": "Acolchado 1p",
@@ -656,6 +646,16 @@
       "monto_cuota": 12300.0
     },
     {
+      "nombre": "Tecno Spark Go1",
+      "precio": 285000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Tecno spark go 1.jpg",
+      "descripcion": "64gb 6gb RAM",
+      "entrega": 94600.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 11900.0
+    },
+    {
       "nombre": "matero palma",
       "precio": 19000.0,
       "categoria": "D2-Equipos de Mate",
@@ -1034,16 +1034,6 @@
       "entrega": 25000.0,
       "cant_cuotas": 5,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Compresor de aire digital",
-      "precio": 46000.0,
-      "categoria": "B9-Herramientas Electricas",
-      "imagen_url": "imgs/Compresor de aire digital.jpeg",
-      "descripcion": "",
-      "entrega": 15100.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 10300.0
     },
     {
       "nombre": "Cafetera Winco w1932 12 Tazas",
@@ -1576,6 +1566,16 @@
       "monto_cuota": 10000.0
     },
     {
+      "nombre": "Moto G06",
+      "precio": 395000.0,
+      "categoria": "Celulares",
+      "imagen_url": "imgs/Moto G06.jpg",
+      "descripcion": "4/128 gb",
+      "entrega": 131000.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 16500.0
+    },
+    {
       "nombre": "Sabana Cacharel Vainilla 1p",
       "precio": 35000.0,
       "categoria": "E7-Sabanas 1  p",
@@ -1644,16 +1644,6 @@
       "entrega": 16000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Balanza personal ",
-      "precio": 22000.0,
-      "categoria": "Cuidado Personal",
-      "imagen_url": "imgs/Balanza personal ogaan.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 12000.0
     },
     {
       "nombre": "Conservadora 34L Gemplast",
@@ -2276,16 +2266,6 @@
       "monto_cuota": 19000.0
     },
     {
-      "nombre": "Batidora de mano con bowl Winco w313",
-      "precio": 73000.0,
-      "categoria": "Electrodomesticos cocina",
-      "imagen_url": "imgs/Batidora con Bowl Winco w313.jpeg",
-      "descripcion": "",
-      "entrega": 24200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 12200.0
-    },
-    {
       "nombre": "Batidora de mano Winco w312",
       "precio": 50000.0,
       "categoria": "Electrodomesticos cocina",
@@ -2376,16 +2356,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Camara de vigilancia para exterior",
-      "precio": 50000.0,
-      "categoria": "Electronicos",
-      "imagen_url": "imgs/Camara de vigilancia exteriores.jpeg",
-      "descripcion": "",
-      "entrega": 16400.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11200.0
-    },
-    {
       "nombre": "Cable Tc Tc",
       "precio": 4000.0,
       "categoria": "Celulares",
@@ -2442,16 +2412,6 @@
       "imagen_url": "imgs/Fundas para almohada.jpeg",
       "descripcion": "x2",
       "entrega": 12000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Cesto de ropa de tela",
-      "precio": 16000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Canasto de ropa de tela.jpeg",
-      "descripcion": "",
-      "entrega": 16000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -2547,11 +2507,11 @@
     },
     {
       "nombre": "Adaptador universal comun",
-      "precio": 7000.0,
+      "precio": 700.0,
       "categoria": "Electronicos",
       "imagen_url": "imgs/Adaptador universal comun.jpg",
       "descripcion": "",
-      "entrega": 7000.0,
+      "entrega": 700.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -2604,6 +2564,26 @@
       "entrega": 17700.0,
       "cant_cuotas": 3,
       "monto_cuota": 12100.0
+    },
+    {
+      "nombre": "Balanza personal",
+      "precio": 22000.0,
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/Balanza personal ogaan.jpeg",
+      "descripcion": "",
+      "entrega": 11000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 11000.0
+    },
+    {
+      "nombre": "vaso nex cook",
+      "precio": 27000.0,
+      "categoria": "",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 17000.0
     }
   ]
 }
