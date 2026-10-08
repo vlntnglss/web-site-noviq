@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "01/10/2026 17:01",
-  "total_productos": 258,
+  "actualizado": "08/10/2026 18:58",
+  "total_productos": 255,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -147,11 +147,11 @@
     },
     {
       "nombre": "Mini Difusor",
-      "precio": 6000.0,
-      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "precio": 7500.0,
+      "categoria": "",
       "imagen_url": "imgs/mini difusor.jpg",
       "descripcion": "",
-      "entrega": 6000.0,
+      "entrega": 7500.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -296,6 +296,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Alfombra 200 x 140",
+      "precio": 70000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Alfombra Nordica.jpg",
+      "descripcion": "",
+      "entrega": 23200.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 11700.0
+    },
+    {
       "nombre": "Balanza Cocina 10kg",
       "precio": 10000.0,
       "categoria": "Cocina y Bazar",
@@ -307,13 +317,13 @@
     },
     {
       "nombre": "Toalla y Toallon Valente Pesado",
-      "precio": 39000.0,
+      "precio": 42000.0,
       "categoria": "Toallas y toallones",
       "imagen_url": "imgs/Toallon valente pesado.jpeg",
       "descripcion": "",
-      "entrega": 13000.0,
+      "entrega": 14000.0,
       "cant_cuotas": 2,
-      "monto_cuota": 13000.0
+      "monto_cuota": 14000.0
     },
     {
       "nombre": "Ventilador 10 Pulgadas",
@@ -376,12 +386,22 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Sabana Love Home 2 1-2 plazas",
+      "precio": 35000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Sabana Love home.jpg",
+      "descripcion": "",
+      "entrega": 11600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 11700.0
+    },
+    {
       "nombre": "Aroma para telas y ambientes",
-      "precio": 5000.0,
-      "categoria": "E4-Perfumes, Velas y Saumerios",
+      "precio": 6000.0,
+      "categoria": "",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-05-18 a las 11.56.04_ce892b9f.jpg",
       "descripcion": "",
-      "entrega": 5000.0,
+      "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -402,6 +422,16 @@
       "imagen_url": "imgs/Lamparas de papel.jpg",
       "descripcion": "",
       "entrega": 3000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Difusor de esencias flor",
+      "precio": 17000.0,
+      "categoria": "",
+      "imagen_url": "imgs/difuso de escencias.jpg",
+      "descripcion": "",
+      "entrega": 17000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -596,16 +626,6 @@
       "monto_cuota": 11600.0
     },
     {
-      "nombre": "Tarjeta de Memoria 64GB",
-      "precio": 28000.0,
-      "categoria": "A2-Celulares Otros",
-      "imagen_url": "imgs/Memoria sd 64gb.jpg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 18000.0
-    },
-    {
       "nombre": "Linterna tactica recagable P50",
       "precio": 22000.0,
       "categoria": "",
@@ -644,16 +664,6 @@
       "entrega": 18100.0,
       "cant_cuotas": 3,
       "monto_cuota": 12300.0
-    },
-    {
-      "nombre": "Tecno Spark Go1",
-      "precio": 285000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Tecno spark go 1.jpg",
-      "descripcion": "64gb 6gb RAM",
-      "entrega": 94600.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 11900.0
     },
     {
       "nombre": "matero palma",
@@ -802,16 +812,6 @@
       "imagen_url": "imgs/bowl colores pastel.jpg",
       "descripcion": "",
       "entrega": 2500.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Azucarera ceramica con cuchara",
-      "precio": 9000.0,
-      "categoria": "D8-Vajilla y Artículos de Servir",
-      "imagen_url": "imgs/Azucarera de porcelana con cuchara.jpg",
-      "descripcion": "",
-      "entrega": 9000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -1024,6 +1024,16 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 19000.0
+    },
+    {
+      "nombre": "Sabana Love Home 1P",
+      "precio": 28000.0,
+      "categoria": "Sabanas",
+      "imagen_url": "imgs/Sabana Love home 1 plaza.jpg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 18000.0
     },
     {
       "nombre": "Edredon con corderito 1 Plaza",
@@ -1336,16 +1346,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Mate Torpedo acero",
-      "precio": 28000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate torpedo acero.jpg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 18000.0
-    },
-    {
       "nombre": "Termo Lumilagro Luminox 1L",
       "precio": 72000.0,
       "categoria": "C9-Termos",
@@ -1564,16 +1564,6 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Moto G06",
-      "precio": 395000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Moto G06.jpg",
-      "descripcion": "4/128 gb",
-      "entrega": 131000.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 16500.0
     },
     {
       "nombre": "Sabana Cacharel Vainilla 1p",
@@ -1856,6 +1846,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Funda para sofa 3 cuerpos",
+      "precio": 52000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Funda para sofa 3 cuerpos.jpg",
+      "descripcion": "",
+      "entrega": 17200.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 11600.0
+    },
+    {
       "nombre": "Set de utensilios Suka",
       "precio": 22000.0,
       "categoria": "",
@@ -1904,6 +1904,16 @@
       "entrega": 12000.0,
       "cant_cuotas": 2,
       "monto_cuota": 12000.0
+    },
+    {
+      "nombre": "Funda de silla X6",
+      "precio": 60000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Funda de silla.jpg",
+      "descripcion": "",
+      "entrega": 20000.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Cortador manual de verduras",
@@ -2086,26 +2096,6 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Termo y mate Stanley 1lt",
-      "precio": 42000.0,
-      "categoria": "Termos y Mates",
-      "imagen_url": "imgs/Termo y mate Stanley 1LT.jpeg",
-      "descripcion": "",
-      "entrega": 14000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 14000.0
-    },
-    {
-      "nombre": "Hidrolavadora Fierce",
-      "precio": 125000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Hidrolavadora Fierce.jpeg",
-      "descripcion": "1100W",
-      "entrega": 41000.0,
-      "cant_cuotas": 8,
-      "monto_cuota": 10500.0
-    },
-    {
       "nombre": "Auricular vincha Capibara",
       "precio": 9900.0,
       "categoria": "Audio",
@@ -2194,16 +2184,6 @@
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Parlante Dual Xaea",
-      "precio": 41000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Parlante Dual Xaea.jpeg",
-      "descripcion": "",
-      "entrega": 13400.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 13800.0
     },
     {
       "nombre": "Cable USb V8 Thor",
@@ -2346,16 +2326,6 @@
       "monto_cuota": 10100.0
     },
     {
-      "nombre": "Secador de pelo Time",
-      "precio": 18000.0,
-      "categoria": "Cuidado personal mujer",
-      "imagen_url": "imgs/secador de pelo Time.jpeg",
-      "descripcion": "",
-      "entrega": 18000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Cable Tc Tc",
       "precio": 4000.0,
       "categoria": "Celulares",
@@ -2436,16 +2406,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Vasos Nex Cook ",
-      "precio": 27000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Vasos x6 Nex Cook.jpeg",
-      "descripcion": "X6 unidades",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 17000.0
-    },
-    {
       "nombre": "Especieros",
       "precio": 30000.0,
       "categoria": "Cocina y Bazar",
@@ -2516,16 +2476,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Atornillador Melech 177",
-      "precio": 90000.0,
-      "categoria": "Herramientas electricas",
-      "imagen_url": "imgs/Atornillador Melech 177.jpg",
-      "descripcion": "",
-      "entrega": 30000.0,
-      "cant_cuotas": 6,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Atornillador Melech 12V",
       "precio": 60000.0,
       "categoria": "Herramientas electricas",
@@ -2576,14 +2526,34 @@
       "monto_cuota": 11000.0
     },
     {
-      "nombre": "vaso nex cook",
-      "precio": 27000.0,
-      "categoria": "",
-      "imagen_url": "",
+      "nombre": "Fundas para almohadon",
+      "precio": 16000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Fundas para almohadon.jpeg",
+      "descripcion": "juego de 2",
+      "entrega": 16000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Alfombra de baño antideslizante",
+      "precio": 14000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Alfombra de baño pvc.jpeg",
       "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 17000.0
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Funda para sofa 2 cuerpos",
+      "precio": 45000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Funda para sofa 2 cuerpos.jpeg",
+      "descripcion": "",
+      "entrega": 14700.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10100.0
     }
   ]
 }
