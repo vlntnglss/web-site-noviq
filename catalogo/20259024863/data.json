@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "13/10/2026 20:16",
-  "total_productos": 269,
+  "actualizado": "13/10/2026 20:54",
+  "total_productos": 278,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -2694,6 +2694,96 @@
       "entrega": 10000.0,
       "cant_cuotas": 2,
       "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Árbol durazno",
+      "precio": 240000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Arbol durazno 1,5m.jpeg",
+      "descripcion": "1,5 metros",
+      "entrega": 80000.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Árbol olivo",
+      "precio": 100000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Arbol olivo.jpeg",
+      "descripcion": "",
+      "entrega": 32800.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 11200.0
+    },
+    {
+      "nombre": "Ramo girasoles",
+      "precio": 6000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Ramo girasoles.jpeg",
+      "descripcion": "",
+      "entrega": 6000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Ramo seco",
+      "precio": 16000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Ramo seco.jpeg",
+      "descripcion": "",
+      "entrega": 16000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Individual mandala",
+      "precio": 36000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Individuales mandala.jpeg",
+      "descripcion": "x6",
+      "entrega": 12000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12000.0
+    },
+    {
+      "nombre": "sahumerios",
+      "precio": 2000.0,
+      "categoria": "Muebles",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 2000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cuadros playeros",
+      "precio": 7000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Cuadros playeros.jpeg",
+      "descripcion": "30x30 cm",
+      "entrega": 7000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cuadros dibujos",
+      "precio": 22000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Cuadros 30x40 bordado.jpeg",
+      "descripcion": "30x40 cm de madera",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 12000.0
+    },
+    {
+      "nombre": "Florero maceta",
+      "precio": 14000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Florero maceta.jpeg",
+      "descripcion": "de yeso",
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     }
   ]
 }
