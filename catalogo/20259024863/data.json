@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "13/10/2026 20:02",
-  "total_productos": 266,
+  "actualizado": "13/10/2026 20:16",
+  "total_productos": 269,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -2664,6 +2664,36 @@
       "entrega": 8000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Sahumerio Tao premium",
+      "precio": 4000.0,
+      "categoria": "",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 4000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Copas puntos ",
+      "precio": 32000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Copas puntos.jpeg",
+      "descripcion": "X6 unidades",
+      "entrega": 10600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10700.0
+    },
+    {
+      "nombre": "Copas lineas",
+      "precio": 30000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Copas puntos.jpeg",
+      "descripcion": "x6 unidades",
+      "entrega": 10000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10000.0
     }
   ]
 }
