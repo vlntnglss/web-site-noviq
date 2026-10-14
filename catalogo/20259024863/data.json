@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "13/10/2026 21:01",
-  "total_productos": 279,
+  "actualizado": "13/10/2026 21:32",
+  "total_productos": 281,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -2794,6 +2794,26 @@
       "entrega": 20000.0,
       "cant_cuotas": 4,
       "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Reloj de pared 60cm Madera",
+      "precio": 100000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/reloj de pared Madera.jpeg",
+      "descripcion": "",
+      "entrega": 32800.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 11200.0
+    },
+    {
+      "nombre": "Reloj de pared 60cm Kevingston",
+      "precio": 80000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Reloj de pared Kevingston.jpeg",
+      "descripcion": "",
+      "entrega": 26500.0,
+      "cant_cuotas": 5,
+      "monto_cuota": 10700.0
     }
   ]
 }
