@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "13/10/2026 20:54",
-  "total_productos": 278,
+  "actualizado": "13/10/2026 21:01",
+  "total_productos": 279,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -2784,6 +2784,16 @@
       "entrega": 14000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Alfombra de yute",
+      "precio": 60000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Alfombra de yute.jpeg",
+      "descripcion": "80 cm",
+      "entrega": 20000.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 10000.0
     }
   ]
 }
