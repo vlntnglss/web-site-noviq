@@ -1,458 +1,292 @@
 <!doctype html>
-<html lang="es" class="h-full">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noviq — Software de Gestión</title>
-  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
-  <script src="/_sdk/element_sdk.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            teal: { DEFAULT: '#015F6A', dark: '#014850', light: '#017A88' },
-            flame: { DEFAULT: '#FF6D00', light: '#FF8A33', dark: '#E06000' }
-          },
-          fontFamily: {
-            outfit: ['Outfit', 'sans-serif'],
-            mono: ['Space Mono', 'monospace']
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    html, body { height: 100%; margin: 0; }
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOVIQ — Software simple para tu negocio</title>
+<meta name="description" content="Herramientas de gestión que se entienden sin capacitación: Noviq POS para tu comercio y herramientas chicas como NOVIQ Cuotas. Hecho en Córdoba.">
+<meta property="og:title" content="NOVIQ — Software simple para tu negocio">
+<meta property="og:description" content="Noviq POS y herramientas simples para comercios y emprendedores. Probalas gratis.">
+<meta property="og:image" content="https://www.noviq-app.com/assets/isotipo-256.png">
+<link rel="icon" href="assets/isotipo-96.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #15807D; --teal-d: #013E46; --teal-l: #2AA6A0;
+    --orange: #FB6E2C; --orange-d: #CC5700;
+    --bg: #E9EDF2; --panel: #FFFFFF; --input: #F3F6F9; --sel: #D3EAEE;
+    --fg: #1F2A33; --fg2: #5B6B76; --head: #0E2027; --border: #E0E6EC;
+    --ok: #12A277;
+    --shadow: 0 1px 2px rgba(16,34,48,.05), 0 2px 6px rgba(16,34,48,.05);
+    --font: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --font-title: "Montserrat", var(--font);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 var(--font); }
+  a { color: inherit; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  [id] { scroll-margin-top: 72px; }
 
-    .gradient-mesh {
-      background:
-        radial-gradient(ellipse 80% 60% at 10% 20%, rgba(1,95,106,0.15) 0%, transparent 60%),
-        radial-gradient(ellipse 60% 50% at 90% 80%, rgba(255,109,0,0.08) 0%, transparent 60%),
-        #0a1628;
-    }
+  /* Encabezado */
+  header { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+  header .wrap { display: flex; align-items: center; gap: 24px; height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .brand img { width: 34px; height: auto; }
+  .brand b { font: 800 20px var(--font-title); color: var(--head); letter-spacing: .04em; }
+  .brand b span { color: var(--head); border-bottom: 3px solid var(--orange); }
+  nav { display: none; gap: 22px; margin-left: auto; font-weight: 600; font-size: 15px; }
+  nav a { text-decoration: none; color: var(--fg2); transition: color .15s; }
+  nav a:hover { color: var(--teal); }
+  .btn-sec { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-weight: 700; font-size: 15px; color: var(--teal-d); border: 2px solid var(--teal); padding: 7px 14px; border-radius: 6px; transition: background .15s, color .15s; white-space: nowrap; }
+  .btn-sec:hover { background: var(--teal); color: #fff; }
+  nav + .btn-sec { margin-left: 0; }
 
-    body {
-      background: #0a1628 !important;
-    }
+  .cta { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: var(--orange); color: #fff; text-decoration: none; font-weight: 700; font-size: 17px; padding: 14px 22px; border-radius: 6px; box-shadow: 0 4px 14px rgba(251,110,44,.28); transition: background .15s, transform .15s; }
+  .cta:hover { background: var(--orange-d); transform: translateY(-1px); }
+  .cta-teal { background: var(--teal); box-shadow: 0 4px 14px rgba(21,128,125,.25); }
+  .cta-teal:hover { background: var(--teal-d); }
+  .link { color: var(--teal-d); font-weight: 700; text-decoration: none; }
+  .link:hover { text-decoration: underline; }
+  .ico-wa { width: 20px; height: 20px; flex: none; }
 
-    .card-glass {
-      background: rgba(15,25,35,0.5);
-      backdrop-filter: blur(20px);
-      border: 1px solid rgba(1,95,106,0.15);
-    }
+  /* Portada */
+  .hero { padding: 48px 0 56px; }
+  .hero .wrap { display: grid; gap: 40px; align-items: center; }
+  .eyebrow { display: inline-block; font-size: 13px; font-weight: 700; color: var(--teal-d); background: var(--sel); padding: 4px 12px; border-radius: 999px; margin-bottom: 16px; }
+  h1 { font: 800 clamp(34px, 6.4vw, 56px)/1.08 var(--font-title); color: var(--head); margin: 0 0 18px; letter-spacing: -.015em; }
+  h1 em { font-style: normal; color: var(--teal); }
+  .lead { font-size: 18px; color: var(--fg2); margin: 0 0 28px; max-width: 32em; }
+  .hero-ctas { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
 
-    @keyframes float-in {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes slide-right {
-      from { opacity: 0; transform: translateX(-40px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
-    @keyframes fade-scale {
-      from { opacity: 0; transform: scale(0.95); }
-      to { opacity: 1; transform: scale(1); }
-    }
-    @keyframes pulse-dot {
-      0%, 100% { opacity: 0.4; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.3); }
-    }
-    @keyframes glow-pulse {
-      0%, 100% { box-shadow: 0 0 20px rgba(255,109,0,0.3), 0 0 40px rgba(1,95,106,0.1); }
-      50% { box-shadow: 0 0 30px rgba(255,109,0,0.5), 0 0 60px rgba(1,95,106,0.2); }
-    }
-    @keyframes float-rotate {
-      0% { transform: translateY(0px) rotateZ(0deg); }
-      49% { transform: translateY(-20px) rotateZ(355deg); }
-      50% { transform: translateY(-20px) rotateZ(360deg); }
-      51% { transform: translateY(-20px) rotateZ(360deg); }
-      100% { transform: translateY(0px) rotateZ(360deg); }
-    }
-    @keyframes shimmer {
-      0% { background-position: -1000px 0; }
-      100% { background-position: 1000px 0; }
-    }
-    @keyframes card-entrance {
-      0% { opacity: 0; transform: translateY(40px) rotateX(20deg); }
-      100% { opacity: 1; transform: translateY(0) rotateX(0deg); }
-    }
-    @keyframes orb-float {
-      0%, 100% { transform: translate(0, 0); }
-      25% { transform: translate(30px, -30px); }
-      50% { transform: translate(0, -60px); }
-      75% { transform: translate(-30px, -30px); }
-    }
-    @keyframes section-fade-in {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
+  /* Maqueta del POS (tema oscuro, como el programa) */
+  .pos-mock { background: #121212; border-radius: 12px; overflow: hidden; box-shadow: 0 24px 60px rgba(14,32,39,.28); color: #E8EAF0; font-size: 13px; max-width: 480px; width: 100%; justify-self: center; }
+  .pm-bar { display: flex; align-items: center; gap: 8px; background: #1E1E1E; padding: 10px 14px; border-left: 4px solid var(--teal); }
+  .pm-bar b { font-size: 14px; } .pm-bar small { margin-left: auto; color: #8B9099; }
+  .pm-body { display: grid; grid-template-columns: 1fr 150px; gap: 10px; padding: 12px; }
+  .pm-search { background: #2A2A2A; border-radius: 4px; padding: 8px 10px; color: #8B9099; margin-bottom: 8px; }
+  .pm-row { display: flex; justify-content: space-between; padding: 7px 8px; border-radius: 4px; }
+  .pm-row:nth-child(odd) { background: #1E1E1E; } .pm-row:nth-child(even) { background: #232323; }
+  .pm-row span:last-child { color: #8B9099; }
+  .pm-total { background: #1E1E1E; border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+  .pm-total small { color: #8B9099; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+  .pm-total b { font-size: 26px; color: #fff; line-height: 1; }
+  .pm-pay { background: var(--orange); color: #fff; text-align: center; font-weight: 700; padding: 9px; border-radius: 6px; }
+  .pm-chip { background: #2A3A3A; color: #8fd6d2; border-radius: 4px; padding: 5px 8px; font-size: 11px; text-align: center; }
 
-    .anim-float { animation: float-in 0.8s ease-out both; }
-    .anim-float-d1 { animation: float-in 0.8s ease-out 0.15s both; }
-    .anim-float-d2 { animation: float-in 0.8s ease-out 0.3s both; }
-    .anim-float-d3 { animation: float-in 0.8s ease-out 0.45s both; }
-    .anim-slide { animation: slide-right 0.7s ease-out 0.2s both; }
-    .anim-scale { animation: fade-scale 0.6s ease-out 0.5s both; }
-    .anim-glow { animation: glow-pulse 3s ease-in-out infinite; }
-    .anim-float-rotate { animation: float-rotate 6s ease-in-out infinite; }
-    .anim-card-entrance { animation: card-entrance 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+  /* Secciones */
+  section { padding: 56px 0; }
+  section.alt { background: var(--panel); }
+  .kicker { font-size: 13px; font-weight: 700; color: var(--teal); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 8px; }
+  h2 { font: 700 clamp(26px, 4.2vw, 36px)/1.18 var(--font-title); color: var(--head); margin: 0 0 10px; }
+  .sub { color: var(--fg2); margin: 0 0 32px; max-width: 40em; font-size: 17px; }
 
-    .dot-grid {
-      background-image: radial-gradient(circle, rgba(1,95,106,0.1) 1px, transparent 1px);
-      background-size: 24px 24px;
-    }
+  .grid { display: grid; gap: 16px; }
+  .feat { display: flex; gap: 14px; align-items: flex-start; background: var(--bg); border-radius: 10px; padding: 18px; }
+  .feat .ico { flex: none; width: 42px; height: 42px; border-radius: 10px; background: var(--sel); display: grid; place-items: center; }
+  .feat .ico svg, .why .ico svg { width: 22px; height: 22px; stroke: var(--teal-d); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .feat h3 { margin: 0 0 2px; font-size: 17px; color: var(--head); }
+  .feat p { margin: 0; color: var(--fg2); font-size: 15px; }
+  .pos-foot { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; }
+  .pos-foot p { margin: 0; color: var(--fg2); font-size: 15px; }
 
-    .whatsapp-float {
-      animation: pulse-dot 2s ease-in-out infinite;
-    }
+  /* Herramientas */
+  .tool { background: var(--panel); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); display: flex; flex-direction: column; border-top: 4px solid var(--teal); }
+  .tool.soon { border-top-color: var(--border); background: transparent; box-shadow: none; border: 2px dashed #C9D3DB; }
+  .tool .tag { align-self: flex-start; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 12px; }
+  .tag.new { color: #fff; background: var(--orange); }
+  .tag.idea { color: var(--fg2); background: var(--input); }
+  .tool h3 { margin: 0 0 6px; font: 700 22px var(--font-title); color: var(--head); }
+  .tool p { margin: 0 0 18px; color: var(--fg2); flex: 1; }
+  .tool .price { font-weight: 700; color: var(--head); margin-bottom: 16px; }
+  .tool .price small { font-weight: 400; color: var(--fg2); }
 
-    .feature-card {
-      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-      position: relative;
-      overflow: hidden;
-    }
+  /* Por qué */
+  .why { background: var(--panel); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); }
+  .why .ico { width: 46px; height: 46px; border-radius: 10px; background: var(--sel); display: grid; place-items: center; margin-bottom: 14px; }
+  .why h3 { margin: 0 0 6px; font-size: 19px; color: var(--head); }
+  .why p { margin: 0; color: var(--fg2); }
 
-    .feature-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,109,0,0.1), transparent);
-      animation: shimmer 3s infinite;
-    }
+  /* Contacto */
+  .contact { background: var(--teal-d); color: #fff; border-radius: 16px; padding: 36px 24px; text-align: center; }
+  .contact h2 { color: #fff; }
+  .contact .sub { color: #B8D3D6; margin: 0 auto 26px; }
+  .contact .num { display: block; margin-top: 16px; color: #B8D3D6; font-size: 15px; }
+  .contact .num a { color: #fff; font-weight: 700; }
 
-    .feature-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 20px 40px -12px rgba(1,95,106,0.25), 0 0 30px rgba(255,109,0,0.15);
-      border-color: rgba(255,109,0,0.2);
-    }
+  footer { padding: 36px 0 48px; color: var(--fg2); font-size: 14px; }
+  footer .wrap { display: grid; gap: 18px; }
+  footer .links { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+  footer a { text-decoration: none; color: var(--fg); font-weight: 600; }
+  footer a:hover { color: var(--teal); }
 
-    .scroll-container {
-      height: 100%;
-      overflow-y: auto;
-      overflow-x: hidden;
-      background: #0a1628;
-    }
+  .wa-float { position: fixed; right: 16px; bottom: 16px; z-index: 20; width: 56px; height: 56px; border-radius: 50%; background: #25D366; display: grid; place-items: center; box-shadow: 0 6px 18px rgba(0,0,0,.2); transition: transform .15s; }
+  .wa-float:hover { transform: scale(1.06); }
+  .wa-float svg { width: 30px; height: 30px; fill: #fff; }
 
-    section {
-      animation: section-fade-in 0.6s ease-out;
-    }
+  @media (min-width: 720px) {
+    nav { display: flex; }
+    .hero { padding: 72px 0 80px; }
+    .hero .wrap { grid-template-columns: 1.1fr 1fr; }
+    section { padding: 80px 0; }
+    .grid.c2 { grid-template-columns: repeat(2, 1fr); }
+    .grid.c3 { grid-template-columns: repeat(3, 1fr); }
+    .contact { padding: 56px 40px; }
+    footer .wrap { grid-template-columns: 1fr auto; align-items: center; }
+  }
+  @media (max-width: 380px) { .pm-body { grid-template-columns: 1fr; } }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+</style>
+</head>
+<body>
 
-    .product-card {
-      animation: card-entrance 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both;
-    }
-
-    .product-card:nth-child(2) {
-      animation-delay: 0.1s;
-    }
-
-    .orb-bg {
-      animation: orb-float 8s ease-in-out infinite;
-    }
-
-    .logo-glow {
-      animation: float-rotate 12s ease-in-out infinite;
-      filter: drop-shadow(0 0 30px rgba(255,109,0,0.4));
-    }
-  </style>
-  <style>body { box-sizing: border-box; }</style>
-  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
- </head>
- <body class="h-full">
-  <div id="app" class="scroll-container gradient-mesh font-outfit">
-   <!-- Nav -->
-   <nav class="sticky top-0 z-50 bg-black/40 backdrop-blur-xl border-b border-teal/10">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-     <div class="flex items-center gap-2">
-      <!-- Noviq Logo SVG -->
-      <svg width="36" height="36" viewbox="0 0 36 36" fill="none">
-       <rect width="36" height="36" rx="8" fill="#015F6A" /> <path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="white" />
-      </svg><span id="nav-logo-text" class="text-xl font-bold text-flame tracking-tight">noviq</span>
-     </div>
-    </div>
-   </nav><!-- Hero -->
-   <section class="relative overflow-hidden">
-    <div class="absolute inset-0 dot-grid opacity-40"></div>
-    <div class="relative max-w-6xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
-     <div class="grid md:grid-cols-2 gap-12 items-center">
-      <!-- Text Column -->
-      <div class="anim-float space-y-6">
-       <div>
-        <h1 id="hero-title" class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight">Software que <span class="text-flame">simplifica</span> tu negocio</h1>
-       </div>
-       <p id="hero-subtitle" class="text-lg md:text-xl text-white/70 leading-relaxed max-w-lg">Soluciones de gestión personalizadas para cada rubro. Potenciá tu operación con tecnología intuitiva, soporte dedicado 24/7 y análisis en tiempo real que te mantienen adelante de la competencia.</p>
-       <div class="pt-4">
-        <p class="text-sm font-semibold text-flame tracking-widest uppercase mb-6">✓ <span id="trial-badge">30 días de prueba gratis</span></p>
-       </div>
-      </div><!-- Logo Column -->
-      <div class="anim-scale relative flex items-center justify-center md:justify-end">
-       <div class="absolute -z-10 -top-6 -right-6 w-40 h-40 bg-flame/20 rounded-full blur-3xl orb-bg"></div>
-       <div class="absolute -z-10 -bottom-4 -left-4 w-32 h-32 bg-teal/15 rounded-full blur-2xl orb-bg" style="animation-delay: -2s;"></div><img src="assets/logo.png" alt="Noviq Logo" width="400" height="400" class="anim-float-rotate" loading="lazy" onerror="console.error('Logo failed to load:', this.src); this.style.background='#e5e7eb'; this.alt='Logo unavailable';">
-      </div>
-     </div>
-    </div>
-   </section>
-  </div><!-- Features -->
-  <section class="py-20 md:py-28">
-   <div class="max-w-6xl mx-auto px-6">
-    <div class="text-center mb-16">
-     <span class="text-flame font-mono text-sm tracking-widest uppercase">¿Por qué Noviq?</span>
-     <h2 id="features-title" class="mt-3 text-3xl md:text-4xl font-bold text-white tracking-tight">Todo lo que necesitás, nada que sobre</h2>
-    </div>
-    <div class="grid md:grid-cols-3 gap-6">
-     <div class="feature-card card-glass rounded-2xl p-8">
-      <div class="w-12 h-12 rounded-xl bg-teal/10 flex items-center justify-center mb-5">
-       <i data-lucide="sliders" style="width:24px;height:24px;color:#FF6D00"></i>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2">Personalizado</h3>
-      <p class="text-white/50 text-sm leading-relaxed">Adaptamos cada solución a las necesidades únicas de tu rubro. No usás software genérico, usás el tuyo.</p>
-     </div>
-     <div class="feature-card card-glass rounded-2xl p-8">
-      <div class="w-12 h-12 rounded-xl bg-flame/10 flex items-center justify-center mb-5">
-       <i data-lucide="headphones" style="width:24px;height:24px;color:#FF6D00"></i>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2">Soporte Rápido</h3>
-      <p class="text-white/50 text-sm leading-relaxed">Respuesta inmediata cuando la necesitás. Nuestro equipo está disponible para resolver cualquier situación.</p>
-     </div>
-     <div class="feature-card card-glass rounded-2xl p-8">
-      <div class="w-12 h-12 rounded-xl bg-teal/10 flex items-center justify-center mb-5">
-       <i data-lucide="gift" style="width:24px;height:24px;color:#FF6D00"></i>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2">30 Días Gratis</h3>
-      <p class="text-white/50 text-sm leading-relaxed">Probá sin compromiso. Sin tarjeta de crédito, sin letra chica. Si no te convence, no pagás nada.</p>
-     </div>
-    </div>
-   </div>
-  </section><!-- Products Carousel -->
-  <section class="py-24 md:py-32 relative overflow-hidden">
-   <div class="absolute inset-0 bg-gradient-to-b from-transparent via-teal/[0.02] to-transparent pointer-events-none"></div>
-   <div class="relative max-w-6xl mx-auto px-6">
-    <div class="text-center mb-16">
-     <span class="text-flame font-mono text-sm tracking-widest uppercase">Nuestros Productos</span>
-     <h2 id="products-title" class="mt-3 text-3xl md:text-4xl font-bold text-white tracking-tight">Soluciones innovadoras para tu negocio</h2>
-    </div>
-    <div class="relative">
-     <!-- Carousel Container -->
-     <div id="carousel-container" class="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth" style="scroll-behavior: smooth;">
-      <!-- Card 1: Noviq POS -->
-      <div class="flex-shrink-0 w-full md:w-[calc(50%-12px)] snap-start">
-       <div class="card-glass rounded-2xl p-8 md:p-10 h-full flex flex-col group cursor-pointer transition-all hover:border-flame/30" id="pos-card">
-        <div class="flex items-start justify-between mb-6">
-         <div>
-          <span class="inline-block px-3 py-1 bg-flame/10 rounded-full text-flame text-xs font-semibold mb-3">DISPONIBLE</span>
-          <h3 id="pos-title" class="text-2xl md:text-3xl font-bold text-white">Noviq POS</h3>
-         </div><i data-lucide="shopping-cart" style="width:32px;height:32px;color:#FF6D00;opacity:0.6;"></i>
-        </div>
-        <p id="pos-desc" class="text-white/60 text-base leading-relaxed flex-grow mb-8">Gestión completa de ventas con interfaz intuitiva. Inventario en tiempo real, reportes detallados y soporte dedicado.</p>
-        <div class="space-y-3 mb-8">
-         <div class="flex items-center gap-3 text-white/70 text-sm">
-          <i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Gestión de inventario en tiempo real</span>
-         </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm">
-          <i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Reportes y analytics avanzados</span>
-         </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm">
-          <i data-lucide="check-circle-2" style="width:18px;height:18px;color:#FF6D00;"></i> <span>Integración con múltiples formas de pago</span>
-         </div>
-        </div>
-       </div>
-      </div><!-- Card 2: Próximamente -->
-      <div class="flex-shrink-0 w-full md:w-[calc(50%-12px)] snap-start">
-       <div class="card-glass rounded-2xl p-8 md:p-10 h-full flex flex-col relative overflow-hidden group cursor-default">
-        <div class="absolute top-0 right-0 w-32 h-32 bg-flame/5 rounded-full blur-3xl -z-10"></div>
-        <div class="flex items-start justify-between mb-6">
-         <div>
-          <span class="inline-block px-3 py-1 bg-teal/10 rounded-full text-teal text-xs font-semibold mb-3">PRÓXIMAMENTE</span>
-          <h3 id="upcoming-title" class="text-2xl md:text-3xl font-bold text-white">Noviq Módulos Plus</h3>
-         </div><i data-lucide="sparkles" style="width:32px;height:32px;color:#015F6A;opacity:0.6;"></i>
-        </div>
-        <p id="upcoming-desc" class="text-white/60 text-base leading-relaxed flex-grow mb-8">Próximamente: Gestión de recursos humanos, contabilidad integrada, y análisis predictivo con IA.</p>
-        <div class="space-y-3 mb-8">
-         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75">
-          <i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Sistema de RRHH completo</span>
-         </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75">
-          <i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Contabilidad y auditoría automática</span>
-         </div>
-         <div class="flex items-center gap-3 text-white/70 text-sm opacity-75">
-          <i data-lucide="sparkles" style="width:18px;height:18px;color:#015F6A;"></i> <span>Predicciones con inteligencia artificial</span>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div><!-- Carousel Navigation Dots -->
-     <div class="flex justify-center gap-2 mt-8">
-      <button id="carousel-dot-1" class="w-2.5 h-2.5 rounded-full bg-flame transition-all" data-slide="0"></button> <button id="carousel-dot-2" class="w-2.5 h-2.5 rounded-full bg-white/20 transition-all hover:bg-white/40" data-slide="1"></button>
-     </div>
-    </div>
-   </div>
-  </section><!-- Footer -->
-  <footer class="py-8 border-t border-teal/5">
-   <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-    <div class="flex items-center gap-2 text-teal/40 text-sm">
-     <svg width="20" height="20" viewbox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#015F6A" opacity="0.3" /><path d="M10 26V10h3l7 10.5V10h3v16h-3L13 15.5V26h-3z" fill="#015F6A" opacity="0.5" />
-     </svg><span>© 2025 Noviq. Todos los derechos reservados.</span>
-    </div>
-    <div class="flex items-center gap-1 text-teal/30 text-xs">
-     <i data-lucide="code-2" style="width:14px;height:14px;"></i> <span>Hecho con pasión en Argentina</span>
-    </div>
-   </div>
-  </footer><!-- Floating WhatsApp Button -->
-  <div class="fixed bottom-6 right-6 z-40">
-   <a id="floating-whatsapp" href="https://wa.me/5493584903336?text=Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20Noviq" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-16 h-16 bg-white rounded-full hover:shadow-lg hover:shadow-white/30 whatsapp-float transition-all" title="Hablar por WhatsApp">
-    <svg width="32" height="32" viewbox="0 0 24 24" fill="currentColor" style="color: #25D366;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" /><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.319 0-4.46-.767-6.184-2.06l-.432-.332-3.09 1.036 1.036-3.09-.332-.432A9.955 9.955 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z" />
-    </svg></a>
+<header>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="NOVIQ, inicio"><img src="assets/isotipo-96.png" alt=""><b>NOVI<span>Q</span></b></a>
+    <nav aria-label="Principal">
+      <a href="#pos">Noviq POS</a>
+      <a href="#herramientas">Herramientas</a>
+      <a href="#por-que">Por qué NOVIQ</a>
+    </nav>
+    <a class="btn-sec" href="#contacto">Escribinos</a>
   </div>
-  <script>
-  const defaultConfig = {
-    hero_title: 'Software que <br><span class="text-flame">simplifica</span> tu negocio',
-    hero_subtitle: 'Soluciones de gestión personalizadas para cada rubro. Potenciá tu operación con tecnología intuitiva y soporte dedicado.',
-    cta_text: 'Empezar ahora',
-    section_title: 'Todo lo que necesitás, nada que sobre',
-    trial_text: '30 días de prueba gratis',
-    products_title: 'Soluciones innovadoras para tu negocio',
-    pos_title: 'Noviq POS',
-    pos_desc: 'Gestión completa de ventas con interfaz intuitiva. Inventario en tiempo real, reportes detallados y soporte dedicado.',
-    upcoming_title: 'Noviq Módulos Plus',
-    upcoming_desc: 'Próximamente: Gestión de recursos humanos, contabilidad integrada, y análisis predictivo con IA.',
-    whatsapp_number: '5493584903336',
-    background_color: '#0a1628',
-    surface_color: '#0f1923',
-    text_color: '#ffffff',
-    primary_action_color: '#FF6D00',
-    secondary_action_color: '#015F6A',
-    font_family: 'Outfit',
-    font_size: 16
-  };
+</header>
 
-  function updateWhatsAppLinks(number) {
-    const url = `https://wa.me/${number}?text=Hola!%20Me%20interesa%20conocer%20más%20sobre%20Noviq`;
-    document.getElementById('floating-whatsapp').href = url;
-  }
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Hecho en Córdoba, para el interior</span>
+        <h1>Software <em>simple</em> para tu negocio.</h1>
+        <p class="lead">Herramientas de gestión que se entienden sin capacitación. Del sistema completo para tu comercio a apps chicas que te resuelven un problema puntual.</p>
+        <div class="hero-ctas">
+          <a class="cta" href="#pos">Conocé Noviq POS</a>
+          <a class="link" href="#herramientas">Ver todas las herramientas →</a>
+        </div>
+      </div>
 
-  // Carousel functionality
-  function setupCarousel() {
-    const container = document.getElementById('carousel-container');
-    const dot1 = document.getElementById('carousel-dot-1');
-    const dot2 = document.getElementById('carousel-dot-2');
+      <div class="pos-mock" aria-label="Así se ve Noviq POS">
+        <div class="pm-bar"><b>Caja 1 · Almacén Don Pedro</b><small>Abierta</small></div>
+        <div class="pm-body">
+          <div>
+            <div class="pm-search">Buscar producto o escanear…</div>
+            <div class="pm-row"><span>Yerba 1 kg × 2</span><span>$9.800</span></div>
+            <div class="pm-row"><span>Leche entera × 3</span><span>$4.350</span></div>
+            <div class="pm-row"><span>Pan francés 1 kg</span><span>$2.600</span></div>
+            <div class="pm-row"><span>Azúcar 1 kg</span><span>$1.450</span></div>
+            <div class="pm-row"><span>Aceite girasol 1,5 L</span><span>$3.900</span></div>
+          </div>
+          <div class="pm-total">
+            <small>Total</small>
+            <b>$22.100</b>
+            <div class="pm-chip">Mercado Pago · QR</div>
+            <div class="pm-chip">Cuenta corriente</div>
+            <div class="pm-pay">Cobrar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    if (!container) return;
+  <section class="alt" id="pos">
+    <div class="wrap">
+      <p class="kicker">Producto principal</p>
+      <h2>Noviq POS: todo tu comercio en un solo lugar</h2>
+      <p class="sub">Vendé, cobrá, facturá y controlá el stock desde la compu del mostrador. Pensado para almacenes, ferreterías, kioscos y comercios de barrio.</p>
+      <div class="grid c3">
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg></div><div><h3>Ventas y caja</h3><p>Cobrás rápido, abrís y cerrás la caja, y ves cuánto entró.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/></svg></div><div><h3>Stock y compras</h3><p>Sabés qué tenés, qué falta y qué le compraste a cada proveedor.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-7 7-7s7 3 7 7"/><path d="M17 11h5M19.5 8.5v5"/></svg></div><div><h3>Clientes y cuenta corriente</h3><p>Fiado, cuotas y saldos de cada cliente, con avisos de mora.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg></div><div><h3>Factura electrónica</h3><p>Emitís tus comprobantes de ARCA desde la misma venta.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM18 18h3v3h-3z"/></svg></div><div><h3>Cobros con Mercado Pago</h3><p>QR y link de pago, conectados con tu cuenta.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12z"/></svg></div><div><h3>Catálogo web y WhatsApp</h3><p>Tus productos en una página para compartir, y avisos a tus clientes.</p></div></div>
+      </div>
+      <div class="pos-foot">
+        <a class="cta" href="https://wa.me/5493584903336?text=Hola%2C%20quiero%20probar%20Noviq%20POS">
+          <svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
+          Pedí 30 días de prueba gratis
+        </a>
+        <p>Para Windows. Funciona en una o en varias compus del local, con respaldo diario.</p>
+      </div>
+    </div>
+  </section>
 
-    dot1.addEventListener('click', () => {
-      container.scrollLeft = 0;
-      updateCarouselDots();
-    });
+  <section id="herramientas">
+    <div class="wrap">
+      <p class="kicker">Herramientas NOVIQ</p>
+      <h2>Apps chicas, simples y por mes</h2>
+      <p class="sub">Cada una resuelve un problema puntual. Se usan desde el celular, sin instalar nada, y se pagan por mes.</p>
+      <div class="grid c2">
+        <div class="tool">
+          <span class="tag new">Nueva</span>
+          <h3>NOVIQ Cuotas</h3>
+          <p>Para profes, academias, gimnasios y escuelitas: mirá quién pagó la cuota y quién te debe, y recordale por WhatsApp en un toque.</p>
+          <div class="price">$7.900 <small>/ mes · 14 días gratis</small></div>
+          <a class="cta cta-teal" href="/cuotas/">Conocé NOVIQ Cuotas</a>
+        </div>
+        <div class="tool soon">
+          <span class="tag idea">Próximamente</span>
+          <h3>¿Qué te gustaría resolver?</h3>
+          <p>Estamos armando más herramientas para comercios y emprendedores. Si hay algo que hoy hacés en un cuaderno o en una planilla, contanos: puede ser la próxima.</p>
+          <a class="link" href="https://wa.me/5493584903336?text=Hola%2C%20tengo%20una%20idea%20para%20una%20herramienta%20NOVIQ%3A">Contanos tu idea →</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    dot2.addEventListener('click', () => {
-      const cardWidth = container.querySelector('[snap-start]').offsetWidth + 24;
-      container.scrollLeft = cardWidth;
-      updateCarouselDots();
-    });
+  <section class="alt" id="por-que">
+    <div class="wrap">
+      <p class="kicker">Por qué NOVIQ</p>
+      <h2>Lo simple también puede ser profesional</h2>
+      <p class="sub">Si algo se ve potente pero confunde, no va. Esa es nuestra regla.</p>
+      <div class="grid c3">
+        <div class="why"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg></div><h3>Se entiende solo</h3><p>Lo usás desde el primer día, sin cursos ni manuales.</p></div>
+        <div class="why"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Estamos cerca</h3><p>Somos de Córdoba. Te atiende una persona, por WhatsApp, que conoce tu negocio.</p></div>
+        <div class="why"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13M3 12h18M12 8c-2-4-6-4-6-1.5S10 8 12 8zM12 8c2-4 6-4 6-1.5S14 8 12 8z"/></svg></div><h3>Probás sin riesgo</h3><p>Todas las herramientas tienen prueba gratis, sin tarjeta y sin letra chica.</p></div>
+      </div>
+    </div>
+  </section>
 
-    container.addEventListener('scroll', updateCarouselDots);
-  }
+  <section id="contacto">
+    <div class="wrap">
+      <div class="contact">
+        <h2>Hablemos</h2>
+        <p class="sub">Contanos qué tenés y qué necesitás. Te respondemos por WhatsApp, normalmente en el día.</p>
+        <a class="cta" href="https://wa.me/5493584903336?text=Hola%2C%20me%20interesa%20conocer%20NOVIQ">
+          <svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
+          Escribinos por WhatsApp
+        </a>
+        <span class="num">o agendá el número: <a href="tel:+5493584903336">+54 9 358 490-3336</a></span>
+      </div>
+    </div>
+  </section>
+</main>
 
-  function updateCarouselDots() {
-    const container = document.getElementById('carousel-container');
-    const dot1 = document.getElementById('carousel-dot-1');
-    const dot2 = document.getElementById('carousel-dot-2');
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="brand" href="/"><img src="assets/isotipo-96.png" alt=""><b>NOVI<span>Q</span></b></a>
+      <p>Software simple para tu negocio. Hecho en Córdoba, Argentina. © 2026</p>
+    </div>
+    <div class="links">
+      <a href="#pos">Noviq POS</a>
+      <a href="/cuotas/">NOVIQ Cuotas</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </div>
+</footer>
 
-    if (!container) return;
+<a class="wa-float" href="https://wa.me/5493584903336?text=Hola%2C%20me%20interesa%20conocer%20NOVIQ" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/><path d="M16.5 14.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z" style="fill:#25D366"/></svg>
+</a>
 
-    const scrollPos = container.scrollLeft;
-    if (scrollPos < 100) {
-      dot1.classList.add('bg-flame');
-      dot1.classList.remove('bg-white/20');
-      dot2.classList.remove('bg-flame');
-      dot2.classList.add('bg-white/20');
-    } else {
-      dot2.classList.add('bg-flame');
-      dot2.classList.remove('bg-white/20');
-      dot1.classList.remove('bg-flame');
-      dot1.classList.add('bg-white/20');
-    }
-  }
-
-  function applyConfig(config) {
-    const c = { ...defaultConfig, ...config };
-
-    document.getElementById('hero-title').innerHTML = c.hero_title;
-    document.getElementById('hero-subtitle').textContent = c.hero_subtitle;
-    document.getElementById('features-title').textContent = c.section_title;
-    document.getElementById('trial-badge').textContent = c.trial_text;
-    document.getElementById('products-title').textContent = c.products_title;
-    document.getElementById('pos-title').textContent = c.pos_title;
-    document.getElementById('pos-desc').textContent = c.pos_desc;
-    document.getElementById('upcoming-title').textContent = c.upcoming_title;
-    document.getElementById('upcoming-desc').textContent = c.upcoming_desc;
-
-    updateWhatsAppLinks(c.whatsapp_number);
-
-    // Font
-    const font = c.font_family || defaultConfig.font_family;
-    const stack = `${font}, sans-serif`;
-    document.getElementById('app').style.fontFamily = stack;
-
-    // Font size
-    const base = c.font_size || defaultConfig.font_size;
-    document.getElementById('hero-title').style.fontSize = '';
-    document.getElementById('hero-subtitle').style.fontSize = `${base * 1.125}px`;
-  }
-
-  if (window.elementSdk) window.elementSdk.init({
-    defaultConfig,
-    onConfigChange: async (config) => { applyConfig(config); },
-    mapToCapabilities: (config) => ({
-      recolorables: [
-        {
-          get: () => config.background_color || defaultConfig.background_color,
-          set: (v) => { config.background_color = v; window.elementSdk.setConfig({ background_color: v }); }
-        },
-        {
-          get: () => config.surface_color || defaultConfig.surface_color,
-          set: (v) => { config.surface_color = v; window.elementSdk.setConfig({ surface_color: v }); }
-        },
-        {
-          get: () => config.text_color || defaultConfig.text_color,
-          set: (v) => { config.text_color = v; window.elementSdk.setConfig({ text_color: v }); }
-        },
-        {
-          get: () => config.primary_action_color || defaultConfig.primary_action_color,
-          set: (v) => { config.primary_action_color = v; window.elementSdk.setConfig({ primary_action_color: v }); }
-        },
-        {
-          get: () => config.secondary_action_color || defaultConfig.secondary_action_color,
-          set: (v) => { config.secondary_action_color = v; window.elementSdk.setConfig({ secondary_action_color: v }); }
-        }
-      ],
-      borderables: [],
-      fontEditable: {
-        get: () => config.font_family || defaultConfig.font_family,
-        set: (v) => { config.font_family = v; window.elementSdk.setConfig({ font_family: v }); }
-      },
-      fontSizeable: {
-        get: () => config.font_size || defaultConfig.font_size,
-        set: (v) => { config.font_size = v; window.elementSdk.setConfig({ font_size: v }); }
-      }
-    }),
-    mapToEditPanelValues: (config) => new Map([
-      ['hero_title', config.hero_title || defaultConfig.hero_title],
-      ['hero_subtitle', config.hero_subtitle || defaultConfig.hero_subtitle],
-      ['cta_text', config.cta_text || defaultConfig.cta_text],
-      ['section_title', config.section_title || defaultConfig.section_title],
-      ['trial_text', config.trial_text || defaultConfig.trial_text],
-      ['whatsapp_number', config.whatsapp_number || defaultConfig.whatsapp_number]
-    ])
+<script>
+  // Los links de WhatsApp ya funcionan sin JavaScript; esto solo los abre en otra pestaña.
+  document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (a) {
+    a.target = "_blank";
+    a.rel = "noopener";
   });
-
-  applyConfig(defaultConfig);
-  setupCarousel();
-  lucide.createIcons();
 </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e752d8265377f2a',t:'MTc3NTM1NjcxOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</body>
 </html>
