@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "13/10/2026 21:32",
-  "total_productos": 281,
+  "actualizado": "14/10/2026 19:37",
+  "total_productos": 279,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -64,16 +64,6 @@
       "entrega": 10000.0,
       "cant_cuotas": 2,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Secador de pelo Winco W98",
-      "precio": 70000.0,
-      "categoria": "Cuidado Personal",
-      "imagen_url": "imgs/Secador de pelo winco w98.jpeg",
-      "descripcion": "",
-      "entrega": 23200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 11700.0
     },
     {
       "nombre": "Multiprocesadora W1819",
@@ -1904,16 +1894,6 @@
       "entrega": 19400.0,
       "cant_cuotas": 3,
       "monto_cuota": 13200.0
-    },
-    {
-      "nombre": "Vaso quencher con parlante",
-      "precio": 32000.0,
-      "categoria": "C9-Termos",
-      "imagen_url": "imgs/Vaso quencher con parlante.jpg",
-      "descripcion": "",
-      "entrega": 10600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10700.0
     },
     {
       "nombre": "Cortina Tussor",
