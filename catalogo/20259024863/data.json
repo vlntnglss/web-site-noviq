@@ -2,7 +2,7 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "14/10/2026 19:37",
+  "actualizado": "14/10/2026 19:39",
   "total_productos": 279,
   "productos": [
     {
@@ -2676,7 +2676,7 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Árbol durazno",
+      "nombre": "Arbol durazno",
       "precio": 240000.0,
       "categoria": "Muebles",
       "imagen_url": "imgs/Arbol durazno 1,5m.jpeg",
@@ -2686,7 +2686,7 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Árbol olivo",
+      "nombre": "Arbol olivo",
       "precio": 100000.0,
       "categoria": "Muebles",
       "imagen_url": "imgs/Arbol olivo.jpeg",
