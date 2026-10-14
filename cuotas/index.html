@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOVIQ Cuotas — Sabé quién te debe la cuota</title>
+<meta name="description" content="Para profes, academias, gimnasios y escuelitas: mirá quién pagó, quién debe y recordale por WhatsApp en un toque.">
+<meta property="og:title" content="NOVIQ Cuotas — Sabé quién te debe la cuota">
+<meta property="og:description" content="Mirá quién pagó, quién debe y recordale por WhatsApp en un toque.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #15807D; --teal-d: #013E46; --teal-l: #2AA6A0;
+    --orange: #FB6E2C; --orange-d: #CC5700;
+    --bg: #E9EDF2; --panel: #FFFFFF; --input: #F3F6F9; --sel: #D3EAEE;
+    --fg: #1F2A33; --fg2: #5B6B76; --head: #0E2027; --border: #E0E6EC;
+    --ok: #12A277; --danger: #D64545; --warn: #C6841B;
+    --shadow: 0 1px 2px rgba(16,34,48,.05), 0 2px 6px rgba(16,34,48,.05);
+    --font: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --font-title: "Montserrat", var(--font);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 var(--font); }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+  header { background: var(--panel); border-bottom: 1px solid var(--border); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font: 800 18px var(--font-title); color: var(--head); letter-spacing: .02em; }
+  .brand img { width: 36px; height: 36px; object-fit: contain; }
+  .brand span { color: var(--teal); }
+  .pill { font-size: 13px; font-weight: 600; color: var(--teal-d); background: var(--sel); padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+
+  .hero { padding: 48px 0 40px; }
+  .hero .wrap { display: grid; gap: 40px; align-items: center; }
+  h1 { font: 800 clamp(32px, 6vw, 48px)/1.1 var(--font-title); color: var(--head); margin: 0 0 16px; letter-spacing: -.01em; }
+  h1 em { font-style: normal; color: var(--teal); }
+  .lead { font-size: 18px; color: var(--fg2); margin: 0 0 24px; max-width: 34em; }
+  .cta { display: inline-flex; align-items: center; gap: 10px; background: var(--orange); color: #fff; text-decoration: none; font-weight: 700; font-size: 17px; padding: 14px 22px; border-radius: 6px; box-shadow: 0 4px 14px rgba(251,110,44,.3); transition: background .15s, transform .15s; }
+  .cta:hover { background: var(--orange-d); transform: translateY(-1px); }
+  .cta svg { width: 20px; height: 20px; }
+  .fine { font-size: 14px; color: var(--fg2); margin-top: 12px; }
+
+  /* Maqueta del celular */
+  .phone { justify-self: center; width: 300px; max-width: 100%; background: #0E2027; border-radius: 34px; padding: 12px; box-shadow: 0 20px 50px rgba(14,32,39,.25); }
+  .screen { background: var(--bg); border-radius: 24px; overflow: hidden; }
+  .app-top { background: var(--panel); padding: 14px 16px 12px; border-left: 4px solid var(--teal); }
+  .app-top small { display: block; font-size: 11px; color: var(--fg2); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+  .app-top b { font-size: 16px; color: var(--head); }
+  .kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 10px 12px 4px; }
+  .kpi { background: var(--panel); border-radius: 8px; padding: 8px 10px; box-shadow: var(--shadow); }
+  .kpi small { display: block; font-size: 10px; font-weight: 700; color: var(--fg2); text-transform: uppercase; letter-spacing: .03em; }
+  .kpi b { font-size: 20px; }
+  .kpi.debe b { color: var(--danger); } .kpi.ok b { color: var(--ok); }
+  .list { padding: 8px 12px 14px; display: grid; gap: 6px; }
+  .row { background: var(--panel); border-radius: 8px; padding: 9px 10px; display: flex; align-items: center; gap: 8px; box-shadow: var(--shadow); font-size: 13px; }
+  .row .who { flex: 1; min-width: 0; }
+  .row .who b { display: block; color: var(--head); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .row .who small { color: var(--fg2); font-size: 11px; }
+  .tag { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+  .tag.debe { color: var(--danger); background: #FBE7E7; }
+  .tag.vence { color: var(--warn); background: #FBF0DD; }
+  .tag.ok { color: var(--ok); background: #DDF4EC; }
+  .wa { width: 30px; height: 30px; border-radius: 8px; background: var(--teal); display: grid; place-items: center; flex: none; }
+  .wa svg { width: 16px; height: 16px; fill: #fff; }
+  .wa.off { background: var(--input); } .wa.off svg { fill: var(--fg2); }
+
+  section { padding: 48px 0; }
+  section.alt { background: var(--panel); }
+  h2 { font: 700 clamp(24px, 4vw, 32px)/1.2 var(--font-title); color: var(--head); margin: 0 0 8px; }
+  .sub { color: var(--fg2); margin: 0 0 28px; }
+  .grid3 { display: grid; gap: 16px; }
+  .card { background: var(--panel); border-radius: 10px; padding: 22px; box-shadow: var(--shadow); }
+  section.alt .card { background: var(--bg); box-shadow: none; }
+  .card .ico { width: 44px; height: 44px; border-radius: 10px; background: var(--sel); display: grid; place-items: center; margin-bottom: 14px; }
+  .card .ico svg { width: 22px; height: 22px; stroke: var(--teal-d); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .card h3 { margin: 0 0 6px; font-size: 18px; color: var(--head); }
+  .card p { margin: 0; color: var(--fg2); }
+
+  .steps { counter-reset: paso; display: grid; gap: 14px; }
+  .step { display: flex; gap: 14px; align-items: flex-start; }
+  .step::before { counter-increment: paso; content: counter(paso); flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--teal); color: #fff; font-weight: 700; display: grid; place-items: center; }
+  .step b { color: var(--head); }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: var(--panel); border: 1px solid var(--border); padding: 8px 14px; border-radius: 999px; font-weight: 600; color: var(--fg); }
+
+  .price { max-width: 440px; margin: 0 auto; text-align: center; background: var(--panel); border-radius: 14px; padding: 32px 24px; box-shadow: var(--shadow); border-top: 4px solid var(--teal); }
+  .price .amount { font: 800 44px var(--font-title); color: var(--head); margin: 8px 0 0; }
+  .price .amount small { font: 600 16px var(--font); color: var(--fg2); }
+  .price ul { list-style: none; padding: 0; margin: 20px 0 24px; text-align: left; display: grid; gap: 8px; }
+  .price li { padding-left: 26px; position: relative; }
+  .price li::before { content: ""; position: absolute; left: 4px; top: 7px; width: 10px; height: 6px; border-left: 2px solid var(--ok); border-bottom: 2px solid var(--ok); transform: rotate(-45deg); }
+
+  .faq details { background: var(--panel); border-radius: 10px; padding: 16px 18px; margin-bottom: 10px; box-shadow: var(--shadow); }
+  .faq summary { cursor: pointer; font-weight: 700; color: var(--head); }
+  .faq p { margin: 10px 0 0; color: var(--fg2); }
+
+  .final { text-align: center; }
+  footer { padding: 28px 0 40px; text-align: center; font-size: 14px; color: var(--fg2); }
+  footer a { color: var(--teal-d); }
+
+  @media (min-width: 720px) {
+    .hero { padding: 72px 0 64px; }
+    .hero .wrap { grid-template-columns: 1.2fr 1fr; }
+    .grid3 { grid-template-columns: repeat(3, 1fr); }
+    .steps { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/"><img src="logo.png" alt="">NOVIQ <span>Cuotas</span></a>
+    <span class="pill">Lanzamiento pronto</span>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Sabé quién te debe la cuota y <em>recordáselo en un toque</em>.</h1>
+        <p class="lead">Para profes, academias, gimnasios y escuelitas. Mirá en el celular quién pagó y quién no, y mandale el aviso por WhatsApp con el mensaje ya escrito.</p>
+        <a class="cta" data-wa href="#">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+          Quiero probarla gratis
+        </a>
+        <p class="fine">Te escribimos cuando esté lista. Sin tarjeta, sin compromiso.</p>
+      </div>
+
+      <div class="phone" aria-label="Así se ve NOVIQ Cuotas en el celular">
+        <div class="screen">
+          <div class="app-top"><small>Octubre</small><b>Taller de danza Sol</b></div>
+          <div class="kpis">
+            <div class="kpi ok"><small>Cobrado</small><b>$184.000</b></div>
+            <div class="kpi debe"><small>Te deben</small><b>$69.000</b></div>
+          </div>
+          <div class="list">
+            <div class="row"><div class="who"><b>Martina López</b><small>Debe 12 días</small></div><span class="tag debe">Debe</span><span class="wa"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg></span></div>
+            <div class="row"><div class="who"><b>Joaquín Pérez</b><small>Debe 5 días</small></div><span class="tag debe">Debe</span><span class="wa"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg></span></div>
+            <div class="row"><div class="who"><b>Sofía Gómez</b><small>Vence el viernes</small></div><span class="tag vence">Vence</span><span class="wa"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg></span></div>
+            <div class="row"><div class="who"><b>Lucas Fernández</b><small>Pagó el 3/10</small></div><span class="tag ok">Al día</span><span class="wa off"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg></span></div>
+            <div class="row"><div class="who"><b>Valentina Ruiz</b><small>Pagó el 1/10</small></div><span class="tag ok">Al día</span><span class="wa off"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>Chau cuaderno, chau planilla</h2>
+      <p class="sub">Todo lo que necesitás para cobrar la cuota, y nada más.</p>
+      <div class="grid3">
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>Ves quién debe, al toque</h3>
+          <p>Abrís y está: quién pagó, quién debe y cuántos días lleva. Sin buscar en el cuaderno.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12z"/><path d="M8 11h8M8 14h5"/></svg></div>
+          <h3>Recordás sin vergüenza</h3>
+          <p>Un toque y se abre WhatsApp con el mensaje amable ya escrito, con tu alias para transferir.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+          <h3>Sabés cuánto entró</h3>
+          <p>Lo cobrado y lo que falta cobrar en el mes, siempre a mano. Ideal para cuando arranca el mes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Así de fácil</h2>
+      <p class="sub">En 5 minutos la tenés andando.</p>
+      <div class="steps">
+        <div class="step"><div><b>Cargá tus alumnos</b><br>Nombre, teléfono y cuánto paga cada uno.</div></div>
+        <div class="step"><div><b>Marcá quién paga</b><br>Efectivo, transferencia o Mercado Pago: un toque.</div></div>
+        <div class="step"><div><b>Recordá a los que deben</b><br>El aviso sale por tu WhatsApp, con el mensaje listo.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>¿Para quién es?</h2>
+      <p class="sub">Para cualquiera que cobre una cuota todos los meses.</p>
+      <div class="chips">
+        <span class="chip">Profes particulares</span>
+        <span class="chip">Academias de danza</span>
+        <span class="chip">Institutos de inglés</span>
+        <span class="chip">Gimnasios chicos</span>
+        <span class="chip">Escuelitas de fútbol</span>
+        <span class="chip">Yoga y pilates</span>
+        <span class="chip">Talleres de arte y música</span>
+        <span class="chip">Clubes de pueblo</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="price">
+        <span class="pill">Precio de lanzamiento</span>
+        <p class="amount">$7.900 <small>/ mes</small></p>
+        <ul>
+          <li>Alumnos ilimitados</li>
+          <li>Recordatorios por WhatsApp sin costo por mensaje</li>
+          <li>Funciona en el celular y en la compu</li>
+          <li>14 días de prueba gratis</li>
+          <li>Te das de baja cuando quieras</li>
+        </ul>
+        <a class="cta" data-wa href="#">Quiero probarla gratis</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt faq">
+    <div class="wrap">
+      <h2>Preguntas</h2>
+      <p class="sub">Si te queda alguna duda, escribinos.</p>
+      <details><summary>¿Tengo que instalar algo?</summary><p>No. Se abre desde el navegador del celular o de la compu, y la podés dejar como ícono en la pantalla.</p></details>
+      <details><summary>¿Los mensajes de WhatsApp tienen costo?</summary><p>No. El aviso sale desde tu propio WhatsApp: NOVIQ Cuotas te deja el mensaje escrito y vos tocás enviar.</p></details>
+      <details><summary>¿Mis alumnos tienen que bajarse algo?</summary><p>No. Ellos solo reciben tu mensaje de WhatsApp, como siempre.</p></details>
+      <details><summary>¿El precio puede cambiar?</summary><p>Es un precio de lanzamiento. Si cambia, te avisamos con 30 días de anticipación, y te podés dar de baja sin costo.</p></details>
+      <details><summary>¿Qué pasa si dejo de pagar?</summary><p>Tus datos quedan guardados y los podés seguir viendo. Solo se pausan los cambios hasta que vuelvas.</p></details>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap">
+      <h2>Dejá de perseguir la cuota</h2>
+      <p class="sub">Estamos por lanzarla. Escribinos y sos de los primeros en probarla.</p>
+      <a class="cta" data-wa href="#">Quiero probarla gratis</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    NOVIQ Cuotas es parte de <a href="/">NOVIQ</a>, software simple para tu negocio. Hecho en Argentina.
+  </div>
+</footer>
+
+<script>
+  // El texto identifica de dónde vino la consulta: así se cuentan en WhatsApp.
+  var WA = "5493584903336";
+  var TEXTO = "Hola, quiero probar NOVIQ Cuotas";
+  var href = "https://wa.me/" + WA + "?text=" + encodeURIComponent(TEXTO);
+  document.querySelectorAll("[data-wa]").forEach(function (a) {
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener";
+  });
+</script>
+</body>
+</html>
