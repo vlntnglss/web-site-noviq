@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "14/10/2026 19:39",
-  "total_productos": 279,
+  "actualizado": "16/10/2026 23:39",
+  "total_productos": 283,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -231,9 +231,9 @@
       "categoria": "Blanqueria",
       "imagen_url": "imgs/Sabana brodery 2p.jpeg",
       "descripcion": "",
-      "entrega": 14700.0,
+      "entrega": 15000.0,
       "cant_cuotas": 3,
-      "monto_cuota": 10100.0
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Sabana 2p Danubio",
@@ -547,13 +547,13 @@
     },
     {
       "nombre": "Reposeras 5 Posiciones",
-      "precio": 52000.0,
-      "categoria": "C4-Sillones de exterior",
+      "precio": 56000.0,
+      "categoria": "",
       "imagen_url": "imgs/Reposeras 5 posiciones.jpg",
       "descripcion": "",
-      "entrega": 17200.0,
+      "entrega": 18500.0,
       "cant_cuotas": 3,
-      "monto_cuota": 11600.0
+      "monto_cuota": 12500.0
     },
     {
       "nombre": "Tender con alas y soga",
@@ -868,7 +868,7 @@
     {
       "nombre": "Vaso termico de cafe",
       "precio": 20000.0,
-      "categoria": "C9-Termos",
+      "categoria": "",
       "imagen_url": "imgs/Vaso termico de cafe.jpg",
       "descripcion": "",
       "entrega": 10000.0,
@@ -1406,6 +1406,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Torno para uñas OM",
+      "precio": 44000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Torno para uñas OM.jpeg",
+      "descripcion": "",
+      "entrega": 14400.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 14800.0
+    },
+    {
       "nombre": "Balanza Gancho",
       "precio": 8000.0,
       "categoria": "Herramientas",
@@ -1586,6 +1596,16 @@
       "monto_cuota": 11700.0
     },
     {
+      "nombre": "Smartwatch con mallas intercambiables",
+      "precio": 32000.0,
+      "categoria": "SmartWatch",
+      "imagen_url": "imgs/Smartwatch con mallas intercambiables.jpg",
+      "descripcion": "",
+      "entrega": 10600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10700.0
+    },
+    {
       "nombre": "Pileta inflable tropical 3,5m x0,70m 4900L",
       "precio": 230000.0,
       "categoria": "C8-Jardin y Camping Otros",
@@ -1674,6 +1694,16 @@
       "entrega": 42800.0,
       "cant_cuotas": 8,
       "monto_cuota": 10900.0
+    },
+    {
+      "nombre": "Pava Electrica corte mate ",
+      "precio": 35000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Pava electrica corte mate Vitta.jpeg",
+      "descripcion": "",
+      "entrega": 11600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 11700.0
     },
     {
       "nombre": "Plancha Seca Winco w33",
@@ -1796,16 +1826,6 @@
       "monto_cuota": 11400.0
     },
     {
-      "nombre": "Microfono inalambrico Netmak",
-      "precio": 34000.0,
-      "categoria": "A5-Parlantes",
-      "imagen_url": "imgs/Microfono inalambrico Netmak.jpg",
-      "descripcion": "",
-      "entrega": 11200.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11400.0
-    },
-    {
       "nombre": "Soporte celu para espejo",
       "precio": 9000.0,
       "categoria": "A8-Audio para Vehículos",
@@ -1874,16 +1894,6 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 12000.0
-    },
-    {
-      "nombre": "Mate imperial cuero labrado",
-      "precio": 39000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate imperial cuero labrado.jpg",
-      "descripcion": "",
-      "entrega": 13000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 13000.0
     },
     {
       "nombre": "Mate cuero labrado con base",
@@ -2126,16 +2136,6 @@
       "monto_cuota": 11400.0
     },
     {
-      "nombre": "Auricular JK 607",
-      "precio": 16000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Auricular gamer Headseat.jpeg",
-      "descripcion": "",
-      "entrega": 16000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Mouse inalambrico Time ",
       "precio": 8000.0,
       "categoria": "Notebook",
@@ -2247,13 +2247,13 @@
     },
     {
       "nombre": "Jarra electrica Winco w1704",
-      "precio": 28000.0,
+      "precio": 30000.0,
       "categoria": "Electrodomesticos cocina",
       "imagen_url": "imgs/Jarra Electrica Winco w1704.jpeg",
       "descripcion": "",
       "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 18000.0
+      "cant_cuotas": 2,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Auricular capibara con cartera",
@@ -2626,16 +2626,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Vaso mariposa",
-      "precio": 13000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Vaso de vidrio mariposa.jpeg",
-      "descripcion": "De vidrio y bambu, incluye bombilla",
-      "entrega": 13000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Bandejas",
       "precio": 8000.0,
       "categoria": "Desayuno",
@@ -2793,6 +2783,56 @@
       "descripcion": "",
       "entrega": 26500.0,
       "cant_cuotas": 5,
+      "monto_cuota": 10700.0
+    },
+    {
+      "nombre": "Auricular Ibek",
+      "precio": 30000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Auricular Ibek.jpeg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Minipimer Sovio",
+      "precio": 35000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Minipimer Sovio.jpeg",
+      "descripcion": "",
+      "entrega": 12000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 11500.0
+    },
+    {
+      "nombre": "Cepillo y planchita Tokio",
+      "precio": 58000.0,
+      "categoria": "Cuidado personal mujer",
+      "imagen_url": "imgs/Cepillo y planchita tokio.jpeg",
+      "descripcion": "",
+      "entrega": 19000.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 13000.0
+    },
+    {
+      "nombre": "Secador de pelo Hitoshy",
+      "precio": 36000.0,
+      "categoria": "Cuidado personal mujer",
+      "imagen_url": "imgs/Secador de pelo Hitoshy.jpeg",
+      "descripcion": "",
+      "entrega": 12000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12000.0
+    },
+    {
+      "nombre": "Smartwatch y Auricular",
+      "precio": 48000.0,
+      "categoria": "Audio",
+      "imagen_url": "imgs/Smartwach y auricular.jpeg",
+      "descripcion": "",
+      "entrega": 15900.0,
+      "cant_cuotas": 3,
       "monto_cuota": 10700.0
     }
   ]
