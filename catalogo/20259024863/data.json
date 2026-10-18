@@ -2,8 +2,8 @@
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
   "wpp_numero": "543584837011",
-  "actualizado": "16/10/2026 23:39",
-  "total_productos": 283,
+  "actualizado": "18/10/2026 11:04",
+  "total_productos": 273,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -114,16 +114,6 @@
       "entrega": 11000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Fabrica de pastas 180mm",
-      "precio": 61000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Fabrica de pastas 180mm.jpeg",
-      "descripcion": "",
-      "entrega": 20200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10200.0
     },
     {
       "nombre": "Mini Difusor",
@@ -1696,16 +1686,6 @@
       "monto_cuota": 10900.0
     },
     {
-      "nombre": "Pava Electrica corte mate ",
-      "precio": 35000.0,
-      "categoria": "Electrodomesticos cocina",
-      "imagen_url": "imgs/Pava electrica corte mate Vitta.jpeg",
-      "descripcion": "",
-      "entrega": 11600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11700.0
-    },
-    {
       "nombre": "Plancha Seca Winco w33",
       "precio": 45000.0,
       "categoria": "B6-Electrodomesticos Hogar",
@@ -1744,16 +1724,6 @@
       "entrega": 17700.0,
       "cant_cuotas": 3,
       "monto_cuota": 12100.0
-    },
-    {
-      "nombre": "Juguera Electrica Winco W329",
-      "precio": 84000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Juguera Electrica Winco.jpeg",
-      "descripcion": "",
-      "entrega": 27500.0,
-      "cant_cuotas": 5,
-      "monto_cuota": 11300.0
     },
     {
       "nombre": "Adaptador enchufe universal nivhus",
@@ -2016,16 +1986,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Batidor de cafe manual",
-      "precio": 5000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/Batidor de cafe manual.jpg",
-      "descripcion": "",
-      "entrega": 5000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Juego de toalla y toallon Danubio 600g",
       "precio": 38000.0,
       "categoria": "F5-Toallones y Toallas",
@@ -2216,16 +2176,6 @@
       "monto_cuota": 10200.0
     },
     {
-      "nombre": "Licuadora Winco w1802",
-      "precio": 71000.0,
-      "categoria": "Electrodomesticos cocina",
-      "imagen_url": "imgs/Licuadora Winco w1802.jpeg",
-      "descripcion": "con jarra de plastico",
-      "entrega": 23400.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 11900.0
-    },
-    {
       "nombre": "Depiladora Winco w2840",
       "precio": 29000.0,
       "categoria": "Cuidado personal mujer",
@@ -2246,16 +2196,6 @@
       "monto_cuota": 11200.0
     },
     {
-      "nombre": "Jarra electrica Winco w1704",
-      "precio": 30000.0,
-      "categoria": "Electrodomesticos cocina",
-      "imagen_url": "imgs/Jarra Electrica Winco w1704.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Auricular capibara con cartera",
       "precio": 14000.0,
       "categoria": "Niños",
@@ -2274,16 +2214,6 @@
       "entrega": 15000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Alfombra de piel",
-      "precio": 30000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Alfombra de piel.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Soldadora Daewoo",
@@ -2414,16 +2344,6 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Sandwichera ORYX",
-      "precio": 32000.0,
-      "categoria": "Electrodomesticos cocina",
-      "imagen_url": "imgs/Sandwichera OM.jpg",
-      "descripcion": "",
-      "entrega": 10600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10700.0
     },
     {
       "nombre": "Cortapelo OSR liso",
@@ -2796,16 +2716,6 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Minipimer Sovio",
-      "precio": 35000.0,
-      "categoria": "Electrodomesticos cocina",
-      "imagen_url": "imgs/Minipimer Sovio.jpeg",
-      "descripcion": "",
-      "entrega": 12000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11500.0
-    },
-    {
       "nombre": "Cepillo y planchita Tokio",
       "precio": 58000.0,
       "categoria": "Cuidado personal mujer",
@@ -2814,16 +2724,6 @@
       "entrega": 19000.0,
       "cant_cuotas": 3,
       "monto_cuota": 13000.0
-    },
-    {
-      "nombre": "Secador de pelo Hitoshy",
-      "precio": 36000.0,
-      "categoria": "Cuidado personal mujer",
-      "imagen_url": "imgs/Secador de pelo Hitoshy.jpeg",
-      "descripcion": "",
-      "entrega": 12000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12000.0
     },
     {
       "nombre": "Smartwatch y Auricular",
