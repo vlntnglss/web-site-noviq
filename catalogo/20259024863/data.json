@@ -1,9 +1,13 @@
 {
   "cliente": "20259024863",
   "nombre_local": "EG Smart",
-  "wpp_numero": "543584837011",
-  "actualizado": "18/10/2026 11:04",
-  "total_productos": 273,
+  "usa_planes": true,
+  "wpp_numero": "5493584837011",
+  "pedidos": {
+    "activos": false
+  },
+  "actualizado": "19/10/2026 20:56",
+  "total_productos": 272,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -774,16 +778,6 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Mate camionero aluminio",
-      "precio": 23000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate Camionero aluminio.jpg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 13000.0
     },
     {
       "nombre": "Set de 4 tazas con soporte",
