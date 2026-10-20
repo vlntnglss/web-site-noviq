@@ -16,9 +16,21 @@
       --teal-xlight: #E6F4F6;
       --orange:      #FF6D00;
       --orange-light:#FFF0E6;
+      /* El naranja de marca como TEXTO sobre su propio fondo claro daba
+         2.53:1 — abajo del 4.5:1 que pide WCAG AA. Es el mismo par
+         relleno/texto que ya existe en el POS: el color calibrado para
+         rellenar no sirve para escribir encima. Este da 4.80:1 y es el
+         mismo naranja, solo más oscuro. */
+      --orange-text: #B24C00;
       --dark:        #0F1923;
       --mid:         #4A5568;
-      --light:       #8A9BB0;
+      /* Idem: #8A9BB0 daba 2.84:1 sobre blanco y 2.64:1 sobre el lienzo, y es
+         el color de la descripción de cada producto y del contador de
+         resultados — o sea, texto que hay que poder leer. Ahora 4.80:1. */
+      --light:       #5B6F87;
+      /* El gris original queda para lo que NO es texto: el ícono de la lupa,
+         los placeholders y los bordes de los estados vacíos. */
+      --light-ico:   #8A9BB0;
       --border:      #E8EDF3;
       --bg:          #F4F7FA;
       --white:       #FFFFFF;
@@ -113,13 +125,13 @@
       box-shadow: 0 0 0 3px rgba(1,95,106,.1);
       background: var(--white);
     }
-    .header-search input::placeholder { color: var(--light); }
+    .header-search input::placeholder { color: var(--light-ico); }
     .search-icon {
       position: absolute;
       left: 14px;
       top: 50%;
       transform: translateY(-50%);
-      color: var(--light);
+      color: var(--light-ico);
       pointer-events: none;
     }
 
@@ -148,7 +160,10 @@
     }
     .hero p {
       font-size: 16px;
-      color: rgba(255,255,255,.75);
+      /* Al 75% daba 3.57:1 sobre el extremo claro del degradado — el h1 de
+         arriba es blanco pleno y no tenía problema, este sí. Al 94% da 4.75:1
+         y sigue leyéndose más suave que el título, que es lo que se buscaba. */
+      color: rgba(255,255,255,.94);
       font-weight: 300;
       max-width: 480px;
       margin: 0 auto;
@@ -332,7 +347,7 @@
       align-items: center;
       gap: 4px;
       background: var(--orange-light);
-      color: var(--orange);
+      color: var(--orange-text);
       font-size: 11px;
       font-weight: 600;
       padding: 5px 10px;
@@ -441,7 +456,7 @@
       gap: 6px;
       align-self: flex-start;
       background: var(--orange-light);
-      color: var(--orange);
+      color: var(--orange-text);
       font-size: 13px;
       font-weight: 600;
       padding: 8px 14px;
@@ -539,8 +554,433 @@
       padding: 16px 24px;
       text-align: center;
       font-size: 11px;
-      color: rgba(255,255,255,.25);
+      /* Al 25% daba 2.24:1: era la peor combinación de la página. Al 55% da
+         6.09:1 y sigue siendo un pie discreto. */
+      color: rgba(255,255,255,.55);
     }
+
+    /* ── Pedidos: carrito, formulario y envío (NQ-72) ───────────────────
+       Todo lo de acá abajo solo se ve si `data.json` trae `pedidos.activos`
+       en true. Con los pedidos apagados el <body> no recibe la clase
+       `con-pedidos` y la página queda EXACTAMENTE como era: sin botón de
+       carrito, sin botones de agregar, sin nada. Es la regla de NQ-57 y
+       NQ-69 del POS —apagar esconde— traída al catálogo, y es la que hace
+       que el comercio que no vende por web no se entere de que esto existe. */
+    .solo-pedidos { display: none !important; }
+    body.con-pedidos .solo-pedidos { display: revert !important; }
+    body.con-pedidos .solo-pedidos.es-flex { display: flex !important; }
+
+    /* ── Botón del carrito, en el header ── */
+    .cart-btn {
+      position: relative;
+      align-items: center;
+      gap: 7px;
+      background: var(--teal);
+      color: var(--white);
+      border: none;
+      border-radius: 50px;
+      padding: 10px 16px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .18s, transform .12s;
+      /* 44px de alto es el mínimo táctil, y este catálogo se abre casi
+         siempre desde un teléfono. */
+      min-height: 44px;
+      white-space: nowrap;
+    }
+    .cart-btn:hover { background: var(--teal-light); }
+    .cart-btn:active { transform: scale(.97); }
+    .cart-btn svg { width: 17px; height: 17px; }
+    .cart-count {
+      background: var(--orange);
+      /* Blanco sobre el naranja de marca da 2.82:1. El naranja no se toca —es
+         el relleno de la marca y como relleno está bien—: lo que cede es la
+         tinta. Con `--dark` da 6.29:1 y el badge sigue siendo naranja. */
+      color: var(--dark);
+      border-radius: 50px;
+      min-width: 20px;
+      height: 20px;
+      padding: 0 6px;
+      font-size: 11px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* Con el carrito vacío el contador no se dibuja: un "0" permanente al
+       lado del ícono es ruido, y encima invita a abrirlo para no encontrar
+       nada. */
+    .cart-count[hidden] { display: none; }
+
+    /* ── Botón "Agregar" de cada tarjeta ── */
+    .add-btn {
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      background: var(--teal);
+      color: var(--white);
+      border: none;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      min-height: 44px;
+      transition: background .18s;
+    }
+    .add-btn:hover { background: var(--teal-light); }
+    .add-btn svg { width: 15px; height: 15px; flex: 0 0 15px; }
+    /* Confirmación de que entró al carrito. Dura un segundo y vuelve: sin
+       esto, en una lista larga no se distingue el producto que se agregó del
+       que no, y el cliente agrega el mismo dos veces. */
+    .add-btn.puesto { background: var(--teal-xlight); color: var(--teal); }
+    .card-add-wrap { padding: 0 16px 16px; }
+
+    /* ── Panel del carrito ──
+       En escritorio entra desde la derecha; en teléfono sube desde abajo
+       (ver el bloque responsive). */
+    .cart-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(15,25,35,.55);
+      backdrop-filter: blur(3px);
+      display: none;
+      z-index: 300;
+    }
+    .cart-overlay.open { display: block; animation: fadeIn .2s ease both; }
+    .cart-panel {
+      position: fixed;
+      top: 0; right: 0; bottom: 0;
+      width: 100%;
+      max-width: 420px;
+      background: var(--white);
+      z-index: 301;
+      display: flex;
+      flex-direction: column;
+      box-shadow: -8px 0 40px rgba(1,95,106,.18);
+      transform: translateX(100%);
+      /* `visibility` además del `transform`, y no solo el transform, por dos
+         motivos: el desplazamiento se mide contra el ancho del panel y la
+         barra de scroll de la ventana lo deja asomando unos píxeles a la
+         derecha; y un panel corrido pero visible sigue estando en el recorrido
+         del tabulador, así que quien navega con teclado se mete adentro de un
+         carrito que no está abierto. Se apaga DESPUÉS de la animación
+         (`0s linear .28s`) para que la salida se siga viendo. */
+      visibility: hidden;
+      transition: transform .28s cubic-bezier(.2,.8,.3,1),
+                  visibility 0s linear .28s;
+    }
+    .cart-panel.open {
+      transform: none;
+      visibility: visible;
+      transition: transform .28s cubic-bezier(.2,.8,.3,1), visibility 0s;
+    }
+    .cart-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      flex: 0 0 auto;
+    }
+    .cart-head h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-right: auto;
+    }
+    .cart-close {
+      width: 38px; height: 38px;
+      border: none; border-radius: 50%;
+      background: var(--bg);
+      color: var(--mid);
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .cart-close:hover { background: var(--border); color: var(--dark); }
+    .cart-body { flex: 1 1 auto; overflow-y: auto; padding: 8px 20px; }
+    .cart-foot {
+      flex: 0 0 auto;
+      border-top: 1px solid var(--border);
+      padding: 16px 20px calc(16px + env(safe-area-inset-bottom, 0px));
+      background: var(--white);
+    }
+
+    /* ── Un renglón del carrito ── */
+    .cart-line {
+      display: flex;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      align-items: flex-start;
+    }
+    .cart-line:last-child { border-bottom: none; }
+    .cart-line-img {
+      width: 54px; height: 54px;
+      flex: 0 0 54px;
+      border-radius: 10px;
+      background: #F8FAFB;
+      object-fit: contain;
+      padding: 4px;
+    }
+    .cart-line-info { flex: 1; min-width: 0; }
+    .cart-line-nom {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--dark);
+      line-height: 1.35;
+      margin-bottom: 4px;
+    }
+    .cart-line-pre { font-size: 12px; color: var(--light); }
+    .cart-line-sub {
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--teal);
+      white-space: nowrap;
+    }
+    .cart-line-fila { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+    .qty {
+      display: inline-flex;
+      align-items: center;
+      border: 1.5px solid var(--border);
+      border-radius: 50px;
+      overflow: hidden;
+    }
+    .qty button {
+      width: 34px; height: 34px;
+      border: none;
+      background: var(--white);
+      color: var(--teal);
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .qty button:hover { background: var(--teal-xlight); }
+    .qty span {
+      min-width: 30px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--dark);
+    }
+    .cart-quitar {
+      background: none; border: none; padding: 4px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      color: var(--mid);
+      cursor: pointer;
+      text-decoration: underline;
+      margin-left: auto;
+    }
+    .cart-quitar:hover { color: var(--dark); }
+
+    .cart-vacio { text-align: center; padding: 60px 20px; color: var(--light); }
+    .cart-vacio svg { width: 46px; height: 46px; opacity: .35; margin-bottom: 14px; }
+    .cart-vacio p { font-size: 13px; }
+
+    .cart-tot-fila {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 13px;
+      color: var(--mid);
+      margin-bottom: 6px;
+    }
+    .cart-tot-fila.total {
+      font-family: 'Syne', sans-serif;
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--dark);
+      margin: 10px 0 14px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .cart-tot-fila.total span:last-child { color: var(--teal); }
+
+    .btn-full {
+      width: 100%;
+      border: none;
+      border-radius: 12px;
+      padding: 14px;
+      min-height: 48px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--teal);
+      color: var(--white);
+      transition: background .18s;
+    }
+    .btn-full:hover:not(:disabled) { background: var(--teal-light); }
+    .btn-full:disabled { opacity: .5; cursor: not-allowed; }
+    .btn-link {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      background: none;
+      border: none;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      color: var(--mid);
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 10px;
+      min-height: 44px;
+    }
+
+    /* ── Formulario del pedido ── */
+    .campo { margin-bottom: 14px; }
+    .campo label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--mid);
+      margin-bottom: 6px;
+    }
+    .campo input, .campo textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;   /* 15px o más: abajo de eso iOS hace zoom al enfocar */
+      color: var(--dark);
+      background: var(--white);
+      outline: none;
+      transition: border-color .18s, box-shadow .18s;
+    }
+    .campo input:focus, .campo textarea:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(1,95,106,.1);
+    }
+    .campo input[aria-invalid="true"] { border-color: var(--orange-text); }
+    .campo textarea { resize: vertical; min-height: 70px; }
+    .campo .ayuda { font-size: 11px; color: var(--light); margin-top: 5px; }
+    .campo .error { font-size: 11px; color: var(--orange-text); margin-top: 5px; font-weight: 600; }
+    .req { color: var(--orange-text); }
+
+    .entrega-ops { display: flex; gap: 10px; }
+    .entrega-op {
+      flex: 1;
+      position: relative;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 10px;
+      cursor: pointer;
+      text-align: center;
+      transition: border-color .18s, background .18s;
+    }
+    .entrega-op:hover { border-color: var(--teal-light); }
+    .entrega-op.sel { border-color: var(--teal); background: var(--teal-xlight); }
+    /* El radio real sigue existiendo y sigue siendo enfocable: se lo tapa
+       visualmente, no se lo saca. Un `display:none` lo dejaría fuera del
+       recorrido con teclado y del lector de pantalla. */
+    .entrega-op input {
+      position: absolute; opacity: 0; width: 100%; height: 100%;
+      top: 0; left: 0; margin: 0; cursor: pointer;
+    }
+    .entrega-op input:focus-visible + b { outline: 2px solid var(--teal); outline-offset: 3px; }
+    .entrega-op b { display: block; font-size: 13px; color: var(--dark); }
+    .entrega-op small { font-size: 11px; color: var(--light); }
+
+    .aviso {
+      display: flex;
+      gap: 9px;
+      align-items: flex-start;
+      border-radius: 10px;
+      padding: 11px 13px;
+      font-size: 12.5px;
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+    .aviso svg { width: 15px; height: 15px; flex: 0 0 15px; margin-top: 2px; }
+    .aviso-info { background: var(--teal-xlight); color: var(--teal); }
+    .aviso-warn { background: var(--orange-light); color: var(--orange-text); }
+
+    /* ── Confirmación ── */
+    .cart-ok { text-align: center; padding: 40px 20px; }
+    .cart-ok-ico {
+      width: 62px; height: 62px;
+      margin: 0 auto 18px;
+      border-radius: 50%;
+      background: var(--teal-xlight);
+      color: var(--teal);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .cart-ok-ico svg { width: 30px; height: 30px; }
+    .cart-ok h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 19px;
+      color: var(--dark);
+      margin-bottom: 8px;
+    }
+    .cart-ok p { font-size: 13px; color: var(--mid); line-height: 1.6; }
+    .cart-ok code {
+      display: inline-block;
+      margin-top: 14px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 7px 13px;
+      font-size: 12px;
+      color: var(--dark);
+      letter-spacing: .04em;
+    }
+
+    /* ── La franja del hero que cuenta cómo se entrega ── */
+    .hero-entrega {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .hero-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      /* La capa va OSCURA, no clara. Una capa blanca al 16% aclara el
+         degradado y deja el texto blanco en 3.82:1 en el extremo claro del
+         teal; oscureciendo, el peor punto da 6.87:1. El borde sí queda claro:
+         es el que separa el chip del fondo, y no lleva texto encima. */
+      background: rgba(0,0,0,.18);
+      border: 1px solid rgba(255,255,255,.30);
+      color: var(--white);
+      border-radius: 50px;
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .hero-chip svg { width: 13px; height: 13px; flex: 0 0 13px; }
+
+    /* ── Los atributos que el comercio define por producto (NQ-58) ──
+       El POS ya los publica en data.json y hasta ahora no los mostraba nadie. */
+    .attr-lista {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      margin-top: 2px;
+    }
+    .attr-chip {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 5px 10px;
+      font-size: 12px;
+      color: var(--mid);
+    }
+    .attr-chip b { color: var(--dark); font-weight: 600; }
+
+    .modal-acciones { display: flex; gap: 10px; align-items: center; margin-top: 6px; }
+    .modal-acciones .add-btn { margin: 0; }
+
+    body.cart-open { overflow: hidden; }
 
     /* ── Responsive ────────────────────────────────────────────────────── */
     @media (max-width: 640px) {
@@ -578,6 +1018,26 @@
       .modal { max-width: 100%; border-radius: 20px 20px 0 0; max-height: 92vh; }
       .modal-name { font-size: 19px; }
       .modal-price { font-size: 26px; }
+
+      /* El carrito sube desde abajo, como cualquier hoja de teléfono. Se
+         entra por `translateY` y no por `right`, porque el panel sigue
+         anclado a la derecha y mezclar los dos ejes lo deja a mitad de
+         camino en la transición. */
+      .cart-panel {
+        max-width: 100%;
+        top: auto;
+        height: 92vh;
+        border-radius: 20px 20px 0 0;
+        transform: translateY(100%);
+        box-shadow: 0 -8px 40px rgba(1,95,106,.22);
+      }
+      .cart-panel.open { transform: none; }
+      .cart-btn { padding: 9px 13px; font-size: 0; gap: 5px; }
+      .cart-btn .cart-count { font-size: 11px; }
+      .cart-btn svg { width: 19px; height: 19px; }
+      .add-btn { font-size: 12.5px; padding: 9px 8px; }
+      .card-add-wrap { padding: 0 12px 12px; }
+      .hero-chip { font-size: 11px; padding: 5px 11px; }
     }
     @media (max-width: 400px) {
       .grid { grid-template-columns: 1fr 1fr; }
@@ -601,6 +1061,15 @@
         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         <input type="text" id="search-input" placeholder="Buscar producto..." autocomplete="off" />
       </div>
+
+      <!-- Solo existe si el comercio tiene los pedidos encendidos: la clase
+           `solo-pedidos` lo esconde hasta que data.json diga que sí. -->
+      <button class="cart-btn solo-pedidos es-flex" id="cart-btn" type="button"
+              aria-label="Ver mi pedido">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span>Mi pedido</span>
+        <span class="cart-count" id="cart-count" hidden>0</span>
+      </button>
     </div>
   </header>
 
@@ -608,7 +1077,8 @@
   <section class="hero">
     <div class="hero-content">
       <h1>Catálogo de <span id="hero-local-name">productos</span></h1>
-      <p>Explorá todos nuestros productos con planes de pago accesibles</p>
+      <p id="hero-sub">Explorá todos nuestros productos con planes de pago accesibles</p>
+      <div class="hero-entrega solo-pedidos es-flex" id="hero-entrega"></div>
     </div>
   </section>
 
@@ -657,6 +1127,23 @@
     <div class="modal" id="modal-content"></div>
   </div>
 
+  <!-- ── Carrito y pedido (NQ-72) ─────────────────────────────────────────
+       El panel tiene tres caras y una sola estructura: la lista, el
+       formulario y la confirmación. Son tres estados de lo mismo, no tres
+       pantallas: el pie cambia con el estado y el cuerpo se redibuja. -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel" role="dialog" aria-modal="true"
+         aria-labelledby="cart-titulo" aria-hidden="true">
+    <div class="cart-head">
+      <h2 id="cart-titulo">Mi pedido</h2>
+      <button class="cart-close" id="cart-close" type="button" aria-label="Cerrar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-foot" id="cart-foot"></div>
+  </aside>
+
   <!-- ── Script ─────────────────────────────────────────────────────────── -->
   <script>
     // ── Helpers ──────────────────────────────────────────────────────────────
@@ -703,6 +1190,7 @@
       document.title = `Catálogo · ${nombre}`;
 
       buildCategoryOptions();
+      initPedidos();
       render();
     }
 
@@ -826,9 +1314,23 @@
               ${p.entrega ? `<small>Entrega ${fmt(p.entrega)}</small>` : ''}
             </div>
             ${planHtml}
+          </div>
+          <div class="card-add-wrap solo-pedidos">
+            <button class="add-btn solo-pedidos es-flex" type="button" data-add="${i}">
+              ${ICO_MAS}<span>Agregar</span>
+            </button>
           </div>`;
 
         card.addEventListener('click', () => openModal(p));
+        // El botón vive DENTRO de la tarjeta, y la tarjeta abre el detalle al
+        // hacerle clic. Sin frenar la propagación, agregar al carrito abre
+        // además el modal del producto: se agregó bien, pero parece que no
+        // pasó lo que se pidió.
+        const btnAdd = card.querySelector('[data-add]');
+        if (btnAdd) btnAdd.addEventListener('click', e => {
+          e.stopPropagation();
+          agregar(p, 1, btnAdd);
+        });
         grid.appendChild(card);
       });
     }
@@ -852,6 +1354,7 @@
           ${p.descripcion
             ? `<p class="modal-desc">${escHtml(p.descripcion)}</p>`
             : `<p class="modal-desc" style="color:var(--light);font-style:italic;">Este producto no tiene descripción.</p>`}
+          ${attrHtml(p)}
           <div class="modal-prices">
             <div class="modal-price">${fmt(p.precio)}</div>
             ${p.entrega ? `<div class="modal-row">Entrega inicial: <b>${fmt(p.entrega)}</b></div>` : ''}
@@ -861,12 +1364,42 @@
                    ${p.cant_cuotas} cuotas de ${fmt(p.monto_cuota)}
                  </div>`
               : ''}
+            <div class="modal-acciones solo-pedidos es-flex">
+              <div class="qty">
+                <button type="button" id="m-menos" aria-label="Menos">&minus;</button>
+                <span id="m-cant">1</span>
+                <button type="button" id="m-mas" aria-label="Más">+</button>
+              </div>
+              <button class="add-btn solo-pedidos es-flex" type="button" id="m-add">
+                ${ICO_MAS}<span>Agregar al pedido</span>
+              </button>
+            </div>
           </div>
         </div>`;
 
       $('modal-overlay').classList.add('open');
       document.body.classList.add('modal-open');
       $('modal-close').addEventListener('click', closeModal);
+
+      // El selector de cantidad del detalle. Si el comercio no toma pedidos,
+      // estos nodos existen pero están escondidos y nunca reciben un clic.
+      if (pedidosActivos()) {
+        let n = 1;
+        const lbl = $('m-cant');
+        $('m-menos').addEventListener('click', () => { n = Math.max(1, n - 1); lbl.textContent = n; });
+        $('m-mas').addEventListener('click',   () => { n = Math.min(99, n + 1); lbl.textContent = n; });
+        $('m-add').addEventListener('click', () => { agregar(p, n, $('m-add')); closeModal(); abrirCarrito(); });
+      }
+    }
+
+    // Los campos que cada comercio define por producto (NQ-58). El POS ya los
+    // publicaba en data.json y no los mostraba nadie.
+    function attrHtml(p) {
+      const lista = Array.isArray(p.atributos) ? p.atributos : [];
+      if (!lista.length) return '';
+      return `<div class="attr-lista">` + lista.map(a =>
+        `<span class="attr-chip"><b>${escHtml(a.nombre)}:</b> ${escHtml(a.valor)}</span>`
+      ).join('') + `</div>`;
     }
 
     function closeModal() {
@@ -878,8 +1411,13 @@
     $('modal-overlay').addEventListener('click', e => {
       if (e.target === $('modal-overlay')) closeModal();
     });
+    // Escape cierra lo de MÁS ARRIBA, no todo a la vez: con el detalle abierto
+    // encima del carrito, cerrar los dos de un tecleo devuelve al cliente a la
+    // grilla y le hace perder de vista el pedido que estaba armando.
     document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') closeModal();
+      if (e.key !== 'Escape') return;
+      if ($('modal-overlay').classList.contains('open')) return closeModal();
+      if ($('cart-panel').classList.contains('open')) return cerrarCarrito();
     });
 
     function renderError(msg) {
@@ -900,6 +1438,536 @@
 
     function escHtml(str) {
       return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ══════════════════════════════════════════════════════════════════════════
+    // PEDIDOS — carrito, formulario y envío (NQ-72)
+    // ══════════════════════════════════════════════════════════════════════════
+    //
+    // Cómo llega el pedido al POS
+    // ─────────────────────────────────────────────────────────────────────────
+    // El cuerpo que se manda es EXACTAMENTE el que `core.pedidos.registrar()`
+    // espera recibir del otro lado: mismos nombres de campo, misma forma de las
+    // líneas. Eso no es casualidad ni comodidad: significa que el backend de
+    // NQ-71 puede ser una cola tonta —guardar el JSON y devolverlo cuando el
+    // POS sondee— sin conocer una sola regla del negocio. Cualquier campo que
+    // se agregue acá tiene que existir allá, y al revés.
+    //
+    //   { id_remoto, fecha, hora, cliente, contacto, entrega, direccion,
+    //     zona, costo_envio, total, nota, lineas: [{producto, cantidad, precio}] }
+    //
+    // El `id_remoto` lo genera esta página. Es lo que le permite al POS
+    // reconocer el pedido repetido: el sondeo es a intervalos y puede traer dos
+    // veces lo mismo —una respuesta que llegó tarde, un reintento después de un
+    // corte—. Sin él, el comerciante prepara el pedido dos veces.
+    //
+    // Mientras NQ-71 no exista
+    // ─────────────────────────────────────────────────────────────────────────
+    // `pedidos.endpoint` viene vacío y el pedido sale por WhatsApp al comercio,
+    // escrito de forma que se lea de un vistazo. No es el circuito completo —el
+    // comerciante lo carga a mano en Venta— pero es la diferencia entre un
+    // carrito que sirve hoy y uno que no hace nada hasta que se elija proveedor
+    // de nube. El día que el endpoint esté cargado, esta página no cambia: el
+    // mismo pedido se manda por HTTP.
+    //
+    // El carrito NO reserva stock
+    // ─────────────────────────────────────────────────────────────────────────
+    // Es la misma decisión que ya tomó el POS. Entre que el cliente pide y el
+    // comerciante acepta puede haberse vendido lo mismo en el mostrador, y el
+    // mostrador es la venta segura. Por eso acá no hay tope de cantidad ni
+    // "quedan 3": `data.json` ni siquiera publica cuánto hay. El pedido es una
+    // intención, y el que decide es el comerciante.
+    //
+    // El precio se congela
+    // ─────────────────────────────────────────────────────────────────────────
+    // Cada renglón viaja con el precio que el cliente VIO. Si el comercio lo
+    // subió en el medio, el pedido sigue mostrando lo que se le prometió y el
+    // comerciante decide; recalcularlo en silencio sería cambiarle el precio a
+    // alguien después de que aceptó.
+
+    const ICO_MAS = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>';
+
+    let pedCfg   = null;      // el bloque `pedidos` de data.json
+    let carrito  = [];        // [{nombre, precio, cantidad, imagen}]
+    let vista    = 'lista';   // 'lista' | 'form' | 'ok'
+    let enviando = false;
+    let ultimoId = '';
+
+    const CLAVE_CARRITO = () => `noviq_carrito_${clientId}`;
+
+    function pedidosActivos() { return !!(pedCfg && pedCfg.activos); }
+
+    // Si el comercio toma pedidos AHORA. `pedCfg.abierto` es de cuando el POS
+    // publicó el catálogo: publicado a la noche, el carrito quedaba cerrado al
+    // otro día en pleno horario (prueba con un cliente, 19/10/2026). Se calcula
+    // acá con la hora de Argentina, con la misma regla que pedidos.en_horario()
+    // del POS: desde >= hasta es «todo el día».
+    function tomaPedidosAhora() {
+      const desde = Number(pedCfg.hora_desde), hasta = Number(pedCfg.hora_hasta);
+      if (!Number.isFinite(desde) || !Number.isFinite(hasta)) return !!pedCfg.abierto;
+      if (desde >= hasta) return true;
+      let hora;
+      try {
+        hora = Number(new Intl.DateTimeFormat('es-AR', {
+          hour: 'numeric', hourCycle: 'h23',
+          timeZone: 'America/Argentina/Buenos_Aires' }).format(new Date()));
+      } catch (e) { hora = new Date().getHours(); }
+      return desde <= hora && hora < hasta;
+    }
+
+    function initPedidos() {
+      pedCfg = (catalogMeta && catalogMeta.pedidos) || null;
+      if (!pedidosActivos()) return;      // apagado: la página queda como era
+
+      document.body.classList.add('con-pedidos');
+      cargarCarrito();
+      pintarHeroEntrega();
+      pintarContador();
+
+      $('cart-btn').addEventListener('click', abrirCarrito);
+      $('cart-close').addEventListener('click', cerrarCarrito);
+      $('cart-overlay').addEventListener('click', cerrarCarrito);
+    }
+
+    function pintarHeroEntrega() {
+      const chips = [];
+      const ico = d => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
+      chips.push(`<span class="hero-chip">${ico('<path d="M3 9h18M9 21V9"/><rect x="3" y="3" width="18" height="18" rx="2"/>')}Retirás por el local</span>`);
+      if (pedCfg.envio) {
+        const costo = Number(pedCfg.costo_envio) > 0
+          ? `envío ${fmt(pedCfg.costo_envio)}` : 'envío sin cargo';
+        const zona = pedCfg.zona ? ` · ${pedCfg.zona}` : '';
+        chips.push(`<span class="hero-chip">${ico('<rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>')}Hacemos ${escHtml(costo)}${escHtml(zona)}</span>`);
+      }
+      if (!tomaPedidosAhora()) {
+        chips.push(`<span class="hero-chip">${ico('<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>')}Pedidos de ${pedCfg.hora_desde}:00 a ${pedCfg.hora_hasta}:00</span>`);
+      }
+      $('hero-entrega').innerHTML = chips.join('');
+    }
+
+    // ── Estado del carrito ────────────────────────────────────────────────────
+    // Vive en localStorage y con clave POR COMERCIO: el visor es una sola
+    // página para todos los catálogos (`?cliente=<cuit>`), así que sin el cuit
+    // en la clave el pedido de una tienda aparecería en la siguiente.
+    function cargarCarrito() {
+      try {
+        const crudo = JSON.parse(localStorage.getItem(CLAVE_CARRITO()) || '[]');
+        carrito = Array.isArray(crudo) ? crudo.filter(l => l && l.nombre && l.cantidad > 0) : [];
+      } catch (e) { carrito = []; }
+      // Un producto que ya no está en el catálogo —se acabó, lo dieron de
+      // baja— no puede quedar en un pedido: el POS lo buscaría por nombre y no
+      // lo encontraría. Se cae solo, en silencio, al abrir la página.
+      const vivos = new Set(allProducts.map(p => p.nombre));
+      carrito = carrito.filter(l => vivos.has(l.nombre));
+      guardarCarrito();
+    }
+
+    function guardarCarrito() {
+      try { localStorage.setItem(CLAVE_CARRITO(), JSON.stringify(carrito)); }
+      catch (e) { /* modo privado o storage lleno: el carrito vive en memoria */ }
+    }
+
+    function agregar(p, cantidad, boton) {
+      const n = Math.max(1, Math.min(99, Number(cantidad) || 1));
+      const ya = carrito.find(l => l.nombre === p.nombre);
+      if (ya) ya.cantidad = Math.min(99, ya.cantidad + n);
+      else carrito.push({ nombre: p.nombre, precio: Number(p.precio) || 0,
+                          cantidad: n, imagen: p.imagen_url || '' });
+      guardarCarrito();
+      pintarContador();
+      if (vista === 'lista') pintarCarrito();
+      if (boton) confirmarBoton(boton);
+    }
+
+    function confirmarBoton(boton) {
+      const antes = boton.innerHTML;
+      boton.classList.add('puesto');
+      boton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Agregado</span>';
+      setTimeout(() => { boton.classList.remove('puesto'); boton.innerHTML = antes; }, 1100);
+    }
+
+    function cambiarCantidad(nombre, delta) {
+      const l = carrito.find(x => x.nombre === nombre);
+      if (!l) return;
+      l.cantidad += delta;
+      if (l.cantidad <= 0) carrito = carrito.filter(x => x.nombre !== nombre);
+      else l.cantidad = Math.min(99, l.cantidad);
+      guardarCarrito();
+      pintarContador();
+      pintarCarrito();
+    }
+
+    function quitar(nombre) {
+      carrito = carrito.filter(x => x.nombre !== nombre);
+      guardarCarrito();
+      pintarContador();
+      pintarCarrito();
+    }
+
+    const unidades = () => carrito.reduce((a, l) => a + l.cantidad, 0);
+    const subtotal = () => carrito.reduce((a, l) => a + l.cantidad * l.precio, 0);
+    const envioElegido = () => document.querySelector('input[name="entrega"]:checked')?.value === 'envio';
+    const costoEnvio = (esEnvio) => esEnvio ? (Number(pedCfg.costo_envio) || 0) : 0;
+
+    function pintarContador() {
+      const n = unidades();
+      const el = $('cart-count');
+      el.textContent = n;
+      el.hidden = n === 0;
+    }
+
+    // ── Abrir / cerrar ────────────────────────────────────────────────────────
+    function abrirCarrito() {
+      if (!pedidosActivos()) return;
+      // Al reabrir, siempre la lista: quedarse en la confirmación del pedido
+      // anterior deja al cliente creyendo que el carrito nuevo ya se mandó.
+      if (vista === 'ok') vista = 'lista';
+      pintarCarrito();
+      $('cart-overlay').classList.add('open');
+      $('cart-panel').classList.add('open');
+      $('cart-panel').setAttribute('aria-hidden', 'false');
+      document.body.classList.add('cart-open');
+      $('cart-close').focus();
+    }
+
+    function cerrarCarrito() {
+      $('cart-overlay').classList.remove('open');
+      $('cart-panel').classList.remove('open');
+      $('cart-panel').setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('cart-open');
+      if (vista === 'ok') vista = 'lista';
+    }
+
+    // ── Las tres caras del panel ──────────────────────────────────────────────
+    function pintarCarrito() {
+      if (vista === 'form') return pintarFormulario();
+      if (vista === 'ok')   return pintarConfirmacion();
+
+      $('cart-titulo').textContent = 'Mi pedido';
+      const body = $('cart-body'), foot = $('cart-foot');
+
+      if (!carrito.length) {
+        body.innerHTML = `
+          <div class="cart-vacio">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            <p>Todavía no agregaste nada.<br>Tocá <b>Agregar</b> en cualquier producto.</p>
+          </div>`;
+        foot.innerHTML = `<button class="btn-full" type="button" id="cart-seguir">Ver productos</button>`;
+        $('cart-seguir').addEventListener('click', cerrarCarrito);
+        return;
+      }
+
+      body.innerHTML = carrito.map(l => {
+        const img = buildImgUrl(l.imagen);
+        return `
+        <div class="cart-line">
+          ${img ? `<img class="cart-line-img" src="${escHtml(img)}" alt="" onerror="this.remove()">` : ''}
+          <div class="cart-line-info">
+            <div class="cart-line-nom">${escHtml(l.nombre)}</div>
+            <div class="cart-line-pre">${fmt(l.precio)} c/u</div>
+            <div class="cart-line-fila">
+              <div class="qty">
+                <button type="button" data-menos="${escHtml(l.nombre)}" aria-label="Quitar uno">&minus;</button>
+                <span>${l.cantidad}</span>
+                <button type="button" data-mas="${escHtml(l.nombre)}" aria-label="Agregar uno">+</button>
+              </div>
+              <span class="cart-line-sub">${fmt(l.cantidad * l.precio)}</span>
+              <button class="cart-quitar" type="button" data-quitar="${escHtml(l.nombre)}">Quitar</button>
+            </div>
+          </div>
+        </div>`;
+      }).join('');
+
+      body.querySelectorAll('[data-menos]').forEach(b =>
+        b.addEventListener('click', () => cambiarCantidad(b.dataset.menos, -1)));
+      body.querySelectorAll('[data-mas]').forEach(b =>
+        b.addEventListener('click', () => cambiarCantidad(b.dataset.mas, +1)));
+      body.querySelectorAll('[data-quitar]').forEach(b =>
+        b.addEventListener('click', () => quitar(b.dataset.quitar)));
+
+      const cerrado = !tomaPedidosAhora();
+      foot.innerHTML = `
+        ${cerrado ? avisoHtml('warn', `Ahora mismo no estamos tomando pedidos. Se toman de ${pedCfg.hora_desde}:00 a ${pedCfg.hora_hasta}:00 — podés dejar el pedido armado y enviarlo cuando abramos.`) : ''}
+        <div class="cart-tot-fila total"><span>Total</span><span>${fmt(subtotal())}</span></div>
+        <button class="btn-full" type="button" id="cart-continuar" ${cerrado ? 'disabled' : ''}>
+          Continuar con el pedido
+        </button>
+        <button class="btn-link" type="button" id="cart-seguir">Seguir viendo productos</button>`;
+      if (!cerrado) $('cart-continuar').addEventListener('click', () => { vista = 'form'; pintarCarrito(); });
+      $('cart-seguir').addEventListener('click', cerrarCarrito);
+    }
+
+    function avisoHtml(tipo, texto) {
+      const ico = tipo === 'warn'
+        ? '<circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/>'
+        : '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>';
+      return `<div class="aviso aviso-${tipo}">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ico}</svg>
+        <span>${escHtml(texto)}</span></div>`;
+    }
+
+    function pintarFormulario() {
+      $('cart-titulo').textContent = 'Tus datos';
+      const hayEnvio = !!pedCfg.envio;
+
+      $('cart-body').innerHTML = `
+        <div style="padding-top:8px">
+          <div class="campo">
+            <label for="f-nombre">Tu nombre y apellido <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="f-nombre" autocomplete="name" required
+                   placeholder="Como te conocen en el local">
+            <div class="ayuda">Obligatorio. Es con lo que el comercio va a identificar tu pedido.</div>
+            <div class="error" id="e-nombre" hidden></div>
+          </div>
+
+          <div class="campo">
+            <label for="f-contacto">Teléfono o email <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="f-contacto" autocomplete="tel" inputmode="tel" required
+                   placeholder="11 2345 6789">
+            <div class="ayuda">Obligatorio. Es por donde te van a confirmar el pedido.</div>
+            <div class="error" id="e-contacto" hidden></div>
+          </div>
+
+          ${hayEnvio ? `
+          <div class="campo">
+            <label>¿Cómo lo recibís?</label>
+            <div class="entrega-ops">
+              <label class="entrega-op sel" data-op="retira">
+                <input type="radio" name="entrega" value="retira" checked>
+                <b>Retiro yo</b>
+                <small>Sin cargo</small>
+              </label>
+              <label class="entrega-op" data-op="envio">
+                <input type="radio" name="entrega" value="envio">
+                <b>Con envío</b>
+                <small>${Number(pedCfg.costo_envio) > 0 ? fmt(pedCfg.costo_envio) : 'Sin cargo'}</small>
+              </label>
+            </div>
+            ${pedCfg.zona ? `<div class="ayuda">Zona de reparto: ${escHtml(pedCfg.zona)}</div>` : ''}
+          </div>
+
+          <div class="campo" id="campo-direccion" hidden>
+            <label for="f-direccion">Dirección de entrega <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="f-direccion" autocomplete="street-address"
+                   placeholder="Calle, número, piso/depto y entre calles">
+            <div class="error" id="e-direccion" hidden></div>
+          </div>` : `
+          <input type="radio" name="entrega" value="retira" checked hidden>
+          ${avisoHtml('info', 'El pedido se retira por el local. Te avisamos cuando esté listo.')}`}
+
+          <div class="campo">
+            <label for="f-nota">¿Algo que quieras aclarar?</label>
+            <textarea id="f-nota" placeholder="Opcional: horario en el que pasás, referencias, talle, color…"></textarea>
+          </div>
+
+          <div class="error" id="e-general" hidden style="margin-bottom:12px"></div>
+        </div>`;
+
+      // El radio nativo sigue siendo el que manda; la clase `sel` solo lo
+      // dibuja. Se escucha `change` y no `click` para que llegar con el
+      // teclado y elegir con las flechas pinte igual que tocar la tarjeta.
+      if (hayEnvio) {
+        document.querySelectorAll('input[name="entrega"]').forEach(r =>
+          r.addEventListener('change', () => {
+            document.querySelectorAll('.entrega-op').forEach(o =>
+              o.classList.toggle('sel', o.dataset.op === r.value && r.checked));
+            $('campo-direccion').hidden = !envioElegido();
+            pintarPieFormulario();
+          }));
+      }
+      pintarPieFormulario();
+      $('f-nombre').focus();
+    }
+
+    function pintarPieFormulario() {
+      const esEnvio = envioElegido();
+      const env = costoEnvio(esEnvio);
+      $('cart-foot').innerHTML = `
+        <div class="cart-tot-fila"><span>Productos (${unidades()})</span><span>${fmt(subtotal())}</span></div>
+        ${esEnvio ? `<div class="cart-tot-fila"><span>Envío</span><span>${env > 0 ? fmt(env) : 'Sin cargo'}</span></div>` : ''}
+        <div class="cart-tot-fila total"><span>Total</span><span>${fmt(subtotal() + env)}</span></div>
+        <button class="btn-full" type="button" id="cart-enviar">Enviar el pedido</button>
+        <button class="btn-link" type="button" id="cart-volver">Volver al pedido</button>`;
+      $('cart-enviar').addEventListener('click', enviarPedido);
+      $('cart-volver').addEventListener('click', () => { vista = 'lista'; pintarCarrito(); });
+    }
+
+    function pintarConfirmacion() {
+      $('cart-titulo').textContent = 'Pedido enviado';
+      const porWpp = !pedCfg.endpoint;
+      $('cart-body').innerHTML = `
+        <div class="cart-ok">
+          <div class="cart-ok-ico">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <h3>¡Listo, lo recibimos!</h3>
+          <p>${porWpp
+              ? 'Se abrió WhatsApp con tu pedido escrito. Enviá el mensaje para que nos llegue.'
+              : 'El comercio ya lo tiene y te va a confirmar por el contacto que dejaste.'}</p>
+          <p style="margin-top:10px;font-size:12px">Guardá este número por si necesitás consultarlo:</p>
+          <code>${escHtml(ultimoId)}</code>
+        </div>`;
+      $('cart-foot').innerHTML = `<button class="btn-full" type="button" id="cart-fin">Seguir viendo productos</button>`;
+      $('cart-fin').addEventListener('click', cerrarCarrito);
+    }
+
+    // ── Validación y envío ────────────────────────────────────────────────────
+    function marcarError(campo, mensaje) {
+      const inp = $('f-' + campo), err = $('e-' + campo);
+      if (err) { err.textContent = mensaje; err.hidden = !mensaje; }
+      if (inp) inp.setAttribute('aria-invalid', mensaje ? 'true' : 'false');
+      return !mensaje;
+    }
+
+    function enviarPedido() {
+      // Un pedido mandado dos veces son dos pedidos: el comerciante prepara el
+      // doble y se entera cuando el cliente le dice que no. El `id_remoto` lo
+      // atajaría del lado del POS, pero solo si el segundo envío lleva el
+      // mismo, y un doble clic genera dos. Se frena acá.
+      if (enviando) return;
+
+      const nombre   = $('f-nombre').value.trim();
+      const contacto = $('f-contacto').value.trim();
+      const esEnvio  = envioElegido();
+      const direccion = esEnvio ? ($('f-direccion')?.value || '').trim() : '';
+      const nota     = $('f-nota').value.trim();
+
+      let ok = true;
+      ok = marcarError('nombre',   nombre.length >= 3 ? '' : 'Poné tu nombre y apellido.') && ok;
+      ok = marcarError('contacto', contacto.length >= 6 ? '' : 'Dejá un teléfono o un email para que te confirmen.') && ok;
+      if (esEnvio) ok = marcarError('direccion', direccion.length >= 5 ? '' : 'Sin dirección no podemos enviarlo.') && ok;
+      if (!ok) {
+        document.querySelector('[aria-invalid="true"]')?.focus();
+        return;
+      }
+      if (!carrito.length) { vista = 'lista'; pintarCarrito(); return; }
+
+      const env = costoEnvio(esEnvio);
+      const ahora = new Date();
+      const dd = n => String(n).padStart(2, '0');
+      const pedido = {
+        id_remoto: nuevoId(),
+        comercio:  clientId,
+        // El POS guarda las fechas como dd/mm/aaaa. Mandarlas en ISO obligaría
+        // al backend a saber de formatos, y el backend tiene que ser tonto.
+        fecha: `${dd(ahora.getDate())}/${dd(ahora.getMonth() + 1)}/${ahora.getFullYear()}`,
+        hora:  `${dd(ahora.getHours())}:${dd(ahora.getMinutes())}`,
+        cliente: nombre,
+        contacto: contacto,
+        entrega: esEnvio ? 'envio' : 'retira',
+        direccion: direccion,
+        zona: esEnvio ? (pedCfg.zona || '') : '',
+        costo_envio: env,
+        total: subtotal() + env,
+        nota: nota,
+        lineas: carrito.map(l => ({
+          producto: l.nombre,          // el POS lo busca por NOMBRE exacto
+          cantidad: l.cantidad,
+          precio:   l.precio,          // el precio que el cliente VIO
+        })),
+      };
+
+      enviando = true;
+      const btn = $('cart-enviar');
+      const etiqueta = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = 'Enviando…';
+
+      const terminar = () => {
+        ultimoId = pedido.id_remoto;
+        carrito = [];
+        guardarCarrito();
+        pintarContador();
+        enviando = false;
+        vista = 'ok';
+        pintarCarrito();
+      };
+
+      const fallar = (motivo) => {
+        enviando = false;
+        btn.disabled = false;
+        btn.textContent = etiqueta;
+        const err = $('e-general');
+        if (err) {
+          err.textContent = motivo;
+          err.hidden = false;
+        }
+      };
+
+      if (pedCfg.endpoint) {
+        enviarAlServicio(pedido).then(terminar).catch(e => {
+          console.error(e);
+          // El pedido NO se pierde: el carrito queda como estaba y el cliente
+          // puede reintentar o mandarlo por WhatsApp. Vaciarlo acá sería
+          // borrarle el pedido a alguien por un problema de red nuestro.
+          fallar('No pudimos enviar el pedido. Revisá tu conexión y probá de nuevo, o escribinos por WhatsApp.');
+        });
+      } else {
+        // Sin backend (NQ-71 todavía no existe): sale por WhatsApp.
+        abrirWhatsApp(pedido);
+        terminar();
+      }
+    }
+
+    // Un id opaco y sin colisiones prácticas. No sale del nombre ni del
+    // contacto: si se derivara de los datos del cliente, dos pedidos suyos
+    // seguidos serían "el mismo" para el POS y el segundo se descartaría como
+    // duplicado.
+    function nuevoId() {
+      const azar = (crypto && crypto.getRandomValues)
+        ? Array.from(crypto.getRandomValues(new Uint8Array(4)))
+            .map(b => b.toString(16).padStart(2, '0')).join('')
+        : Math.random().toString(16).slice(2, 10);
+      return `web-${Date.now().toString(36)}-${azar}`.toUpperCase();
+    }
+
+    async function enviarAlServicio(pedido) {
+      const ctrl = new AbortController();
+      // Sin tope, un backend que no responde deja el botón en "Enviando…" para
+      // siempre y el cliente cierra la página creyendo que mandó el pedido.
+      const reloj = setTimeout(() => ctrl.abort(), 15000);
+      try {
+        const res = await fetch(pedCfg.endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(pedido),
+          signal: ctrl.signal,
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return true;
+      } finally {
+        clearTimeout(reloj);
+      }
+    }
+
+    function abrirWhatsApp(pedido) {
+      const nl = '\n';
+      const lineas = pedido.lineas.map(l =>
+        `• ${l.cantidad} x ${l.producto} — ${fmt(l.cantidad * l.precio)}`).join(nl);
+      const partes = [
+        `*Pedido web* ${pedido.id_remoto}`,
+        `${pedido.fecha} ${pedido.hora}`,
+        '',
+        lineas,
+        '',
+        pedido.entrega === 'envio'
+          ? `Envío a: ${pedido.direccion}${pedido.zona ? ` (${pedido.zona})` : ''}` +
+            (pedido.costo_envio > 0 ? `${nl}Costo de envío: ${fmt(pedido.costo_envio)}` : '')
+          : 'Retiro por el local',
+        `*Total: ${fmt(pedido.total)}*`,
+        '',
+        `Nombre: ${pedido.cliente}`,
+        `Contacto: ${pedido.contacto}`,
+      ];
+      if (pedido.nota) partes.push(`Nota: ${pedido.nota}`);
+      const texto = encodeURIComponent(partes.join(nl));
+      const num = String(catalogMeta.wpp_numero || '').replace(/\D/g, '');
+      // Sin número cargado, wa.me abre el selector de contacto de WhatsApp. No
+      // es lo ideal, pero es mejor que un enlace roto: el cliente elige el
+      // contacto del comercio y el mensaje ya va escrito.
+      const url = num ? `https://wa.me/${num}?text=${texto}`
+                      : `https://wa.me/?text=${texto}`;
+      window.open(url, '_blank', 'noopener');
     }
 
     loadCatalog();
