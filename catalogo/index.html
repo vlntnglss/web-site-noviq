@@ -978,6 +978,63 @@
     .attr-chip b { color: var(--dark); font-weight: 600; }
 
     .modal-acciones { display: flex; gap: 10px; align-items: center; margin-top: 6px; }
+
+    /* ── El detalle entra siempre en la pantalla (19/10/2026) ─────────────
+       Pedido de Valentín: al abrir un producto nunca hay que scrollear. El
+       detalle es una columna del alto de la pantalla como máximo: el texto,
+       el precio y el botón de agregar tienen su lugar fijo, y la FOTO es la
+       que cede —se achica hasta un mínimo— cuando no entra todo. La
+       descripción larga y los atributos se cortan con «Ver más», que cambia
+       la foto por el texto completo. */
+    .modal {
+      display: flex; flex-direction: column; overflow: hidden;
+      max-height: calc(100vh - 40px); max-height: calc(100dvh - 40px);
+    }
+    .modal-img {
+      flex: 0 1 46vh; min-height: 88px; max-height: 46vh;
+      aspect-ratio: auto;
+    }
+    .modal-body { flex: 0 0 auto; min-height: 0; }
+    /* Lo único que cede dentro del cuerpo es el texto; el nombre, el precio
+       y el botón nunca se aplastan. */
+    .modal-body > * { flex-shrink: 0; }
+    .modal-body > .modal-texto { flex-shrink: 1; }
+    .modal-name {
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .modal-texto { display: flex; flex-direction: column; gap: 8px; min-height: 0; }
+    .modal-texto .modal-desc {
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .modal-texto .attr-lista { max-height: 30px; overflow: hidden; }
+    .modal-mas {
+      align-self: flex-start; background: none; border: none; padding: 2px 0;
+      color: var(--teal); font: inherit; font-size: 13px; font-weight: 600;
+      cursor: pointer; text-decoration: underline; text-underline-offset: 2px;
+    }
+    .modal-mas[hidden] { display: none; }
+    /* «Ver más»: la foto se va y el texto ocupa su lugar. Si aun así no
+       entra (una descripción de varios párrafos), es lo único que se
+       desplaza: el precio y el botón de agregar no se mueven. */
+    .modal.ver-todo .modal-img { display: none; }
+    .modal.ver-todo .modal-body { flex: 1 1 auto; padding-top: 56px; }
+    .modal.ver-todo .modal-texto { flex: 1 1 auto; overflow-y: auto; }
+    .modal.ver-todo .modal-texto .modal-desc { display: block; overflow: visible; }
+    .modal.ver-todo .modal-texto .attr-lista { max-height: none; }
+    /* Pantallas bajas (un teléfono chico, o uno grande con el teclado o
+       la barra del navegador): menos aire y menos líneas antes de cortar. */
+    @media (max-height: 700px) {
+      .modal-body { gap: 8px; padding: 14px 16px 16px; }
+      .modal-prices { gap: 6px; padding-top: 10px; }
+      .modal-name { -webkit-line-clamp: 2; font-size: 17px !important; }
+      .modal-texto .modal-desc { -webkit-line-clamp: 2; }
+      .modal-price { font-size: 24px !important; }
+      .modal-plan { padding: 6px 12px; }
+      .modal-img { min-height: 72px; }
+      .modal-img img { padding: 10px; }
+    }
     .modal-acciones .add-btn { margin: 0; }
 
     body.cart-open { overflow: hidden; }
@@ -1015,7 +1072,8 @@
       .plan-tag span { overflow: visible; text-overflow: clip; }
 
       .modal-overlay { padding: 0; align-items: flex-end; }
-      .modal { max-width: 100%; border-radius: 20px 20px 0 0; max-height: 92vh; }
+      .modal { max-width: 100%; border-radius: 20px 20px 0 0;
+               max-height: calc(100vh - 16px); max-height: calc(100dvh - 16px); }
       .modal-name { font-size: 19px; }
       .modal-price { font-size: 26px; }
 
@@ -1041,6 +1099,21 @@
     }
     @media (max-width: 400px) {
       .grid { grid-template-columns: 1fr 1fr; }
+    }
+    /* El celular acostado: con 360 px de alto, foto arriba y texto abajo no
+       entran. La foto pasa a la izquierda y el texto a la derecha, y lo que
+       sobra (la categoría, los atributos) queda para «Ver más». */
+    @media (max-height: 480px) and (min-width: 560px) {
+      .modal-overlay { align-items: center; padding: 8px; }
+      .modal { flex-direction: row; max-width: 760px; border-radius: 12px;
+               max-height: calc(100vh - 16px); max-height: calc(100dvh - 16px); }
+      .modal-img { flex: 0 0 38%; min-height: 0; max-height: none; }
+      .modal-body { flex: 1 1 auto; padding: 14px 52px 14px 16px; gap: 6px; }
+      .modal-cat { display: none; }
+      .modal-texto .modal-desc { -webkit-line-clamp: 1; }
+      .modal-texto .attr-lista { display: none; }
+      .modal.ver-todo .modal-body { padding-top: 14px; }
+      .modal.ver-todo .modal-texto .attr-lista { display: flex; }
     }
   </style>
 </head>
@@ -1351,10 +1424,13 @@
         <div class="modal-body">
           ${p.categoria ? `<span class="modal-cat">${escHtml(p.categoria)}</span>` : ''}
           <h2 class="modal-name">${escHtml(p.nombre)}</h2>
-          ${p.descripcion
-            ? `<p class="modal-desc">${escHtml(p.descripcion)}</p>`
-            : `<p class="modal-desc" style="color:var(--light);font-style:italic;">Este producto no tiene descripción.</p>`}
-          ${attrHtml(p)}
+          <div class="modal-texto" id="modal-texto">
+            ${p.descripcion
+              ? `<p class="modal-desc">${escHtml(p.descripcion)}</p>`
+              : `<p class="modal-desc" style="color:var(--light);font-style:italic;">Este producto no tiene descripción.</p>`}
+            ${attrHtml(p)}
+          </div>
+          <button class="modal-mas" type="button" id="modal-mas" hidden>Ver más</button>
           <div class="modal-prices">
             <div class="modal-price">${fmt(p.precio)}</div>
             ${p.entrega ? `<div class="modal-row">Entrega inicial: <b>${fmt(p.entrega)}</b></div>` : ''}
@@ -1380,6 +1456,7 @@
       $('modal-overlay').classList.add('open');
       document.body.classList.add('modal-open');
       $('modal-close').addEventListener('click', closeModal);
+      prepararVerMas();
 
       // El selector de cantidad del detalle. Si el comercio no toma pedidos,
       // estos nodos existen pero están escondidos y nunca reciben un clic.
@@ -1390,6 +1467,22 @@
         $('m-mas').addEventListener('click',   () => { n = Math.min(99, n + 1); lbl.textContent = n; });
         $('m-add').addEventListener('click', () => { agregar(p, n, $('m-add')); closeModal(); abrirCarrito(); });
       }
+    }
+
+    // «Ver más» aparece solo si la descripción o los atributos quedaron
+    // cortados; con texto corto no hay nada que ofrecer.
+    function prepararVerMas() {
+      const modal = $('modal-content'), texto = $('modal-texto'), btn = $('modal-mas');
+      modal.classList.remove('ver-todo');
+      const cortado = el => el && el.scrollHeight > el.clientHeight + 1;
+      const attrs = texto.querySelector('.attr-lista');
+      const hayMas = cortado(texto.querySelector('.modal-desc')) || cortado(attrs)
+                  || (attrs && attrs.offsetParent === null);   // escondidos
+      btn.hidden = !hayMas;
+      btn.addEventListener('click', () => {
+        const abierto = modal.classList.toggle('ver-todo');
+        btn.textContent = abierto ? 'Ver la foto' : 'Ver más';
+      });
     }
 
     // Los campos que cada comercio define por producto (NQ-58). El POS ya los
