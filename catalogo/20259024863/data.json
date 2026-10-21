@@ -6,7 +6,7 @@
   "pedidos": {
     "activos": false
   },
-  "actualizado": "19/10/2026 20:56",
+  "actualizado": "21/10/2026 17:07",
   "total_productos": 272,
   "productos": [
     {
@@ -1690,16 +1690,6 @@
       "monto_cuota": 10100.0
     },
     {
-      "nombre": "TV Box Onn",
-      "precio": 55000.0,
-      "categoria": "TV",
-      "imagen_url": "imgs/Tv bo onn.jpeg",
-      "descripcion": "",
-      "entrega": 18100.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 12300.0
-    },
-    {
       "nombre": "Linterna busca huella OM",
       "precio": 28000.0,
       "categoria": "",
@@ -2728,6 +2718,16 @@
       "entrega": 15900.0,
       "cant_cuotas": 3,
       "monto_cuota": 10700.0
+    },
+    {
+      "nombre": "bla bla",
+      "precio": 30000.0,
+      "categoria": "Cuidado personal mujer",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 15000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 15000.0
     }
   ]
 }
