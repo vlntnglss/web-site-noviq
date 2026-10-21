@@ -4,9 +4,16 @@
   "usa_planes": true,
   "wpp_numero": "5493584837011",
   "pedidos": {
-    "activos": false
+    "activos": true,
+    "endpoint": "https://api.noviq-app.com/pedido/NQ331CA8BF4F",
+    "envio": false,
+    "zona": "",
+    "costo_envio": 0.0,
+    "hora_desde": 9,
+    "hora_hasta": 20,
+    "abierto": true
   },
-  "actualizado": "21/10/2026 17:11",
+  "actualizado": "21/10/2026 17:14",
   "total_productos": 272,
   "productos": [
     {
