@@ -13,8 +13,8 @@
     "hora_hasta": 20,
     "abierto": true
   },
-  "actualizado": "21/10/2026 17:14",
-  "total_productos": 272,
+  "actualizado": "27/10/2026 18:24",
+  "total_productos": 263,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -367,16 +367,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Sabana Love Home 2 1-2 plazas",
-      "precio": 35000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Sabana Love home.jpg",
-      "descripcion": "",
-      "entrega": 11600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11700.0
-    },
-    {
       "nombre": "Aroma para telas y ambientes",
       "precio": 6000.0,
       "categoria": "",
@@ -637,16 +627,6 @@
       "monto_cuota": 12000.0
     },
     {
-      "nombre": "Humificador simil madera",
-      "precio": 14000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Humidificadores.jpg",
-      "descripcion": "",
-      "entrega": 14000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Microfono Karaoke",
       "precio": 14000.0,
       "categoria": "Niños",
@@ -865,16 +845,6 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Parlante Winco W261",
-      "precio": 125000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Parlante Winco W261.jpg",
-      "descripcion": "",
-      "entrega": 41000.0,
-      "cant_cuotas": 8,
-      "monto_cuota": 10500.0
     },
     {
       "nombre": "Tender Vertical tres pisos",
@@ -1517,16 +1487,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Bateria de cocina mango desmontable",
-      "precio": 115000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Bateria de cocina.jpeg",
-      "descripcion": "",
-      "entrega": 38000.0,
-      "cant_cuotas": 7,
-      "monto_cuota": 11000.0
-    },
-    {
       "nombre": "Freidora de aire Vitta 8L Digital",
       "precio": 160000.0,
       "categoria": "Electrodomesticos cocina",
@@ -1565,16 +1525,6 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Moto G06",
-      "precio": 400000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Moto G06.jpg",
-      "descripcion": "4/128 gb",
-      "entrega": 131200.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 16800.0
     },
     {
       "nombre": "Sabana Cacharel Vainilla 1p",
@@ -1655,16 +1605,6 @@
       "entrega": 16000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Conservadora 34L Gemplast",
-      "precio": 36000.0,
-      "categoria": "C8-Jardin y Camping Otros",
-      "imagen_url": "imgs/Conservadora 34L gemplast.jpeg",
-      "descripcion": "",
-      "entrega": 12000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12000.0
     },
     {
       "nombre": "Reposera plegable niños",
@@ -1855,16 +1795,6 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 12000.0
-    },
-    {
-      "nombre": "Mate cuero labrado con base",
-      "precio": 59000.0,
-      "categoria": "D1-Mates",
-      "imagen_url": "imgs/Mate Imperial cuero labrado con base.jpg",
-      "descripcion": "",
-      "entrega": 19400.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 13200.0
     },
     {
       "nombre": "Cortina Tussor",
@@ -2307,16 +2237,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Especieros",
-      "precio": 30000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Especieros.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Alfombra de baño",
       "precio": 10000.0,
       "categoria": "Blanqueria",
@@ -2335,16 +2255,6 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Cortapelo OSR liso",
-      "precio": 20000.0,
-      "categoria": "Cuidado Personal",
-      "imagen_url": "imgs/Cortapelo OSR liso.jpg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Adaptador universal comun",
@@ -2707,16 +2617,6 @@
       "monto_cuota": 10000.0
     },
     {
-      "nombre": "Cepillo y planchita Tokio",
-      "precio": 58000.0,
-      "categoria": "Cuidado personal mujer",
-      "imagen_url": "imgs/Cepillo y planchita tokio.jpeg",
-      "descripcion": "",
-      "entrega": 19000.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 13000.0
-    },
-    {
       "nombre": "Smartwatch y Auricular",
       "precio": 48000.0,
       "categoria": "Audio",
@@ -2735,6 +2635,16 @@
       "entrega": 15000.0,
       "cant_cuotas": 1,
       "monto_cuota": 15000.0
+    },
+    {
+      "nombre": "Mesa plegable chica",
+      "precio": 25000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Mesa plegable desayuno.jpeg",
+      "descripcion": "Para cama o sillon, en color negro y clarito",
+      "entrega": 10000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 7500.0
     }
   ]
 }
