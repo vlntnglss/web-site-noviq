@@ -13,8 +13,8 @@
     "hora_hasta": 20,
     "abierto": true
   },
-  "actualizado": "27/10/2026 18:24",
-  "total_productos": 263,
+  "actualizado": "30/10/2026 19:36",
+  "total_productos": 258,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -285,16 +285,6 @@
       "entrega": 23200.0,
       "cant_cuotas": 4,
       "monto_cuota": 11700.0
-    },
-    {
-      "nombre": "Balanza Cocina 10kg",
-      "precio": 10000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Balanza de cocina 10kg.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Toalla y Toallon Valente Pesado",
@@ -1153,26 +1143,6 @@
       "imagen_url": "imgs/Auriculares capibara.jpeg",
       "descripcion": "",
       "entrega": 17000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Pilas AA",
-      "precio": 250.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "imgs/Pilas AA.jpg",
-      "descripcion": "",
-      "entrega": 250.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Pilas AAA",
-      "precio": 250.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "imgs/Pilas AAA.jpg",
-      "descripcion": "",
-      "entrega": 250.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
@@ -2217,16 +2187,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Aspiradora sansei 10Litros",
-      "precio": 115000.0,
-      "categoria": "Electrodomesticos Hogar",
-      "imagen_url": "imgs/Aspiradora Sansei.jpeg",
-      "descripcion": "",
-      "entrega": 38000.0,
-      "cant_cuotas": 7,
-      "monto_cuota": 11000.0
-    },
-    {
       "nombre": "Cazuelas de barro",
       "precio": 18000.0,
       "categoria": "Cocina y Bazar",
@@ -2337,16 +2297,6 @@
       "monto_cuota": 10100.0
     },
     {
-      "nombre": "Poco C81 Pro",
-      "precio": 435000.0,
-      "categoria": "Celulares",
-      "imagen_url": "imgs/Poco C81 Pro.jpeg",
-      "descripcion": "128GB . 8gb RAM",
-      "entrega": 143800.0,
-      "cant_cuotas": 16,
-      "monto_cuota": 18200.0
-    },
-    {
       "nombre": "Cubiertos Tramontina para churrascos",
       "precio": 64000.0,
       "categoria": "Cocina y Bazar",
@@ -2415,16 +2365,6 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Termo Oryx media manija",
-      "precio": 29000.0,
-      "categoria": "Termos y Mates",
-      "imagen_url": "imgs/Termo 1L media manija ORY.jpeg",
-      "descripcion": "1 Litro",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 19000.0
     },
     {
       "nombre": "Termo Oryx",
@@ -2645,6 +2585,16 @@
       "entrega": 10000.0,
       "cant_cuotas": 2,
       "monto_cuota": 7500.0
+    },
+    {
+      "nombre": "Espejo led",
+      "precio": 200000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Espejo led 80x60.jpeg",
+      "descripcion": "80x60, con boton de encendido tactil",
+      "entrega": 66100.0,
+      "cant_cuotas": 13,
+      "monto_cuota": 10300.0
     }
   ]
 }
