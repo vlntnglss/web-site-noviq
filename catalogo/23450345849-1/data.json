@@ -1,0 +1,35 @@
+{
+  "cliente": "23450345849",
+  "nombre_local": "La Isla Restaurante",
+  "usa_planes": false,
+  "wpp_numero": "",
+  "pedidos": {
+    "activos": false
+  },
+  "rest": {
+    "carta": true,
+    "disponibilidad": "https://api.noviq-app.com/disponibilidad/NQ8379B49256",
+    "reservas": {
+      "activas": true,
+      "hora_desde": 11,
+      "hora_hasta": 23,
+      "max_personas": 10,
+      "dias": 30,
+      "endpoint": "https://api.noviq-app.com/reserva/NQ8379B49256"
+    },
+    "ofertas": [],
+    "pedidos_salon": false
+  },
+  "actualizado": "01/11/2026 16:12",
+  "total_productos": 1,
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Lomo Completo",
+      "precio": 22000.0,
+      "categoria": "",
+      "imagen_url": "",
+      "descripcion": ""
+    }
+  ]
+}
