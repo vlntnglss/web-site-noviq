@@ -4,7 +4,14 @@
   "usa_planes": false,
   "wpp_numero": "",
   "pedidos": {
-    "activos": false
+    "activos": true,
+    "endpoint": "https://api.noviq-app.com/pedido/NQ8379B49256",
+    "envio": true,
+    "zona": "",
+    "costo_envio": 4000.0,
+    "hora_desde": 9,
+    "hora_hasta": 20,
+    "abierto": true
   },
   "rest": {
     "carta": true,
@@ -20,7 +27,7 @@
     "ofertas": [],
     "pedidos_salon": false
   },
-  "actualizado": "01/11/2026 16:12",
+  "actualizado": "01/11/2026 16:16",
   "total_productos": 1,
   "productos": [
     {
