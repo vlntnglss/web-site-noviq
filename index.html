@@ -6,7 +6,7 @@
 <title>NOVIQ — Software simple para tu negocio</title>
 <meta name="description" content="Sistemas de gestión que se entienden sin capacitación: Noviq POS para tu comercio y NOVIQ Rest para restaurantes, bares y cafés. Hecho en Córdoba.">
 <meta property="og:title" content="NOVIQ — Software simple para tu negocio">
-<meta property="og:description" content="Noviq POS para comercios y NOVIQ Rest para gastronomía. Probalos gratis.">
+<meta property="og:description" content="Un sistema para cada rubro: Noviq POS para comercios y NOVIQ Rest para gastronomía. Probalos gratis.">
 <meta property="og:image" content="https://www.noviq-app.com/assets/isotipo-256.png">
 <link rel="icon" href="assets/isotipo-96.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,57 +52,52 @@
   .ico-wa { width: 20px; height: 20px; flex: none; }
 
   /* Portada */
-  .hero { padding: 48px 0 56px; }
-  .hero .wrap { display: grid; gap: 40px; align-items: center; }
+  .hero { padding: 48px 0 24px; }
   .eyebrow { display: inline-block; font-size: 13px; font-weight: 700; color: var(--teal-d); background: var(--sel); padding: 4px 12px; border-radius: 999px; margin-bottom: 16px; }
-  h1 { font: 800 clamp(34px, 6.4vw, 56px)/1.08 var(--font-title); color: var(--head); margin: 0 0 18px; letter-spacing: -.015em; }
+  h1 { font: 800 clamp(34px, 6.4vw, 56px)/1.08 var(--font-title); color: var(--head); margin: 0 0 18px; letter-spacing: -.015em; max-width: 14em; }
   h1 em { font-style: normal; color: var(--teal); }
-  .lead { font-size: 18px; color: var(--fg2); margin: 0 0 28px; max-width: 32em; }
-  .hero-ctas { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
-
-  /* Maqueta del POS (tema oscuro, como el programa) */
-  .pos-mock { background: #121212; border-radius: 12px; overflow: hidden; box-shadow: 0 24px 60px rgba(14,32,39,.28); color: #E8EAF0; font-size: 13px; max-width: 480px; width: 100%; justify-self: center; }
-  .pm-bar { display: flex; align-items: center; gap: 8px; background: #1E1E1E; padding: 10px 14px; border-left: 4px solid var(--teal); }
-  .pm-bar b { font-size: 14px; } .pm-bar small { margin-left: auto; color: #8B9099; }
-  .pm-body { display: grid; grid-template-columns: 1fr 150px; gap: 10px; padding: 12px; }
-  .pm-search { background: #2A2A2A; border-radius: 4px; padding: 8px 10px; color: #8B9099; margin-bottom: 8px; }
-  .pm-row { display: flex; justify-content: space-between; padding: 7px 8px; border-radius: 4px; }
-  .pm-row:nth-child(odd) { background: #1E1E1E; } .pm-row:nth-child(even) { background: #232323; }
-  .pm-row span:last-child { color: #8B9099; }
-  .pm-total { background: #1E1E1E; border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
-  .pm-total small { color: #8B9099; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
-  .pm-total b { font-size: 26px; color: #fff; line-height: 1; }
-  .pm-pay { background: var(--orange); color: #fff; text-align: center; font-weight: 700; padding: 9px; border-radius: 6px; }
-  .pm-chip { background: #2A3A3A; color: #8fd6d2; border-radius: 4px; padding: 5px 8px; font-size: 11px; text-align: center; }
+  .lead { font-size: 18px; color: var(--fg2); margin: 0 0 28px; max-width: 34em; }
+  .hero-ctas { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; }
 
   /* Secciones */
   section { padding: 56px 0; }
   section.alt { background: var(--panel); }
   .kicker { font-size: 13px; font-weight: 700; color: var(--teal); text-transform: uppercase; letter-spacing: .08em; margin: 0 0 8px; }
   h2 { font: 700 clamp(26px, 4.2vw, 36px)/1.18 var(--font-title); color: var(--head); margin: 0 0 10px; }
-  .sub { color: var(--fg2); margin: 0 0 32px; max-width: 40em; font-size: 17px; }
-
+  .sub { color: var(--fg2); margin: 0 0 28px; max-width: 40em; font-size: 17px; }
   .grid { display: grid; gap: 16px; }
-  .feat { display: flex; gap: 14px; align-items: flex-start; background: var(--bg); border-radius: 10px; padding: 18px; }
-  .feat .ico { flex: none; width: 42px; height: 42px; border-radius: 10px; background: var(--sel); display: grid; place-items: center; }
-  .feat .ico svg, .why .ico svg { width: 22px; height: 22px; stroke: var(--teal-d); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-  .feat h3 { margin: 0 0 2px; font-size: 17px; color: var(--head); }
-  .feat p { margin: 0; color: var(--fg2); font-size: 15px; }
-  .pos-foot { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; }
-  .pos-foot p { margin: 0; color: var(--fg2); font-size: 15px; }
 
-  /* Herramientas */
-  .tool { background: var(--panel); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); display: flex; flex-direction: column; border-top: 4px solid var(--teal); }
-  .tool.soon { border-top-color: var(--border); background: transparent; box-shadow: none; border: 2px dashed #C9D3DB; }
-  #prop { margin-top: 40px; }
-  #rest .feat { background: var(--panel); box-shadow: var(--shadow); }
-  .tool .tag { align-self: flex-start; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 12px; }
-  .tag.new { color: #fff; background: var(--orange); }
-  .tag.idea { color: var(--fg2); background: var(--input); }
-  .tool h3 { margin: 0 0 6px; font: 700 22px var(--font-title); color: var(--head); }
-  .tool p { margin: 0 0 18px; color: var(--fg2); flex: 1; }
-  .tool .price { font-weight: 700; color: var(--head); margin-bottom: 16px; }
-  .tool .price small { font-weight: 400; color: var(--fg2); }
+  /* Carrusel de sistemas: todas las tarjetas iguales, se pasan con el dedo o con las flechas */
+  #sistemas { padding-top: 24px; }
+  .carrusel { display: grid; grid-auto-flow: column; grid-auto-columns: 86%; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 16px; padding: 6px 16px 18px; margin: 0 -16px; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .carrusel::-webkit-scrollbar { display: none; }
+  .sys { scroll-snap-align: start; background: var(--panel); border-radius: 14px; box-shadow: var(--shadow); border-top: 4px solid var(--teal); padding: 24px; display: flex; flex-direction: column; min-width: 0; }
+  .sys-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+  .sys-ico { width: 48px; height: 48px; border-radius: 12px; background: var(--sel); display: grid; place-items: center; flex: none; }
+  .sys-ico svg, .why .ico svg { width: 24px; height: 24px; stroke: var(--teal-d); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .rubro { font-size: 12px; font-weight: 700; color: var(--teal-d); background: var(--sel); padding: 3px 10px; border-radius: 999px; }
+  .rubro.pronto { color: var(--fg2); background: var(--input); }
+  .sys h3 { margin: 0 0 6px; font: 700 24px var(--font-title); color: var(--head); }
+  .sys .para { margin: 0 0 16px; color: var(--fg2); }
+  .checks { list-style: none; margin: 0 0 22px; padding: 0; display: grid; gap: 9px; flex: 1; align-content: start; }
+  .checks li { position: relative; padding-left: 28px; font-size: 15px; }
+  .checks li::before { content: ""; position: absolute; left: 0; top: 2px; width: 18px; height: 18px; border-radius: 50%; background: var(--sel) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23013E46' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12l4 4 8-8'/%3E%3C/svg%3E") center/12px no-repeat; }
+  .checks b { color: var(--head); }
+  .sys-foot { border-top: 1px solid var(--border); padding-top: 18px; display: grid; gap: 10px; }
+  .sys-foot small { color: var(--fg2); font-size: 14px; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: var(--teal); color: #fff; text-decoration: none; font-weight: 700; font-size: 16px; padding: 12px 18px; border-radius: 6px; transition: background .15s; }
+  .btn:hover { background: var(--teal-d); }
+  .btn-borde { background: transparent; color: var(--teal-d); border: 2px solid var(--teal); padding: 10px 16px; }
+  .btn-borde:hover { background: var(--teal); color: #fff; }
+  .car-ctrl { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 6px; }
+  .puntos { display: flex; gap: 8px; }
+  .puntos button { width: 10px; height: 10px; padding: 0; border: 0; border-radius: 999px; background: #C9D3DB; cursor: pointer; transition: width .2s, background .2s; }
+  .puntos button[aria-current="true"] { width: 26px; background: var(--teal); }
+  .flechas { display: flex; gap: 10px; }
+  .flechas button { width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--teal); background: var(--panel); color: var(--teal-d); display: grid; place-items: center; cursor: pointer; transition: background .15s, opacity .15s; }
+  .flechas button:hover:not(:disabled) { background: var(--sel); }
+  .flechas button:disabled { opacity: .35; cursor: default; }
+  .flechas svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
 
   /* Por qué */
   .why { background: var(--panel); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); }
@@ -129,16 +124,15 @@
 
   @media (min-width: 720px) {
     nav { display: flex; }
-    .hero { padding: 72px 0 80px; }
-    .hero .wrap { grid-template-columns: 1.1fr 1fr; }
+    .hero { padding: 72px 0 32px; }
+    .carrusel { grid-auto-columns: calc((100% - 32px) / 2); }
     section { padding: 80px 0; }
     .grid.c2 { grid-template-columns: repeat(2, 1fr); }
     .grid.c3 { grid-template-columns: repeat(3, 1fr); }
     .contact { padding: 56px 40px; }
     footer .wrap { grid-template-columns: 1fr auto; align-items: center; }
   }
-  @media (max-width: 380px) { .pm-body { grid-template-columns: 1fr; } }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+  @media (prefers-reduced-motion: reduce) { html, .carrusel { scroll-behavior: auto; } * { transition: none !important; } }
 </style>
 </head>
 <body>
@@ -147,8 +141,7 @@
   <div class="wrap">
     <a class="brand" href="/" aria-label="NOVIQ, inicio"><img src="assets/isotipo-96.png" alt=""><b>NOVI<span>Q</span></b></a>
     <nav aria-label="Principal">
-      <a href="#pos">Noviq POS</a>
-      <a href="#rest">NOVIQ Rest</a>
+      <a href="#sistemas">Sistemas</a>
       <a href="#por-que">Por qué NOVIQ</a>
     </nav>
     <a class="btn-sec" href="#contacto">Escribinos</a>
@@ -158,88 +151,92 @@
 <main>
   <div class="hero">
     <div class="wrap">
-      <div>
-        <span class="eyebrow">Hecho en Córdoba, para el interior</span>
-        <h1>Software <em>simple</em> para tu negocio.</h1>
-        <p class="lead">Sistemas de gestión que se entienden sin capacitación. Uno para cada rubro: comercios, gastronomía y, muy pronto, inmobiliarias.</p>
-        <div class="hero-ctas">
-          <a class="cta" href="#pos">Conocé Noviq POS</a>
-          <a class="link" href="#rest">¿Tenés un restaurante o un bar? →</a>
-        </div>
-      </div>
-
-      <div class="pos-mock" aria-label="Así se ve Noviq POS">
-        <div class="pm-bar"><b>Caja 1 · Almacén Don Pedro</b><small>Abierta</small></div>
-        <div class="pm-body">
-          <div>
-            <div class="pm-search">Buscar producto o escanear…</div>
-            <div class="pm-row"><span>Yerba 1 kg × 2</span><span>$9.800</span></div>
-            <div class="pm-row"><span>Leche entera × 3</span><span>$4.350</span></div>
-            <div class="pm-row"><span>Pan francés 1 kg</span><span>$2.600</span></div>
-            <div class="pm-row"><span>Azúcar 1 kg</span><span>$1.450</span></div>
-            <div class="pm-row"><span>Aceite girasol 1,5 L</span><span>$3.900</span></div>
-          </div>
-          <div class="pm-total">
-            <small>Total</small>
-            <b>$22.100</b>
-            <div class="pm-chip">Mercado Pago · QR</div>
-            <div class="pm-chip">Cuenta corriente</div>
-            <div class="pm-pay">Cobrar</div>
-          </div>
-        </div>
+      <span class="eyebrow">Hecho en Córdoba, para el interior</span>
+      <h1>Software <em>simple</em> para tu negocio.</h1>
+      <p class="lead">Sistemas de gestión que se entienden sin capacitación. Uno para cada rubro, todos con la misma forma de trabajar y la misma atención.</p>
+      <div class="hero-ctas">
+        <a class="cta" href="#sistemas">Elegí tu sistema</a>
+        <a class="link" href="#por-que">Por qué NOVIQ →</a>
       </div>
     </div>
   </div>
 
-  <section class="alt" id="pos">
+  <section id="sistemas" aria-labelledby="t-sistemas">
     <div class="wrap">
-      <p class="kicker">Producto principal</p>
-      <h2>Noviq POS: todo tu comercio en un solo lugar</h2>
-      <p class="sub">Vendé, cobrá, facturá y controlá el stock desde la compu del mostrador. Pensado para almacenes, ferreterías, kioscos y comercios de barrio.</p>
-      <div class="grid c3">
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg></div><div><h3>Ventas y caja</h3><p>Cobrás rápido, abrís y cerrás la caja, y ves cuánto entró.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/></svg></div><div><h3>Stock y compras</h3><p>Sabés qué tenés, qué falta y qué le compraste a cada proveedor.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-7 7-7s7 3 7 7"/><path d="M17 11h5M19.5 8.5v5"/></svg></div><div><h3>Clientes y cuenta corriente</h3><p>Fiado, cuotas y saldos de cada cliente, con avisos de mora.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg></div><div><h3>Factura electrónica</h3><p>Emitís tus comprobantes de ARCA desde la misma venta.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM18 18h3v3h-3z"/></svg></div><div><h3>Cobros con Mercado Pago</h3><p>QR y link de pago, conectados con tu cuenta.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12z"/></svg></div><div><h3>Catálogo web y WhatsApp</h3><p>Tus productos en una página para compartir, y avisos a tus clientes.</p></div></div>
-      </div>
-      <div class="pos-foot">
-        <a class="cta" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20probar%20Noviq%20POS">
-          <svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
-          Pedí 30 días de prueba gratis
-        </a>
-        <p>Para Windows. Funciona en una o en varias compus del local, con respaldo diario.</p>
-      </div>
-    </div>
-  </section>
+      <p class="kicker">Sistemas NOVIQ</p>
+      <h2 id="t-sistemas">Uno para cada rubro</h2>
+      <p class="sub">Pasá las tarjetas y elegí el tuyo. Todos tienen prueba gratis y te atiende una persona por WhatsApp.</p>
 
-  <section id="rest">
-    <div class="wrap">
-      <p class="kicker">Para gastronomía</p>
-      <h2>NOVIQ Rest: tu restaurante, bar o café</h2>
-      <p class="sub">Mesas, mozos, cocina y caja, todo conectado. El sistema vive en la compu de la caja y los mozos lo usan desde el celular por el wifi del local: si se corta internet, seguís trabajando.</p>
-      <div class="grid c3">
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><div><h3>Salón y mesas</h3><p>El plano de tu local: ves qué mesa está libre, ocupada o por cobrar.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div><div><h3>Mozos desde el celular</h3><p>Toman el pedido en la mesa y le llega a la cocina al instante.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 11h16M6 11V7a6 6 0 0 1 12 0v4M5 11l1 9h12l1-9"/></svg></div><div><h3>Cocina y comandas</h3><p>Pantalla o comandera para la cocina, con cada pedido en orden.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM18 18h3v3h-3z"/></svg></div><div><h3>Carta con QR</h3><p>Tus clientes miran la carta en el celular, con precios y ofertas al día.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div><div><h3>Reservas</h3><p>Anotás las reservas y sabés qué mesas tenés comprometidas.</p></div></div>
-        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg></div><div><h3>Caja y factura electrónica</h3><p>Cobrás, cerrás la caja y facturás a ARCA, como en Noviq POS.</p></div></div>
-      </div>
-      <div class="pos-foot">
-        <a class="cta cta-teal" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20probar%20NOVIQ%20Rest">
-          <svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
-          Pedí la prueba gratis
-        </a>
-        <p>Para Windows en la caja; los mozos, con su celular.</p>
+      <div class="carrusel" id="carrusel" tabindex="0" aria-label="Sistemas NOVIQ">
+        <article class="sys" id="pos" aria-label="Noviq POS">
+          <div class="sys-top">
+            <div class="sys-ico"><svg viewBox="0 0 24 24"><path d="M3 9l1.5-5h15L21 9"/><path d="M4 9v11h16V9"/><path d="M3 9h18M9 20v-6h6v6"/></svg></div>
+            <span class="rubro">Comercios</span>
+          </div>
+          <h3>Noviq POS</h3>
+          <p class="para">Para almacenes, ferreterías, kioscos y comercios de barrio. Todo tu comercio desde la compu del mostrador.</p>
+          <ul class="checks">
+            <li><b>Ventas y caja:</b> cobrás rápido y ves cuánto entró.</li>
+            <li><b>Stock y compras</b> por proveedor.</li>
+            <li><b>Cuenta corriente:</b> fiado, cuotas y avisos de mora.</li>
+            <li><b>Factura electrónica</b> de ARCA desde la venta.</li>
+            <li><b>Mercado Pago</b> con QR y link de pago.</li>
+            <li><b>Catálogo web</b> para compartir por WhatsApp.</li>
+          </ul>
+          <div class="sys-foot">
+            <a class="btn" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20probar%20Noviq%20POS"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>Pedí la prueba gratis</a>
+            <small>Para Windows. En una o en varias compus del local.</small>
+          </div>
+        </article>
+
+        <article class="sys" id="rest" aria-label="NOVIQ Rest">
+          <div class="sys-top">
+            <div class="sys-ico"><svg viewBox="0 0 24 24"><path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10"/><path d="M17 21V3c-2 1-3.5 3.5-3.5 7.5 0 1.5.7 2.5 2 2.5H17"/></svg></div>
+            <span class="rubro">Gastronomía</span>
+          </div>
+          <h3>NOVIQ Rest</h3>
+          <p class="para">Para restaurantes, bares y cafés. Mesas, mozos, cocina y caja, todo conectado.</p>
+          <ul class="checks">
+            <li><b>Salón y mesas:</b> libre, ocupada o por cobrar.</li>
+            <li><b>Mozos con el celular:</b> el pedido llega a la cocina al instante.</li>
+            <li><b>Cocina y comandas</b> en pantalla o comandera.</li>
+            <li><b>Carta con QR</b> con precios y ofertas al día.</li>
+            <li><b>Reservas</b> de mesas.</li>
+            <li><b>Caja y factura electrónica</b> de ARCA.</li>
+          </ul>
+          <div class="sys-foot">
+            <a class="btn" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20probar%20NOVIQ%20Rest"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>Pedí la prueba gratis</a>
+            <small>Para Windows en la caja. Si se corta internet, seguís trabajando.</small>
+          </div>
+        </article>
+
+        <article class="sys" id="prop" aria-label="NOVIQ Prop, próximamente">
+          <div class="sys-top">
+            <div class="sys-ico"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg></div>
+            <span class="rubro pronto">Próximamente</span>
+          </div>
+          <h3>NOVIQ Prop</h3>
+          <p class="para">Para inmobiliarias y para quien alquila por temporada: cabañas, casas y departamentos.</p>
+          <ul class="checks">
+            <li><b>Propiedades</b> con sus dueños e inquilinos.</li>
+            <li><b>Contratos con ajuste</b> por ICL, IPC o porcentaje.</li>
+            <li><b>Quién pagó y quién debe,</b> con punitorios.</li>
+            <li><b>Lo que se rinde</b> a cada propietario.</li>
+            <li><b>Temporada:</b> la grilla del mes y las reservas sin pisarse.</li>
+          </ul>
+          <div class="sys-foot">
+            <a class="btn btn-borde" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20saber%20cu%C3%A1ndo%20sale%20NOVIQ%20Prop">Avisame cuando salga</a>
+            <small>Estamos terminando de probarlo.</small>
+          </div>
+        </article>
       </div>
 
-      <div class="tool soon" id="prop">
-        <span class="tag idea">Próximamente</span>
-        <h3>NOVIQ Prop</h3>
-        <p>Para inmobiliarias y para quien alquila por temporada: contratos con ajuste, quién pagó y quién debe, y las reservas de cabañas, casas y departamentos.</p>
-        <a class="link" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20saber%20cu%C3%A1ndo%20sale%20NOVIQ%20Prop">Avisame cuando salga →</a>
+      <div class="car-ctrl">
+        <div class="puntos" id="puntos"></div>
+        <div class="flechas">
+          <button type="button" id="ant" aria-label="Sistema anterior"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <button type="button" id="sig" aria-label="Sistema siguiente"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
       </div>
     </div>
   </section>
@@ -281,6 +278,7 @@
     <div class="links">
       <a href="#pos">Noviq POS</a>
       <a href="#rest">NOVIQ Rest</a>
+      <a href="#prop">NOVIQ Prop</a>
       <a href="#contacto">Contacto</a>
     </div>
   </div>
@@ -291,6 +289,58 @@
 </a>
 
 <script>
+  // Carrusel: sin JavaScript igual se pasa con el dedo; esto suma flechas y puntos.
+  (function () {
+    var pista = document.getElementById("carrusel");
+    var tarjetas = [].slice.call(pista.children);
+    var puntos = document.getElementById("puntos");
+    var ant = document.getElementById("ant"), sig = document.getElementById("sig");
+    var suave = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function ir(i) {
+      i = Math.max(0, Math.min(tarjetas.length - 1, i));
+      pista.scrollTo({ left: tarjetas[i].offsetLeft - tarjetas[0].offsetLeft, behavior: suave ? "smooth" : "auto" });
+    }
+    function actual() {
+      var x = pista.scrollLeft, mejor = 0, dist = Infinity;
+      tarjetas.forEach(function (t, i) {
+        var d = Math.abs(t.offsetLeft - tarjetas[0].offsetLeft - x);
+        if (d < dist) { dist = d; mejor = i; }
+      });
+      return mejor;
+    }
+    tarjetas.forEach(function (t, i) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("aria-label", "Ver " + t.querySelector("h3").textContent);
+      b.addEventListener("click", function () { ir(i); });
+      puntos.appendChild(b);
+    });
+    function pintar() {
+      var i = actual(), fin = pista.scrollLeft + pista.clientWidth >= pista.scrollWidth - 4;
+      [].forEach.call(puntos.children, function (b, j) { b.setAttribute("aria-current", j === i ? "true" : "false"); });
+      ant.disabled = pista.scrollLeft <= 4;
+      sig.disabled = fin;
+    }
+    ant.addEventListener("click", function () { ir(actual() - 1); });
+    sig.addEventListener("click", function () { ir(actual() + 1); });
+    pista.addEventListener("scroll", function () { requestAnimationFrame(pintar); }, { passive: true });
+    pista.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") { e.preventDefault(); ir(actual() + 1); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); ir(actual() - 1); }
+    });
+    addEventListener("resize", pintar);
+    // Los links del pie (#pos, #rest) llevan a su tarjeta dentro del carrusel.
+    document.querySelectorAll('a[href="#pos"], a[href="#rest"], a[href="#prop"]').forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.getElementById("sistemas").scrollIntoView({ behavior: suave ? "smooth" : "auto" });
+        ir(tarjetas.indexOf(document.getElementById(a.getAttribute("href").slice(1))));
+      });
+    });
+    pintar();
+  })();
+
   // Los links de WhatsApp ya funcionan sin JavaScript; esto solo los abre en otra pestaña.
   document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (a) {
     a.target = "_blank";
