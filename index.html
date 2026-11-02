@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NOVIQ — Software simple para tu negocio</title>
-<meta name="description" content="Herramientas de gestión que se entienden sin capacitación: Noviq POS para tu comercio y herramientas chicas como NOVIQ Cuotas. Hecho en Córdoba.">
+<meta name="description" content="Sistemas de gestión que se entienden sin capacitación: Noviq POS para tu comercio y NOVIQ Rest para restaurantes, bares y cafés. Hecho en Córdoba.">
 <meta property="og:title" content="NOVIQ — Software simple para tu negocio">
-<meta property="og:description" content="Noviq POS y herramientas simples para comercios y emprendedores. Probalas gratis.">
+<meta property="og:description" content="Noviq POS para comercios y NOVIQ Rest para gastronomía. Probalos gratis.">
 <meta property="og:image" content="https://www.noviq-app.com/assets/isotipo-256.png">
 <link rel="icon" href="assets/isotipo-96.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,6 +94,8 @@
   /* Herramientas */
   .tool { background: var(--panel); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); display: flex; flex-direction: column; border-top: 4px solid var(--teal); }
   .tool.soon { border-top-color: var(--border); background: transparent; box-shadow: none; border: 2px dashed #C9D3DB; }
+  #prop { margin-top: 40px; }
+  #rest .feat { background: var(--panel); box-shadow: var(--shadow); }
   .tool .tag { align-self: flex-start; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 12px; }
   .tag.new { color: #fff; background: var(--orange); }
   .tag.idea { color: var(--fg2); background: var(--input); }
@@ -146,7 +148,7 @@
     <a class="brand" href="/" aria-label="NOVIQ, inicio"><img src="assets/isotipo-96.png" alt=""><b>NOVI<span>Q</span></b></a>
     <nav aria-label="Principal">
       <a href="#pos">Noviq POS</a>
-      <a href="#herramientas">Herramientas</a>
+      <a href="#rest">NOVIQ Rest</a>
       <a href="#por-que">Por qué NOVIQ</a>
     </nav>
     <a class="btn-sec" href="#contacto">Escribinos</a>
@@ -159,10 +161,10 @@
       <div>
         <span class="eyebrow">Hecho en Córdoba, para el interior</span>
         <h1>Software <em>simple</em> para tu negocio.</h1>
-        <p class="lead">Herramientas de gestión que se entienden sin capacitación. Del sistema completo para tu comercio a apps chicas que te resuelven un problema puntual.</p>
+        <p class="lead">Sistemas de gestión que se entienden sin capacitación. Uno para cada rubro: comercios, gastronomía y, muy pronto, inmobiliarias.</p>
         <div class="hero-ctas">
           <a class="cta" href="#pos">Conocé Noviq POS</a>
-          <a class="link" href="#herramientas">Ver todas las herramientas →</a>
+          <a class="link" href="#rest">¿Tenés un restaurante o un bar? →</a>
         </div>
       </div>
 
@@ -203,7 +205,7 @@
         <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.5A9 9 0 1 1 21 12z"/></svg></div><div><h3>Catálogo web y WhatsApp</h3><p>Tus productos en una página para compartir, y avisos a tus clientes.</p></div></div>
       </div>
       <div class="pos-foot">
-        <a class="cta" href="https://wa.me/5493584903336?text=Hola%2C%20quiero%20probar%20Noviq%20POS">
+        <a class="cta" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20probar%20Noviq%20POS">
           <svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
           Pedí 30 días de prueba gratis
         </a>
@@ -212,25 +214,32 @@
     </div>
   </section>
 
-  <section id="herramientas">
+  <section id="rest">
     <div class="wrap">
-      <p class="kicker">Herramientas NOVIQ</p>
-      <h2>Apps chicas, simples y por mes</h2>
-      <p class="sub">Cada una resuelve un problema puntual. Se usan desde el celular, sin instalar nada, y se pagan por mes.</p>
-      <div class="grid c2">
-        <div class="tool">
-          <span class="tag new">Nueva</span>
-          <h3>NOVIQ Cuotas</h3>
-          <p>Para profes, academias, gimnasios y escuelitas: mirá quién pagó la cuota y quién te debe, y recordale por WhatsApp en un toque.</p>
-          <div class="price">$7.900 <small>/ mes · 14 días gratis</small></div>
-          <a class="cta cta-teal" href="/cuotas/">Conocé NOVIQ Cuotas</a>
-        </div>
-        <div class="tool soon">
-          <span class="tag idea">Próximamente</span>
-          <h3>¿Qué te gustaría resolver?</h3>
-          <p>Estamos armando más herramientas para comercios y emprendedores. Si hay algo que hoy hacés en un cuaderno o en una planilla, contanos: puede ser la próxima.</p>
-          <a class="link" href="https://wa.me/5493584903336?text=Hola%2C%20tengo%20una%20idea%20para%20una%20herramienta%20NOVIQ%3A">Contanos tu idea →</a>
-        </div>
+      <p class="kicker">Para gastronomía</p>
+      <h2>NOVIQ Rest: tu restaurante, bar o café</h2>
+      <p class="sub">Mesas, mozos, cocina y caja, todo conectado. El sistema vive en la compu de la caja y los mozos lo usan desde el celular por el wifi del local: si se corta internet, seguís trabajando.</p>
+      <div class="grid c3">
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><div><h3>Salón y mesas</h3><p>El plano de tu local: ves qué mesa está libre, ocupada o por cobrar.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div><div><h3>Mozos desde el celular</h3><p>Toman el pedido en la mesa y le llega a la cocina al instante.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 11h16M6 11V7a6 6 0 0 1 12 0v4M5 11l1 9h12l1-9"/></svg></div><div><h3>Cocina y comandas</h3><p>Pantalla o comandera para la cocina, con cada pedido en orden.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM18 18h3v3h-3z"/></svg></div><div><h3>Carta con QR</h3><p>Tus clientes miran la carta en el celular, con precios y ofertas al día.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div><div><h3>Reservas</h3><p>Anotás las reservas y sabés qué mesas tenés comprometidas.</p></div></div>
+        <div class="feat"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg></div><div><h3>Caja y factura electrónica</h3><p>Cobrás, cerrás la caja y facturás a ARCA, como en Noviq POS.</p></div></div>
+      </div>
+      <div class="pos-foot">
+        <a class="cta cta-teal" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20probar%20NOVIQ%20Rest">
+          <svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
+          Pedí la prueba gratis
+        </a>
+        <p>Para Windows en la caja; los mozos, con su celular.</p>
+      </div>
+
+      <div class="tool soon" id="prop">
+        <span class="tag idea">Próximamente</span>
+        <h3>NOVIQ Prop</h3>
+        <p>Para inmobiliarias y para quien alquila por temporada: contratos con ajuste, quién pagó y quién debe, y las reservas de cabañas, casas y departamentos.</p>
+        <a class="link" href="https://wa.me/5493585176423?text=Hola%2C%20quiero%20saber%20cu%C3%A1ndo%20sale%20NOVIQ%20Prop">Avisame cuando salga →</a>
       </div>
     </div>
   </section>
@@ -243,7 +252,7 @@
       <div class="grid c3">
         <div class="why"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg></div><h3>Se entiende solo</h3><p>Lo usás desde el primer día, sin cursos ni manuales.</p></div>
         <div class="why"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Estamos cerca</h3><p>Somos de Córdoba. Te atiende una persona, por WhatsApp, que conoce tu negocio.</p></div>
-        <div class="why"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13M3 12h18M12 8c-2-4-6-4-6-1.5S10 8 12 8zM12 8c2-4 6-4 6-1.5S14 8 12 8z"/></svg></div><h3>Probás sin riesgo</h3><p>Todas las herramientas tienen prueba gratis, sin tarjeta y sin letra chica.</p></div>
+        <div class="why"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13M3 12h18M12 8c-2-4-6-4-6-1.5S10 8 12 8zM12 8c2-4 6-4 6-1.5S14 8 12 8z"/></svg></div><h3>Probás sin riesgo</h3><p>Todos los sistemas tienen prueba gratis, sin tarjeta y sin letra chica.</p></div>
       </div>
     </div>
   </section>
@@ -253,11 +262,11 @@
       <div class="contact">
         <h2>Hablemos</h2>
         <p class="sub">Contanos qué tenés y qué necesitás. Te respondemos por WhatsApp, normalmente en el día.</p>
-        <a class="cta" href="https://wa.me/5493584903336?text=Hola%2C%20me%20interesa%20conocer%20NOVIQ">
+        <a class="cta" href="https://wa.me/5493585176423?text=Hola%2C%20me%20interesa%20conocer%20NOVIQ">
           <svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
           Escribinos por WhatsApp
         </a>
-        <span class="num">o agendá el número: <a href="tel:+5493584903336">+54 9 358 490-3336</a></span>
+        <span class="num">o agendá el número: <a href="tel:+5493585176423">+54 9 358 517-6423</a></span>
       </div>
     </div>
   </section>
@@ -271,13 +280,13 @@
     </div>
     <div class="links">
       <a href="#pos">Noviq POS</a>
-      <a href="/cuotas/">NOVIQ Cuotas</a>
+      <a href="#rest">NOVIQ Rest</a>
       <a href="#contacto">Contacto</a>
     </div>
   </div>
 </footer>
 
-<a class="wa-float" href="https://wa.me/5493584903336?text=Hola%2C%20me%20interesa%20conocer%20NOVIQ" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+<a class="wa-float" href="https://wa.me/5493585176423?text=Hola%2C%20me%20interesa%20conocer%20NOVIQ" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/><path d="M16.5 14.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z" style="fill:#25D366"/></svg>
 </a>
 
