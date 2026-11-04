@@ -11,10 +11,10 @@
     "costo_envio": 0.0,
     "hora_desde": 9,
     "hora_hasta": 20,
-    "abierto": true
+    "abierto": false
   },
-  "actualizado": "30/10/2026 19:36",
-  "total_productos": 258,
+  "actualizado": "04/11/2026 20:04",
+  "total_productos": 260,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -167,16 +167,6 @@
       "monto_cuota": 11700.0
     },
     {
-      "nombre": "Almohada Anatomica",
-      "precio": 42000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Almohada anatomica.jpeg",
-      "descripcion": "",
-      "entrega": 14000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 14000.0
-    },
-    {
       "nombre": "Almohada Viscoelastica Recta",
       "precio": 42000.0,
       "categoria": "Blanqueria",
@@ -285,6 +275,16 @@
       "entrega": 23200.0,
       "cant_cuotas": 4,
       "monto_cuota": 11700.0
+    },
+    {
+      "nombre": "Balanza Cocina 10kg",
+      "precio": 10000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Balanza de cocina 10kg.jpeg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     },
     {
       "nombre": "Toalla y Toallon Valente Pesado",
@@ -617,6 +617,16 @@
       "monto_cuota": 12000.0
     },
     {
+      "nombre": "Humidificador simil madera",
+      "precio": 14000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "imgs/Humidificadores.jpg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
       "nombre": "Microfono Karaoke",
       "precio": 14000.0,
       "categoria": "Niños",
@@ -807,16 +817,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Jarro porcelana decorado",
-      "precio": 5000.0,
-      "categoria": "E1-Cocina y Bazar Otros",
-      "imagen_url": "imgs/Jarro porcelana decorado.jpg",
-      "descripcion": "",
-      "entrega": 5000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Soplador Inflador Inalambrico",
       "precio": 46000.0,
       "categoria": "Herramientas electricas",
@@ -871,16 +871,6 @@
       "precio": 3000.0,
       "categoria": "A2-Celulares Otros",
       "imagen_url": "imgs/Cable Samsung tipo c a c.jpg",
-      "descripcion": "",
-      "entrega": 3000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Cable Oryx tipo C a C",
-      "precio": 3000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Cable Oryx tipo C a C.jpg",
       "descripcion": "",
       "entrega": 3000.0,
       "cant_cuotas": 0,
@@ -945,6 +935,16 @@
       "entrega": 6000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cepillo Alisador",
+      "precio": 24000.0,
+      "categoria": "B2-Cuidado Personal Mujer",
+      "imagen_url": "imgs/Cepillo Alisador.jpg",
+      "descripcion": "",
+      "entrega": 12000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 12000.0
     },
     {
       "nombre": "Bandeja metalica tea",
@@ -1035,16 +1035,6 @@
       "entrega": 20000.0,
       "cant_cuotas": 4,
       "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Alfombra Welcome azul",
-      "precio": 6000.0,
-      "categoria": "F3-Alfombras",
-      "imagen_url": "imgs/Alfombra Welcome azul.jpg",
-      "descripcion": "",
-      "entrega": 6000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Tabla rectangular picotera",
@@ -1687,6 +1677,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Vaso termico 1,2L",
+      "precio": 23000.0,
+      "categoria": "C9-Termos",
+      "imagen_url": "imgs/Vaso termico 1200ML manija rebatible.jpg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 13000.0
+    },
+    {
       "nombre": "Microfono inalambrico caja negra",
       "precio": 34000.0,
       "categoria": "A5-Parlantes",
@@ -1765,6 +1765,16 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 12000.0
+    },
+    {
+      "nombre": "Soporte tv fijo chico 14\"- 42\"",
+      "precio": 7000.0,
+      "categoria": "A7-Televisores",
+      "imagen_url": "imgs/Soporte tv fijo chico.jpg",
+      "descripcion": "",
+      "entrega": 7000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     },
     {
       "nombre": "Cortina Tussor",
@@ -1867,16 +1877,6 @@
       "monto_cuota": 11200.0
     },
     {
-      "nombre": "Soporte tv fijo 26 a 63\"",
-      "precio": 10000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Soporte fijo 26 a 63.jpg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Juego de toalla y toallon Danubio 600g",
       "precio": 38000.0,
       "categoria": "F5-Toallones y Toallas",
@@ -1895,16 +1895,6 @@
       "entrega": 23200.0,
       "cant_cuotas": 4,
       "monto_cuota": 11700.0
-    },
-    {
-      "nombre": "Auricular Time JS52",
-      "precio": 18000.0,
-      "categoria": "A3-Auriculares",
-      "imagen_url": "imgs/Auricular time JS52.jpg",
-      "descripcion": "",
-      "entrega": 18000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Organizadores de vidrio y bambu x3",
@@ -2187,6 +2177,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Aspiradora sansei 10Litros",
+      "precio": 105000.0,
+      "categoria": "Electrodomesticos Hogar",
+      "imagen_url": "imgs/Aspiradora Sansei.jpeg",
+      "descripcion": "",
+      "entrega": 34300.0,
+      "cant_cuotas": 7,
+      "monto_cuota": 10100.0
+    },
+    {
       "nombre": "Cazuelas de barro",
       "precio": 18000.0,
       "categoria": "Cocina y Bazar",
@@ -2467,14 +2467,14 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Individual mandala",
-      "precio": 36000.0,
+      "nombre": "Individual mandala C/U",
+      "precio": 6000.0,
       "categoria": "Muebles",
       "imagen_url": "imgs/Individuales mandala.jpeg",
       "descripcion": "x6",
-      "entrega": 12000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12000.0
+      "entrega": 6000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     },
     {
       "nombre": "sahumerios",
@@ -2595,6 +2595,26 @@
       "entrega": 66100.0,
       "cant_cuotas": 13,
       "monto_cuota": 10300.0
+    },
+    {
+      "nombre": "Humidificador Esfera ligth",
+      "precio": 12000.0,
+      "categoria": "Electronicos",
+      "imagen_url": "imgs/humidificador esfera.jpeg",
+      "descripcion": "",
+      "entrega": 12000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Tira led fuegos artificiales",
+      "precio": 18000.0,
+      "categoria": "",
+      "imagen_url": "imgs/tira led fuegos artificiales.jpeg",
+      "descripcion": "",
+      "entrega": 18000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     }
   ]
 }
