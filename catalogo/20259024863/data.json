@@ -13,8 +13,8 @@
     "hora_hasta": 20,
     "abierto": true
   },
-  "actualizado": "05/11/2026 18:31",
-  "total_productos": 272,
+  "actualizado": "11/11/2026 15:03",
+  "total_productos": 274,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -25,16 +25,6 @@
       "entrega": 4000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Soporte tv Movil",
-      "precio": 20000.0,
-      "categoria": "TV",
-      "imagen_url": "imgs/Soporte TV movil.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Pendrive 64 gb",
@@ -135,6 +125,16 @@
       "entrega": 11000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Fabrica de Pastas con Raviolera",
+      "precio": 90000.0,
+      "categoria": "Cocina y Bazar",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 30000.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Mini Difusor",
@@ -687,6 +687,16 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Cortapelo Afeitador W826",
+      "precio": 30000.0,
+      "categoria": "cuidado personal Hombre",
+      "imagen_url": "imgs/Cortapelo Afeitador W826.jpg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 10000.0
+    },
+    {
       "nombre": "Mate acero stanley",
       "precio": 13000.0,
       "categoria": "D1-Mates",
@@ -845,6 +855,26 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Cortapelo Winco W823",
+      "precio": 38000.0,
+      "categoria": "cuidado personal Hombre",
+      "imagen_url": "imgs/Cortapelo Winco w823.jpg",
+      "descripcion": "",
+      "entrega": 13000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12500.0
+    },
+    {
+      "nombre": "Parlante Winco W261",
+      "precio": 126000.0,
+      "categoria": "Parlantes",
+      "imagen_url": "imgs/Parlante Winco W261.jpg",
+      "descripcion": "",
+      "entrega": 41000.0,
+      "cant_cuotas": 8,
+      "monto_cuota": 10500.0
     },
     {
       "nombre": "Tender Vertical tres pisos",
@@ -1357,16 +1387,6 @@
       "monto_cuota": 14800.0
     },
     {
-      "nombre": "Balanza Gancho",
-      "precio": 8000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Balanza gancho.jpeg",
-      "descripcion": "",
-      "entrega": 8000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
-    },
-    {
       "nombre": "Cubrecama Blanco Tritel 2P",
       "precio": 60000.0,
       "categoria": "E8-Acolchados y Mantas",
@@ -1415,16 +1435,6 @@
       "entrega": 15000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Licuadora RAF",
-      "precio": 70000.0,
-      "categoria": "B5-Electrodomesticos Cocina",
-      "imagen_url": "imgs/Licuadora RAF.jpeg",
-      "descripcion": "",
-      "entrega": 23200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 11700.0
     },
     {
       "nombre": "Cargador Iphone USB C 20W",
@@ -1607,16 +1617,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Reposera plegable niños",
-      "precio": 25000.0,
-      "categoria": "C4-Sillones de exterior",
-      "imagen_url": "imgs/Reposera plegable niños.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 15000.0
-    },
-    {
       "nombre": "Freidora de aire Vitta 6,5L",
       "precio": 130000.0,
       "categoria": "Electrodomesticos Hogar",
@@ -1635,6 +1635,16 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 18000.0
+    },
+    {
+      "nombre": "Taladro Inalambrico Winco 21vmax",
+      "precio": 130000.0,
+      "categoria": "B9-Herramientas Electricas",
+      "imagen_url": "imgs/Taladro Inalambrico 21V Winco.jpeg",
+      "descripcion": "",
+      "entrega": 42800.0,
+      "cant_cuotas": 8,
+      "monto_cuota": 10900.0
     },
     {
       "nombre": "Plancha Seca Winco w33",
@@ -1835,26 +1845,6 @@
       "entrega": 7000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Cortina Tussor",
-      "precio": 36000.0,
-      "categoria": "Cortinas",
-      "imagen_url": "imgs/Cortina de tussor.jpg",
-      "descripcion": "",
-      "entrega": 12000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 12000.0
-    },
-    {
-      "nombre": "Funda de silla X6",
-      "precio": 60000.0,
-      "categoria": "Blanqueria",
-      "imagen_url": "imgs/Funda de silla.jpg",
-      "descripcion": "",
-      "entrega": 20000.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Cortador manual de verduras",
@@ -2125,6 +2115,16 @@
       "entrega": 29800.0,
       "cant_cuotas": 6,
       "monto_cuota": 10200.0
+    },
+    {
+      "nombre": "Licuadora Winco w1802",
+      "precio": 75000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Licuadora Winco w1802.jpeg",
+      "descripcion": "con jarra de plastico",
+      "entrega": 23400.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 11900.0
     },
     {
       "nombre": "Depiladora Winco w2840",
@@ -2687,16 +2687,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Especiero giratorio",
-      "precio": 35000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "imgs/Especierp giratorio.jpeg",
-      "descripcion": "8 piezas, en negro",
-      "entrega": 11600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 11700.0
-    },
-    {
       "nombre": "Humidificador",
       "precio": 22000.0,
       "categoria": "",
@@ -2729,12 +2719,42 @@
     {
       "nombre": "Set ollas mango desmontable",
       "precio": 199000.0,
-      "categoria": "",
+      "categoria": "Cocina y Bazar",
       "imagen_url": "imgs/Set ollas mango desmontable 9 pcs.jpeg",
       "descripcion": "en negro, 9 piezas",
       "entrega": 65100.0,
       "cant_cuotas": 13,
       "monto_cuota": 10300.0
+    },
+    {
+      "nombre": "Planchita de pelo W104",
+      "precio": 42000.0,
+      "categoria": "Cuidado personal mujer",
+      "imagen_url": "imgs/Planchita de pelo w104.jpeg",
+      "descripcion": "",
+      "entrega": 14000.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 14000.0
+    },
+    {
+      "nombre": "Cortapelo W825",
+      "precio": 47000.0,
+      "categoria": "cuidado personal Hombre",
+      "imagen_url": "imgs/Cortapelo W825.jpeg",
+      "descripcion": "",
+      "entrega": 15500.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10500.0
+    },
+    {
+      "nombre": "Microondas Winco W2003",
+      "precio": 290000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Microondas Winco W2003.jpeg",
+      "descripcion": "",
+      "entrega": 96400.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 12100.0
     }
   ]
 }
