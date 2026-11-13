@@ -13,8 +13,8 @@
     "hora_hasta": 20,
     "abierto": true
   },
-  "actualizado": "11/11/2026 15:03",
-  "total_productos": 274,
+  "actualizado": "13/11/2026 19:03",
+  "total_productos": 284,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -77,6 +77,16 @@
       "monto_cuota": 10000.0
     },
     {
+      "nombre": "Secador de pelo Winco W98",
+      "precio": 68000.0,
+      "categoria": "Cuidado Personal",
+      "imagen_url": "imgs/Secador de pelo winco w98.jpeg",
+      "descripcion": "",
+      "entrega": 22400.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 11400.0
+    },
+    {
       "nombre": "Multiprocesadora W1819",
       "precio": 138000.0,
       "categoria": "Electrodomesticos cocina",
@@ -95,6 +105,16 @@
       "entrega": 23200.0,
       "cant_cuotas": 4,
       "monto_cuota": 11700.0
+    },
+    {
+      "nombre": "Set Termo y tazas",
+      "precio": 20000.0,
+      "categoria": "Termos y Mates",
+      "imagen_url": "",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Mate Criollo",
@@ -305,16 +325,6 @@
       "entrega": 14000.0,
       "cant_cuotas": 2,
       "monto_cuota": 14000.0
-    },
-    {
-      "nombre": "Ventilador 10 Pulgadas",
-      "precio": 50000.0,
-      "categoria": "B7-Climatización",
-      "imagen_url": "imgs/Ventilador 10 pulgadas.jpg",
-      "descripcion": "",
-      "entrega": 16400.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11200.0
     },
     {
       "nombre": "Pizarra Magica multicolor",
@@ -597,6 +607,16 @@
       "monto_cuota": 11700.0
     },
     {
+      "nombre": "Batidora de mano con bowl Winco W303",
+      "precio": 99000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Batidora con Bowl Winco.jpg",
+      "descripcion": "",
+      "entrega": 33000.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 11000.0
+    },
+    {
       "nombre": "Plancha a vapor Winco W34",
       "precio": 64000.0,
       "categoria": "",
@@ -615,6 +635,16 @@
       "entrega": 17200.0,
       "cant_cuotas": 3,
       "monto_cuota": 11600.0
+    },
+    {
+      "nombre": "Planchita de Nano Titanium Winco",
+      "precio": 54000.0,
+      "categoria": "",
+      "imagen_url": "imgs/Planchita Winco.jpg",
+      "descripcion": "",
+      "entrega": 17700.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 12100.0
     },
     {
       "nombre": "Linterna tactica recagable P50",
@@ -685,6 +715,26 @@
       "entrega": 19000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Recortador de barba W816",
+      "precio": 38000.0,
+      "categoria": "cuidado personal Hombre",
+      "imagen_url": "imgs/Recortador de barba W816.jpg",
+      "descripcion": "",
+      "entrega": 12400.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12800.0
+    },
+    {
+      "nombre": "Cortapelo Winco W821",
+      "precio": 38000.0,
+      "categoria": "cuidado personal Hombre",
+      "imagen_url": "imgs/Cortapelo Winco W821.jpg",
+      "descripcion": "",
+      "entrega": 12400.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12800.0
     },
     {
       "nombre": "Cortapelo Afeitador W826",
@@ -1035,6 +1085,26 @@
       "entrega": 25000.0,
       "cant_cuotas": 5,
       "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Licuadora de Mano Winco W1014",
+      "precio": 44000.0,
+      "categoria": "B5-Electrodomesticos Cocina",
+      "imagen_url": "imgs/Licuadora de mano winco w1011.jpg",
+      "descripcion": "",
+      "entrega": 14400.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 14800.0
+    },
+    {
+      "nombre": "Licuadora de Mano Winco W1012",
+      "precio": 84000.0,
+      "categoria": "B6-Electrodomesticos Hogar",
+      "imagen_url": "imgs/Licuadora de Mano Winco W1012.jpg",
+      "descripcion": "",
+      "entrega": 27500.0,
+      "cant_cuotas": 5,
+      "monto_cuota": 11300.0
     },
     {
       "nombre": "Cafetera Winco w1932 12 Tazas",
@@ -1917,7 +1987,7 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Pack Premium TDA",
+      "nombre": "Pack Premium TV",
       "precio": 12000.0,
       "categoria": "",
       "imagen_url": "imgs/Pack premium.jpeg",
@@ -2755,6 +2825,36 @@
       "entrega": 96400.0,
       "cant_cuotas": 16,
       "monto_cuota": 12100.0
+    },
+    {
+      "nombre": "Bordeadora electrica Winco W9003",
+      "precio": 120000.0,
+      "categoria": "Herramientas electricas",
+      "imagen_url": "imgs/Bordeadora electrica winco.jpeg",
+      "descripcion": "",
+      "entrega": 40000.0,
+      "cant_cuotas": 8,
+      "monto_cuota": 10000.0
+    },
+    {
+      "nombre": "Secador de pelo winco W4192",
+      "precio": 49000.0,
+      "categoria": "Cuidado personal mujer",
+      "imagen_url": "imgs/Secador winco W4192.jpeg",
+      "descripcion": "",
+      "entrega": 16300.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10900.0
+    },
+    {
+      "nombre": "Licuadora de mano Winco W1016",
+      "precio": 68000.0,
+      "categoria": "Electrodomesticos cocina",
+      "imagen_url": "imgs/Licuadora de mano w1016.jpeg",
+      "descripcion": "Incluye accesorios",
+      "entrega": 22400.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 11400.0
     }
   ]
 }
