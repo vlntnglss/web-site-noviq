@@ -13,8 +13,8 @@
     "hora_hasta": 20,
     "abierto": true
   },
-  "actualizado": "13/11/2026 19:03",
-  "total_productos": 284,
+  "actualizado": "18/11/2026 18:49",
+  "total_productos": 280,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -97,16 +97,6 @@
       "monto_cuota": 10300.0
     },
     {
-      "nombre": "Ventilador 3 en 1 18",
-      "precio": 70000.0,
-      "categoria": "Herramientas",
-      "imagen_url": "imgs/Ventilador 3 en 1 118.jpeg",
-      "descripcion": "",
-      "entrega": 23200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 11700.0
-    },
-    {
       "nombre": "Set Termo y tazas",
       "precio": 20000.0,
       "categoria": "Termos y Mates",
@@ -122,9 +112,9 @@
       "categoria": "Termos y Mates",
       "imagen_url": "imgs/Imagen de WhatsApp 2024-06-05 a las 19.04.40_97d7df82.jpg",
       "descripcion": "",
-      "entrega": 12500.0,
+      "entrega": 10000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 12500.0
+      "monto_cuota": 15000.0
     },
     {
       "nombre": "Mate de Vidrio revestido",
@@ -182,9 +172,9 @@
       "categoria": "",
       "imagen_url": "imgs/Pelota ade Futbol.jpg",
       "descripcion": "",
-      "entrega": 8500.0,
-      "cant_cuotas": 1,
-      "monto_cuota": 8500.0
+      "entrega": 17000.0,
+      "cant_cuotas": 0,
+      "monto_cuota": 0.0
     },
     {
       "nombre": "Acolchado 1p",
@@ -228,33 +218,33 @@
     },
     {
       "nombre": "Cortina Madra",
-      "precio": 30000.0,
+      "precio": 38000.0,
       "categoria": "F2-Cortinas",
       "imagen_url": "imgs/cortina madra.jpg",
       "descripcion": "",
-      "entrega": 10000.0,
+      "entrega": 12400.0,
       "cant_cuotas": 2,
-      "monto_cuota": 10000.0
+      "monto_cuota": 12800.0
     },
     {
       "nombre": "Mantel Ecocuero 2M",
-      "precio": 14000.0,
+      "precio": 18000.0,
       "categoria": "F4-Manteles",
       "imagen_url": "imgs/Mantel Ecocuero.jpg",
       "descripcion": "",
-      "entrega": 14000.0,
+      "entrega": 18000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
     },
     {
       "nombre": "Sabana Brodery 2p",
-      "precio": 45000.0,
+      "precio": 46000.0,
       "categoria": "Blanqueria",
       "imagen_url": "imgs/Sabana brodery 2p.jpeg",
       "descripcion": "",
-      "entrega": 15000.0,
+      "entrega": 15100.0,
       "cant_cuotas": 3,
-      "monto_cuota": 10000.0
+      "monto_cuota": 10300.0
     },
     {
       "nombre": "Sabana 2p Danubio",
@@ -318,13 +308,13 @@
     },
     {
       "nombre": "Toalla y Toallon Valente Pesado",
-      "precio": 42000.0,
+      "precio": 45000.0,
       "categoria": "Toallas y toallones",
       "imagen_url": "imgs/Toallon valente pesado.jpeg",
       "descripcion": "",
-      "entrega": 14000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 14000.0
+      "entrega": 14700.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10100.0
     },
     {
       "nombre": "Pizarra Magica multicolor",
@@ -375,6 +365,26 @@
       "entrega": 15000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
+    },
+    {
+      "nombre": "Cortina tropical",
+      "precio": 22000.0,
+      "categoria": "F2-Cortinas",
+      "imagen_url": "imgs/Imagen de WhatsApp 2024-03-18 a las 11.58.43_dd466610.jpg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 12000.0
+    },
+    {
+      "nombre": "Sabana Love Home 2 1-2 plazas",
+      "precio": 35000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Sabana Love home.jpg",
+      "descripcion": "",
+      "entrega": 11600.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 11700.0
     },
     {
       "nombre": "Tira Led RGB",
@@ -607,6 +617,16 @@
       "monto_cuota": 11700.0
     },
     {
+      "nombre": "Mantel ecocuero 2.5m",
+      "precio": 22000.0,
+      "categoria": "F4-Manteles",
+      "imagen_url": "imgs/Mantel Ecocuero.jpg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 12000.0
+    },
+    {
       "nombre": "Batidora de mano con bowl Winco W303",
       "precio": 99000.0,
       "categoria": "Electrodomesticos cocina",
@@ -705,16 +725,6 @@
       "entrega": 10000.0,
       "cant_cuotas": 1,
       "monto_cuota": 15000.0
-    },
-    {
-      "nombre": "Luz de emergencia 60 Led",
-      "precio": 19000.0,
-      "categoria": "A9-Electronica Otros",
-      "imagen_url": "imgs/Luz de Emergencia 60 led.jpg",
-      "descripcion": "",
-      "entrega": 19000.0,
-      "cant_cuotas": 0,
-      "monto_cuota": 0.0
     },
     {
       "nombre": "Recortador de barba W816",
@@ -912,9 +922,9 @@
       "categoria": "cuidado personal Hombre",
       "imagen_url": "imgs/Cortapelo Winco w823.jpg",
       "descripcion": "",
-      "entrega": 13000.0,
+      "entrega": 12400.0,
       "cant_cuotas": 2,
-      "monto_cuota": 12500.0
+      "monto_cuota": 12800.0
     },
     {
       "nombre": "Parlante Winco W261",
@@ -922,9 +932,9 @@
       "categoria": "Parlantes",
       "imagen_url": "imgs/Parlante Winco W261.jpg",
       "descripcion": "",
-      "entrega": 41000.0,
+      "entrega": 41200.0,
       "cant_cuotas": 8,
-      "monto_cuota": 10500.0
+      "monto_cuota": 10600.0
     },
     {
       "nombre": "Tender Vertical tres pisos",
@@ -1042,9 +1052,9 @@
       "categoria": "B2-Cuidado Personal Mujer",
       "imagen_url": "imgs/Cepillo Alisador.jpg",
       "descripcion": "",
-      "entrega": 12000.0,
+      "entrega": 10000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 12000.0
+      "monto_cuota": 14000.0
     },
     {
       "nombre": "Tetera ceramica",
@@ -1247,16 +1257,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Android TV Stick",
-      "precio": 55000.0,
-      "categoria": "A7-Televisores",
-      "imagen_url": "imgs/Android TV stick.jpg",
-      "descripcion": "",
-      "entrega": 18100.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 12300.0
-    },
-    {
       "nombre": "Velas aromaticas",
       "precio": 12000.0,
       "categoria": "E4-Perfumes, Velas y Saumerios",
@@ -1274,16 +1274,6 @@
       "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 10000.0
-    },
-    {
-      "nombre": "Cubrecama Deluxe reversible Doral 2 P",
-      "precio": 60000.0,
-      "categoria": "E8-Acolchados y Mantas",
-      "imagen_url": "imgs/Cubrecama Deluxe reversible 2 plazas.jpeg",
-      "descripcion": "",
-      "entrega": 20000.0,
-      "cant_cuotas": 4,
       "monto_cuota": 10000.0
     },
     {
@@ -1447,16 +1437,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Torno para uñas OM",
-      "precio": 44000.0,
-      "categoria": "",
-      "imagen_url": "imgs/Torno para uñas OM.jpeg",
-      "descripcion": "",
-      "entrega": 14400.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 14800.0
-    },
-    {
       "nombre": "Cubrecama Blanco Tritel 2P",
       "precio": 60000.0,
       "categoria": "E8-Acolchados y Mantas",
@@ -1605,16 +1585,6 @@
       "entrega": 11600.0,
       "cant_cuotas": 2,
       "monto_cuota": 11700.0
-    },
-    {
-      "nombre": "Smartwatch con mallas intercambiables",
-      "precio": 32000.0,
-      "categoria": "SmartWatch",
-      "imagen_url": "imgs/Smartwatch con mallas intercambiables.jpg",
-      "descripcion": "",
-      "entrega": 10600.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10700.0
     },
     {
       "nombre": "Pileta inflable tropical 3,5m x0,70m 4900L",
@@ -1878,13 +1848,13 @@
     },
     {
       "nombre": "Funda para sofa 3 cuerpos",
-      "precio": 52000.0,
-      "categoria": "",
+      "precio": 65000.0,
+      "categoria": "Blanqueria",
       "imagen_url": "imgs/Funda para sofa 3 cuerpos.jpg",
       "descripcion": "",
-      "entrega": 17200.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 11600.0
+      "entrega": 21400.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 10900.0
     },
     {
       "nombre": "Set de utensilios Suka",
@@ -1917,6 +1887,26 @@
       "monto_cuota": 0.0
     },
     {
+      "nombre": "Cortina Tussor",
+      "precio": 38000.0,
+      "categoria": "Cortinas",
+      "imagen_url": "imgs/Cortina de tussor.jpg",
+      "descripcion": "",
+      "entrega": 12400.0,
+      "cant_cuotas": 2,
+      "monto_cuota": 12800.0
+    },
+    {
+      "nombre": "Funda de silla X6",
+      "precio": 60000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Funda de silla.jpg",
+      "descripcion": "",
+      "entrega": 20000.0,
+      "cant_cuotas": 4,
+      "monto_cuota": 10000.0
+    },
+    {
       "nombre": "Cortador manual de verduras",
       "precio": 11000.0,
       "categoria": "E1-Cocina y Bazar Otros",
@@ -1945,16 +1935,6 @@
       "entrega": 15000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Gazebo sin paredes",
-      "precio": 160000.0,
-      "categoria": "C8-Jardin y Camping Otros",
-      "imagen_url": "imgs/Gazebo sin paredes.jpg",
-      "descripcion": "",
-      "entrega": 53000.0,
-      "cant_cuotas": 10,
-      "monto_cuota": 10700.0
     },
     {
       "nombre": "Panel solar Cargador celular",
@@ -2017,16 +1997,6 @@
       "monto_cuota": 12800.0
     },
     {
-      "nombre": "Parlante Big Sound 6.5",
-      "precio": 70000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Parlante Big Sound 6.5p.jpg",
-      "descripcion": "",
-      "entrega": 23200.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 11700.0
-    },
-    {
       "nombre": "Organizadores de vidrio y bambu x3",
       "precio": 23000.0,
       "categoria": "Cocina y Bazar",
@@ -2077,16 +2047,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Parlantes para auto PERVOI 6 pulgadas",
-      "precio": 56000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/parlante para auto pervoi.jpeg",
-      "descripcion": "",
-      "entrega": 18500.0,
-      "cant_cuotas": 3,
-      "monto_cuota": 12500.0
-    },
-    {
       "nombre": "Parlante Big Sound 4x2",
       "precio": 34000.0,
       "categoria": "Audio",
@@ -2097,7 +2057,7 @@
       "monto_cuota": 11400.0
     },
     {
-      "nombre": "Auricular JK 607",
+      "nombre": "Auricular M25",
       "precio": 17000.0,
       "categoria": "Audio",
       "imagen_url": "imgs/Auricular gamer Headseat.jpeg",
@@ -2192,9 +2152,9 @@
       "categoria": "Electrodomesticos cocina",
       "imagen_url": "imgs/Licuadora Winco w1802.jpeg",
       "descripcion": "con jarra de plastico",
-      "entrega": 23400.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 11900.0
+      "entrega": 25000.0,
+      "cant_cuotas": 5,
+      "monto_cuota": 10000.0
     },
     {
       "nombre": "Depiladora Winco w2840",
@@ -2288,13 +2248,13 @@
     },
     {
       "nombre": "Cubrecolchon",
-      "precio": 26000.0,
+      "precio": 25000.0,
       "categoria": "Blanqueria",
       "imagen_url": "imgs/Cubrecolchon.jpeg",
       "descripcion": "",
       "entrega": 10000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 16000.0
+      "monto_cuota": 15000.0
     },
     {
       "nombre": "Cortina chenile",
@@ -2397,24 +2357,14 @@
       "monto_cuota": 11700.0
     },
     {
-      "nombre": "Inflador portatil",
-      "precio": 60000.0,
-      "categoria": "Herramientas electricas",
-      "imagen_url": "imgs/Inflador portatil.jpeg",
-      "descripcion": "",
-      "entrega": 20000.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Balanza personal",
       "precio": 22000.0,
       "categoria": "Cuidado Personal",
       "imagen_url": "imgs/Balanza personal ogaan.jpeg",
       "descripcion": "",
-      "entrega": 11000.0,
+      "entrega": 10000.0,
       "cant_cuotas": 1,
-      "monto_cuota": 11000.0
+      "monto_cuota": 12000.0
     },
     {
       "nombre": "Fundas para almohadon",
@@ -2515,16 +2465,6 @@
       "entrega": 12000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Termo Oryx",
-      "precio": 42000.0,
-      "categoria": "Termos y Mates",
-      "imagen_url": "imgs/Termo 1.3L ORYX.jpeg",
-      "descripcion": "1.3 Litros",
-      "entrega": 14000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 14000.0
     },
     {
       "nombre": "Mieleras",
@@ -2697,16 +2637,6 @@
       "monto_cuota": 10700.0
     },
     {
-      "nombre": "Auricular Ibek",
-      "precio": 30000.0,
-      "categoria": "Audio",
-      "imagen_url": "imgs/Auricular Ibek.jpeg",
-      "descripcion": "",
-      "entrega": 10000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Smartwatch y Auricular",
       "precio": 48000.0,
       "categoria": "Audio",
@@ -2723,8 +2653,8 @@
       "imagen_url": "imgs/Mesa plegable desayuno.jpeg",
       "descripcion": "Para cama o sillon, en color negro y clarito",
       "entrega": 10000.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 7500.0
+      "cant_cuotas": 1,
+      "monto_cuota": 15000.0
     },
     {
       "nombre": "Espejo led",
@@ -2855,6 +2785,36 @@
       "entrega": 22400.0,
       "cant_cuotas": 4,
       "monto_cuota": 11400.0
+    },
+    {
+      "nombre": "Funda para sillon 1 cuerpo",
+      "precio": 46000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/funda sillon 1 cuerpo.jpeg",
+      "descripcion": "",
+      "entrega": 15100.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10300.0
+    },
+    {
+      "nombre": "Mantel simil lino",
+      "precio": 27000.0,
+      "categoria": "Blanqueria",
+      "imagen_url": "imgs/Mantel simil lino.jpeg",
+      "descripcion": "",
+      "entrega": 10000.0,
+      "cant_cuotas": 1,
+      "monto_cuota": 17000.0
+    },
+    {
+      "nombre": "Colchon + Base 2 plazas",
+      "precio": 600000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Colchon mas base.jpeg",
+      "descripcion": "",
+      "entrega": 200000.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 25000.0
     }
   ]
 }
