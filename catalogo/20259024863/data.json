@@ -13,8 +13,8 @@
     "hora_hasta": 20,
     "abierto": true
   },
-  "actualizado": "18/11/2026 18:49",
-  "total_productos": 280,
+  "actualizado": "19/11/2026 11:46",
+  "total_productos": 285,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -1587,6 +1587,16 @@
       "monto_cuota": 11700.0
     },
     {
+      "nombre": "Ventilador 30 pulgadas tipo industrial",
+      "precio": 199000.0,
+      "categoria": "B6-Electrodomesticos Hogar",
+      "imagen_url": "imgs/Ventilador 30 pulgadas.jpg",
+      "descripcion": "",
+      "entrega": 65100.0,
+      "cant_cuotas": 13,
+      "monto_cuota": 10300.0
+    },
+    {
       "nombre": "Pileta inflable tropical 3,5m x0,70m 4900L",
       "precio": 230000.0,
       "categoria": "C8-Jardin y Camping Otros",
@@ -2815,6 +2825,46 @@
       "entrega": 200000.0,
       "cant_cuotas": 16,
       "monto_cuota": 25000.0
+    },
+    {
+      "nombre": "Amaca colgante con almohadones",
+      "precio": 459000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Amaca colgante.jpeg",
+      "descripcion": "",
+      "entrega": 151800.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 19200.0
+    },
+    {
+      "nombre": "Colchon Cannon Princess 1 Plaza",
+      "precio": 315000.0,
+      "categoria": "Colchones y Sommiers",
+      "imagen_url": "imgs/Colchon Cannon princess.jpeg",
+      "descripcion": "",
+      "entrega": 103800.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 13200.0
+    },
+    {
+      "nombre": "Sillon Cama",
+      "precio": 615000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Sillon cama.jpeg",
+      "descripcion": "",
+      "entrega": 202200.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 25800.0
+    },
+    {
+      "nombre": "Sillon 2 cuerpos",
+      "precio": 530000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/Sillon 2 cuerpos.jpeg",
+      "descripcion": "",
+      "entrega": 174800.0,
+      "cant_cuotas": 16,
+      "monto_cuota": 22200.0
     }
   ]
 }
