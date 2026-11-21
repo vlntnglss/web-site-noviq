@@ -6,7 +6,7 @@
   <title>Catálogo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
 
   <style>
     /* ── Variables ─────────────────────────────────────────────────────── */
@@ -135,132 +135,83 @@
       pointer-events: none;
     }
 
-    /* ── Hero strip ────────────────────────────────────────────────────── */
-    .hero {
-      background: linear-gradient(135deg, var(--teal) 0%, var(--teal-light) 100%);
-      padding: 48px 24px 40px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-    .hero-content { position: relative; z-index: 1; }
-    .hero h1 {
-      font-family: 'Syne', sans-serif;
-      font-size: clamp(26px, 5vw, 42px);
-      font-weight: 800;
-      color: var(--white);
-      line-height: 1.15;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      font-size: 16px;
-      /* Al 75% daba 3.57:1 sobre el extremo claro del degradado — el h1 de
-         arriba es blanco pleno y no tenía problema, este sí. Al 94% da 4.75:1
-         y sigue leyéndose más suave que el título, que es lo que se buscaba. */
-      color: rgba(255,255,255,.94);
-      font-weight: 300;
-      max-width: 480px;
-      margin: 0 auto;
-    }
-    #hero-local-name { color: var(--white); }
-
-    /* ── Toolbar ───────────────────────────────────────────────────────── */
+    /* ── Filtros (21/11/2026) ──────────────────────────────────────────
+       Sin el recuadro de bienvenida ni «N productos encontrados»: los
+       productos se ven apenas se abre. Categoría y orden van lado a lado. */
     .toolbar {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 24px 24px 0;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
+      padding: 14px 24px 0;
+      display: grid;
+      grid-template-columns: minmax(0, 280px) minmax(0, 230px);
+      gap: 8px;
     }
-    .toolbar-label {
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--light);
-      text-transform: uppercase;
-      letter-spacing: .06em;
-      white-space: nowrap;
-    }
-    .filter-chips { display: flex; gap: 8px; flex-wrap: wrap; flex: 1; }
     .sort-select {
-      padding: 8px 14px;
+      width: 100%;
+      min-width: 0;
+      padding: 9px 32px 9px 12px;
       border: 1.5px solid var(--border);
-      border-radius: 50px;
+      border-radius: 10px;
       background: var(--white);
       font-family: 'DM Sans', sans-serif;
       font-size: 13px;
-      font-weight: 500;
-      color: var(--mid);
+      font-weight: 600;
+      color: var(--dark);
       cursor: pointer;
       outline: none;
       transition: border-color .18s;
       appearance: none;
-      padding-right: 32px;
+      text-overflow: ellipsis;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238A9BB0' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
       background-position: right 12px center;
     }
     .sort-select:focus { border-color: var(--teal); }
-    .category-select { flex: 1; min-width: 160px; max-width: 280px; color: var(--dark); }
 
-    /* ── Results info ──────────────────────────────────────────────────── */
-    .results-info {
-      max-width: 1280px;
-      margin: 16px auto 0;
-      padding: 0 24px;
-      font-size: 13px;
-      color: var(--light);
-    }
-    .results-info span { color: var(--teal); font-weight: 600; }
-
-    /* ── Grid ──────────────────────────────────────────────────────────── */
+    /* ── Grilla escalonada ─────────────────────────────────────────────
+       Columnas independientes (las arma render() según el ancho) y las
+       pares arrancan más abajo, como en Mercado Libre. Cada tarjeta mide
+       lo que necesita, así que el escalonado se mantiene al bajar. */
     .grid {
       max-width: 1280px;
-      margin: 20px auto 0;
+      margin: 12px auto 0;
       padding: 0 24px 24px;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
     }
+    .grid > .empty, .grid > .loading { flex: 1 1 100%; }
+    .grid-col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+    .grid-col:nth-child(even) { margin-top: 44px; }
 
     /* ── Card ──────────────────────────────────────────────────────────── */
     .card {
       background: var(--white);
-      border-radius: var(--card-r);
-      border: 1px solid var(--border);
+      border-radius: 10px;
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      box-shadow: var(--shadow-sm);
-      transition: box-shadow .25s, transform .25s;
+      box-shadow: 0 1px 2px rgba(16,24,40,.07);
+      transition: box-shadow .25s;
       animation: fadeUp .4s ease both;
+      cursor: pointer;
     }
-    .card:hover {
-      box-shadow: var(--shadow-hover);
-      transform: translateY(-4px);
-    }
+    .card:hover { box-shadow: var(--shadow-hover); }
     @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
+      from { opacity: 0; transform: translateY(14px); }
       to   { opacity: 1; transform: translateY(0); }
     }
     .card-img-wrap {
       position: relative;
       aspect-ratio: 1 / 1;
-      background: #F8FAFB;
+      background: #FFFFFF;
       overflow: hidden;
     }
     .card-img-wrap img {
       width: 100%;
       height: 100%;
       object-fit: contain;
-      padding: 20px;
+      padding: 12px;
       transition: transform .3s;
     }
     .card:hover .card-img-wrap img { transform: scale(1.04); }
@@ -276,88 +227,35 @@
     }
     .img-placeholder svg { width: 40px; height: 40px; opacity: .4; }
     .img-placeholder span { font-size: 11px; opacity: .6; }
-    .cat-badge {
-      position: absolute;
-      top: 12px;
-      left: 12px;
-      background: rgba(1,95,106,.1);
-      color: var(--teal);
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: .05em;
-      text-transform: uppercase;
-      padding: 4px 10px;
-      border-radius: 50px;
-      backdrop-filter: blur(4px);
-    }
     .card-body {
-      padding: 16px;
+      padding: 8px 10px 12px;
       display: flex;
       flex-direction: column;
-      gap: 6px;
-      flex: 1;
+      gap: 2px;
     }
     .card-name {
-      font-family: 'Syne', sans-serif;
-      font-weight: 600;
-      font-size: 15px;
+      font-size: 14px;
       line-height: 1.3;
       color: var(--dark);
-    }
-    .card-desc {
-      font-size: 12px;
-      color: var(--light);
-      font-weight: 300;
-      line-height: 1.5;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
-    .card { cursor: pointer; }
-    .card-footer {
-      margin-top: auto;
-      padding: 12px 16px 16px;
-      border-top: 1px solid var(--border);
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 8px;
-      flex-wrap: wrap;          /* si no entra, la cuota baja de línea */
-      min-width: 0;
-    }
-    .card-price { min-width: 0; }
+    /* El precio iba en Syne, que es ancha y hace difícil leer los números.
+       Inter con cifras parejas se lee de un vistazo. */
     .card-price {
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: 22px;
-      color: var(--teal);
-      line-height: 1;
+      font-family: 'Inter', 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: -.3px;
+      line-height: 1.2;
+      color: var(--dark);
+      font-variant-numeric: tabular-nums;
+      margin-top: 4px;
     }
-    .card-price small {
-      font-size: 12px;
-      font-weight: 400;
-      color: var(--light);
-      display: block;
-      margin-top: 2px;
-      font-family: 'DM Sans', sans-serif;
-    }
-    .plan-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      background: var(--orange-light);
-      color: var(--orange-text);
-      font-size: 11px;
-      font-weight: 600;
-      padding: 5px 10px;
-      border-radius: 8px;
-      white-space: nowrap;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    .plan-tag svg { width: 12px; height: 12px; flex: 0 0 auto; }
-    .plan-tag span { overflow: hidden; text-overflow: ellipsis; }
+    .card-ent { font-size: 12.5px; color: var(--light); }
+    .card-cuo { font-size: 12.5px; font-weight: 600; color: var(--teal); }
 
     /* ── Modal detalle ─────────────────────────────────────────────────── */
     .modal-overlay {
@@ -614,7 +512,8 @@
        nada. */
     .cart-count[hidden] { display: none; }
 
-    /* ── Botón "Agregar" de cada tarjeta ── */
+    /* ── Botón "Agregar" ── En la tarjeta es un círculo chico con el carrito
+       sobre la esquina de la foto; en el detalle, el botón grande. */
     .add-btn {
       align-items: center;
       justify-content: center;
@@ -638,7 +537,28 @@
        esto, en una lista larga no se distingue el producto que se agregó del
        que no, y el cliente agrega el mismo dos veces. */
     .add-btn.puesto { background: var(--teal-xlight); color: var(--teal); }
-    .card-add-wrap { padding: 0 16px 16px; }
+    .add-mini {
+      position: absolute;
+      right: 8px;
+      bottom: 8px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--white);
+      color: var(--teal);
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(16,24,40,.14);
+      transition: background .18s, color .18s;
+    }
+    .add-mini svg { width: 20px; height: 20px; }
+    /* El texto del botón («Agregar», «Agregado») queda para el lector de
+       pantalla: en el círculo solo entra el ícono. */
+    .add-mini span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    .add-mini:hover { border-color: var(--teal); }
+    .add-mini.puesto { background: var(--teal); color: var(--white); border-color: var(--teal); }
 
     /* ── Panel del carrito ──
        En escritorio entra desde la derecha; en teléfono sube desde abajo
@@ -935,29 +855,25 @@
       letter-spacing: .04em;
     }
 
-    /* ── La franja del hero que cuenta cómo se entrega ── */
-    .hero-entrega {
-      display: flex;
+    /* ── Cómo se entrega (retiro, envío, horario) ── Iba dentro del hero;
+       ahora es una fila de chips chicos debajo de los filtros. */
+    .entrega-info {
+      max-width: 1280px;
+      margin: 10px auto 0;
+      padding: 0 24px;
       flex-wrap: wrap;
-      justify-content: center;
-      gap: 8px;
-      margin-top: 16px;
+      gap: 6px;
     }
     .hero-chip {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      /* La capa va OSCURA, no clara. Una capa blanca al 16% aclara el
-         degradado y deja el texto blanco en 3.82:1 en el extremo claro del
-         teal; oscureciendo, el peor punto da 6.87:1. El borde sí queda claro:
-         es el que separa el chip del fondo, y no lleva texto encima. */
-      background: rgba(0,0,0,.18);
-      border: 1px solid rgba(255,255,255,.30);
-      color: var(--white);
+      background: var(--teal-xlight);
+      color: var(--teal);
       border-radius: 50px;
-      padding: 6px 14px;
+      padding: 5px 11px;
       font-size: 12px;
-      font-weight: 500;
+      font-weight: 600;
     }
     .hero-chip svg { width: 13px; height: 13px; flex: 0 0 13px; }
 
@@ -1043,37 +959,18 @@
     @media (max-width: 640px) {
       .header-inner { height: auto; padding: 12px 16px; flex-wrap: wrap; }
       .header-search { max-width: 100%; order: 3; flex: 0 0 100%; }
-      .hero { padding: 36px 16px 32px; }
-      .toolbar { padding: 16px 16px 0; gap: 8px; }
-      .category-select, .sort-select { flex: 1 1 100%; max-width: none; }
-      .toolbar-label { flex: 0 0 100%; }
-      .grid { padding: 0 16px 16px; gap: 14px; }
-      .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
-      .card-price { font-size: 18px; }
+      .toolbar { padding: 10px 12px 0; grid-template-columns: 1fr 1fr; }
+      .entrega-info { padding: 0 12px; }
+      .grid { padding: 0 8px 16px; gap: 8px; margin-top: 10px; }
+      .grid-col { gap: 8px; }
       .noviq-promo { padding: 28px 16px; }
 
-      /* En celular la cuota va DEBAJO del precio, ocupando todo el ancho */
-      .card-body { padding: 12px 12px 0; }
-      .card-footer {
-        padding: 10px 12px 12px;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 8px;
-      }
-      .plan-tag {
-        width: 100%;
-        justify-content: center;
-        white-space: normal;
-        text-align: center;
-        font-size: 10.5px;
-        padding: 6px 8px;
-        line-height: 1.3;
-      }
-      .plan-tag span { overflow: visible; text-overflow: clip; }
-
-      .modal-overlay { padding: 0; align-items: flex-end; }
-      .modal { max-width: 100%; border-radius: 20px 20px 0 0;
-               max-height: calc(100vh - 16px); max-height: calc(100dvh - 16px); }
+      /* En el celular el producto se abre a pantalla completa, con la
+         barra para comprar siempre abajo. */
+      .modal-overlay { padding: 0; align-items: stretch; }
+      .modal { max-width: 100%; border-radius: 0;
+               height: 100vh; height: 100dvh; max-height: 100vh; max-height: 100dvh; }
+      .modal-img { flex: 1 1 auto; max-height: none; }
       .modal-name { font-size: 19px; }
       .modal-price { font-size: 26px; }
 
@@ -1093,12 +990,7 @@
       .cart-btn { padding: 9px 13px; font-size: 0; gap: 5px; }
       .cart-btn .cart-count { font-size: 11px; }
       .cart-btn svg { width: 19px; height: 19px; }
-      .add-btn { font-size: 12.5px; padding: 9px 8px; }
-      .card-add-wrap { padding: 0 12px 12px; }
-      .hero-chip { font-size: 11px; padding: 5px 11px; }
-    }
-    @media (max-width: 400px) {
-      .grid { grid-template-columns: 1fr 1fr; }
+      .hero-chip { font-size: 11px; padding: 4px 10px; }
     }
     /* El celular acostado: con 360 px de alto, foto arriba y texto abajo no
        entran. La foto pasa a la izquierda y el texto a la derecha, y lo que
@@ -1115,6 +1007,38 @@
       .modal.ver-todo .modal-body { padding-top: 14px; }
       .modal.ver-todo .modal-texto .attr-lista { display: flex; }
     }
+
+    /* ── Detalle, versión 21/11/2026 ──────────────────────────────────── */
+    .modal-close { left: 12px; right: auto; width: 38px; height: 38px; }
+    .modal-close svg { width: 18px; height: 18px; }
+    .modal-name { font-family: 'DM Sans', sans-serif; font-weight: 600; }
+    .modal-cat { background: none; padding: 0; font-size: 11.5px; letter-spacing: .08em; }
+    .modal-price {
+      font-family: 'Inter', 'DM Sans', sans-serif; font-weight: 700; color: var(--dark);
+      letter-spacing: -.5px; font-variant-numeric: tabular-nums;
+    }
+    .modal-prices { margin-top: auto; }
+    .modal-plan {
+      display: flex; align-items: flex-start; gap: 10px; align-self: stretch;
+      background: var(--teal-xlight); color: var(--dark); font-weight: 400;
+      border-radius: 10px; padding: 10px 12px;
+    }
+    .modal-plan svg { width: 18px; height: 18px; flex: 0 0 18px; color: var(--teal); margin-top: 1px; }
+    .modal-plan b { display: block; font-size: 14px; font-weight: 700; }
+    .modal-plan span { font-size: 13px; color: var(--mid); }
+    /* El único naranja de la pantalla. Tinta oscura y no blanca: blanco
+       sobre este naranja da 2.82:1 (ver .cart-count). */
+    .modal-acciones .add-btn { background: var(--orange); color: var(--dark); font-size: 15px; font-weight: 700; }
+    .modal-acciones .add-btn:hover { background: #FF8A50; }
+    .modal-acciones .add-btn.puesto { background: var(--teal-xlight); color: var(--teal); }
+    .btn-consultar {
+      display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%;
+      min-height: 44px; border: 1.5px solid var(--teal); border-radius: 10px;
+      background: var(--white); color: var(--teal); font: 700 15px 'DM Sans', sans-serif;
+      cursor: pointer; text-decoration: none;
+    }
+    .btn-consultar:hover { background: var(--teal-xlight); }
+    .btn-consultar svg { width: 18px; height: 18px; }
   </style>
 </head>
 <body>
@@ -1126,7 +1050,6 @@
         <div class="brand-logo" id="header-initials">?</div>
         <div class="brand-info">
           <span class="brand-name" id="header-local-name">Cargando...</span>
-          <span class="brand-sub">Catálogo de productos</span>
         </div>
       </a>
 
@@ -1146,29 +1069,20 @@
     </div>
   </header>
 
-  <!-- ── Hero ───────────────────────────────────────────────────────────── -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Catálogo de <span id="hero-local-name">productos</span></h1>
-      <p id="hero-sub">Explorá todos nuestros productos con planes de pago accesibles</p>
-      <div class="hero-entrega solo-pedidos es-flex" id="hero-entrega"></div>
-    </div>
-  </section>
-
-  <!-- ── Toolbar ─────────────────────────────────────────────────────────── -->
+  <!-- ── Filtros ─────────────────────────────────────────────────────────── -->
   <div class="toolbar">
-    <span class="toolbar-label">Categoría</span>
-    <select class="sort-select category-select" id="category-select">
+    <select class="sort-select category-select" id="category-select" aria-label="Categoría">
       <option value="todas">Todas las categorías</option>
     </select>
-    <select class="sort-select" id="sort-select">
+    <select class="sort-select" id="sort-select" aria-label="Ordenar">
       <option value="default">Orden original</option>
       <option value="price-asc">Precio: menor a mayor</option>
       <option value="price-desc">Precio: mayor a menor</option>
       <option value="name-asc">Nombre: A–Z</option>
     </select>
   </div>
-  <div class="results-info"><span id="results-count">0</span> productos encontrados</div>
+  <!-- Retiro, envío y horario de los pedidos web: solo con pedidos encendidos. -->
+  <div class="entrega-info solo-pedidos es-flex" id="hero-entrega"></div>
 
   <!-- ── Grid ───────────────────────────────────────────────────────────── -->
   <main class="grid" id="product-grid">
@@ -1259,7 +1173,6 @@
 
       $('header-local-name').textContent = nombre;
       $('header-initials').textContent   = initials;
-      $('hero-local-name').textContent   = nombre;
       document.title = `Catálogo · ${nombre}`;
 
       buildCategoryOptions();
@@ -1337,7 +1250,6 @@
     function render() {
       const list = getFiltered();
       const grid = $('product-grid');
-      $('results-count').textContent = list.length;
       grid.innerHTML = '';
 
       if (!list.length) {
@@ -1350,6 +1262,16 @@
         return;
       }
 
+      // Columnas independientes, repartidas en orden de lectura: el primero
+      // arriba a la izquierda, el segundo arriba a la derecha, y así.
+      const cols = Array.from({ length: columnas() }, () => {
+        const c = document.createElement('div');
+        c.className = 'grid-col';
+        grid.appendChild(c);
+        return c;
+      });
+      _colsPintadas = cols.length;
+
       list.forEach((p, i) => {
         const card = document.createElement('article');
         card.className = 'card';
@@ -1358,40 +1280,25 @@
         const imgSrc = buildImgUrl(p.imagen_url);
         const imgHtml = imgSrc
           ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(p.nombre)}" loading="lazy"
-               onerror="this.parentNode.innerHTML=placeholderHtml()" />`
-          : `<div class="img-placeholder">
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-               <span>Sin imagen</span>
-             </div>`;
+               onerror="this.outerHTML=placeholderHtml()" />`
+          : placeholderHtml();
 
-        const planHtml = (p.cant_cuotas && p.cant_cuotas > 0)
-          ? `<div class="plan-tag">
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
-               <span>${p.cant_cuotas} cuotas de ${fmt(p.monto_cuota)}</span>
-             </div>`
-          : '';
-
-        // La categoría ya NO se muestra en la tarjeta (solo se usa para filtrar
-        // y se ve en el detalle ampliado).
+        // Sin plan de pago (o con una «entrega» igual al precio, que es
+        // contado) la tarjeta muestra solo el precio.
+        const plan = planDe(p);
         card.innerHTML = `
           <div class="card-img-wrap">
             ${imgHtml}
+            <button class="add-mini solo-pedidos es-flex" type="button" data-add="${i}"
+                    aria-label="Agregar ${escHtml(p.nombre)} al pedido">
+              ${ICO_CARRITO_MAS}<span>Agregar</span>
+            </button>
           </div>
           <div class="card-body">
             <div class="card-name">${escHtml(p.nombre)}</div>
-            ${p.descripcion ? `<div class="card-desc">${escHtml(p.descripcion)}</div>` : ''}
-          </div>
-          <div class="card-footer">
-            <div class="card-price">
-              ${fmt(p.precio)}
-              ${p.entrega ? `<small>Entrega ${fmt(p.entrega)}</small>` : ''}
-            </div>
-            ${planHtml}
-          </div>
-          <div class="card-add-wrap solo-pedidos">
-            <button class="add-btn solo-pedidos es-flex" type="button" data-add="${i}">
-              ${ICO_MAS}<span>Agregar</span>
-            </button>
+            <div class="card-price">${fmt(p.precio)}</div>
+            ${plan ? `<div class="card-ent">Entrega ${fmt(p.entrega)}</div>` : ''}
+            ${plan && plan.cuotas ? `<div class="card-cuo">+ ${plan.cuotas} ${plan.cuotas === 1 ? 'cuota' : 'cuotas'} de ${fmt(p.monto_cuota)}</div>` : ''}
           </div>`;
 
         card.addEventListener('click', () => openModal(p));
@@ -1404,12 +1311,40 @@
           e.stopPropagation();
           agregar(p, 1, btnAdd);
         });
-        grid.appendChild(card);
+        cols[i % cols.length].appendChild(card);
       });
+    }
+
+    // Cuántas columnas entran: dos en el celular, hasta cinco en una pantalla grande.
+    let _colsPintadas = 0;
+    function columnas() {
+      const w = $('product-grid').clientWidth || window.innerWidth;
+      return w < 600 ? 2 : w < 900 ? 3 : w < 1200 ? 4 : 5;
+    }
+    window.addEventListener('resize', () => {
+      if (_colsPintadas && columnas() !== _colsPintadas) render();
+    });
+
+    // { cuotas } si el producto tiene plan de pago para mostrar, o null.
+    function planDe(p) {
+      const entrega = Number(p.entrega) || 0, cuotas = Number(p.cant_cuotas) || 0;
+      if (entrega <= 0) return null;
+      if (cuotas <= 0 && entrega >= Number(p.precio)) return null;
+      return { cuotas };
     }
 
     // ── Modal de detalle ──────────────────────────────────────────────────────
     function openModal(p) {
+      const plan = planDe(p);
+      // Sin pedidos web, el detalle invita a consultar por WhatsApp con el
+      // producto ya escrito (solo si el comercio cargó su número).
+      const wpp = String(catalogMeta.wpp_numero || '').replace(/\D/g, '');
+      const consultaHtml = (!pedidosActivos() && wpp)
+        ? `<a class="btn-consultar" target="_blank" rel="noopener"
+              href="https://wa.me/${wpp}?text=${encodeURIComponent(`¡Hola! Vi en el catálogo «${p.nombre}» (${fmt(p.precio)}) y quería consultar.`)}">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.5L3 21l2-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg>
+             Consultar por WhatsApp</a>`
+        : '';
       const imgSrc = buildImgUrl(p.imagen_url);
       const imgHtml = imgSrc
         ? `<img src="${escHtml(imgSrc)}" alt="${escHtml(p.nombre)}"
@@ -1417,8 +1352,8 @@
         : placeholderHtml();
 
       $('modal-content').innerHTML = `
-        <button class="modal-close" id="modal-close" aria-label="Cerrar">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        <button class="modal-close" id="modal-close" aria-label="Volver al catálogo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
         </button>
         <div class="modal-img">${imgHtml}</div>
         <div class="modal-body">
@@ -1433,13 +1368,14 @@
           <button class="modal-mas" type="button" id="modal-mas" hidden>Ver más</button>
           <div class="modal-prices">
             <div class="modal-price">${fmt(p.precio)}</div>
-            ${p.entrega ? `<div class="modal-row">Entrega inicial: <b>${fmt(p.entrega)}</b></div>` : ''}
-            ${(p.cant_cuotas && p.cant_cuotas > 0)
+            ${plan
               ? `<div class="modal-plan">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
-                   ${p.cant_cuotas} cuotas de ${fmt(p.monto_cuota)}
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+                   <div><b>Entrega ${fmt(p.entrega)}</b>${plan.cuotas
+                     ? `<span>+ ${plan.cuotas} ${plan.cuotas === 1 ? 'cuota' : 'cuotas'} de ${fmt(p.monto_cuota)}</span>` : ''}</div>
                  </div>`
               : ''}
+            ${consultaHtml}
             <div class="modal-acciones solo-pedidos es-flex">
               <div class="qty">
                 <button type="button" id="m-menos" aria-label="Menos">&minus;</button>
@@ -1578,6 +1514,7 @@
     // comerciante decide; recalcularlo en silencio sería cambiarle el precio a
     // alguien después de que aceptó.
 
+    const ICO_CARRITO_MAS = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3h2.6l2.4 12h11l1.4-5.5"/><path d="M15 3v6M12 6h6"/></svg>';
     const ICO_MAS = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>';
 
     let pedCfg   = null;      // el bloque `pedidos` de data.json
