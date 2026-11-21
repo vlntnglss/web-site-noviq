@@ -11,10 +11,10 @@
     "costo_envio": 0.0,
     "hora_desde": 9,
     "hora_hasta": 20,
-    "abierto": true
+    "abierto": false
   },
-  "actualizado": "19/11/2026 11:46",
-  "total_productos": 285,
+  "actualizado": "20/11/2026 22:21",
+  "total_productos": 284,
   "productos": [
     {
       "nombre": "Auricular Samsung cable",
@@ -135,16 +135,6 @@
       "entrega": 11000.0,
       "cant_cuotas": 0,
       "monto_cuota": 0.0
-    },
-    {
-      "nombre": "Fabrica de Pastas con Raviolera",
-      "precio": 90000.0,
-      "categoria": "Cocina y Bazar",
-      "imagen_url": "",
-      "descripcion": "",
-      "entrega": 30000.0,
-      "cant_cuotas": 6,
-      "monto_cuota": 10000.0
     },
     {
       "nombre": "Mini Difusor",
@@ -938,13 +928,13 @@
     },
     {
       "nombre": "Tender Vertical tres pisos",
-      "precio": 44000.0,
+      "precio": 48000.0,
       "categoria": "Muebles",
       "imagen_url": "imgs/Tender vertical.jpg",
       "descripcion": "",
-      "entrega": 14400.0,
-      "cant_cuotas": 2,
-      "monto_cuota": 14800.0
+      "entrega": 15900.0,
+      "cant_cuotas": 3,
+      "monto_cuota": 10700.0
     },
     {
       "nombre": "Cable RCA AV-plug",
@@ -2617,16 +2607,6 @@
       "monto_cuota": 0.0
     },
     {
-      "nombre": "Alfombra de yute",
-      "precio": 60000.0,
-      "categoria": "Muebles",
-      "imagen_url": "imgs/Alfombra de yute.jpeg",
-      "descripcion": "80 cm",
-      "entrega": 20000.0,
-      "cant_cuotas": 4,
-      "monto_cuota": 10000.0
-    },
-    {
       "nombre": "Reloj de pared 60cm Madera",
       "precio": 100000.0,
       "categoria": "Muebles",
@@ -2865,6 +2845,16 @@
       "entrega": 174800.0,
       "cant_cuotas": 16,
       "monto_cuota": 22200.0
+    },
+    {
+      "nombre": "Cuadro 70x70",
+      "precio": 90000.0,
+      "categoria": "Muebles",
+      "imagen_url": "imgs/cuadro 70 x70.jpeg",
+      "descripcion": "",
+      "entrega": 30000.0,
+      "cant_cuotas": 6,
+      "monto_cuota": 10000.0
     }
   ]
 }
