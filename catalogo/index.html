@@ -89,6 +89,7 @@
       color: var(--white);
       letter-spacing: -0.5px;
     }
+    .brand-logo img { width: 100%; height: 100%; object-fit: contain; border-radius: inherit; }
     .brand-info { display: flex; flex-direction: column; }
     .brand-name {
       font-family: 'Syne', sans-serif;
@@ -135,17 +136,60 @@
       pointer-events: none;
     }
 
-    /* ── Filtros (21/11/2026) ──────────────────────────────────────────
-       Sin el recuadro de bienvenida ni «N productos encontrados»: los
-       productos se ven apenas se abre. Categoría y orden van lado a lado. */
+    /* ── Filtros (22/11/2026) ──────────────────────────────────────────
+       Categoría y orden van uno debajo del otro, arriba de la primera
+       columna (render() los mueve ahí). Así la primera columna arranca más
+       abajo que la segunda y el escalonado sale solo, sin un hueco vacío. */
     .toolbar {
       max-width: 1280px;
-      margin: 0 auto;
-      padding: 14px 24px 0;
-      display: grid;
-      grid-template-columns: minmax(0, 280px) minmax(0, 230px);
+      margin: 12px auto 0;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
       gap: 8px;
     }
+    .chips-cat {
+      flex: 1 1 auto;
+      min-width: 0;
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    .chips-cat::-webkit-scrollbar { display: none; }
+    .chip-cat {
+      flex: 0 0 auto;
+      height: 32px;
+      padding: 0 14px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--mid);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .chip-cat.activa { background: var(--teal); border-color: var(--teal); color: var(--white); }
+    .orden-btn {
+      position: relative;
+      flex: 0 0 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--white);
+      color: var(--mid);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .orden-btn svg { width: 16px; height: 16px; }
+    .orden-btn.activo { background: var(--teal); border-color: var(--teal); color: var(--white); }
+    /* El desplegable de siempre, invisible encima del ícono: en el celular
+       abre la lista nativa del teléfono, que es la más cómoda. */
+    .orden-btn select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
     .sort-select {
       width: 100%;
       min-width: 0;
@@ -182,7 +226,6 @@
     }
     .grid > .empty, .grid > .loading { flex: 1 1 100%; }
     .grid-col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
-    .grid-col:nth-child(even) { margin-top: 44px; }
 
     /* ── Card ──────────────────────────────────────────────────────────── */
     .card {
@@ -254,6 +297,29 @@
       font-variant-numeric: tabular-nums;
       margin-top: 4px;
     }
+    /* Sin foto (22/11/2026): sin el cuadro gris de «Sin imagen», que ocupaba
+       media tarjeta. Queda una tarjeta chica con fondo apenas teñido para
+       distinguirla del fondo, con el botón del carrito al lado del precio. */
+    .card.sin-foto {
+      background: #FFEEDF;
+      box-shadow: none;
+      border: 1px solid #F7DCC4;
+    }
+    /* Cuatro tonos suaves, mezclados por posición (ver tonoDe()): se
+       distinguen del fondo gris y ninguna tarjeta queda al lado de otra igual. */
+    .card.sin-foto.tono-1 { background: #E3F4EA; border-color: #C8E6D3; }
+    .card.sin-foto.tono-2 { background: #ECE8FB; border-color: #D8D0F3; }
+    .card.sin-foto.tono-3 { background: #FFF5CF; border-color: #F1E3A6; }
+    .card.sin-foto .card-body { padding: 12px 12px 12px; gap: 4px; }
+    .card.sin-foto .card-fila {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .card.sin-foto .card-price { margin-top: 0; font-size: 18px; }
+    .card.sin-foto .add-mini { position: static; flex: 0 0 auto; width: 36px; height: 36px; }
+    .card.sin-foto .add-mini svg { width: 18px; height: 18px; }
     .card-ent { font-size: 12.5px; color: var(--light); }
     .card-cuo { font-size: 12.5px; font-weight: 600; color: var(--teal); }
 
@@ -446,16 +512,6 @@
       transition: background .2s, transform .15s;
     }
     .noviq-promo-link:hover { background: var(--teal-light); transform: translateY(-1px); }
-    .site-footer {
-      background: var(--dark);
-      border-top: 1px solid rgba(255,255,255,.06);
-      padding: 16px 24px;
-      text-align: center;
-      font-size: 11px;
-      /* Al 25% daba 2.24:1: era la peor combinación de la página. Al 55% da
-         6.09:1 y sigue siendo un pie discreto. */
-      color: rgba(255,255,255,.55);
-    }
 
     /* ── Pedidos: carrito, formulario y envío (NQ-72) ───────────────────
        Todo lo de acá abajo solo se ve si `data.json` trae `pedidos.activos`
@@ -959,10 +1015,10 @@
     @media (max-width: 640px) {
       .header-inner { height: auto; padding: 12px 16px; flex-wrap: wrap; }
       .header-search { max-width: 100%; order: 3; flex: 0 0 100%; }
-      .toolbar { padding: 10px 12px 0; grid-template-columns: 1fr 1fr; }
       .entrega-info { padding: 0 12px; }
       .grid { padding: 0 8px 16px; gap: 8px; margin-top: 10px; }
       .grid-col { gap: 8px; }
+      .toolbar { padding: 0 12px; }
       .noviq-promo { padding: 28px 16px; }
 
       /* En el celular el producto se abre a pantalla completa, con la
@@ -1071,15 +1127,16 @@
 
   <!-- ── Filtros ─────────────────────────────────────────────────────────── -->
   <div class="toolbar">
-    <select class="sort-select category-select" id="category-select" aria-label="Categoría">
-      <option value="todas">Todas las categorías</option>
-    </select>
-    <select class="sort-select" id="sort-select" aria-label="Ordenar">
-      <option value="default">Orden original</option>
-      <option value="price-asc">Precio: menor a mayor</option>
-      <option value="price-desc">Precio: mayor a menor</option>
-      <option value="name-asc">Nombre: A–Z</option>
-    </select>
+    <div class="chips-cat" id="chips-cat" aria-label="Categorías"></div>
+    <label class="orden-btn" id="orden-btn" title="Ordenar">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v16M3 16l4 4 4-4M17 20V4M13 8l4-4 4 4"/></svg>
+      <select id="sort-select" aria-label="Ordenar">
+        <option value="default">Orden de la carta</option>
+        <option value="price-asc">Precio: menor a mayor</option>
+        <option value="price-desc">Precio: mayor a menor</option>
+        <option value="name-asc">Nombre: A–Z</option>
+      </select>
+    </label>
   </div>
   <!-- Retiro, envío y horario de los pedidos web: solo con pedidos encendidos. -->
   <div class="entrega-info solo-pedidos es-flex" id="hero-entrega"></div>
@@ -1097,17 +1154,16 @@
     <div class="noviq-promo-inner">
       <div class="noviq-badge">
         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        Tecnología para comercios
+        Hecho con NOVIQ
       </div>
-      <h3>¿Tenés un negocio? Conocé Noviq POS</h3>
-      <p>Sistema de gestión comercial con catálogo web, control de stock, cobranza y facturación electrónica. Todo desde una sola app.</p>
+      <h3>¿Tenés un negocio? NOVIQ tiene un sistema para vos</h3>
+      <p>Ventas, stock y tu propio catálogo web como este, pensado para cada rubro.</p>
       <a class="noviq-promo-link" href="https://noviq-app.com" target="_blank" rel="noopener">
-        Conocer más
+        Conocé NOVIQ
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
     </div>
   </footer>
-  <div class="site-footer">Catálogo generado con Noviq POS · noviq-app.com</div>
 
   <!-- ── Modal detalle de producto ───────────────────────────────────────── -->
   <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
@@ -1173,6 +1229,14 @@
 
       $('header-local-name').textContent = nombre;
       $('header-initials').textContent   = initials;
+      // Con logo, el logo; sin logo, las iniciales sobre el cuadrado teal.
+      const logo = catalogMeta.logo_url ? buildImgUrl(catalogMeta.logo_url) : '';
+      if (logo) {
+        const img = new Image();
+        img.alt = nombre;
+        img.onload = () => { $('header-initials').textContent = ''; $('header-initials').appendChild(img); };
+        img.src = logo;
+      }
       document.title = `Catálogo · ${nombre}`;
 
       buildCategoryOptions();
@@ -1180,26 +1244,34 @@
       render();
     }
 
-    // ── Categorías (desplegable) ──────────────────────────────────────────────
+    // ── Categorías (botones) ───────────────────────────────────────────────────
+    // En el orden en que vienen en la carta (Minutas, Pastas…), no alfabético.
     function buildCategoryOptions() {
-      const cats = [...new Set(allProducts.map(p => p.categoria).filter(Boolean))]
-        .sort((a, b) => a.localeCompare(b, 'es'));
-      const sel = $('category-select');
-      cats.forEach(cat => {
-        const opt = document.createElement('option');
-        opt.value = cat;
-        opt.textContent = cat;
-        sel.appendChild(opt);
+      const cats = [...new Set(allProducts.map(p => p.categoria).filter(Boolean))];
+      const cont = $('chips-cat');
+      const pintar = () => cont.querySelectorAll('.chip-cat').forEach(b =>
+        b.classList.toggle('activa', b.dataset.cat === activeFilter));
+      ['todas', ...cats].forEach(cat => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'chip-cat';
+        b.dataset.cat = cat;
+        b.textContent = cat === 'todas' ? 'Todas' : cat;
+        b.addEventListener('click', () => {
+          activeFilter = cat;
+          pintar();
+          b.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: 'smooth' });
+          render();
+        });
+        cont.appendChild(b);
       });
-      sel.addEventListener('change', e => {
-        activeFilter = e.target.value;
-        render();
-      });
+      pintar();
     }
 
     // ── Ordenamiento ──────────────────────────────────────────────────────────
     $('sort-select').addEventListener('change', e => {
       activeSort = e.target.value;
+      $('orden-btn').classList.toggle('activo', activeSort !== 'default');
       render();
     });
 
@@ -1253,12 +1325,12 @@
       grid.innerHTML = '';
 
       if (!list.length) {
-        grid.innerHTML = `
+        grid.insertAdjacentHTML('beforeend', `
           <div class="empty">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6M11 8v6"/></svg>
             <h3>Sin resultados</h3>
             <p>Probá con otro filtro o término de búsqueda.</p>
-          </div>`;
+          </div>`);
         return;
       }
 
@@ -1286,7 +1358,24 @@
         // Sin plan de pago (o con una «entrega» igual al precio, que es
         // contado) la tarjeta muestra solo el precio.
         const plan = planDe(p);
-        card.innerHTML = `
+        const btnHtml = `
+            <button class="add-mini solo-pedidos es-flex" type="button" data-add="${i}"
+                    aria-label="Agregar ${escHtml(p.nombre)} al pedido">
+              ${ICO_CARRITO_MAS}<span>Agregar</span>
+            </button>`;
+        if (!imgSrc) {
+          card.classList.add('sin-foto', `tono-${tonoDe(i, cols.length)}`);
+          card.innerHTML = `
+          <div class="card-body">
+            <div class="card-name">${escHtml(p.nombre)}</div>
+            <div class="card-fila">
+              <div class="card-price">${fmt(p.precio)}</div>
+              ${btnHtml}
+            </div>
+            ${plan ? `<div class="card-ent">Entrega ${fmt(p.entrega)}</div>` : ''}
+            ${plan && plan.cuotas ? `<div class="card-cuo">+ ${plan.cuotas} ${plan.cuotas === 1 ? 'cuota' : 'cuotas'} de ${fmt(p.monto_cuota)}</div>` : ''}
+          </div>`;
+        } else card.innerHTML = `
           <div class="card-img-wrap">
             ${imgHtml}
             <button class="add-mini solo-pedidos es-flex" type="button" data-add="${i}"
@@ -1313,6 +1402,14 @@
         });
         cols[i % cols.length].appendChild(card);
       });
+    }
+
+    // El tono de la tarjeta sin foto, según dónde cae en la grilla: fila
+    // (i / columnas) más dos veces la columna, de a cuatro. La de abajo suma 1,
+    // la de al lado suma 2 y las diagonales suman 1 o 3: ninguna vecina queda
+    // del mismo color.
+    function tonoDe(i, columnas) {
+      return (Math.floor(i / columnas) + 2 * (i % columnas)) % 4;
     }
 
     // Cuántas columnas entran: dos en el celular, hasta cinco en una pantalla grande.
@@ -1562,13 +1659,6 @@
     function pintarHeroEntrega() {
       const chips = [];
       const ico = d => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
-      chips.push(`<span class="hero-chip">${ico('<path d="M3 9h18M9 21V9"/><rect x="3" y="3" width="18" height="18" rx="2"/>')}Retirás por el local</span>`);
-      if (pedCfg.envio) {
-        const costo = Number(pedCfg.costo_envio) > 0
-          ? `envío ${fmt(pedCfg.costo_envio)}` : 'envío sin cargo';
-        const zona = pedCfg.zona ? ` · ${pedCfg.zona}` : '';
-        chips.push(`<span class="hero-chip">${ico('<rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>')}Hacemos ${escHtml(costo)}${escHtml(zona)}</span>`);
-      }
       if (!tomaPedidosAhora()) {
         chips.push(`<span class="hero-chip">${ico('<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>')}Pedidos de ${pedCfg.hora_desde}:00 a ${pedCfg.hora_hasta}:00</span>`);
       }
